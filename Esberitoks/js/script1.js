@@ -1,0 +1,1 @@
+!function(){window.onload=function(){new ScrollMagic.Controller;!function(){const n=document.querySelectorAll(".navmenu");for(var t=0;t<n.length;t++)n[t].addEventListener("click",function(){for(var t=0;t<n.length;t++)n[t].classList.remove("active");this.classList.add("active")})}()}}();
