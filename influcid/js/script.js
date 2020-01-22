@@ -61,7 +61,7 @@ var controller = new ScrollMagic.Controller();
         block52.classList.remove("block-5-active");
 
         pBtn1.classList.add("active-btn");
-        pBtn2.classList.remove("active-btn");
+        pBtn2.classList.remove("active-btn2");
     
     };
     pBtn2.onclick = function() {
@@ -70,7 +70,7 @@ var controller = new ScrollMagic.Controller();
         block52.classList.add("block-5-active");
         block52.classList.remove("block-5-disable");
 
-        pBtn2.classList.add("active-btn");
+        pBtn2.classList.add("active-btn2");
         pBtn1.classList.remove("active-btn");
     };
 
@@ -79,14 +79,14 @@ var controller = new ScrollMagic.Controller();
 
     (function() {
 
-      const navmenu = document.querySelectorAll('.navigation-container');
+      const navmenu = document.querySelectorAll('.navmenu');
 
       for (var i = 0; i < navmenu.length; i++) {
         navmenu[i].addEventListener("click", function(){
           for (var k = 0; k < navmenu.length; k++) {
-            navmenu[k].classList.remove('active');
+            navmenu[k].classList.remove('active-nav');
           }
-          this.classList.add('active');
+          this.classList.add('active-nav');
         })
       }
     })();
