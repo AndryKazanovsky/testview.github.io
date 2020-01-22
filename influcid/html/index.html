@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Isla</title>
+    <meta name="description" content="Isla"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="shortcut icon" href="../images/ico.png" type="image/png"/>
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+	<header class="App-header">
+        <div class="instruction">
+          <p>Iнструкцiя</p>
+        </div>
+        <div class="navigation">
+          <div class="navigation-container">
+            <a class="logo">
+              <b>Iнфлюцид</b>
+            </a>
+            <div>
+              <a href="#block-1" >Переваги</a>
+              <a href="#block-2" >Дiя</a>
+              <a href="#block-3" >Склад</a>
+              <a href="#block-4" >Як приймати</a>
+              <a href="#block-5" >Де купити</a>
+            </div>
+          </div>
+        </div>
+      <div class ="main-img-container"></div>
+        <a name ="block-1"></a>
+        <p>
+          <b>Застуда?</b> Вибiр за тобою. <b>Iнфлюцид</b>
+        </p>
+
+        <div class="header-block-2">
+          <div class="block-2__plate">
+            <p>Зроблено в Німеччині</p>
+          </div>
+          <div class="block-2__plate">
+            <p>Для дорослих та дітей</p>
+          </div>
+          <div class="block-2__plate">
+            <p>Натуральний склад</p>
+          </div>
+          <div class="block-2__plate">
+            <p>Доведена ефективність</p>
+          </div>
+        </div>
+      </header>
+      <div class="block-1">
+        <h2>ПЕРЕВАГИ</h2>
+        <div class="block-1__text">
+          <p>
+            Швидко знімає типові симптоми ГРВІ та грипу <sup> 1</sup>
+          </p>
+          <p>
+            Зменшує потребу у жарознижуючих, краплях в ніс, препаратах від кашлю
+            <sup> 2</sup>
+          </p>
+          <p>
+            Сприяє швидкому одужанню<sup>1</sup>
+          </p>
+          <p>
+            Відновлює сили після перенесеної хвороби<sup>1</sup>
+          </p>
+          <p>Запобігає захворюванню при контакті з хворими</p>
+        </div>
+      </div>
+      <a name="block-2"></a>
+      <div class="block-2">
+        <h2>ЯК ДІЄ ІНФЛЮЦИД</h2>
+        <div class="block-2__container">
+          <div class="block-2__image">
+            <b>
+              Швидко знімає типові <br /> симптоми ГРВІ та грипу¹
+            </b>
+          </div>
+          <div class="block-2__text">
+            <p>ЗНИЖУЄ ПІДВИЩЕНУ ТЕМПЕРАТУРУ</p>
+            <p>ПРИБИРАЄ ВІДЧУТТЯ ЛОМОТИ В ТІЛІ</p>
+            <p>ЗНІМАЄ ГОЛОВНИЙ БІЛЬ</p>
+            <p>УСУВАЄ БІЛЬ І ПЕРШІННЯ В ГОРЛІ</p>
+            <p>ЗМЕНШУЄ ЗАКЛАДЕНІСТЬ НОСА</p>
+            <p>ПЕРЕШКОДЖАЄ РОЗВИТКУ УСКЛАДНЕНЬ</p>
+          </div>
+        </div>
+      </div>
+      <a name="block-3"></a>
+      <div class="block-3">
+        <h2>
+          6 ПРИРОДНИХ КОМПОНЕНТІВ<br />
+          НАЙБІЛЬШ ПРИЙНЯТНИХ ДЛЯ БОРОТЬБИ З ВІРУСАМИ
+        </h2>
+        <div class="block-3__container">
+          <div class="block-3__left-block">
+            <div class="block-3__plate">
+              <p>Bryonia</p>
+            </div>
+            <div class="block-3__plate">
+              <p>Aconitum</p>
+            </div>
+            <div class="block-3__plate">
+              <p>Ipecacuanha</p>
+            </div>
+          </div>
+          <div class="block-3__product" />
+          <div class="block-3__right-block">
+            <div class="block-3__plate">
+              <p>Eupatorium</p>
+            </div>
+            <div class="block-3__plate">
+              <p>Phosphorus</p>
+            </div>
+            <div class="block-3__plate">
+              <p>Gelsemium</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a name="block-4"></a>
+      <div class="block-4">
+        <h2>ЯК ПРИЙМАТИ</h2>
+        <div class="change-box">
+          <div>
+            <p class="active-btn">Таблетки</p>
+          </div>
+          <div>
+            <p>Краплі</p>
+          </div>
+        </div>
+      </div>
+      <div class="block-5 block-5-active">
+        <h3>У період гострого захворювання</h3>
+        <div class="block-5__container">
+          <div class="container__subcontainer">
+            <p>
+              Дітям від 1 до 12 років: розсмоктувати по 1 таблетці кожні 2
+              години (не більше 8 таблеток у день) до настання покращання
+            </p>
+            <div class="subcontainer">
+              <div class="subcontainer-particle-1">
+                <b>В ПЕРШУ ДОБУ</b>
+                <b class="subtext">Кожні 2 години</b>
+                <p>(по 1 таблетці)</p>
+              </div>
+              <div class="subcontainer-particle-2">
+                <div class="clock-img" />
+                <div class="pill-container pill8" />
+              </div>
+              <div class="subcontainer-particle-1">
+                <b>
+                  ПРИ ПОДАЛЬШОМУ<br />ЛІКУВАННІ
+                </b>
+                <b class="subtext">До одужання</b>
+                <p>(по 1 таблетці 3 рази на день)</p>
+              </div>
+              <div class="subcontainer-particle-2">
+                <div class="clock-img" />
+                <div class="pill-container pill3" />
+              </div>
+            </div>
+          </div>
+
+          <div class="container__subcontainer">
+            <p>
+              Дітям від 12 років і дорослим: розсмоктувати по 1 таблетці кожну
+              годину (не більше 12 таблеток в день) до настання покращання
+            </p>
+            <div class="subcontainer">
+              <div class="subcontainer-particle-1">
+                <b>В ПЕРШУ ДОБУ</b>
+                <p class="subtext">Кожну годину</p>
+                <p>(по 1 таблетці)</p>
+              </div>
+              <div class="subcontainer-particle-2">
+                <div class="clock-img" />
+                <div class="pill-container pill12" />
+              </div>
+              <div class="subcontainer-particle-1">
+                <b>
+                  ПРИ ПОДАЛЬШОМУ<br />ЛІКУВАННІ
+                </b>
+                <p class="subtext">До одужання</p>
+                <p>(по 1-2 таблетки 3 рази на день)</p>
+              </div>
+              <div class="subcontainer-particle-2">
+                <div class="clock-img" />
+                <div class="pill-container pill3" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="block-5__container-btext">
+          Тривалість лікування 7-10 днів до повного зникнення симптомів
+        </p>
+        <h3>Для профілактики ГРВІ рекомендується</h3>
+
+        <div class="block-5__container">
+          <div class="container__subcontainer">
+            <p>
+              Дітям від 1 до 12 років: розсмоктувати по 1 таблетці 3 рази на
+              добу
+            </p>
+            <div class="subcontainer">
+              <div class="subcontainer-particle-1">
+                <b>ЗА ДОБУ</b>
+                <p>не більше 3 таблеток на добу</p>
+              </div>
+              <div class="subcontainer-particle-2">
+                <div class="clock-img" />
+                <div class="pill-container pill3" />
+              </div>
+            </div>
+          </div>
+
+          <div class="container__subcontainer">
+            <p>
+              Дітям від 1 до 12 років: розсмоктувати по 1 таблетці 3 рази на
+              добу
+            </p>
+            <div class="subcontainer">
+              <div class="subcontainer-particle-1">
+                <b>ЗА ДОБУ</b>
+                <p>не більше 3 таблеток на добу</p>
+              </div>
+              <div class="subcontainer-particle-2">
+                <div class="clock-img" />
+                <div class="pill-container pill6" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-text">
+          <p>
+            Застосування препарату при перших проявах симптомів ГРВІ та грипу
+            або відразу після контакту з хворими людьми сприяє запобіганню
+            розвитку захворювання;
+          </p>
+          <p>
+            Тривалість прийому Інфлюцида після контакту з хворими на ГРВІ або
+            грип - 1 тиждень;
+          </p>
+        </div>
+        <div class="bottom-text__b">
+          <b>
+            Таблетки приймати за 30 хвилин до або через 30 хвилин після їди,
+            повільно розсмоктуючи в порожнині роту. Дітям до 3 років
+            рекомендується для зручності застосування розчиняти таблетку в
+            невеликій кількості води (наприклад, у чайній ложці води)
+          </b>
+        </div>
+        <a class="buy-btn">Де купити</a>
+      </div>
+
+      <div class="block-5 block-5-disable">
+        <div class="block-5__container">
+          <div class="container__subcontainer">
+            <p>
+              Дітям старше 12 років і дорослим: приймати по 10 крапель кожну годину (не більше 12 прийомів у день) до настання покращання
+            </p>
+            <div class="subcontainer">
+              <div class="subcontainer-particle-1">
+                <b>В ПЕРШУ ДОБУ</b>
+                <b class="subtext">Кожну годину</b>
+                <p>(по 10 крапель)</p>
+              </div>
+              <div class="subcontainer-particle-2">
+                <div class="clock-img" />
+                <div class="pill-container drop10" />
+              </div>
+              <div class="subcontainer-particle-1">
+                <b>
+                  ПРИ ПОДАЛЬШОМУ<br />ЛІКУВАННІ
+                </b>
+                <b class="subtext">До одужання</b>
+                <p>(по 10 крапель 3 рази на добу)</p>
+              </div>
+              <div class="subcontainer-particle-2">
+                <div class="clock-img" />
+                <div class="pill-container drop10" />
+              </div>
+              <p>Тривалість лікування 7-10 днів до повного зникнення симптомів</p>
+            </div>
+          </div>
+
+          <div class="container__subcontainer">
+            <p>
+              Дітям від 12 років і дорослим:
+              приймати по 10 крапель 3 рази на добу
+            </p>
+            <div class="subcontainer">
+              <div class="subcontainer-particle-1">
+                <b>
+                  ТРИ РАЗИ НА ДОБУ
+                </b>
+                <p>(по 10 крапель)</p>
+              </div>
+              <div class="subcontainer-particle-2">
+                <div class="clock-img" />
+                <div class="pill-container drop10" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="bottom-text">
+          <p>
+            Застосування препарату при перших проявах симптомів ГРВІ та грипу
+            або відразу після контакту з хворими людьми сприяє запобіганню
+            розвитку захворювання;
+          </p>
+          <p>
+            Тривалість прийому Інфлюцида після контакту з хворими на ГРВІ або
+            грип - 1 тиждень;
+          </p>
+        </div>
+        <a class="buy-btn">Де купити</a>
+      </div>
+
+
+        <div class="block-6">
+            <h2>КОРИСНА ІНФОРМАЦІЯ</h2>
+            <div class="block-6__container">
+              <div class="block-6__container-img"><p>Грип сезону 2020</p></div>
+              <div class="block-6__container-text"><p>Епідеміологічний сезон розпочався і вже настав час до нього готуватися. Зверніть увагу, що різниця між грипом та ГРВІ (гострою респіраторною вірусною інфекцією) полягає у тому, що збудниками грипу є різні штами вірусу грипу (варіанти одного виду вірусу, що відрізняються за рядом властивостей), а збудниками ГРВІ є понад 200 різноманітних вірусів, які часто не пов'язані генетично та належать до різних груп захворювань.
+                Чого чекати у новому сезоні 2020 р.? За розрахунками ВООЗ, упродовж нового епідемічного сезону в Північній півкулі циркулюватимуть віруси грипу, подібні …</p>
+              </div>
+              <button class="accordion">Детальнiше</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cumque minus praesentium ratione ullam. Ab minima minus, omnis quidem reiciendis suscipit. Ab adipisci aut deleniti dolorum exercitationem fuga incidunt repellat.</p>
+              </div>
+            </div>
+
+            <div class="block-6__container">
+              <div class="block-6__container-img"><p>Застуда у дитини</p></div>
+              <div class="block-6__container-text"><p>
+                Прикро, що повністю і на все життя вберегти свою дитину від застуди неможливо. Тим паче, коли кожного дня Ваше чадо знаходиться в оточенні своїх одноліток. Достатньо одному малюку у дитячому садку чи у школі захворіти, щоб інфекція швидко передалася далі. Хвороба дитини часто тягне за собою лікарняний у мами. І тут постають питання: «Як лікувати швидко застуду? Які найкращі ліки від застуди? Чи можна швидко позбавитися від застуди? Що можна зробити, щоб застуда у дитини була рідше та проходила максимально безболісно?»</p>
+              </div>
+              <button class="accordion">Детальнiше</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cumque minus praesentium ratione ullam. Ab minima minus, omnis quidem reiciendis suscipit. Ab adipisci aut deleniti dolorum exercitationem fuga incidunt repellat.</p>
+              </div>
+              <a name="block-5"></a>
+            </div>
+
+            <div class="block-7">
+              <h2>ДЕ КУПИТИ</h2>
+              <div class="block-7__img"></div>
+              <div class="block-7__text">
+                <h3>Доказова база</h3>
+                <ol>
+                  <li>Інструкція для медичного застосування до препарату Інфлюцид</li>
+                  <li>Thinesse-Mallwitz, M., Maydannik, V., Keller, T., Klement, P. A Homeopathic Combination Preparation in the Treatment of Feverish Upper Respiratory Tract Infections: An International Randomized Controlled Trial</li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="disklamer">
+
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+</html>
