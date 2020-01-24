@@ -176,6 +176,7 @@ sup {font-size:xx-small; vertical-align:super;}
 .App-header p {
   position: absolute;
   bottom: 0;
+  left: 0;
   font-size: 50px;
   margin: 0;
   width: 100%;
@@ -1088,6 +1089,11 @@ html {
     display: none;
   }
 
+
+  #comp_wgt {
+    width: 100% !important;
+  }
+
   .prod-mobile {
     display: block;
   }
@@ -1147,7 +1153,7 @@ html {
     font-size: 20px;
   }
   .block-1__text p {
-    font-size: 8px;
+    font-size: 15px;
   }
   .block-1__text p::before {
     min-width: 20px;
@@ -1163,7 +1169,7 @@ html {
     height: 120px;
   }
   .block-2__text p {
-    font-size: 9px;
+    font-size: 13px;
   }
   .block-2__text p::before {
     min-width: 30px;
@@ -1171,7 +1177,7 @@ html {
     margin-right: 10px;
   }
   .block-2__image b {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .block-3__plate {
@@ -1271,7 +1277,7 @@ html {
 
 
   .block-2__image b {
-    top: 98%;
+    top: 94%;
     margin: auto;
   }
 
@@ -1469,3 +1475,12 @@ html {
   text-align: center;
   color: white;
 }
+
+/*#cookies-policy {*/
+/*  border-radius: 0 0 30px 30px;*/
+/*}*/
+
+/*.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {*/
+/*  border-radius: 30px;*/
+/*}*/
+
