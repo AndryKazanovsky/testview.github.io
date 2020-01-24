@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>Isla</title>
-    <meta name="description" content="Isla"/>
+    <title>Influcid</title>
+    <meta name="description" content="Influcid"/>
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-    <link rel="shortcut icon" href="./images/ico.png" type="image/png"/>
+    <link rel="shortcut icon" href="./images/q10.png" type="image/png"/>
     <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/style.css"/>
@@ -23,6 +23,7 @@
 
         <div class="navigation-logo">
           <a  href="index.html" class="logo">Iнфлюцид</a>
+          <a class="where-to-buy where-to-buy__desktop">Де купити</a>
           <div class="navigation-top" role="navigation">
             <div id="menuToggle">
               <input type="checkbox" /> <span></span> <span></span> <span></span>
@@ -31,7 +32,8 @@
                 <li><a class="navmenu" href="#block-2" >Дiя</a></li>
                 <li><a class="navmenu" href="#block-3" >Склад</a></li>
                 <li><a class="navmenu" href="#block-4" >Як приймати</a></li>
-                <li><a  href="#block-5" >Де купити</a></li>
+<!--                <li><a class="where-to-buy" href="#block-5" >Де купити</a></li>-->
+                <li><a href="index-ru.html" >ru</a></li>
               </ul>
             </div>
           </div>
@@ -40,7 +42,8 @@
               <a class="navmenu" href="#block-2" >Дiя</a>
               <a class="navmenu" href="#block-3" >Склад</a>
               <a class="navmenu" href="#block-4" >Як приймати</a>
-              <a href="#block-5" >Де купити</a>
+              <a class="where-to-buy" href="#block-5" >Де купити</a>
+              <a href="index-ru.html" >ru</a>
           </div>
           <a class="instruction" href="./instruction.pdf"
           ><p class="translated-text" key="instruction">Iнструкцiя</p></a
@@ -48,18 +51,6 @@
         </div>
 
 
-
-
-
-
-
-            <!-- <div>
-              <a href="#block-1" >Переваги</a>
-              <a href="#block-2" >Дiя</a>
-              <a href="#block-3" >Склад</a>
-              <a href="#block-4" >Як приймати</a>
-              <a href="#block-5" >Де купити</a>
-            </div> -->
           </div>
         </div>
         <div class="main-img-container"></div>
@@ -69,37 +60,36 @@
         </p>
 
         <div class="header-block-2">
-          <div class="block-2__plate">
+          <a class="block-2__plate">
             <p>Вироблено в Німеччині</p>
-          </div>
-          <div class="block-2__plate">
-            <p>Дорослим та дітям від 1 року</p>
-          </div>
-          <div class="block-2__plate">
+          </a>
+          <a class="block-2__plate">
+            <p>Дорослим та дітям</p>
+          </a>
+          <a class="block-2__plate">
             <p>Натуральний склад</p>
-          </div>
-          <div class="block-2__plate">
+          </a>
+          <a href="https://www.clinicaltrialsregister.eu/ctr-search/search?query=Influcid" class="block-2__plate">
             <p>Доведена ефективність</p>
-          </div>
+          </a>
         </div>
       </header>
       <div class="block-1">
         <h2>ПЕРЕВАГИ</h2>
         <div class="block-1__text">
           <p>
-            Швидко зупиняє типові ознаки гострої інфекції дихальних шляхів <sup> 1</sup>
+            Швидко зупиняє типові ознаки гострої інфекції дихальних шляхів¹
           </p>
           <p>
-            Зменшує потребу у застосуванні симптоматичних засобів (жарознижуючих, краплях в ніс, препаратах від кашлю)
-            <sup> 2</sup>
+            Зменшує потребу у застосуванні симптоматичних засобів (жарознижуючих, краплях в ніс, препаратах від кашлю)²
           </p>
           <p>
-            Сприяє швидкому одужанню<sup>1</sup>
+            Сприяє швидкому одужанню¹
           </p>
           <p>
             Запобігає захворюванню при контакті з людьми, які хворіють
           </p>
-          <p>Відновлює сили після перенесеної хвороби, зменшує ознаки виснаження<sup>1</sup></p>
+          <p>Відновлює сили після перенесеної хвороби, зменшує ознаки виснаження¹</p>
         </div>
       </div>
       <a name="block-2"></a>
@@ -127,6 +117,7 @@
           6 ПРИРОДНИХ КОМПОНЕНТІВ<br />
           ДЛЯ БОРОТЬБИ З ВІРУСАМИ
         </h2>
+        <div class="prod-mobile"></div>
         <div class="block-3__container">
           <div class="block-3__left-block">
             <div class="block-3__plate">
@@ -205,7 +196,7 @@
             <div class="subcontainer">
               <div class="subcontainer-particle-1">
                 <b>У ПЕРШУ ДОБУ</b>
-                <p class="subtext">Кожну годину</p>
+                <b class="subtext">Кожну годину</b>
                 <p>по 1 таблетці</p>
               </div>
               <div class="subcontainer-particle-2">
@@ -216,7 +207,7 @@
                 <b>
                   ПРИ ПОДАЛЬШОМУ<br />ЛІКУВАННІ
                 </b>
-                <p class="subtext">До одужання</p>
+                <b class="subtext">До одужання</b>
                 <p>1-2 таблетки 3 рази на добу</p>
               </div>
               <div class="subcontainer-particle-2">
@@ -365,7 +356,7 @@
                   <li>A/Brisbane/02/2018(H1N1) pdm09;</li>
                   <li>A/Kansas/14/2017(H3N2);</li>
                   <li>B/Colorado/06/2017 (лінія B/Victoria/2/87);</li>
-                  <li>B/Phuket/3073/2013 (лінія B/Yamagata/16/88).</li>
+                  <li>B/Phuket/3073/2013 (лінія B/Yamagata/16/88).¹</li>
                 </ul>
                 <div class="panel__checklist">
                   <p>Нагадаємо основні симптоми грипу:</p>
@@ -391,7 +382,7 @@
                   <p>* М.Ю. Еропкін, Т.М. Гкудкова, Д.М. Даниленко та соавт: «Пандемический грипп 2009 г в России», РМЖ Том 18, 2010</p>
                   <p>** М. Тинессе-Маллвиц, В. Майданник, Т. Келлер, П. Клемент. Комбинированное гомеопатическое средство для лечения лихорадочных ОРВИ:
  Международное, рандомизированное, контролируемое исследование. Журнал «Forsch Komplementmed», Том 22, Издание 3, июнь 2015 г.</p>
-                  <p>Державна установа «Центр громадського здоров’я Міністерства охорони здоров’я України», www.phc.org.ua</p>
+                  <p>¹ Державна установа «Центр громадського здоров’я Міністерства охорони здоров’я України», www.phc.org.ua</p>
                 </div>
               </div>
             </div>
@@ -412,15 +403,16 @@
                   <p>Погіршення настрою, капризність;</p>
                   <p>Біль та першіння в горлі;</p>
                   <p>Озноб та лихоманка (загалом невисока температура);</p>
-                  <p>Риніт — на початку водянисті виділення, які стікають також по задній стінці глотки, у подальшому — відчуття закладення носа та порушення носового дихання, порушення нюху, чхання;</p>
-                  <p>У сезон застуд так хочеться підтримати імунітет дитини, щоб вона не хворіла або одужувала швидше, але як зробити це безпечно? Адже для дітей хочеться застосовувати тільки натуральні і перевірені засоби.</p>
+                  <p>Риніт — на початку водянисті виділення, які стікають також по задній стінці глотки, у подальшому — відчуття закладення носа та порушення носового дихання, порушення нюху, чхання¹;</p>
                 </div>
+                <p>У сезон застуд так хочеться підтримати імунітет дитини, щоб вона не хворіла або одужувала швидше, але як зробити це безпечно? Адже для дітей хочеться застосовувати тільки натуральні і перевірені засоби.</p>
                 <p class="panel__accent-text">Інфлюцид – ваш правильний вибір при застуді та грипі</p>
                 <p>Німецький препарат Інфлюцид зміцнює імунітет і сприяє одужанню.
 Ефективність та безпечність препарату Інфлюцид вивчені в ході багатьох клінічних досліджень, у тому числі за участю дітей*.</p>
                 <p>Бажаємо Вам та Вашим діткам надміцного здоров’я та вкрай стійкого імунітету.</p>
                 <div class="panel__sub">
                   <p>*При перших ознаках застуди у дитини необхідно звернутися до лікаря.</p>
+                  <p>¹ https://empendium.com/ua/chapter/B27.II.18.1.2.</p>
                 </div>
 
 
@@ -443,9 +435,34 @@
               </div>
             </div>
 
-            <div class="disklamer">
 
+
+
+
+
+
+
+          <div class="disclamer-tra">
+<!--            <ol>-->
+<!--              <li> https://www.engelhard.de/unternehmen/geschichte</li>-->
+<!--              <li> Продажі в упаковках препаратів Цетрарії ісландської (ісландського моху) за період 2015-2019 роки (2019 -3 квартали) згідно даних роздібного аудиту    Sale Out Системи дослідження фармацевтичного ринку «Фармексплорер» </li>-->
+<!--            </ol>-->
+            <p>
+              Реклама лікарського засобу. Перед застосуванням уважно ознайомтесь з інструкцією та проконсультуйтеся з лікарем. Зберігати у недоступному для дітей місці. Інфлюцид таб. Р.П. № UA/6740/01/01 від 08.11.2017. Інфлюцид краплі Р.П. № UA/6740/02/01 від 13.12.2017.
+              <br>
+              Ексклюзивний дистриб'ютор: ПрАТ «Натурфарм», вул.Лісна, 30а, м.Київ, Пуща-Водиця, 04075; телефон: (044) 401-81-03
+            </p>
+            <div class="logos-container">
+              <a class="disclamer-tra__logo" href=""><p><b>Виробник:</b><br>DHU (Німеччина)<br>https://www.dhu.de/</p></a>
+              <a class="disclamer-tra__alpen" href="http://alpenpharma.com"><p><b>Постачальник:</b><br> Альпен Фарма АГ<br>(Швейцарія)</p></a>
             </div>
+          </div>
+          <div class="disclamer-warning">
+            <p>САМОЛІКУВАННЯ МОЖЕ БУТИ ШКІДЛИВИМ ДЛЯ ВАШОГО ЗДОРОВ’Я</p>
+          </div>
+
+
+
 
 
 
