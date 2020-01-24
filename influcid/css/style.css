@@ -1144,6 +1144,7 @@ html {
   .App-header .block-2__plate p {
     top: 105px;
     font-size: 13px;
+    padding: 0;
   }
   .App-header .header-block-2 {
     margin: 20px 0 70px;
@@ -1170,6 +1171,10 @@ html {
   }
   .block-2__text p {
     font-size: 13px;
+  }
+  .block-2__text {
+    padding: 15px;
+
   }
   .block-2__text p::before {
     min-width: 30px;
