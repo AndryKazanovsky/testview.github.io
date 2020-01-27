@@ -174,7 +174,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 
 .App-header p {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   left: 0;
   font-size: 50px;
