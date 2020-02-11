@@ -6,6 +6,35 @@
     }
 }
 
+.map-content {
+    flex-wrap: wrap;
+}
+
+.source {
+    margin: 20px;
+}
+
+.source-3 {   
+    display: block;
+    height: 10vh;
+    width: 30%;
+    background: url(../images/source3.png) no-repeat 50%/contain;
+}
+
+.source-4 {   
+    display: block;
+    height: 10vh;
+    width: 30%;
+    background: url(../images/source4.png) no-repeat 50%/contain;
+}
+
+.source-5 {   
+    display: block;
+    height: 10vh;
+    width: 30%;
+    background: url(../images/source5.png) no-repeat 50%/contain;
+}
+
 .where-to-buy__desktop {
     display: none;
     background-color: #7c288a;
