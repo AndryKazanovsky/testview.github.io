@@ -224,7 +224,14 @@ sup {font-size:xx-small; vertical-align:super;}
   min-height: 90vh;
   /*margin-top: -12vh;*/
   width: 100%;
-  background: url("../images/first img.jpg") no-repeat center / cover;
+  background: url("../images/first img.png") no-repeat center / cover;
+}
+
+.main-img-container-ru {
+  min-height: 90vh;
+  /*margin-top: -12vh;*/
+  width: 100%;
+  background: url("../images/first img2.png") no-repeat center / cover;
 }
 
 .App-link {
@@ -448,9 +455,9 @@ sup {font-size:xx-small; vertical-align:super;}
   flex-direction: column;
   align-items: center;
   padding: 25px 0;
-  -webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+  /*-webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
   -moz-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
-  box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+  box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);*/
 }
 
 .block-5 {
@@ -458,11 +465,11 @@ sup {font-size:xx-small; vertical-align:super;}
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f2f2f3;
+  /*background-color: #f2f2f3;*/
   padding: 25px 0;
-  -webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+  /*-webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
   -moz-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
-  box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+  box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);*/
 }
 
 
@@ -659,9 +666,9 @@ sup {font-size:xx-small; vertical-align:super;}
   max-width: 80%;
   margin: auto;
   margin-top: 10px;
+  background-color: #f2f2f3;
   border-radius: 10px;
   color: #212121;
-  background-color: #fff;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
@@ -703,6 +710,10 @@ sup {font-size:xx-small; vertical-align:super;}
   font-size: 15px;
 }
 
+.product-en {
+	background: url("../images/INFLU_60.png") no-repeat center/contain;
+}
+
 .block-6 {
   width: 100vw;
   margin: auto;
@@ -710,6 +721,7 @@ sup {font-size:xx-small; vertical-align:super;}
   -webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
   -moz-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
   box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+  background-color: #f2f2f3;
 }
 
 .block-6__container {
@@ -748,7 +760,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 
 .block-7 {
-  background-color: #f2f2f3;
+  background-color: white;
   padding: 25px 0;
   -webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
   -moz-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
