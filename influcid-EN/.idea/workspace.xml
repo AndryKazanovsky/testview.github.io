@@ -16,9 +16,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>last</find>
-      <find>.desctop-navigation a:last-child</find>
-      <find>.block-1__text p::before</find>
       <find>.block-6</find>
       <find>.block-6__container-img</find>
       <find>#menuToggle</find>
@@ -46,6 +43,9 @@
       <find>чха</find>
       <find>пере</find>
       <find>main-img-container</find>
+      <find>provide</find>
+      <find>посл</find>
+      <find>discla</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -53,8 +53,8 @@
       <list>
         <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index-ru.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index-ru.html" />
       </list>
     </option>
   </component>
@@ -68,23 +68,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="influcid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="influcid" type="462c0819:PsiDirectoryNode" />
+              <item name="influcid-EN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="influcid-EN" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="influcid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="influcid" type="462c0819:PsiDirectoryNode" />
+              <item name="influcid-EN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="influcid-EN" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -120,11 +120,12 @@
       <workItem from="1580116519312" duration="47000" />
       <workItem from="1580123091898" duration="1218000" />
       <workItem from="1580128737652" duration="874000" />
+      <workItem from="1581943671371" duration="879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16805000" />
+    <option name="totallyTimeSpent" value="17684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
@@ -159,28 +160,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index-ru.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="181" column="20" lean-forward="true" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+        <state relative-caret-position="379">
+          <caret line="462" lean-forward="true" selection-start-line="462" selection-end-line="462" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index-ru.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="168" column="35" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="215">
+          <caret line="448" column="36" lean-forward="true" selection-start-line="448" selection-start-column="36" selection-end-line="448" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="180" column="12" lean-forward="true" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
+        <state relative-caret-position="399">
+          <caret line="880" column="1" lean-forward="true" selection-start-line="880" selection-start-column="1" selection-end-line="880" selection-end-column="1" />
         </state>
       </provider>
     </entry>

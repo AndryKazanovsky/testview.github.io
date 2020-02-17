@@ -877,7 +877,7 @@ html {
 .disclamer-tra p {
   margin-bottom: 0;
   color: grey;
-  font-family: 'Roboto-Light';
+  /*font-family: 'Roboto-Light';*/
 }
 
 .disclamer-tra .logos-container {
