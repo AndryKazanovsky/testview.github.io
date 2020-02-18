@@ -24,6 +24,23 @@
     background: url("../images/horizont-ru.jpg")no-repeat center / contain;
 }
 
+
+
+.block-3__container .block-3__plate:nth-child(1) .img_ru {
+    background: url("../images/img1_rus.png")no-repeat center / contain;
+}
+
+.block-3__container .block-3__plate:nth-child(2) .img_ru {
+    background: url("../images/img2_rus.png")no-repeat center / contain;
+}
+.block-3__container .block-3__plate:nth-child(3) .img_ru {
+    background: url("../images/img3_rus.png")no-repeat center / contain;
+}
+
+.block-3__container .block-3__plate:nth-child(4) .img_ru {
+    background: url("../images/img4_rus.png")no-repeat center / contain;
+}
+
 @media screen and (max-width:600px) {
     .block-5__container {
         background: url("../images/rou_01.jpg")no-repeat center / contain;
