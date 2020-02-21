@@ -197,6 +197,11 @@
 }
 
 
+.content-img-str {
+    background: url("../images/for-header-biolectra_fortissium.png")no-repeat center / contain !important;
+    margin-left: 5% !important;
+}
+
 
 @media screen and (max-width:600px){
     .pack-main_img {
