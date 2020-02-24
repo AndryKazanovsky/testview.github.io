@@ -183,7 +183,7 @@ sup {font-size:xx-small; vertical-align:super;}
   background-color: #88c168;
   color: white;
   padding: 10px;
-  min-height: 10vh;
+  /*min-height: 10vh;*/
 }
 
 .App-header .header-block-2 {
