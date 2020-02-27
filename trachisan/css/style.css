@@ -3,3 +3,14 @@ video {
 	width: 100vw;
 	max-height: 90vh;
 }
+
+
+@media screen and (max-height:400px){
+
+.block-three ul {
+	position: relative;
+    left: 50vw;
+    bottom: 10vh;
+}
+
+}
