@@ -33,6 +33,13 @@ var controller = new ScrollMagic.Controller();
       triggerElement: '.block-2__text',
     }).setClassToggle('.block-3__right-block', 'slide2').addTo(controller);
 
+    const alertLicense = document.querySelector('.alert-license');
+    const licenseOff = document.querySelector('.license-off');
+      licenseOff.onclick = function() {
+          alertLicense.classList.add('hide');
+      };
+    console.log(licenseOff);
+
 
     // var scene4 = new ScrollMagic.Scene({
     //   triggerElement: '.change-box',
