@@ -979,7 +979,7 @@ p {
     margin: 50px 0;
     height: 40vh;
     width: 100vw;
-    background: url(../images/div_01.png) no-repeat center / contain;
+    background: url(../images/div_01-2.png) no-repeat center / contain;
   }
   .mobile__new-woman {
     display: flex;
@@ -1337,7 +1337,7 @@ p {
 .header-container__label {
     margin: 5vh 0 5vh;
     height: 50vh;
-    background: url("../images/div_01.png") no-repeat center / contain;
+    background: url("../images/div_01-2.png") no-repeat center / contain;
 }
 
 .header-container__left-block {
