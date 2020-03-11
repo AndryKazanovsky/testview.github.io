@@ -928,7 +928,7 @@ p {
     background-color: #a813a0;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .header-container {
     height: 50vh;
   }
@@ -973,7 +973,7 @@ p {
     width: 50px;
   }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 770px) {
   .mobile__top-block {
     display: flex;
     margin: 50px 0;
@@ -984,7 +984,7 @@ p {
   .mobile__new-woman {
     display: flex;
     /*margin: 50px 0;*/
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
     background: url(../images/wooman_fon.png) no-repeat bottom / contain;
   }
