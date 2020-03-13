@@ -431,7 +431,7 @@ sup {font-size:xx-small; vertical-align:super;}
   width: 300px;
   height: 300px;
   align-self: center;
-  background: url("../images/inf.png")no-repeat center / contain;
+  background: url("../images/inf.jpg")no-repeat center / contain;
 }
 
 .prod-mobile {
@@ -439,7 +439,7 @@ sup {font-size:xx-small; vertical-align:super;}
   width: 200px;
   height: 200px;
   align-self: center;
-  background: url("../images/inf.png")no-repeat center / contain;
+  background: url("../images/inf.jpg")no-repeat center / contain;
 }
 
 .block-4 {
