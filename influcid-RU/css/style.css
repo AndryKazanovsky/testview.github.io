@@ -909,7 +909,7 @@ html {
 }
 
 .disclamer-warning p {
-  font-size: 75px;
+  font-size: 100px;
   text-align: center;
   color: #8b8b8b;
   margin: 40px 0;
@@ -1291,7 +1291,7 @@ html {
   }
 
   .disclamer-warning p {
-    font-size: 55px;
+    font-size: 40px;
   }
 
   .disclamer-tra {
