@@ -183,7 +183,7 @@ sup {font-size:xx-small; vertical-align:super;}
   background-color: #88c168;
   color: white;
   padding: 10px;
-  min-height: 10vh;
+  /*min-height: 10vh;*/
 }
 
 .App-header .header-block-2 {
@@ -225,13 +225,6 @@ sup {font-size:xx-small; vertical-align:super;}
   /*margin-top: -12vh;*/
   width: 100%;
   background: url("../images/first img.png") no-repeat center / cover;
-}
-
-.main-img-container-ru {
-  min-height: 90vh;
-  /*margin-top: -12vh;*/
-  width: 100%;
-  background: url("../images/first img2.png") no-repeat center / cover;
 }
 
 .App-link {
@@ -438,7 +431,7 @@ sup {font-size:xx-small; vertical-align:super;}
   width: 300px;
   height: 300px;
   align-self: center;
-  background: url("../images/INFLU_60RU.png")no-repeat center / contain;
+  background: url("../images/inf.png")no-repeat center / contain;
 }
 
 .prod-mobile {
@@ -455,9 +448,9 @@ sup {font-size:xx-small; vertical-align:super;}
   flex-direction: column;
   align-items: center;
   padding: 25px 0;
-  /*-webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+  -webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
   -moz-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
-  box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);*/
+  box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
 }
 
 .block-5 {
@@ -465,11 +458,11 @@ sup {font-size:xx-small; vertical-align:super;}
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*background-color: #f2f2f3;*/
+  background-color: #f2f2f3;
   padding: 25px 0;
-  /*-webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+  -webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
   -moz-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
-  box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);*/
+  box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
 }
 
 
@@ -666,9 +659,9 @@ sup {font-size:xx-small; vertical-align:super;}
   max-width: 80%;
   margin: auto;
   margin-top: 10px;
-  background-color: #f2f2f3;
   border-radius: 10px;
   color: #212121;
+  background-color: #fff;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
@@ -710,10 +703,6 @@ sup {font-size:xx-small; vertical-align:super;}
   font-size: 15px;
 }
 
-.product-en {
-	background: url("../images/INFLU_60.png") no-repeat center/contain;
-}
-
 .block-6 {
   width: 100vw;
   margin: auto;
@@ -721,7 +710,6 @@ sup {font-size:xx-small; vertical-align:super;}
   -webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
   -moz-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
   box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
-  background-color: #f2f2f3;
 }
 
 .block-6__container {
@@ -760,7 +748,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 
 .block-7 {
-  background-color: white;
+  background-color: #f2f2f3;
   padding: 25px 0;
   -webkit-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
   -moz-box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
@@ -877,7 +865,7 @@ html {
 .disclamer-tra p {
   margin-bottom: 0;
   color: grey;
-  /*font-family: 'Roboto-Light';*/
+  font-family: 'Roboto-Light';
 }
 
 .disclamer-tra .logos-container {
@@ -1501,3 +1489,94 @@ html {
 /*  border-radius: 30px;*/
 /*}*/
 
+.alert-license {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.75 );
+  color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.alert-license p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.alert-license a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+
+.alert-license b {
+  text-decoration: underline;
+}
+
+.alert-license .license-off {
+  background-color: white;
+  padding: 10px 5px;
+  border-radius: 20px;
+  margin: 0 100px;
+}
+
+.alert-license button p {
+  color: #43781F;
+}
+
+.license {
+  text-align: left;
+  /*margin: auto;*/
+  color:rgb(51, 51, 51);
+  position: absolute;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+
+.license div {
+  width: 70%;
+  margin: auto;
+}
+
+.license strong {
+  font-size: 22px;
+  line-height: 24px;
+  margin: 20px 0 !important;
+  display: block;
+}
+
+.license p {
+  font-size: 14px;
+  margin: 0;
+
+}
+
+.license-off p {
+  text-decoration: underline;
+  padding: 0 15px;
+}
+
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+  .alert-license a {
+    font-size: 9px;
+  }
+  .alert-license .license-off {
+    margin: 5px;
+    padding: 5px;
+  }
+  .alert-license .license-off p {
+    font-size: 9px;
+  }
+  .license div {
+    width: 100%;
+  }
+}

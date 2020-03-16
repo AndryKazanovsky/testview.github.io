@@ -33,6 +33,13 @@ var controller = new ScrollMagic.Controller();
       triggerElement: '.block-2__text',
     }).setClassToggle('.block-3__right-block', 'slide2').addTo(controller);
 
+    const alertLicense = document.querySelector('.alert-license');
+    const licenseOff = document.querySelector('.license-off');
+      licenseOff.onclick = function() {
+          alertLicense.classList.add('hide');
+      };
+    console.log(licenseOff);
+
 
     // var scene4 = new ScrollMagic.Scene({
     //   triggerElement: '.change-box',
@@ -48,31 +55,31 @@ var controller = new ScrollMagic.Controller();
     // endscroll
 
 
-    // var pBtn1 = document.querySelector(".p-btn1");
-    // var pBtn2 = document.querySelector(".p-btn2");
+    var pBtn1 = document.querySelector(".p-btn1");
+    var pBtn2 = document.querySelector(".p-btn2");
 
-    // var block51 = document.querySelector(".block-5-1");
-    // var block52 = document.querySelector(".block-5-2");
+    var block51 = document.querySelector(".block-5-1");
+    var block52 = document.querySelector(".block-5-2");
 
-    // pBtn1.onclick = function() {
-    //   block51.classList.add("block-5-active");
-    //   block51.classList.remove("block-5-disable");
-    //   block52.classList.add("block-5-disable");
-    //     block52.classList.remove("block-5-active");
+    pBtn1.onclick = function() {
+      block51.classList.add("block-5-active");
+      block51.classList.remove("block-5-disable");
+      block52.classList.add("block-5-disable");
+        block52.classList.remove("block-5-active");
 
-    //     pBtn1.classList.add("active-btn");
-    //     pBtn2.classList.remove("active-btn2");
+        pBtn1.classList.add("active-btn");
+        pBtn2.classList.remove("active-btn2");
     
-    // };
-    // pBtn2.onclick = function() {
-    //   block51.classList.add("block-5-disable");
-    //   block51.classList.remove("block-5-active");
-    //     block52.classList.add("block-5-active");
-    //     block52.classList.remove("block-5-disable");
+    };
+    pBtn2.onclick = function() {
+      block51.classList.add("block-5-disable");
+      block51.classList.remove("block-5-active");
+        block52.classList.add("block-5-active");
+        block52.classList.remove("block-5-disable");
 
-    //     pBtn2.classList.add("active-btn2");
-    //     pBtn1.classList.remove("active-btn");
-    // };
+        pBtn2.classList.add("active-btn2");
+        pBtn1.classList.remove("active-btn");
+    };
 
 
 
