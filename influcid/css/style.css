@@ -719,12 +719,15 @@ sup {font-size:xx-small; vertical-align:super;}
 .block-6__container:nth-child(2) .block-6__container-img {
   background: url("../images/post1.jpg") center / cover;
 }
+.block-6__container:nth-child(3) .block-6__container-img {
+  background: url("../images/post2.jpg") center / cover;
+}
 
 
 .block-6__container-img {
   width: 100vw;
   height: 65vh;
-  background: url("../images/post2.jpg") center / cover;
+  background: url("../images/post3.jpg") center / cover;
   position: relative;
 }
 
