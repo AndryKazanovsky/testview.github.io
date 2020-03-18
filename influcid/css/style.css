@@ -47,6 +47,7 @@ p {
     margin: auto;
 }
 
+
 .blocked {
     overflow: hidden;
 }
@@ -86,6 +87,12 @@ sup {font-size:xx-small; vertical-align:super;}
 /*    animation: App-logo-spin infinite 20s linear;*/
 /*  }*/
 /*}*/
+
+.inner-img {
+  width: 90%;
+  height: 500px;
+  background: url('../images/graph.png') no-repeat center / contain;
+}
 
 .logo {
   color: #43781f;
@@ -847,6 +854,25 @@ html {
 
 
 
+.panel-inner div {
+  max-width: 30%;
+  /*margin-right: 20px;*/
+}
+.panel-inner p {
+  text-align: center;
+  color: #777777;
+  font-size: 15px;
+}
+
+.panel-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+
+
 /*/////disclamer*/
 
 .disclamer-tra {
@@ -1582,4 +1608,14 @@ html {
   .license div {
     width: 100%;
   }
+  .panel-inner div {
+  max-width: 100%;
+  /*margin-right: 20px;*/
 }
+.inner-img {
+  width: 100%;
+  height: 250px;
+  /*background: url('../images/graph.png') no-repeat center / contain;*/
+}
+}
+
