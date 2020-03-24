@@ -79,6 +79,37 @@ body {
   pointer-events: none;
 }
 
+
+
+.apt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.apt-container a {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  background: url("../images/icon_asna_400x200px.jpg") no-repeat center / contain;
+}
+
+.apt-container a:nth-child(2) {
+  background: url("../images/icon_gorzdrav_400x200px.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(3) {
+  background: url("../images/icon_Piluli_400x200px.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(4) {
+  background: url("../images/icon_vita_400x200px.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(5) {
+  background: url("../images/icon_rigla_400x200px.jpg") no-repeat center / contain;
+}
+
 sup {font-size:xx-small; vertical-align:super;}
 
 /*@media (prefers-reduced-motion: no-preference) {*/
@@ -483,6 +514,7 @@ sup {font-size:xx-small; vertical-align:super;}
   display: flex;
   width: 90%;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .block-5__container-btext {
@@ -503,7 +535,9 @@ sup {font-size:xx-small; vertical-align:super;}
 .container__subcontainer h4 {
   font-size: 20px;
 }
-
+.block-5 .container__subcontainer {
+  margin: 10px;
+}
 .block-5 .container__subcontainer p {
   text-align: left;
 }
