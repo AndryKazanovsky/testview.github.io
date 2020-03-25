@@ -224,14 +224,14 @@ sup {font-size:xx-small; vertical-align:super;}
   min-height: 90vh;
   /*margin-top: -12vh;*/
   width: 100%;
-  background: url("../images/first img.png") no-repeat center / cover;
+  background: url("../images/first img.jpg") no-repeat center / cover;
 }
 
 .main-img-container-ru {
   min-height: 90vh;
   /*margin-top: -12vh;*/
   width: 100%;
-  background: url("../images/first img.png") no-repeat center / cover;
+  background: url("../images/first img.jpg") no-repeat center / cover;
 }
 
 .App-link {
