@@ -141,17 +141,17 @@ sup {font-size:xx-small; vertical-align:super;}
   content: "|";
   margin: 7px;
 }
-.navigation .navigation-container div a:last-child::after {
-  content: "";
-  margin: auto;
-}
-.navigation .navigation-container div a:last-child {
-  background-color: #2894cf;
-  padding: 10px 20px;
-  border-radius: 20px;
-  text-align: center;
-  color: white;
-}
+/*.navigation .navigation-container div a:last-child::after {*/
+/*  content: "";*/
+/*  margin: auto;*/
+/*}*/
+/*.navigation .navigation-container div a:last-child {*/
+/*  background-color: #2894cf;*/
+/*  padding: 10px 20px;*/
+/*  border-radius: 20px;*/
+/*  text-align: center;*/
+/*  color: white;*/
+/*}*/
 
 
 .navigation .navigation-container .logo {
@@ -756,10 +756,11 @@ sup {font-size:xx-small; vertical-align:super;}
 }
 
 .block-7__img {
+  display: block;
   height: 300px;
   width: 80%;
   margin: auto;
-  background: url("../images/map.png") no-repeat center / cover;
+  background: url("../images/map.jpg") no-repeat center / cover;
 }
 
 .block-7__text {
@@ -1375,12 +1376,12 @@ html {
     color: black;
     text-decoration: none;
 }
-#menu li:last-child a {
-  border: 1px solid grey;
-  padding: 10px;
-  border-radius: 10px;
-  margin-left: 10px;
-}
+/*#menu li:last-child a {*/
+/*  border: 1px solid grey;*/
+/*  padding: 10px;*/
+/*  border-radius: 10px;*/
+/*  margin-left: 10px;*/
+/*}*/
 
 
 
@@ -1388,16 +1389,16 @@ html {
       content: "|";
     margin: 7px;
 }
-.desctop-navigation a:last-child::after {
-    content: "";
-    margin: auto;
-}
-.desctop-navigation a:last-child {
-  border: 1px solid grey;
-  padding: 10px;
-  border-radius: 10px;
-  margin-left: 10px;
-}
+/*.desctop-navigation a:last-child::after {*/
+/*    content: "";*/
+/*    margin: auto;*/
+/*}*/
+/*.desctop-navigation a:last-child {*/
+/*  border: 1px solid grey;*/
+/*  padding: 10px;*/
+/*  border-radius: 10px;*/
+/*  margin-left: 10px;*/
+/*}*/
 
 .desctop-navigation .where-to-buy {
   background-color: #2894cf;
