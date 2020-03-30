@@ -756,10 +756,13 @@ sup {font-size:xx-small; vertical-align:super;}
 }
 
 .block-7__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 300px;
   width: 80%;
   margin: auto;
-  background: url("../images/map.png") no-repeat center / cover;
+  background: url("../images/map.jpg") no-repeat center / cover;
 }
 
 .block-7__text {
@@ -910,8 +913,8 @@ html {
 }
 
 .disclamer-warning p {
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 155px;
+  /*line-height: 40px;*/
   text-align: center;
   color: #8b8b8b;
   margin: 40px 0;
