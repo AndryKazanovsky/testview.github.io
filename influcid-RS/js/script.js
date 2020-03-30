@@ -33,6 +33,15 @@ var controller = new ScrollMagic.Controller();
       triggerElement: '.block-2__text',
     }).setClassToggle('.block-3__right-block', 'slide2').addTo(controller);
 
+
+
+    
+    setTimeout(function license() {document.querySelector('.alert-license').classList.add('show1')}, 3000);
+
+
+
+
+
     const alertLicense = document.querySelector('.alert-license');
     const licenseOff = document.querySelector('.license-off');
       licenseOff.onclick = function() {
