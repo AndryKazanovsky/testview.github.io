@@ -12,6 +12,9 @@
 
 .source {
     margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 -4px 5px 2px #ccc;
 }
 
 .source-3 {   
