@@ -586,7 +586,7 @@ form {
 
 form button {
   position: absolute;
-  left: 82%;
+  right: 0;
   background: #BE0811;
   color: white;
   font-family: MFLgtregular;
