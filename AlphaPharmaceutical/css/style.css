@@ -1187,7 +1187,7 @@ form button {
 
   .accordion:after {
     content: '∨';
-    /*color: #fff;*/
+    color: rgba(60, 60, 60, 0.4);
     font-size: 20px;
     font-weight: bold;
     float: right;
@@ -1196,6 +1196,7 @@ form button {
 
   .active-acc:after {
     content: '∧';
+    color: #BE0811;
   }
 
   .active-acc {
