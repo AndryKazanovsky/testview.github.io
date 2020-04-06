@@ -141,6 +141,7 @@ sup {
   justify-content: flex-end;
   text-align: right;
   padding: 1vw 7vw;
+  text-transform: uppercase;
 }
 .navigation-menu a {
   display: block;
