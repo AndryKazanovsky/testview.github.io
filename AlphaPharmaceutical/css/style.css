@@ -255,16 +255,17 @@ sup {
 }
 
 .block-1 {
+	padding: 0 5vw;
   border-bottom: 1px solid rgba(60, 60, 60, 0.4);
 }
 
 .block-1-content {
-  width: 90vw;
+  width: 100vw;
   margin: auto;
   border-left: 1px solid rgba(60, 60, 60, 0.4);
   border-right: 1px solid rgba(60, 60, 60, 0.4);
   flex-direction: column;
-  padding: 6vw 15vw;
+  padding: 6vw 3vw 6vw 15vw;
 }
 
 .block-1-title {
