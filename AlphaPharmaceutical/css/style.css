@@ -575,7 +575,7 @@ form {
 }
 
 .inp-text {
-  width: 70vw;
+
 }
 
 .form-text {
@@ -1010,7 +1010,7 @@ form button {
 
 
   .form-text {
-    width: 70vw;
+    width: 100%;
 
   }
   .inp-text {
