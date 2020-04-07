@@ -336,7 +336,7 @@ sup {
   height: 50px;
 }
 .plate-image1 {
-  background: url("../images/passive_icon_gray_01_50x50px.svg") no-repeat center / contain;
+  background: url("../images/passive_icon_gray_01.svg") no-repeat center / contain;
 }
 
 .plate-image2 {
@@ -1170,7 +1170,7 @@ form button {
     min-width: 40px;
     height: 40px;
     margin-right: 20px;
-    background: url("../images/passive_icon_gray_01_50x50px.svg")no-repeat center / contain;
+    background: url("../images/passive_icon_gray_01.svg")no-repeat center / contain;
   }
 
   .acc-img2 {
