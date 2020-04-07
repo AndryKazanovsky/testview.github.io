@@ -290,7 +290,7 @@ sup {
   display: block;
   width: 80px;
   height: 12px;
-  background: url("../images/line01.png") no-repeat center / contain;
+  background: url("../images/line01.svg") no-repeat center / contain;
 
 }
 
@@ -402,7 +402,7 @@ sup {
   display: block;
   width: 80px;
   height: 12px;
-  background: url("../images/line02.png") no-repeat center / contain;
+  background: url("../images/line02.svg") no-repeat center / contain;
 
 }
 
@@ -544,7 +544,7 @@ sup {
   display: block;
   width: 80px;
   height: 12px;
-  background: url("../images/line03.png") no-repeat center / contain;
+  background: url("../images/line03.svg") no-repeat center / contain;
 
 }
 
