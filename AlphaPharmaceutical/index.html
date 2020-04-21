@@ -226,14 +226,14 @@
             <h2>Formularz kontaktowy</h2>
 
         </div>
-        <form action="./send.php" method="POST">
+        <form action="/send.php" method="POST">
             <div class="form-top">
-                <input class="inp-name" name="name" type="text" placeholder="Imię" required>
-                <input class="inp-email" name="email" type="email" id="email" placeholder="E-mail"
+                <input class="inp-name" id="name" type="text" placeholder="Imię" required>
+                <input class="inp-email" id="messanger-contact" type="email" placeholder="E-mail"
                         required>
             </div>
             <div class="inp-text">
-                <input class="form-text" name="main-text" type="text" placeholder="Wiadomość" required>
+                <input class="form-text" id="message" name="main-text" type="text" placeholder="Wiadomość" required>
             </div>
             <button>Wyślij</button>
         </form>
@@ -261,7 +261,6 @@
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 </body>
 </html>
 

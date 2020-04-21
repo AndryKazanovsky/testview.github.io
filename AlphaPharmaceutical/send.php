@@ -12,7 +12,7 @@ $sub = "Сообщение с сайта AP";
 /* form format */
 $mes = "Сообщение с сайта AP\n
 Name: $name
-Messanger Contact: $messangerContact
+MessangerContact: $messangerContact
 Message: $message";
 
 /* send message use mail()  */

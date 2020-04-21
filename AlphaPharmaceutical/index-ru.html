@@ -223,16 +223,16 @@
         <h2>Форма обратной связи</h2>
 
     </div>
-    <form>
+    <form action="/send.php" method="POST">
         <div class="form-top">
-            <input class="inp-name" type="text" placeholder="Имя" required>
-            <input class="inp-email" type="email" id="email" placeholder="E-mail"
+            <input class="inp-name" id="name" type="text" placeholder="Имя" required>
+            <input class="inp-email" id="messanger-contact" type="email" placeholder="E-mail"
                    required>
         </div>
         <div class="inp-text">
-            <input class="form-text" type="text" placeholder="Введите текстовое сообщение" required>
+            <input class="form-text" id="message" name="main-text" type="text" placeholder="Введите текстовое сообщение" required>
         </div>
-        <button>Отправить</button>
+        <button>Wyślij</button>
     </form>
 </div>
 

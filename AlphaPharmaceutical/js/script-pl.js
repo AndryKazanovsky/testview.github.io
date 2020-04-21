@@ -34,13 +34,13 @@
           /*transmit data*/
           let request = new XMLHttpRequest();
 
-          request.open('POST', "send.php")
+          request.open('POST', "send.php");
           request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=UTF-8');
           request.send('name=' + encodeURIComponent(formData.name) + '&messangerContact=' + encodeURIComponent(formData.messangerContact) + '&message=' +  encodeURIComponent(formData.message))
       })
 
 
-      console.log('Im Here!');
+      console.log('form test');
 
 // var controller = new ScrollMagic.Controller();
 //

@@ -554,9 +554,13 @@ sup {font-size:xx-small; vertical-align:super;}
 .pill3 {
   background: url("../images/pill3.png") no-repeat center / contain;
 }
+.pill4 {
+  background: url("../images/pill4.png") no-repeat center / contain;
+}
 .pill6 {
   background: url("../images/pill6.png") no-repeat center / contain;
 }
+
 .pill8 {
   background: url("../images/pill8.png") no-repeat center / contain;
 }
