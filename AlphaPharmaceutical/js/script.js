@@ -28,7 +28,6 @@
           let formData = {
               name: document.querySelector('#name').value,
               messangerContact: document.querySelector('#messanger-contact').value,
-              messanger: document.querySelector('#messanger').value,
               message: document.querySelector('#message').value
           }
 
@@ -37,7 +36,7 @@
 
           request.open('POST', "send.php")
           request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=UTF-8');
-          request.send('name=' + encodeURIComponent(formData.name) + '&messangerContact=' + encodeURIComponent(formData.messangerContact) + '&messanger=' +  encodeURIComponent(formData.messanger) + '&message=' +    encodeURIComponent(formData.message))
+          request.send('name=' + encodeURIComponent(formData.name) + '&messangerContact=' + encodeURIComponent(formData.messangerContact) + '&message=' +  encodeURIComponent(formData.message))
       })
 
 
