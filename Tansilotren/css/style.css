@@ -180,7 +180,7 @@ div {
   align-items: center;
 }
 
-.header {
+.header-custom {
   background: url('../images/bg.jpg') no-repeat center / cover;
   display: flex;
   margin-top: 50px;
