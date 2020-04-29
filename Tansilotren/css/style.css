@@ -208,14 +208,14 @@ div {
 .header-main-product-img {
   width: 332px;
   height: 284px;
-  background: url('../images/pack_left_tonzilotren_tiny_400x400px 1.png')
+  background: url('../images/pack_left_tonzilotren_tiny_400x400px 1.svg')
     no-repeat center / contain;
 }
 
 .header-main-img {
   width: 457px;
   height: 391px;
-  background: url('../images/div_04.png') no-repeat center / contain;
+  background: url('../images/throat_tiny_510x442 1.svg') no-repeat center / contain;
 }
 
 .header-main-img-mobile {
