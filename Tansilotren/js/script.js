@@ -89,6 +89,8 @@
       const btn4 = document.querySelector('.keybtn4');
       const btn5 = document.querySelector('.keybtn5');
 
+      const counterNum = document.querySelector('.counter-num');
+
       const block4Img = document.querySelector('.block-4__container-img');
       const block4Cont = document.querySelector('.block-4__container-content');
 
@@ -105,6 +107,7 @@
           block4Img.classList.remove('block-4__container-img5');
 
           block4Cont.innerHTML = '<p><b>Atropinum sulfuricum</b> –  оказывает противовоспалительное действие при остром течении, снимает боль в горле при глотании, устраняет гиперемию и отек миндалин, уменьшает лихорадку³</p>';
+          counterNum.innerHTML = '<p>2 / 5</p>';
       };
 
       btn2.onclick = function() {
