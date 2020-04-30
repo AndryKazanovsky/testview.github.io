@@ -2,24 +2,35 @@
 
 @font-face {
   font-family: 'HNB';
-  src: url('../fonts/HelveticaNeueCyr-Bold.ttf');
+  src: url('../fonts/HelveticaNeueCyr-Black.ttf');
   font-style: normal;
   /*font-weight: 400;*/
 }
 
 @font-face {
   font-family: 'HNL';
-  src: url('../fonts/ofont.ru_Helvetica Neue.ttf');
+  src: url('../fonts/HelveticaNeueCyr-Light.ttf');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'HNC';
+  src: url('../fonts/HelveticaNeueCyr-Medium.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'HNT';
   src: url('../fonts/HelveticaNeueCyr-Thin.ttf');
   font-style: normal;
   font-weight: 400;
 }
+
+
+
+
 
 /* common */
 
@@ -131,6 +142,12 @@ div {
 
 .header-main-center {
   margin-top: 100px;
+  font-family: 'HNL', sans-serif;
+}
+
+.header-block-2 {
+  font-family: 'HNL', sans-serif;
+  line-height: 18px;
 }
 
 .header-main-center p {
@@ -206,6 +223,11 @@ div {
 .header-title p {
   text-transform: uppercase;
   font-size: 25px;
+  font-family: 'HNL';
+}
+
+.header-title strong {
+  font-family: 'HNB';
 }
 
 .header-main-product-img {
@@ -310,6 +332,7 @@ h1 {
   font-size: 25px;
   line-height: 30px;
   text-transform: uppercase;
+  font-family: 'HNB';
 }
 
 h2 {
@@ -323,7 +346,7 @@ h2 {
 }
 h2 b {
   color: #636363;
-  font-family: 'HNC', sans-serif;
+  font-family: 'HNT', sans-serif;
 }
 
 .block-interactive-inner {
@@ -356,6 +379,7 @@ h2 b {
   line-height: 16px;
   display: flex;
   align-items: center;
+  font-family: 'HNC';
 }
 
 .block-4__buttons div::before {
@@ -384,10 +408,17 @@ h2 b {
 
 .block-4__container-content {
   max-width: 80%;
+
+}
+
+.block-4__container-content p {
+  font-family: 'HNL';
+  /*color: #a1a1a1;*/
 }
 
 .block-4__container-content b {
   color: #a00067;
+  font-family: 'HNC';
 }
 
 .block-4__container-img {
@@ -419,6 +450,7 @@ h2 b {
   font-size: 18px !important;
   line-height: 18px !important;
   color: #a00067 !important;
+  font-family: 'HNB' !important;
 }
 
 .block-4__btn-active::before {
@@ -437,6 +469,7 @@ h2 b {
 
 .block-3 h1 {
     margin-top: 100px;
+    font-family: 'HNB';
 }
 
 .block-3_inner {
@@ -462,11 +495,12 @@ h2 b {
 .plate p {
   margin: 25px 0;
   text-align: center;
-  font-family: 'HNC';
+  font-family: 'HNL';
+  line-height: 20px;
 }
 
-.plate p b {
-  font-family: 'HNB' !important;
+.plate b {
+  font-family: 'HNC' !important;
 }
 
 .plate-img {
@@ -577,6 +611,7 @@ h2 b {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 30px;
+  font-family: 'HNL';
 }
 
 .panel__sub p {
@@ -585,6 +620,7 @@ h2 b {
 
 .panel b {
   color: #a00067;
+  font-family: 'HNC';
 }
 
 .panel-after {
@@ -637,7 +673,7 @@ h2 b {
   line-height: 29px;
   text-transform: uppercase;
   margin: 0;
-  font-family: 'HNC';
+  font-family: 'HNT';
 }
 
 .block-5__text h4 b {
@@ -653,11 +689,12 @@ h2 b {
   line-height: 20px;
   margin: 40px 0;
   color: #636363;
-  font-family: 'HNC';
+  font-family: 'HNL';
 }
 
 .block-5__text p b {
   color: #a00067;
+  font-family: 'HNC';
 }
 
 .block-5__popup {
@@ -684,7 +721,7 @@ h2 b {
   font-size: 14px;
   line-height: 18px;
   color: #828282;
-  font-family: 'HNC';
+  font-family: 'HNL';
 }
 
 .map-text ol {
@@ -712,7 +749,7 @@ h2 b {
   margin-bottom: 0;
   color: grey;
   text-align: center;
-  font-family: 'HNC';
+  font-family: 'HNT';
 }
 
 .disclamer-tra .logos-container {
@@ -774,7 +811,8 @@ h2 b {
   text-align: center;
   color: #8b8b8b;
   margin: 40px 0;
-  font-family: 'HNL';
+  font-family: 'HNT';
+  font-weight: lighter;
 }
 
 /*popup/////////*/
@@ -1122,7 +1160,7 @@ h2 b {
 
   .dt1 {
     text-align: left !important;
-    font-family: 'HNC' !important;
+    /*font-family: 'HNC' !important;*/
   }
 
   .block-5 .block-5__text {
