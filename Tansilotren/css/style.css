@@ -765,6 +765,7 @@ h2 b {
 .disclamer-warning {
   background-color: #f8f9fa;
   display: flex;
+  justify-content: center;
 }
 
 .disclamer-warning p {
@@ -1031,9 +1032,16 @@ h2 b {
     width: 90vw;
   }
 
+  .mobile {
+    position: relative;
+  }
+
   .test-img-mobile {
-    width: 100%;
-    height: 340px;
+    /*width: 100%;*/
+    height: 400px;
+    position: relative;
+    left: -20px;
+    width: 95vw;
     background: url(../images/div_02.png) no-repeat center / contain !important;
   }
 
@@ -1267,6 +1275,14 @@ h2 b {
 }
 
 @media screen and (max-width: 450px) {
+  .test-img-mobile {
+    /*width: 100%;*/
+    height: 400px;
+    position: relative;
+    left: -20px;
+    width: 100vw;
+    background: url(../images/div_02.png) no-repeat center / contain !important;
+  }
   #menuToggle {
     position: relative;
     top: 3px;
