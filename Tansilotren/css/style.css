@@ -293,6 +293,12 @@ div {
   padding: 0 5px;
 }
 
+.hidden {
+  display: none;
+}
+
+
+
 .block-interactive {
   margin: auto;
 }
@@ -323,13 +329,15 @@ h2 b {
 .block-interactive-inner {
   position: relative;
   border: 1px solid #d0d0d0;
-  padding: 20px;
+  padding: 20px 20px 50px;
   width: 60vw;
   min-height: 400px;
   margin: auto;
   display: flex;
   align-items: center;
 }
+
+
 
 .block-4__buttons {
   display: flex;

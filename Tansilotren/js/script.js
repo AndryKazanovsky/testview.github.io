@@ -89,7 +89,26 @@
       const btn4 = document.querySelector('.keybtn4');
       const btn5 = document.querySelector('.keybtn5');
 
-      const counterNum = document.querySelector('.counter-num');
+
+      // counter
+
+      const counter1 = document.querySelector('.counter1');
+      const counter2 = document.querySelector('.counter2');
+      const counter3 = document.querySelector('.counter3');
+      const counter4 = document.querySelector('.counter4');
+      const counter5 = document.querySelector('.counter5');
+
+      const rightArrow1 = document.querySelector('.right-arrow1');
+      const leftArrow2 = document.querySelector('.left-arrow2');
+      const rightArrow2 = document.querySelector('.right-arrow2');
+      const leftArrow3 = document.querySelector('.left-arrow3');
+      const rightArrow3 = document.querySelector('.right-arrow3');
+      const leftArrow4 = document.querySelector('.left-arrow4');
+      const rightArrow4 = document.querySelector('.right-arrow4');
+      const leftArrow5 = document.querySelector('.left-arrow5');
+
+      // end counter
+
 
       const block4Img = document.querySelector('.block-4__container-img');
       const block4Cont = document.querySelector('.block-4__container-content');
@@ -107,7 +126,34 @@
           block4Img.classList.remove('block-4__container-img5');
 
           block4Cont.innerHTML = '<p><b>Atropinum sulfuricum</b> –  оказывает противовоспалительное действие при остром течении, снимает боль в горле при глотании, устраняет гиперемию и отек миндалин, уменьшает лихорадку³</p>';
-          counterNum.innerHTML = '<p>1 / 5</p>';
+
+          counter1.classList.remove('hidden');
+          counter2.classList.add('hidden');
+          counter3.classList.add('hidden');
+          counter4.classList.add('hidden');
+          counter5.classList.add('hidden');
+
+      };
+
+      rightArrow1.onclick = function () {
+          btn2.classList.add('block-4__btn-active');
+          btn1.classList.remove('block-4__btn-active');
+          btn3.classList.remove('block-4__btn-active');
+          btn4.classList.remove('block-4__btn-active');
+          btn5.classList.remove('block-4__btn-active');
+          block4Img.classList.add('block-4__container-img2');
+          block4Img.classList.remove('block-4__container-img1');
+          block4Img.classList.remove('block-4__container-img3');
+          block4Img.classList.remove('block-4__container-img4');
+          block4Img.classList.remove('block-4__container-img5');
+
+          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  –  Hepar sulfuris – оказывает противовоспалительное действие при хроническом течении. Способствует очищению лакун от патологического содержимого, заживлению нарывов.³</p>';
+
+          counter2.classList.remove('hidden');
+          counter1.classList.add('hidden');
+          counter3.classList.add('hidden');
+          counter4.classList.add('hidden');
+          counter5.classList.add('hidden');
       };
 
       btn2.onclick = function() {
@@ -123,7 +169,55 @@
           block4Img.classList.remove('block-4__container-img5');
 
           block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  –  Hepar sulfuris – оказывает противовоспалительное действие при хроническом течении. Способствует очищению лакун от патологического содержимого, заживлению нарывов.³</p>';
-          counterNum.innerHTML = '<p>2 / 5</p>';
+
+          counter2.classList.remove('hidden');
+          counter1.classList.add('hidden');
+          counter3.classList.add('hidden');
+          counter4.classList.add('hidden');
+          counter5.classList.add('hidden');
+
+      };
+
+      leftArrow2.onclick = function () {
+          btn1.classList.add('block-4__btn-active');
+          btn2.classList.remove('block-4__btn-active');
+          btn3.classList.remove('block-4__btn-active');
+          btn4.classList.remove('block-4__btn-active');
+          btn5.classList.remove('block-4__btn-active');
+          block4Img.classList.add('block-4__container-img1');
+          block4Img.classList.remove('block-4__container-img2');
+          block4Img.classList.remove('block-4__container-img3');
+          block4Img.classList.remove('block-4__container-img4');
+          block4Img.classList.remove('block-4__container-img5');
+
+          block4Cont.innerHTML = '<p><b>Atropinum sulfuricum</b> –  оказывает противовоспалительное действие при остром течении, снимает боль в горле при глотании, устраняет гиперемию и отек миндалин, уменьшает лихорадку³</p>';
+
+          counter1.classList.remove('hidden');
+          counter2.classList.add('hidden');
+          counter3.classList.add('hidden');
+          counter4.classList.add('hidden');
+          counter5.classList.add('hidden');
+      };
+
+      rightArrow2.onclick = function () {
+          btn3.classList.add('block-4__btn-active');
+          btn2.classList.remove('block-4__btn-active');
+          btn1.classList.remove('block-4__btn-active');
+          btn4.classList.remove('block-4__btn-active');
+          btn5.classList.remove('block-4__btn-active');
+          block4Img.classList.add('block-4__container-img3');
+          block4Img.classList.remove('block-4__container-img2');
+          block4Img.classList.remove('block-4__container-img1');
+          block4Img.classList.remove('block-4__container-img4');
+          block4Img.classList.remove('block-4__container-img5');
+
+          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  Снимает отек и воспаление носоглотки, устраняет ощущение жжения и раздражение. Способствует уменьшению гипертрофии миндалин³</p>';
+
+          counter3.classList.remove('hidden');
+          counter2.classList.add('hidden');
+          counter1.classList.add('hidden');
+          counter4.classList.add('hidden');
+          counter5.classList.add('hidden');
       };
 
       btn3.onclick = function() {
@@ -139,7 +233,55 @@
           block4Img.classList.remove('block-4__container-img5');
 
           block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  Снимает отек и воспаление носоглотки, устраняет ощущение жжения и раздражение. Способствует уменьшению гипертрофии миндалин³</p>';
-          counterNum.innerHTML = '<p>3 / 5</p>';
+
+          counter3.classList.remove('hidden');
+          counter2.classList.add('hidden');
+          counter1.classList.add('hidden');
+          counter4.classList.add('hidden');
+          counter5.classList.add('hidden');
+
+      };
+
+      leftArrow3.onclick = function () {
+          btn2.classList.add('block-4__btn-active');
+          btn1.classList.remove('block-4__btn-active');
+          btn3.classList.remove('block-4__btn-active');
+          btn4.classList.remove('block-4__btn-active');
+          btn5.classList.remove('block-4__btn-active');
+          block4Img.classList.add('block-4__container-img2');
+          block4Img.classList.remove('block-4__container-img1');
+          block4Img.classList.remove('block-4__container-img3');
+          block4Img.classList.remove('block-4__container-img4');
+          block4Img.classList.remove('block-4__container-img5');
+
+          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  –  Hepar sulfuris – оказывает противовоспалительное действие при хроническом течении. Способствует очищению лакун от патологического содержимого, заживлению нарывов.³</p>';
+
+          counter2.classList.remove('hidden');
+          counter1.classList.add('hidden');
+          counter3.classList.add('hidden');
+          counter4.classList.add('hidden');
+          counter5.classList.add('hidden');
+      };
+
+      rightArrow3.onclick = function () {
+          btn4.classList.add('block-4__btn-active');
+          btn2.classList.remove('block-4__btn-active');
+          btn3.classList.remove('block-4__btn-active');
+          btn1.classList.remove('block-4__btn-active');
+          btn5.classList.remove('block-4__btn-active');
+          block4Img.classList.add('block-4__container-img4');
+          block4Img.classList.remove('block-4__container-img2');
+          block4Img.classList.remove('block-4__container-img3');
+          block4Img.classList.remove('block-4__container-img1');
+          block4Img.classList.remove('block-4__container-img5');
+
+          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  –  Mercurius bijodatus – Снимает отек и воспаление лимфатических узлов, улучшает лимфодренаж, способствует очищению лакун, уменьшению гипертрофии миндалин.³</p>';
+
+          counter4.classList.remove('hidden');
+          counter2.classList.add('hidden');
+          counter3.classList.add('hidden');
+          counter1.classList.add('hidden');
+          counter5.classList.add('hidden');
       };
 
       btn4.onclick = function() {
@@ -155,7 +297,55 @@
           block4Img.classList.remove('block-4__container-img5');
 
           block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  –  Mercurius bijodatus – Снимает отек и воспаление лимфатических узлов, улучшает лимфодренаж, способствует очищению лакун, уменьшению гипертрофии миндалин.³</p>';
-          counterNum.innerHTML = '<p>4 / 5</p>';
+
+          counter4.classList.remove('hidden');
+          counter2.classList.add('hidden');
+          counter3.classList.add('hidden');
+          counter1.classList.add('hidden');
+          counter5.classList.add('hidden');
+
+      };
+
+      leftArrow4.onclick = function () {
+          btn3.classList.add('block-4__btn-active');
+          btn2.classList.remove('block-4__btn-active');
+          btn1.classList.remove('block-4__btn-active');
+          btn4.classList.remove('block-4__btn-active');
+          btn5.classList.remove('block-4__btn-active');
+          block4Img.classList.add('block-4__container-img3');
+          block4Img.classList.remove('block-4__container-img2');
+          block4Img.classList.remove('block-4__container-img1');
+          block4Img.classList.remove('block-4__container-img4');
+          block4Img.classList.remove('block-4__container-img5');
+
+          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  Снимает отек и воспаление носоглотки, устраняет ощущение жжения и раздражение. Способствует уменьшению гипертрофии миндалин³</p>';
+
+          counter3.classList.remove('hidden');
+          counter2.classList.add('hidden');
+          counter1.classList.add('hidden');
+          counter4.classList.add('hidden');
+          counter5.classList.add('hidden');
+      };
+
+      rightArrow4.onclick = function () {
+          btn5.classList.add('block-4__btn-active');
+          btn2.classList.remove('block-4__btn-active');
+          btn3.classList.remove('block-4__btn-active');
+          btn4.classList.remove('block-4__btn-active');
+          btn1.classList.remove('block-4__btn-active');
+          block4Img.classList.add('block-4__container-img5');
+          block4Img.classList.remove('block-4__container-img2');
+          block4Img.classList.remove('block-4__container-img3');
+          block4Img.classList.remove('block-4__container-img4');
+          block4Img.classList.remove('block-4__container-img1');
+
+          block4Cont.innerHTML = '<p><b>Silicea</b>  –  Silicea – Способствует укреплению сопротивляемости организма и улучшению местного иммунитета. Ускоряет выздоровление, восстанавливает миндалины и предупреждает повторные заболевания.³</p>';
+
+          counter5.classList.remove('hidden');
+          counter2.classList.add('hidden');
+          counter3.classList.add('hidden');
+          counter4.classList.add('hidden');
+          counter1.classList.add('hidden');
       };
 
       btn5.onclick = function() {
@@ -171,7 +361,34 @@
           block4Img.classList.remove('block-4__container-img1');
 
           block4Cont.innerHTML = '<p><b>Silicea</b>  –  Silicea – Способствует укреплению сопротивляемости организма и улучшению местного иммунитета. Ускоряет выздоровление, восстанавливает миндалины и предупреждает повторные заболевания.³</p>';
-          counterNum.innerHTML = '<p>5 / 5</p>';
+
+          counter5.classList.remove('hidden');
+          counter2.classList.add('hidden');
+          counter3.classList.add('hidden');
+          counter4.classList.add('hidden');
+          counter1.classList.add('hidden');
+
+      };
+
+      leftArrow5.onclick = function () {
+          btn4.classList.add('block-4__btn-active');
+          btn2.classList.remove('block-4__btn-active');
+          btn3.classList.remove('block-4__btn-active');
+          btn1.classList.remove('block-4__btn-active');
+          btn5.classList.remove('block-4__btn-active');
+          block4Img.classList.add('block-4__container-img4');
+          block4Img.classList.remove('block-4__container-img2');
+          block4Img.classList.remove('block-4__container-img3');
+          block4Img.classList.remove('block-4__container-img1');
+          block4Img.classList.remove('block-4__container-img5');
+
+          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  –  Mercurius bijodatus – Снимает отек и воспаление лимфатических узлов, улучшает лимфодренаж, способствует очищению лакун, уменьшению гипертрофии миндалин.³</p>';
+
+          counter4.classList.remove('hidden');
+          counter2.classList.add('hidden');
+          counter3.classList.add('hidden');
+          counter1.classList.add('hidden');
+          counter5.classList.add('hidden');
       };
 
 
