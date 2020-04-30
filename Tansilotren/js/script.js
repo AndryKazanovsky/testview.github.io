@@ -107,7 +107,7 @@
           block4Img.classList.remove('block-4__container-img5');
 
           block4Cont.innerHTML = '<p><b>Atropinum sulfuricum</b> –  оказывает противовоспалительное действие при остром течении, снимает боль в горле при глотании, устраняет гиперемию и отек миндалин, уменьшает лихорадку³</p>';
-          counterNum.innerHTML = '<p>2 / 5</p>';
+          counterNum.innerHTML = '<p>1 / 5</p>';
       };
 
       btn2.onclick = function() {
@@ -123,6 +123,7 @@
           block4Img.classList.remove('block-4__container-img5');
 
           block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  –  Hepar sulfuris – оказывает противовоспалительное действие при хроническом течении. Способствует очищению лакун от патологического содержимого, заживлению нарывов.³</p>';
+          counterNum.innerHTML = '<p>2 / 5</p>';
       };
 
       btn3.onclick = function() {
@@ -138,6 +139,7 @@
           block4Img.classList.remove('block-4__container-img5');
 
           block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  Снимает отек и воспаление носоглотки, устраняет ощущение жжения и раздражение. Способствует уменьшению гипертрофии миндалин³</p>';
+          counterNum.innerHTML = '<p>3 / 5</p>';
       };
 
       btn4.onclick = function() {
@@ -153,6 +155,7 @@
           block4Img.classList.remove('block-4__container-img5');
 
           block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  –  Mercurius bijodatus – Снимает отек и воспаление лимфатических узлов, улучшает лимфодренаж, способствует очищению лакун, уменьшению гипертрофии миндалин.³</p>';
+          counterNum.innerHTML = '<p>4 / 5</p>';
       };
 
       btn5.onclick = function() {
@@ -168,6 +171,7 @@
           block4Img.classList.remove('block-4__container-img1');
 
           block4Cont.innerHTML = '<p><b>Silicea</b>  –  Silicea – Способствует укреплению сопротивляемости организма и улучшению местного иммунитета. Ускоряет выздоровление, восстанавливает миндалины и предупреждает повторные заболевания.³</p>';
+          counterNum.innerHTML = '<p>5 / 5</p>';
       };
 
 
