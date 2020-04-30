@@ -893,7 +893,7 @@ h2 b {
   display: none;
   position: relative;
   top: 3px;
-  left: 9px;
+  left: 200px;
 
   z-index: 1;
 
@@ -1106,13 +1106,7 @@ h2 b {
     padding: 20px;
   }
 
-  .disclamer-tra .logos-container {
-    flex-direction: column;
-  }
 
-  .disclamer-tra__alpen {
-    margin-left: 155px;
-  }
 
   .block-5__text {
     max-width: 100%;
@@ -1261,4 +1255,33 @@ h2 b {
   /*  border-radius: 10px;*/
   /*  margin-left: 10px;*/
   /*}*/
+  #menuToggle {
+    left: 325px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #menuToggle {
+    left: 215px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #menuToggle {
+    position: relative;
+    top: 3px;
+    left: 12px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  .disclamer-tra .logos-container {
+    flex-direction: column;
+  }
+
+  .disclamer-tra__alpen {
+    margin-left: 155px;
+  }
 }
