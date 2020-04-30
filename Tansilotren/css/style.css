@@ -1277,7 +1277,7 @@ h2 b {
 @media screen and (max-width: 450px) {
   .test-img-mobile {
     /*width: 100%;*/
-    height: 400px;
+    height: 415px;
     position: relative;
     left: -20px;
     width: 100vw;
