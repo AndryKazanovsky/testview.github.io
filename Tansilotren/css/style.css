@@ -427,6 +427,10 @@ h2 b {
   margin-bottom: 100px;
 }
 
+.block-3 h1 {
+    margin-top: 100px;
+}
+
 .block-3_inner {
   display: flex;
   justify-content: space-between;
