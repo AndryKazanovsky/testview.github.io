@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -43,13 +41,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="1163" column="3" lean-forward="true" selection-start-line="1163" selection-start-column="3" selection-end-line="1163" selection-end-column="3" />
+            <state relative-caret-position="185">
+              <caret line="222" column="15" selection-start-line="222" selection-end-line="222" selection-end-column="15" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../AlphaPharmaceutical/css/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -81,11 +84,11 @@
       <find>.disclamer-warning</find>
       <find>.test-img-mobile</find>
       <find>test-img-mobile</find>
-      <find>.header-title p</find>
       <find>header-main-center</find>
       <find>h1</find>
       <find>.disclamer-tra p</find>
       <find>инфекциям</find>
+      <find>.header-title p</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,12 +180,12 @@
       <workItem from="1587556232309" duration="28665000" />
       <workItem from="1588066395120" duration="20203000" />
       <workItem from="1588241351651" duration="3168000" />
-      <workItem from="1588245349194" duration="9052000" />
+      <workItem from="1588245349194" duration="9186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102851000" />
+    <option name="totallyTimeSpent" value="102985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
@@ -257,10 +260,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="1163" column="3" lean-forward="true" selection-start-line="1163" selection-start-column="3" selection-end-line="1163" selection-end-column="3" />
+        <state relative-caret-position="185">
+          <caret line="222" column="15" selection-start-line="222" selection-end-line="222" selection-end-column="15" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlphaPharmaceutical/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
