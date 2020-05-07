@@ -954,11 +954,12 @@ html {
 }
 
 .disclamer-warning p {
-  font-size: 150px;
+  font-size: 70px;
   text-align: center;
   color: #8b8b8b;
   margin: 40px 10px;
-  font-family: 'Yanone Kaffeesatz';
+  /*font-family: 'Yanone Kaffeesatz';*/
+  font-weight: lighter;
 }
 /*/////disclamer-end*/
 
