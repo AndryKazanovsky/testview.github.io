@@ -622,6 +622,12 @@ form button {
 .footer-block2 {
   width: 30vw;
   border-right: 1px solid white;
+  color: white;
+  font-family: MFLgtregular;
+  padding: 0 20px;
+
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer-block3 {
@@ -1121,7 +1127,7 @@ form button {
   }
 
   .footer-block2 {
-    width: 10vw;
+    display: none;
   }
   .footer-block3 {
     display: none;

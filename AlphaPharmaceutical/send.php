@@ -23,5 +23,6 @@ if (mail($address, $sub, $mes, $from)) {
     echo 'ok';}
 else {
     header('Refresh: 5; URL=https://andrykazanovsky.github.io/testview.github.io/AlphaPharmaceutical/index.html');
+}
 
 ?>
