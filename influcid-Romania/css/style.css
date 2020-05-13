@@ -1330,6 +1330,7 @@ html {
   .block-2__image b {
     top: 94%;
     margin: auto;
+    padding: 0 10px;
   }
 
   .disclamer-tra ol li, .disclamer-tra p {
