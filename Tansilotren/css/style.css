@@ -84,7 +84,7 @@ div {
 
 .outer-navigation-container {
   width: 100vw;
-  z-index: 15;
+  z-index: 1005;
   background: white;
   position: fixed;
   display: flex;
