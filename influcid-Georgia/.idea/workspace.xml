@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="172947e9-b275-4719-a4cf-7aeb255c4585" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Tansilotren/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tansilotren/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="172947e9-b275-4719-a4cf-7aeb255c4585" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="1440" selection-start-line="1440" selection-start-column="2" selection-end-line="1445" selection-end-column="3" />
+            <state relative-caret-position="20">
+              <caret line="960" column="39" lean-forward="true" selection-start-line="960" selection-start-column="39" selection-end-line="960" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -37,7 +35,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.block-6</find>
       <find>.block-6__container-img</find>
       <find>#menuToggle</find>
       <find>.disclamer-tra__logo p</find>
@@ -67,6 +64,7 @@
       <find>body</find>
       <find>display: none</find>
       <find>где купить</find>
+      <find>disclamer-wa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,6 +120,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -167,12 +166,12 @@
       <workItem from="1583224477699" duration="10072000" />
       <workItem from="1583309477855" duration="1877000" />
       <workItem from="1583327367827" duration="276000" />
-      <workItem from="1589355195098" duration="2579000" />
+      <workItem from="1589355195098" duration="2815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31609000" />
+    <option name="totallyTimeSpent" value="31845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="723" extended-state="0" />
@@ -232,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="1440" selection-start-line="1440" selection-start-column="2" selection-end-line="1445" selection-end-column="3" />
+        <state relative-caret-position="20">
+          <caret line="960" column="39" lean-forward="true" selection-start-line="960" selection-start-column="39" selection-end-line="960" selection-end-column="39" />
         </state>
       </provider>
     </entry>
