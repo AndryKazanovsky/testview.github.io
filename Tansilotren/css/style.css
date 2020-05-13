@@ -84,13 +84,13 @@ div {
 
 .outer-navigation-container {
   width: 100vw;
+  z-index: 15;
   background: white;
   position: fixed;
   display: flex;
   justify-content: center;
   height: 50px;
   top: 0;
-  z-index: 1;
     -webkit-box-shadow: -1px 2px 5px 0px rgba(150,150,150,1);
     -moz-box-shadow: -1px 2px 5px 0px rgba(150,150,150,1);
     box-shadow: -1px 2px 5px 0px rgba(150,150,150,1);
@@ -487,6 +487,8 @@ h2 b {
   justify-content: space-between;
   width: 80vw;
   margin: auto;
+  position: relative;
+  z-index: 10;
 }
 
 .plate {
