@@ -79,6 +79,48 @@ body {
   pointer-events: none;
 }
 
+
+
+
+.apt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.apt-container a {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  background: url("../images/icon_03_apteki_MD.jpg") no-repeat;
+  background-position: center !important;
+  background-size: 80% !important;
+    background-color: white !important;
+    box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+}
+
+.apt-container a:nth-child(2) {
+  background: url("../images/icon_06_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(3) {
+  background: url("../images/icon_01_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(4) {
+  background: url("../images/icon_07_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(5) {
+  background: url("../images/icon_02_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(6) {
+  background: url("../images/icon_05_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(7) {
+  background: url("../images/icon_04_apteki_MD.jpg") no-repeat center / contain;
+}
+
 sup {font-size:xx-small; vertical-align:super;}
 
 /*@media (prefers-reduced-motion: no-preference) {*/
@@ -86,6 +128,9 @@ sup {font-size:xx-small; vertical-align:super;}
 /*    animation: App-logo-spin infinite 20s linear;*/
 /*  }*/
 /*}*/
+
+
+
 
 .logo {
   color: #43781f;
@@ -909,11 +954,12 @@ html {
 }
 
 .disclamer-warning p {
-  font-size: 150px;
+  font-size: 70px;
   text-align: center;
   color: #8b8b8b;
-  margin: 40px 0;
-  font-family: 'Yanone Kaffeesatz';
+  margin: 40px 10px;
+  /*font-family: 'Yanone Kaffeesatz';*/
+  font-weight: lighter;
 }
 /*/////disclamer-end*/
 
