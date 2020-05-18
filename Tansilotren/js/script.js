@@ -125,7 +125,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Atropinum sulfuricum</b> –  оказывает противовоспалительное действие при остром течении, снимает боль в горле при глотании, устраняет гиперемию и отек миндалин, уменьшает лихорадку³</p>';
+          block4Cont.innerHTML = '<p><b>Atropinum sulfuricum</b> – has an anti-inflammatory effect in case of acute course of disease, relieves sore throat when swallowing, eliminates hyperemia and edema of the tonsils, reduces fever³</p>';
 
           counter1.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -147,7 +147,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  –  Hepar sulfuris – оказывает противовоспалительное действие при хроническом течении. Способствует очищению лакун от патологического содержимого, заживлению нарывов.³</p>';
+          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  – has an anti-inflammatory effect in case of acute course of disease. It helps to clear lacunae from pathological contents, to heal abscesses³</p>';
 
           counter2.classList.remove('hidden');
           counter1.classList.add('hidden');
@@ -168,7 +168,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  –  Hepar sulfuris – оказывает противовоспалительное действие при хроническом течении. Способствует очищению лакун от патологического содержимого, заживлению нарывов.³</p>';
+          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  – has an anti-inflammatory effect in case of acute course of disease. It helps to clear lacunae from pathological contents, to heal abscesses³</p>';
 
           counter2.classList.remove('hidden');
           counter1.classList.add('hidden');
@@ -190,7 +190,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Atropinum sulfuricum</b> –  оказывает противовоспалительное действие при остром течении, снимает боль в горле при глотании, устраняет гиперемию и отек миндалин, уменьшает лихорадку³</p>';
+          block4Cont.innerHTML = '<p><b>Atropinum sulfuricum</b> – has an anti-inflammatory effect in case of acute course of disease, relieves sore throat when swallowing, eliminates hyperemia and edema of the tonsils, reduces fever³</p>';
 
           counter1.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -211,7 +211,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  Снимает отек и воспаление носоглотки, устраняет ощущение жжения и раздражение. Способствует уменьшению гипертрофии миндалин³</p>';
+          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  relieves swelling and inflammation of the nasopharynx, eliminates burning sensation and irritation. It helps to reduce tonsil hypertrophy³</p>';
 
           counter3.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -232,7 +232,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  Снимает отек и воспаление носоглотки, устраняет ощущение жжения и раздражение. Способствует уменьшению гипертрофии миндалин³</p>';
+          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  relieves swelling and inflammation of the nasopharynx, eliminates burning sensation and irritation. It helps to reduce tonsil hypertrophy³</p>';
 
           counter3.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -254,7 +254,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  –  Hepar sulfuris – оказывает противовоспалительное действие при хроническом течении. Способствует очищению лакун от патологического содержимого, заживлению нарывов.³</p>';
+          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  – has an anti-inflammatory effect in case of acute course of disease. It helps to clear lacunae from pathological contents, to heal abscesses³</p>';
 
           counter2.classList.remove('hidden');
           counter1.classList.add('hidden');
@@ -275,7 +275,7 @@
           block4Img.classList.remove('block-4__container-img1');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  –  Mercurius bijodatus – Снимает отек и воспаление лимфатических узлов, улучшает лимфодренаж, способствует очищению лакун, уменьшению гипертрофии миндалин.³</p>';
+          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  – relieves edema and inflammation of the lymph nodes, improves lymphatic drainage, helps to clear lacunae and reduce tonsil hypertrophy³</p>';
 
           counter4.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -296,7 +296,7 @@
           block4Img.classList.remove('block-4__container-img1');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  –  Mercurius bijodatus – Снимает отек и воспаление лимфатических узлов, улучшает лимфодренаж, способствует очищению лакун, уменьшению гипертрофии миндалин.³</p>';
+          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  –  relieves edema and inflammation of the lymph nodes, improves lymphatic drainage, helps to clear lacunae and reduce tonsil hypertrophy³</p>';
 
           counter4.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -318,7 +318,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  Снимает отек и воспаление носоглотки, устраняет ощущение жжения и раздражение. Способствует уменьшению гипертрофии миндалин³</p>';
+          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  relieves swelling and inflammation of the nasopharynx, eliminates burning sensation and irritation. It helps to reduce tonsil hypertrophy³</p>';
 
           counter3.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -339,7 +339,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img1');
 
-          block4Cont.innerHTML = '<p><b>Silicea</b>  –  Silicea – Способствует укреплению сопротивляемости организма и улучшению местного иммунитета. Ускоряет выздоровление, восстанавливает миндалины и предупреждает повторные заболевания.³</p>';
+          block4Cont.innerHTML = '<p><b>Silicea</b>  – helps to strengthen the body\'s resistance and improves local immunity. It has a long-lasting effect, accelerates healing and recovery³</p>';
 
           counter5.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -360,7 +360,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img1');
 
-          block4Cont.innerHTML = '<p><b>Silicea</b>  –  Silicea – Способствует укреплению сопротивляемости организма и улучшению местного иммунитета. Ускоряет выздоровление, восстанавливает миндалины и предупреждает повторные заболевания.³</p>';
+          block4Cont.innerHTML = '<p><b>Silicea</b>  – helps to strengthen the body\'s resistance and improves local immunity. It has a long-lasting effect, accelerates healing and recovery³</p>';
 
           counter5.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -382,7 +382,7 @@
           block4Img.classList.remove('block-4__container-img1');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  –  Mercurius bijodatus – Снимает отек и воспаление лимфатических узлов, улучшает лимфодренаж, способствует очищению лакун, уменьшению гипертрофии миндалин.³</p>';
+          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b> – relieves edema and inflammation of the lymph nodes, improves lymphatic drainage, helps to clear lacunae and reduce tonsil hypertrophy³</p>';
 
           counter4.classList.remove('hidden');
           counter2.classList.add('hidden');

@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="7160">
               <caret line="358" column="39" selection-start-line="358" selection-start-column="39" selection-end-line="358" selection-end-column="39" />
             </state>
           </provider>
@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
-              <caret line="1396" lean-forward="true" selection-start-line="1396" selection-end-line="1396" />
+              <caret line="1396" selection-start-line="1396" selection-end-line="1396" />
             </state>
           </provider>
         </entry>
@@ -98,7 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +114,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,11 +154,12 @@
       <workItem from="1581943671371" duration="1124000" />
       <workItem from="1582030245626" duration="402000" />
       <workItem from="1589371706284" duration="1742000" />
+      <workItem from="1589817615523" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20073000" />
+    <option name="totallyTimeSpent" value="20097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
@@ -190,7 +191,7 @@
     <entry file="file://$PROJECT_DIR$/index-ru.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="7160">
           <caret line="358" column="39" selection-start-line="358" selection-start-column="39" selection-end-line="358" selection-end-column="39" />
         </state>
       </provider>
@@ -198,7 +199,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
-          <caret line="1396" lean-forward="true" selection-start-line="1396" selection-end-line="1396" />
+          <caret line="1396" selection-start-line="1396" selection-end-line="1396" />
         </state>
       </provider>
     </entry>

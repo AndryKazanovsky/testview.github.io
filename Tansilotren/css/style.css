@@ -502,6 +502,7 @@ h2 b {
   font-size: 18px;
   line-height: 20px;
   color: #a00067;
+  text-align: center;
 }
 
 .plate p {
@@ -868,6 +869,10 @@ h2 b {
 }
 
 
+.header-title-en b {
+  font-size: 40px;
+}
+
 
 .popup__content {
   z-index: 10;
@@ -1129,6 +1134,7 @@ h2 b {
   #menuToggle {
     display: block;
   }
+
 
   #menu li a {
     font-size: 20px;
