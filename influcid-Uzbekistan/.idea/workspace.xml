@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="172947e9-b275-4719-a4cf-7aeb255c4585" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../influcid-Georgia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../influcid-Georgia/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="172947e9-b275-4719-a4cf-7aeb255c4585" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="1389" selection-start-line="1389" selection-start-column="2" selection-end-line="1394" selection-end-column="3" />
+            <state relative-caret-position="359">
+              <caret line="1396" lean-forward="true" selection-start-line="1396" selection-end-line="1396" />
             </state>
           </provider>
         </entry>
@@ -120,6 +118,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -154,16 +153,15 @@
       <workItem from="1580128737652" duration="874000" />
       <workItem from="1581943671371" duration="1124000" />
       <workItem from="1582030245626" duration="402000" />
-      <workItem from="1589371706284" duration="1474000" />
+      <workItem from="1589371706284" duration="1742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19805000" />
+    <option name="totallyTimeSpent" value="20073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -199,8 +197,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="1389" selection-start-line="1389" selection-start-column="2" selection-end-line="1394" selection-end-column="3" />
+        <state relative-caret-position="359">
+          <caret line="1396" lean-forward="true" selection-start-line="1396" selection-end-line="1396" />
         </state>
       </provider>
     </entry>
