@@ -109,6 +109,10 @@ div {
   margin-right: 255px;
 }
 
+.logo-container-en {
+  background: url("../images/Tonsilotren_LogoRGB_en.svg")  no-repeat center / contain !important;
+}
+
 .where-to-buy {
   background-color: #a00067;
   color: white !important;
@@ -504,6 +508,8 @@ h2 b {
   color: #a00067;
   text-align: center;
 }
+
+
 
 .plate p {
   margin: 25px 0;
