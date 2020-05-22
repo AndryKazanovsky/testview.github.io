@@ -164,6 +164,10 @@ div {
   background: url('../images/instruction.svg') no-repeat center / contain;
 }
 
+.instruction-en {
+  background: url('../images/instructionEN.svg') no-repeat center / contain; 
+}
+
 .instruction p {
   position: relative;
   left: -4px;
@@ -191,6 +195,10 @@ div {
   margin-left: 50px;
   display: flex;
   align-items: center;
+}
+
+.header-main-center p b {
+  color: #e10f5c;
 }
 
 .header-main-center p::before {
