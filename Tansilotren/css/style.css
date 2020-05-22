@@ -468,6 +468,10 @@ h2 b {
 
 }
 
+.block-4__container {
+  padding-bottom: 100px;
+}
+
 .block-4__container-content p {
   font-family: 'HNL';
   /*color: #a1a1a1;*/
@@ -522,10 +526,12 @@ h2 b {
 
 .block-3 {
   margin-bottom: 100px;
+  background-color: #F8F9FA;
+  padding: 50px 0;
 }
 
 .block-3 h1 {
-    margin-top: 100px;
+    margin-top: 50px;
     font-family: 'HNB';
 }
 
