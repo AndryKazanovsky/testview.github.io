@@ -294,6 +294,10 @@ div {
   justify-content: center;
 }
 
+.block-4-h2 {
+  margin-bottom: 50px !important;
+}
+
 .block-2__plate {
   height: 130px;
   width: 130px;
