@@ -742,6 +742,9 @@ sup {
 .block-6__container:nth-child(3) .block-6__container-img {
   background: url('../images/post2.jpg') center / cover;
 }
+.block-6__container:nth-child(5) .block-6__container-img {
+  background: url('../images/Depositphotos_368075976_xl-2015.jpg') center / cover;
+}
 
 .block-6__container-img {
   width: 100vw;
