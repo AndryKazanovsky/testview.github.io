@@ -925,6 +925,7 @@ html {
 
 .disclamer-warning p {
   font-size: 150px;
+  text-transform: uppercase;
   text-align: center;
   color: #8b8b8b;
   margin: 40px 0;
