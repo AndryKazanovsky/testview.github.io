@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../influcid-Moldova/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../influcid-Moldova/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="384" column="195" selection-start-line="384" selection-start-column="195" selection-end-line="384" selection-end-column="195" />
+            <state relative-caret-position="104">
+              <caret line="409" column="14" lean-forward="true" selection-start-line="409" selection-start-column="14" selection-end-line="409" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -191,16 +189,15 @@
       <workItem from="1589290702996" duration="1215000" />
       <workItem from="1589817641089" duration="8291000" />
       <workItem from="1591182951160" duration="101000" />
-      <workItem from="1592220050418" duration="4763000" />
+      <workItem from="1592220050418" duration="4968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119601000" />
+    <option name="totallyTimeSpent" value="119806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.12549643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -293,8 +290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="384" column="195" selection-start-line="384" selection-start-column="195" selection-end-line="384" selection-end-column="195" />
+        <state relative-caret-position="104">
+          <caret line="409" column="14" lean-forward="true" selection-start-line="409" selection-start-column="14" selection-end-line="409" selection-end-column="14" />
         </state>
       </provider>
     </entry>
