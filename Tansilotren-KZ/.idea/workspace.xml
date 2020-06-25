@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Georgia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tansilotren-Georgia/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,17 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10842">
-              <caret line="559" column="23" lean-forward="true" selection-start-line="559" selection-start-column="23" selection-end-line="559" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6820">
-              <caret line="341" column="234" selection-start-line="341" selection-start-column="234" selection-end-line="341" selection-end-column="234" />
+            <state relative-caret-position="215">
+              <caret line="543" selection-start-line="543" selection-end-line="543" />
             </state>
           </provider>
         </entry>
@@ -104,12 +95,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="Tansilotren-Georgia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tansilotren-Georgia" type="462c0819:PsiDirectoryNode" />
+              <item name="Tansilotren-KZ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tansilotren-KZ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Tansilotren-Georgia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tansilotren-Georgia" type="462c0819:PsiDirectoryNode" />
+              <item name="Tansilotren-KZ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tansilotren-KZ" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -162,16 +153,17 @@
       <workItem from="1589817641089" duration="8291000" />
       <workItem from="1591182951160" duration="101000" />
       <workItem from="1592220050418" duration="4968000" />
-      <workItem from="1592923299000" duration="5362000" />
-      <workItem from="1593094533950" duration="88000" />
+      <workItem from="1592923261421" duration="36000" />
+      <workItem from="1593094624059" duration="3608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125256000" />
+    <option name="totallyTimeSpent" value="123450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.12549643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -230,29 +222,29 @@
     <entry file="file://$PROJECT_DIR$/index-en.html" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="544">
           <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index-ru.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
+        <state relative-caret-position="544">
           <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10842">
-          <caret line="559" column="23" lean-forward="true" selection-start-line="559" selection-start-column="23" selection-end-line="559" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6820">
-          <caret line="341" column="234" selection-start-line="341" selection-start-column="234" selection-end-line="341" selection-end-column="234" />
+        <state relative-caret-position="-602">
+          <caret line="362" column="233" selection-start-line="362" selection-start-column="233" selection-end-line="362" selection-end-column="233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="543" selection-start-line="543" selection-end-line="543" />
         </state>
       </provider>
     </entry>
