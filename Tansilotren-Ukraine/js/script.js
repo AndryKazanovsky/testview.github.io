@@ -211,7 +211,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  знімає набряк і запалення носоглотки, усуває відчуття печіння та подразнення. Сприяє зменшенню гіпертрофії мигдаликів³</p>';
+          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  знімає набряк і запалення носоглотки, усуває відчуття печіння та подразнення. Сприяє зменшенню збільшених мигдаликів³</p>';
 
           counter3.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -232,7 +232,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  знімає набряк і запалення носоглотки, усуває відчуття печіння та подразнення. Сприяє зменшенню гіпертрофії мигдаликів³</p>';
+          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  знімає набряк і запалення носоглотки, усуває відчуття печіння та подразнення. Сприяє зменшенню збільшених мигдаликів³</p>';
 
           counter3.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -275,7 +275,7 @@
           block4Img.classList.remove('block-4__container-img1');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  – знімає набряк і запалення лімфатичних вузлів, покращує лімфодренаж, сприяє очищенню мигдаликів, зменшенню гіпертрофії мигдаликів³</p>';
+          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  – знімає набряк і запалення лімфатичних вузлів, покращує лімфодренаж, сприяє очищенню мигдаликів, зменшенню збільшених мигдаликів³</p>';
 
           counter4.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -296,7 +296,7 @@
           block4Img.classList.remove('block-4__container-img1');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  – знімає набряк і запалення лімфатичних вузлів, покращує лімфодренаж, сприяє очищенню мигдаликів, зменшенню гіпертрофії мигдаликів³</p>';
+          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  – знімає набряк і запалення лімфатичних вузлів, покращує лімфодренаж, сприяє очищенню мигдаликів, зменшенню збільшених мигдаликів³</p>';
 
           counter4.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -318,7 +318,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  знімає набряк і запалення носоглотки, усуває відчуття печіння та подразнення. Сприяє зменшенню гіпертрофії мигдаликів³</p>';
+          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  знімає набряк і запалення носоглотки, усуває відчуття печіння та подразнення. Сприяє зменшенню збільшених мигдаликів³</p>';
 
           counter3.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -382,7 +382,7 @@
           block4Img.classList.remove('block-4__container-img1');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  – знімає набряк і запалення лімфатичних вузлів, покращує лімфодренаж, сприяє очищенню мигдаликів, зменшенню гіпертрофії мигдаликів³</p>';
+          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  – знімає набряк і запалення лімфатичних вузлів, покращує лімфодренаж, сприяє очищенню мигдаликів, зменшенню збільшених мигдаликів³</p>';
 
           counter4.classList.remove('hidden');
           counter2.classList.add('hidden');
