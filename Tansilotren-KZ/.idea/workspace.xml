@@ -15,17 +15,7 @@
     <favorites_list name="Tansilotren" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="543" column="30" lean-forward="true" selection-start-line="543" selection-start-column="30" selection-end-line="543" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -89,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,7 +96,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,11 +143,12 @@
       <workItem from="1592220050418" duration="4968000" />
       <workItem from="1592923261421" duration="36000" />
       <workItem from="1593094624059" duration="3930000" />
+      <workItem from="1593522156084" duration="352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123772000" />
+    <option name="totallyTimeSpent" value="124124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
@@ -240,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="543" column="30" lean-forward="true" selection-start-line="543" selection-start-column="30" selection-end-line="543" selection-end-column="30" />
+        <state relative-caret-position="163">
+          <caret line="569" lean-forward="true" selection-start-line="569" selection-end-line="569" />
         </state>
       </provider>
     </entry>
