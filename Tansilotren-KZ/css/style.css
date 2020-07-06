@@ -579,6 +579,7 @@ h2 b {
   text-align: center;
   font-family: 'HNL';
   line-height: 20px;
+  min-height: 100px;
 }
 
 .plate b {

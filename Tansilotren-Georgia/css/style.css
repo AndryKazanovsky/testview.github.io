@@ -159,23 +159,32 @@ div {
   top: 80px;
   left: 20px;
   width: 80px;
-  height: 80px;
+  height: 60px;
   z-index: 15;
-  background: url('../images/instruction.svg') no-repeat center / contain;
+  background: url('../images/instruction.png') no-repeat center / contain;
 }
 
 .instruction-en {
+  width: 80px;
+  height: 80px;
   background: url('../images/instructionEN.svg') no-repeat center / contain; 
 }
 
 .instruction p {
   position: relative;
-  left: -4px;
+  left: 10px;
   top: 75px;
   font-size: 13px;
-  color: black;
+  color: #a00067;
   background-color: transparent;
 }
+
+
+
+
+
+
+
 
 .header-main-center {
   margin-top: 0;
@@ -1140,8 +1149,8 @@ h2 b {
     left: 5px;
   }
   .instruction p {
-    left: -10px;
-    top: 35px;
+    left: 10px;
+    top: 45px;
     font-size: 9px;
   }
 
