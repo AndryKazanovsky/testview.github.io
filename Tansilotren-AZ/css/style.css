@@ -170,7 +170,7 @@ div {
 
 .instruction p {
   position: relative;
-  left: 6px;
+  left: 15px;
   top: 75px;
   font-size: 13px;
   color: #a00067;
@@ -1144,6 +1144,10 @@ h2 b {
     display: none;
   }
 
+  .header-title b {
+    font-size: 50px;
+  }
+
   .instruction {
     height: 40px;
     width: 60px;
@@ -1151,7 +1155,7 @@ h2 b {
     left: 5px;
   }
   .instruction p {
-    left: 5px;
+    left: 15px;
     top: 45px;
     font-size: 9px;
   }
