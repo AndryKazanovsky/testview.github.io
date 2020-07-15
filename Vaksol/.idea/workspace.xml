@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Tansilotren-BY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tansilotren-BY/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="387">
               <caret line="1565" column="12" selection-start-line="1565" selection-start-column="12" selection-end-line="1565" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="190" column="33" selection-start-line="190" selection-start-column="33" selection-end-line="190" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -76,8 +85,8 @@
       <find>#menuToggle span</find>
       <find>#menuToggle</find>
       <find>header-custom</find>
-      <find>1024</find>
       <find>як попере</find>
+      <find>1024</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,6 +103,7 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/../index.html" />
       </list>
     </option>
   </component>
@@ -179,12 +189,12 @@
       <workItem from="1593094624059" duration="3930000" />
       <workItem from="1593522156084" duration="354000" />
       <workItem from="1594269562799" duration="113000" />
-      <workItem from="1594623852617" duration="22779000" />
+      <workItem from="1594623852617" duration="22910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147018000" />
+    <option name="totallyTimeSpent" value="147149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
@@ -272,6 +282,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="1565" column="12" selection-start-line="1565" selection-start-column="12" selection-end-line="1565" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="190" column="33" selection-start-line="190" selection-start-column="33" selection-end-line="190" selection-end-column="33" />
         </state>
       </provider>
     </entry>
