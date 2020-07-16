@@ -1561,6 +1561,10 @@ h2 b {
     padding-bottom: 0;
   }
 
+  .accordion:after {
+    width: 22px;
+  }
+
   .care-text h4 {
     display: none;
   }
