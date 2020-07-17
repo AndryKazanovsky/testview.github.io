@@ -76,7 +76,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   margin: auto;
-  max-width: 1920px;
+  /*max-width: 1920px;*/
   padding: 0;
   font-family: sans-serif;
 }
