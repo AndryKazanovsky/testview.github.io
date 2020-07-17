@@ -1053,6 +1053,27 @@ h2 b {
   transition: 0.5s;
 }
 
+/*.accordion:after:hover {
+	opacity: 1;
+  transition: 0.5s;
+  background: url("../images/Vector 1.png") no-repeat center/contain;
+}*/
+
+
+.factors-mob {
+	display: none;
+	color: white;
+	background-color: #133A87;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 11px;
+line-height: 11px;
+font-family: 'RR';
+text-transform: uppercase;
+margin-top: 15px;
+max-width: 100px;
+}
+
 .active-acc:after {
   transition: 0.5s;
   transform: rotate(45deg);
@@ -1569,6 +1590,9 @@ h2 b {
     display: none;
   }
 
+.factors-mob {
+	display: block;
+}
   .header-custom {
     background: url(../images/fon_photo-mob.jpg) no-repeat center / cover;
     height: 50vh;
