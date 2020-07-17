@@ -211,6 +211,14 @@ h4 b {
   left: -45px;
 }
 
+
+.puppet {
+	position: absolute;
+	height: 100vh;
+	margin-top: -7vh;
+	/*width: 100vw*/
+}
+
 .reasons-left_text {
   max-width: 370px;
   margin-left: 40%;
