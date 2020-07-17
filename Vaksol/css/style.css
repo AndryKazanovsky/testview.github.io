@@ -1040,9 +1040,9 @@ h2 b {
   /*background-color: #8b8b8b;*/
 }
 
-.accordion:after {
+.accordion::after {
   content: '';
-  background: url("../images/Vector 1.png") no-repeat center/contain;
+  background: url("../images/Vector 1.svg") no-repeat center/contain;
   width: 30px;
   height: 30px;
   color: black;
@@ -1053,11 +1053,9 @@ h2 b {
   transition: 0.5s;
 }
 
-/*.accordion:after:hover {
-	opacity: 1;
-  transition: 0.5s;
-  background: url("../images/Vector 1.png") no-repeat center/contain;
-}*/
+.accordion:hover::after {
+  background: url("../images/hover_button_plus.svg") no-repeat center/contain;
+}
 
 
 .factors-mob {
@@ -1067,17 +1065,20 @@ h2 b {
 	border-radius: 5px;
 	padding: 5px;
 	font-size: 11px;
-line-height: 11px;
-font-family: 'RR';
-text-transform: uppercase;
-margin-top: 15px;
-max-width: 100px;
+    line-height: 11px;
+    font-family: 'RR';
+    text-transform: uppercase;
+    margin-top: 15px;
+    max-width: 100px;
 }
 
 .active-acc:after {
   transition: 0.5s;
   transform: rotate(45deg);
 }
+
+
+
 .active-nav {
   color: #133A87 !important;
   background-color: white !important;
