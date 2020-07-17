@@ -339,6 +339,9 @@ h4 b {
   color: #133A87;
   text-decoration: underline;
 }
+.lang-dop {
+	margin-right: 5px !important;
+}
 
 .factors-hide:hover {
   opacity: 1;
