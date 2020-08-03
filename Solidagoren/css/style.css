@@ -304,6 +304,7 @@ h4 b {
   width: 220px;
   letter-spacing: 1px;
   margin-bottom: 80px;
+  max-height: 70px;
 }
 
 .diet_btn:nth-child(2) {
@@ -318,6 +319,8 @@ h4 b {
   overflow: scroll;
   z-index: 2;
   display: flex;
+  overflow-y: hidden;
+    overflow-x: hidden;
   justify-content: flex-end;
 }
 
