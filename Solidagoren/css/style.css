@@ -290,6 +290,7 @@ h4 b {
 
 .diet-btn-container {
   display: flex;
+  position: relative;
 }
 
 .diet_btn {
@@ -310,8 +311,9 @@ h4 b {
 .diet_btn:nth-child(2) {
   background: white;
   border: 1px solid #E1B400;
-  margin-left: 50px;
   color: #E1B400;
+  position: absolute;
+  left: 300px;
 }
 
 .story-container {
@@ -710,15 +712,15 @@ h5 b {
   /*border-radius: 30px;*/
   /*color: black;*/
   cursor: pointer;
-  padding: 20px 0 !important;
-  background-color: white;
+  /*padding: 20px 0 !important;*/
+  /*background-color: white;*/
   /*color: #A00067;*/
   /*padding: 16px;*/
   /*width: 65%;*/
   /*border: none;*/
   /*text-align: left;*/
   outline: none;
-  font-size: 20px;
+  /*font-size: 20px;*/
   transition: 0.5s;
   /*-webkit-box-shadow: -1px 4px 5px 0px rgba(224, 224, 224, 1);*/
   /*-moz-box-shadow: -1px 4px 5px 0px rgba(224, 224, 224, 1);*/
@@ -742,7 +744,7 @@ h5 b {
   /*background-color: #8b8b8b;*/
 }
 
-.accordion::after {
+/*.accordion::after {
   content: '';
   background: url("../images/Vector 1.svg") no-repeat center/contain;
   width: 30px;
@@ -757,7 +759,7 @@ h5 b {
 
 .accordion:hover::after {
   background: url("../images/hover_button_plus.svg") no-repeat center/contain;
-}
+}*/
 
 
 
