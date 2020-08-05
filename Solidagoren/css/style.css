@@ -263,10 +263,13 @@ h4 b {
 
 .story-text {
   width: 50%;
-  max-height: 600px;
+  /*max-height: 600px;*/
   padding: 50px 0;
 
 }
+
+
+
 
 .diet-container {
   padding-left: 110px;
@@ -396,7 +399,7 @@ h5 b {
 }
 
 .stories-block-2 p {
-  text-transform: capitalize;
+  text-transform: inherit;
 }
 
 .woman-ps_img-mob {
@@ -421,6 +424,9 @@ h5 b {
   background: url("../images/product-center.png") no-repeat center / contain;
 }
 
+.header-custom-ru {
+  background: url("../images/main01_Solidagoren_International_desctop_RU_1920x768px.jpg") no-repeat center / cover !important;
+}
 
 .map-text {
   font-family: 'RL';
@@ -491,6 +497,21 @@ h5 b {
   text-transform: uppercase;
 }
 
+
+.story-photo1-ru {
+  background: url("../images/polaroid_photo_story_01_RU.jpg") no-repeat center / contain;
+}
+.story-photo-2-ru {
+  background: url("../images/polaroid_photo_story_02_RU.jpg") no-repeat center / contain;
+}
+.story-photo-3-ru {
+  background: url("../images/polaroid_photo_story_03_RU.jpg") no-repeat center / contain;
+}
+.story-photo-4-ru {
+  background: url("../images/polaroid_photo_story_04_RU.jpg") no-repeat center / contain;
+}
+
+
 /*puppet for ancor*/
 
 .puppet {
@@ -505,6 +526,93 @@ h5 b {
 .custom-mob {
   display: none;
 }
+
+
+.stiky {
+	position: fixed;
+  top: 70px;
+}
+
+.unstiky {
+  position: absolute;
+  top: 390px;
+}
+
+.test1 {
+  margin-top: 240px;
+}
+.test1end {
+      position: absolute;
+    bottom: 300px;
+}
+
+
+
+
+
+.stiky2 {
+  position: fixed;
+  top: 70px;
+}
+
+.unstiky2 {
+  position: absolute;
+  top: 1050px;
+}
+
+.test2 {
+  margin-top: 240px;
+}
+.test2end {
+      position: absolute;
+    bottom: 300px;
+}
+
+
+.stiky3 {
+  position: fixed;
+  top: 70px;
+}
+
+.unstiky3 {
+  position: absolute;
+  top: 390px;
+}
+
+.test3 {
+  margin-top: 240px;
+}
+.test3end {
+      position: absolute;
+    bottom: 300px;
+}
+
+
+.stiky4 {
+  position: fixed;
+  top: 70px;
+}
+
+.unstiky4 {
+  position: absolute;
+  top: 400px;
+}
+
+.test4 {
+  margin-top: 240px;
+}
+.test4end {
+      position: absolute;
+    bottom: 300px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -1221,6 +1329,13 @@ h5 b {
     margin: 50px 0;
   }
 
+
+  .header-custom-ru {
+  background: url("../images/main01_Solidagoren_International_desctop_RU_1920x768px.jpg") no-repeat !important;
+  background-size: cover !important;
+  background-position: 70% !important;
+}
+
   .block-1_main-text h4 {
     font-size: 42px;
     line-height: 52px;
@@ -1253,6 +1368,24 @@ h5 b {
   .story-text {
     width: 100%;
     padding: 0;
+    max-height: none !important;
+  }
+
+  .story-container {
+  	    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  h4 {
+  	font-size: 35px !important;
+  }
+
+  .diet-title {
+  	margin-bottom: 100px;
+  }
+  .diet_btn:nth-child(2) {
+  	left: 0; 
+    top: -75px;
   }
 
   .story-text_subtext {
@@ -1314,6 +1447,99 @@ h5 b {
     margin-bottom: 30px;
   }
 
+
+
+.stiky {
+  width: 100%;
+    height: 350px;
+    position: relative;
+    margin-bottom: 30px;
+    top: auto;
+}
+
+.unstiky {
+  width: 100%;
+    height: 350px;
+    position: relative;
+    margin-bottom: 30px;
+    top: auto;
+}
+
+.test1 {
+  margin-top: 0;
+}
+
+
+
+
+
+
+.stiky2 {
+  width: 100%;
+    height: 350px;
+    position: relative;
+    margin-bottom: 30px;
+    top: auto;
+}
+
+.unstiky2 {
+  width: 100%;
+    height: 350px;
+    position: relative;
+    margin-bottom: 30px;
+    top: auto;
+}
+
+.test2 {
+  margin-top: 0;
+}
+
+.stiky3 {
+  width: 100%;
+    height: 350px;
+    position: relative;
+    margin-bottom: 30px;
+    top: auto;
+}
+
+.unstiky3 {
+  width: 100%;
+    height: 350px;
+    position: relative;
+    margin-bottom: 30px;
+    top: auto;
+}
+
+.test3 {
+  margin-top: 0;
+}
+
+.stiky4 {
+  width: 100%;
+    height: 350px;
+    position: relative;
+    margin-bottom: 30px;
+    top: auto;
+}
+
+.unstiky4 {
+  width: 100%;
+    height: 350px;
+    position: relative;
+    margin-bottom: 30px;
+    top: auto;
+}
+
+.test4 {
+  margin-top: 0;
+}
+
+
+
+
+
+
+
   .yellow-text {
     padding: 20px 20px;
   }
@@ -1369,7 +1595,7 @@ h5 b {
   }
 
   .custom-mob b {
-    font-size: 42px;
+    font-size: 38px;
     line-height: 56px;
     font-family: 'MB';
 

@@ -18,6 +18,37 @@
     }
 
 
+    var controller = new ScrollMagic.Controller();
+
+    var scene1 = new ScrollMagic.Scene({
+      triggerElement: '.test1',
+    }).setClassToggle('.story-photo1', 'stiky').addTo(controller);
+    var scene1end = new ScrollMagic.Scene({
+      triggerElement: '.test1end',
+    }).setClassToggle('.story-photo1', 'unstiky').addTo(controller);
+
+    var scene2 = new ScrollMagic.Scene({
+      triggerElement: '.test2',
+    }).setClassToggle('.story-photo-2', 'stiky2').addTo(controller);
+    var scene1end = new ScrollMagic.Scene({
+      triggerElement: '.test2end',
+    }).setClassToggle('.story-photo-2', 'unstiky2').addTo(controller);
+
+    var scene3 = new ScrollMagic.Scene({
+      triggerElement: '.test3',
+    }).setClassToggle('.story-photo-3', 'stiky3').addTo(controller);
+    var scene1end = new ScrollMagic.Scene({
+      triggerElement: '.test3end',
+    }).setClassToggle('.story-photo-3', 'unstiky3').addTo(controller);
+
+    var scene4 = new ScrollMagic.Scene({
+      triggerElement: '.test4',
+    }).setClassToggle('.story-photo-4', 'stiky4').addTo(controller);
+    var scene1end = new ScrollMagic.Scene({
+      triggerElement: '.test4end',
+    }).setClassToggle('.story-photo-4', 'unstiky4').addTo(controller);
+
+
 
 
 
