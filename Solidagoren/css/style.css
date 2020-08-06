@@ -265,14 +265,11 @@ h4 b {
   width: 50%;
   /*max-height: 600px;*/
   padding: 50px 0;
-
 }
 
 
-
-
 .diet-container {
-  padding-left: 110px;
+  padding-left: 70px;
 }
 
 .diet-subtitle {
@@ -351,7 +348,7 @@ h4 b {
 
 
 .story-text_subtext {
-  padding-left: 110px;
+  padding-left: 70px;
   font-family: 'RL';
 }
 
@@ -483,6 +480,7 @@ h5 b {
   font-family: 'RL';
   margin-bottom: 30px;
   font-size: 18px;
+  text-transform: initial;
 }
 
 .story-text_subtext p b {
@@ -1252,7 +1250,7 @@ h5 b {
  */
 #menuToggle input:checked ~ span {
   opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
+  transform: rotate(45deg) translate(-4px, -1px);
   background: #232323;
 }
 
@@ -1279,7 +1277,7 @@ h5 b {
 #menu {
   position: absolute;
   right: -40px;
-  width: 300px;
+  width: 110vw;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -1341,6 +1339,10 @@ h5 b {
     line-height: 52px;
   }
 
+  .story-text_subtext p:nth-child(2) {
+      font-size: 17px;
+  }
+
   .klein-mob {
     display: block;
   }
@@ -1393,11 +1395,12 @@ h5 b {
   }
 
   .stories-block {
-    margin: 100px 0;
+    margin: 70px 0;
   }
 
   .product-center {
     height: 200px;
+    margin-bottom: 70px;
   }
 
   .diet-container {
