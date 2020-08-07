@@ -198,7 +198,13 @@ h4 b {
 .block-1_simptoms-img {
   width: 350px;
   height: 400px;
-  background: url("../images/frame-text.png") no-repeat top / contain;
+  background: url("../images/frame_simptom_UA (1).svg") no-repeat top / contain;
+}
+
+.block-1_simptoms-img-ru {
+  width: 350px;
+  height: 400px;
+  background: url("../images/frame_simptom_RU (2).svg") no-repeat top / contain;
 }
 
 .block-1_simptoms-text {
