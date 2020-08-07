@@ -161,6 +161,10 @@ h4 b {
   font-family: 'RBl', sans-serif;
 }
 
+.story-text_subtext ul {
+  padding-left: 20px;
+}
+
 
 .block-1 {
   max-width: 1920px;
@@ -283,6 +287,12 @@ h4 b {
   font-family: 'RL';
   font-size: 20px;
   line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.story1 .story-text_subtext li {
+  font-family: 'RR';
+  margin-bottom: 10px;
 }
 
 .diet-title {
