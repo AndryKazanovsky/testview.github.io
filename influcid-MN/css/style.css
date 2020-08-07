@@ -547,7 +547,9 @@ sup {font-size:xx-small; vertical-align:super;}
   height: 100px;
   background: url("../images/pill8.png") no-repeat center / contain;
 }
-
+.pill2 {
+  background: url("../images/pill2cop.png") no-repeat center / contain;
+}
 .pill3 {
   background: url("../images/pill3.png") no-repeat center / contain;
 }
