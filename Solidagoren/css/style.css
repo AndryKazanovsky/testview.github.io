@@ -655,7 +655,7 @@ h5 b {
 }
 
 .logo-container {
-  background: url('../images/logo.svg') no-repeat center / contain;
+  background: url('../images/logo_ua.svg') no-repeat center / contain;
   width: 100px;
   height: 20px;
   display: block;
@@ -663,6 +663,10 @@ h5 b {
   margin-left: 20px;
   position: absolute;
     left: 0px;
+}
+
+.logo-container-ru {
+  background: url('../images/logo.svg') no-repeat center / contain;
 }
 
 .logo-container-en {
