@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-ru.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="1084" lean-forward="true" selection-start-line="1084" selection-end-line="1084" />
+            <state relative-caret-position="420">
+              <caret line="1259" column="17" selection-start-line="1259" selection-start-column="17" selection-end-line="1259" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -67,8 +66,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>disclamer-tra__klein</find>
-      <find>klein</find>
       <find>name</find>
       <find>diet_btn</find>
       <find>navigation-container</find>
@@ -97,6 +94,8 @@
       <find>active</find>
       <find>active-nav</find>
       <find>.where-to-buy-mob</find>
+      <find>.block-1_container</find>
+      <find>block-2_plate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -197,12 +196,12 @@
       <workItem from="1597154645631" duration="5097000" />
       <workItem from="1597311289566" duration="11770000" />
       <workItem from="1597478484194" duration="5126000" />
-      <workItem from="1597612321094" duration="3730000" />
+      <workItem from="1597612321094" duration="5826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204284000" />
+    <option name="totallyTimeSpent" value="206380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -320,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="1084" lean-forward="true" selection-start-line="1084" selection-end-line="1084" />
+        <state relative-caret-position="420">
+          <caret line="1259" column="17" selection-start-line="1259" selection-start-column="17" selection-end-line="1259" selection-end-column="17" />
         </state>
       </provider>
     </entry>
