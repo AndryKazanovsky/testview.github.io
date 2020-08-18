@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,15 +24,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+            <state relative-caret-position="353">
+              <caret line="335" column="5" selection-start-line="335" selection-start-column="5" selection-end-line="335" selection-end-column="5" />
               <folding>
-                <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,26 +41,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index-ru.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="285" column="67" selection-start-line="285" selection-start-column="67" selection-end-line="285" selection-end-column="67" />
+            <state relative-caret-position="90">
+              <caret line="306" column="2" selection-start-line="306" selection-start-column="2" selection-end-line="306" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="1259" column="17" selection-start-line="1259" selection-start-column="17" selection-end-line="1259" selection-end-column="17" />
+            <state relative-caret-position="-421">
+              <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="51" />
+            <state relative-caret-position="344">
+              <caret line="1257" column="39" selection-start-line="1257" selection-start-column="39" selection-end-line="1257" selection-end-column="39" />
+              <folding>
+                <element signature="e#19800#19990#2" expanded="true" />
+                <element signature="e#20048#20238#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,14 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>name</find>
-      <find>diet_btn</find>
-      <find>navigation-container</find>
-      <find>.where-to-buy</find>
-      <find>p</find>
-      <find>.header-title .header-title_subtext</find>
-      <find>.navigation-container</find>
-      <find>header-ti</find>
       <find>.active-nav</find>
       <find>header-custom</find>
       <find>outer</find>
@@ -92,10 +91,18 @@
       <find>.block-4_plate-horisontal</find>
       <find>.disclamer-warning p</find>
       <find>active</find>
-      <find>active-nav</find>
       <find>.where-to-buy-mob</find>
-      <find>.block-1_container</find>
       <find>block-2_plate</find>
+      <find>menu</find>
+      <find>block-1_reasons</find>
+      <find>human-2</find>
+      <find>.black-title</find>
+      <find>.block-1_container</find>
+      <find>black-title</find>
+      <find>1024</find>
+      <find>slider</find>
+      <find>.block-3_container</find>
+      <find>active-nav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,10 +116,10 @@
         <option value="$PROJECT_DIR$/js/script-en.js" />
         <option value="$PROJECT_DIR$/index-en.html" />
         <option value="$PROJECT_DIR$/../index.html" />
-        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index-ru.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -133,6 +140,11 @@
             <path>
               <item name="gastritol-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="gastritol-new" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gastritol-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gastritol-new" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,12 +208,12 @@
       <workItem from="1597154645631" duration="5097000" />
       <workItem from="1597311289566" duration="11770000" />
       <workItem from="1597478484194" duration="5126000" />
-      <workItem from="1597612321094" duration="5826000" />
+      <workItem from="1597612321094" duration="12995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206380000" />
+    <option name="totallyTimeSpent" value="213549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -288,39 +300,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="51" />
+        <state relative-caret-position="344">
+          <caret line="1257" column="39" selection-start-line="1257" selection-start-column="39" selection-end-line="1257" selection-end-column="39" />
+          <folding>
+            <element signature="e#19800#19990#2" expanded="true" />
+            <element signature="e#20048#20238#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+        <state relative-caret-position="353">
+          <caret line="335" column="5" selection-start-line="335" selection-start-column="5" selection-end-line="335" selection-end-column="5" />
           <folding>
-            <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index-ru.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="285" column="67" selection-start-line="285" selection-start-column="67" selection-end-line="285" selection-end-column="67" />
+        <state relative-caret-position="90">
+          <caret line="306" column="2" selection-start-line="306" selection-start-column="2" selection-end-line="306" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="1259" column="17" selection-start-line="1259" selection-start-column="17" selection-end-line="1259" selection-end-column="17" />
+        <state relative-caret-position="-421">
+          <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
         </state>
       </provider>
     </entry>
