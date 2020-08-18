@@ -1249,22 +1249,22 @@ div {
 
 .slider-img-1 {
   width: 100%;
-  height: 600px;
+  height: 400px;
   background: url("../images/fon_photo1.jpg")no-repeat center/contain;
 }
 .slider-img-2 {
   width: 100%;
-  height: 600px;
+  height: 400px;
   background: url("../images/fon_photo2.jpg")no-repeat center/contain;
 }
 .slider-img-3 {
   width: 100%;
-  height: 600px;
+  height: 400px;
   background: url("../images/fon_photo3.jpg")no-repeat center/contain;
 }
 .slider-img-4 {
   width: 100%;
-  height: 600px;
+  height: 400px;
   background: url("../images/fon_photo4.jpg")no-repeat center/contain;
 }
 
@@ -1304,7 +1304,8 @@ div {
     display: block;
     background-color: #030406;
     /*background: url(../images/fon_photo1.jpg) no-repeat center / cover;*/
-    height: 80vh;
+    height: 450px;
+    padding-top: 50px;
   }
 
   .black-title_mob {
