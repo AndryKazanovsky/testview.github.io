@@ -537,6 +537,7 @@ div {
   height: 720px;
   width: 50%;
   background: url("../images/photo_04.png")no-repeat center/contain;
+  margin-top: 30px;
 }
 
 .block-4_subtext {
@@ -1331,6 +1332,7 @@ div {
 
 .human-4_ru {
   background: url("../images/person_hi_08_RU_590x780px.png") no-repeat center/contain;
+  margin-top: 30px;
 }
 
 .human-2_mob-ru {
