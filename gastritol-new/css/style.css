@@ -294,7 +294,7 @@ div {
 }
 .block-1_reasons:nth-child(4)::before {
   content: '3.';
-  top: -15px;
+  top: -25px;
 }
 .block-1_reasons:nth-child(5)::before {
   content: '4.';

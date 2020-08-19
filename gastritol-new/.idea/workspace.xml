@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="310" column="18" selection-start-line="310" selection-start-column="18" selection-end-line="310" selection-end-column="18" />
+            <state relative-caret-position="213">
+              <caret line="296" column="9" selection-start-line="296" selection-start-column="9" selection-end-line="296" selection-end-column="9" />
               <folding>
                 <element signature="e#19800#19990#2" expanded="true" />
                 <element signature="e#20048#20238#2" expanded="true" />
@@ -205,12 +205,12 @@
       <workItem from="1597154645631" duration="5097000" />
       <workItem from="1597311289566" duration="11770000" />
       <workItem from="1597478484194" duration="5126000" />
-      <workItem from="1597612321094" duration="15496000" />
+      <workItem from="1597612321094" duration="15568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216050000" />
+    <option name="totallyTimeSpent" value="216122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -328,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="310" column="18" selection-start-line="310" selection-start-column="18" selection-end-line="310" selection-end-column="18" />
+        <state relative-caret-position="213">
+          <caret line="296" column="9" selection-start-line="296" selection-start-column="9" selection-end-line="296" selection-end-column="9" />
           <folding>
             <element signature="e#19800#19990#2" expanded="true" />
             <element signature="e#20048#20238#2" expanded="true" />
