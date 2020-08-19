@@ -1367,6 +1367,10 @@ div {
     display: none;
   }
 
+  .block-5_container {
+    background: none;
+  }
+
   .slider {
     display: block;
     background-color: #030406;
@@ -1544,6 +1548,7 @@ div {
 
   .block-5_btn-img {
     width: 100%;
+    margin-bottom: 30px;
   }
 
   .block-5_btn {
@@ -1606,7 +1611,7 @@ div {
   }
 
   .block-5_btn {
-    margin-top: 80px;
+    margin-top: 0;
   }
 
   .block-5_btn a {
