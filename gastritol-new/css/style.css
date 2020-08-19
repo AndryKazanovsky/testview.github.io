@@ -711,7 +711,7 @@ div {
   text-align: center;
   text-transform: uppercase;
   color: #C90A4C;
-  width: 250px;
+  width: 240px;
   height: 50px;
   background: url("../images/border (2).svg")no-repeat center/contain;
 }
@@ -734,7 +734,7 @@ div {
 }
 
 .block-5_num strong {
-  font-size: 120px;
+  font-size: 140px;
   font-family: 'MeB';
   line-height: 150px;
   text-align: center;
@@ -752,7 +752,8 @@ div {
 }
 
 .block-5_num p {
-  font-size: 14px;
+  font-size: 16px;
+  font-family: 'RR';
   line-height: 10px;
   text-align: center;
   color: #0A1318;
@@ -760,7 +761,7 @@ div {
 
 
 .map-text p {
-  font-size: 34px;
+  font-size: 36px;
   font-family: 'MB';
   line-height: 42px;
   text-align: center;
