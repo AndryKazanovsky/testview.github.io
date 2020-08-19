@@ -572,6 +572,7 @@ div {
 
 .block-4_plate b {
   font-size: 20px;
+  font-family: 'RB';
   line-height: 24px;
   text-align: center;
   color: #E47100;
@@ -580,6 +581,7 @@ div {
 }
 .block-4_plate p {
   font-size: 16px;
+  font-family: 'RR';
   line-height: 18px;
 
   text-align: center;
