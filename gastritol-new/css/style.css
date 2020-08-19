@@ -1318,19 +1318,19 @@ div {
 }
 
 .human-1_ru {
-  background: url("../images/person_hi_09_RU_590x780px.png") no-repeat center/cover;
+  background: url("../images/person_hi_09_RU_590x780px.png") no-repeat center/contain;
 }
 
 .human-2_ru {
-  background: url("../images/person_hi_06_RU_590x780px.png") no-repeat center/cover;
+  background: url("../images/person_hi_06_RU_590x780px.png") no-repeat center/contain;
 }
 
 .human-3_ru {
-  background: url("../images/person_hi_07_RU_590x780px.png") no-repeat center/cover;
+  background: url("../images/person_hi_07_RU_590x780px.png") no-repeat center/contain;
 }
 
 .human-4_ru {
-  background: url("../images/person_hi_08_RU_590x780px.png") no-repeat center/cover;
+  background: url("../images/person_hi_08_RU_590x780px.png") no-repeat center/contain;
 }
 
 .human-2_mob-ru {
