@@ -878,10 +878,10 @@ div {
 }
 
 .header-title_product {
-  width: 350px;
+  width: 330px;
   height: 150px;
   margin-top: 5vh;
-  margin-left: -30px;
+  margin-left: 0px;
 
   background: url("../images/product.png") no-repeat center/contain;
 }
@@ -976,7 +976,7 @@ div {
   align-items: center;
 }
 .dt1 {
-  max-width: 58%;
+  max-width: 46%;
   font-size: 14px;
   line-height: 18px;
   font-family: 'RL';
