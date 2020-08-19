@@ -680,7 +680,7 @@ div {
   display: flex;
   max-width: 65%;
   margin-top: 60px;
-  margin-right: 85px;
+  margin-right: 45px;
 }
 
 .block-5_btn p {
@@ -1015,6 +1015,7 @@ div {
 
 .disclamer-tra__klein p {
   margin: 25px -50px;
+  width: 300px;
 }
 
 .disclamer-tra__inner {
