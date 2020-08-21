@@ -2,31 +2,33 @@
 
 @font-face {
   font-family: 'HNB';
-  src: url('../fonts/HelveticaNeueCyr-Black.ttf');
+  src: url('../fonts/Roboto-Black.ttf');
   font-style: normal;
   /*font-weight: 400;*/
 }
 
 @font-face {
   font-family: 'HNL';
-  src: url('../fonts/HelveticaNeueCyr-Light.ttf');
+  src: url('../fonts/Roboto-Light.ttf');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'HNC';
-  src: url('../fonts/HelveticaNeueCyr-Medium.ttf');
+  src: url('../fonts/Roboto-Medium.ttf');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'HNT';
-  src: url('../fonts/HelveticaNeueCyr-Thin.ttf');
+  src: url('../fonts/Roboto-Thin.ttf');
   font-style: normal;
   font-weight: 400;
 }
+
+
 
 
 
