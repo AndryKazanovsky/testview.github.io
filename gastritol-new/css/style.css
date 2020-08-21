@@ -595,6 +595,13 @@ div {
   background: url("../images/icon_children.svg")no-repeat center/contain;
 }
 
+.block-4_plate-img-grown {
+  width: 130px;
+  height: 130px;
+  margin: 20px 0;
+  background: url("../images/icon_grown.svg")no-repeat center/contain;
+}
+
 
 .block-4_plate-horisontal {
   display: flex;
