@@ -251,6 +251,7 @@ div {
 
 .header-title {
   margin-left: 6vw;
+  max-width: 80vw;
 }
 
 .test-test {
