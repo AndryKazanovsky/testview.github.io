@@ -123,6 +123,16 @@ div {
   border-radius: 10px;
 }
 
+.where-to-buy__bottom {
+  background-color: #a00067;
+    color: white !important;
+    font-size: 30px !important;
+    line-height: 10px !important;
+    font-weight: bold;
+    padding: 20px 40px !important;
+    border-radius: 10px;
+}
+
 .where-to-buy-mob {
   display: none;
 }
