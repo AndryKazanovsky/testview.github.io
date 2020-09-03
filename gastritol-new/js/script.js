@@ -202,6 +202,19 @@
       //     }
       // })();
 
+      // (function(){
+
+      //   const menuLi = document.querySelectorAll('.menuLi');
+      //   const menu = document.querySelector('#menu');
+
+      //   for (var i = 0; i < menuLi.length; i++) {
+      //   menuLi[i].addEventListener("click", function(){
+      //       menu.classList.add('active-li');
+      //       // this.classList.add('active-li');
+      //   })
+      // }
+      // })
+
 
     (function() {
 

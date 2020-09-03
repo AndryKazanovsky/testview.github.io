@@ -804,13 +804,13 @@ h2 b {
 }
 
 .block-5__plate:nth-child(4) .block-5__img {
-  background: url('../images/div_01.png') no-repeat center / contain !important;
+  background: url('../images/div_01_BY.jpg') no-repeat center / contain !important;
 }
 .block-5__plate:nth-child(5) .block-5__img {
   background: url('../images/div_02 (1).png') no-repeat center / contain !important;
 }
 .block-5__plate:nth-child(7) .block-5__img {
-  background: url('../images/div_01 (1).png') no-repeat center / contain !important;
+  background: url('../images/div_01_BY.jpg') no-repeat center / contain !important;
 }
 .block-5__plate:nth-child(9) .block-5__img {
   background: url('../images/div_02 (2).png') no-repeat center / contain !important;
@@ -1406,13 +1406,13 @@ h2 b {
     background: url('../images/div_02.png') no-repeat center / contain !important;
   }
   .mob2 .test-img-mobile {
-    background: url('../images/div_01.png') no-repeat center / contain !important;
+    background: url('../images/div_01_BY.jpg') no-repeat center / contain !important;
   }
   .mob3 .test-img-mobile {
     background: url('../images/div_02 (1).png') no-repeat center / contain !important;
   }
   .mob4 .test-img-mobile {
-    background: url('../images/div_01 (1).png') no-repeat center / contain !important;
+    background: url('../images/div_01_BY.jpg') no-repeat center / contain !important;
   }
   .mob5 .test-img-mobile {
     background: url('../images/div_02 (2).png') no-repeat center / contain !important;
