@@ -297,7 +297,7 @@ div {
 
 .header-block-2 {
   display: flex;
-  margin: -60px 0 150px;
+  margin: -60px 0 50px;
   justify-content: center;
 }
 
@@ -1233,8 +1233,8 @@ h2 b {
   }
 
   .disclamer-warning p {
-    font-size: 35px;
-    /*line-height: 70px;*/
+    font-size: 25px;
+    line-height: 40px;
   }
 
   .block-5__img {
@@ -1289,7 +1289,7 @@ h2 b {
     display: block;
     width: 360px;
     height: 300px;
-    background: url('../images/pack_left_tonzilotren_tiny_400x400px 1 — copy.png') no-repeat center / contain;
+    background: url('../images/pack_left_tonzilotren_tiny_400x400px 2.png') no-repeat center / contain;
   }
 
   .header-main-img-mobile {
@@ -1456,7 +1456,7 @@ h2 b {
     user-select: none;
   }
   .disclamer-tra .logos-container {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .disclamer-tra__alpen {

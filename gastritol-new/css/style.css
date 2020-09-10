@@ -1187,6 +1187,18 @@ div {
 }
 
 
+#menuToggle .input-li {
+  position: absolute;
+  top: 130px;
+  left: 40px;
+  width: 200px;
+}
+
+/*#menuToggle input:checked ~ ul {*/
+/*  */
+/*}*/
+
+
 /*.active-li {
   transform: translate(100%, 0);
 }*/
