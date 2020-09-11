@@ -264,6 +264,11 @@ div {
   max-width: 60vw;
 }
 
+
+.bottom-plate-text {
+  text-align: center;
+}
+
 .test-test {
   position: relative;
   top: 200px
@@ -605,16 +610,16 @@ h2 b {
 .plate-img {
   width: 220px;
   height: 220px;
-  background: url('../images/Ellipse 6.png') no-repeat center / contain;
+  background: url('../images/Ellipse 6 (2).png') no-repeat center / contain;
   margin-bottom: 30px;
 }
 
-.plate:nth-child(3) .plate-img {
+/*.plate:nth-child(3) .plate-img {
   background: url('../images/Ellipse 6 (1).png') no-repeat center / contain;
-}
+}*/
 
-.plate:nth-child(4) .plate-img {
-  background: url('../images/Ellipse 6 (2).png') no-repeat center / contain;
+.plate:nth-child(1) .plate-img {
+  background: url('../images/Ellipse 6 (1).png') no-repeat center / contain;
 }
 
 /*.accordion {*/
