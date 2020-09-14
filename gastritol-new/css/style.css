@@ -121,8 +121,12 @@ div {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 90px;
   font-family: 'RR';
+}
+
+.header-title-ru {
+  font-size: 40px !important;
 }
 
 .header-title .header-title_subtext b {
@@ -887,7 +891,7 @@ div {
 .header-title_product {
   width: 330px;
   height: 150px;
-  margin-top: 5vh;
+  margin-top: 15vh;
   margin-left: 0px;
 
   background: url("../images/product.png") no-repeat center/contain;
