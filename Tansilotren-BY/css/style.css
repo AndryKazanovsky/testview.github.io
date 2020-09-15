@@ -1307,7 +1307,7 @@ h2 b {
     display: block;
     width: 360px;
     height: 300px;
-    background: url('../images/pack_left_tonzilotren_tiny_400x400px 1 — copy.png') no-repeat center / contain;
+    background: url('../images/top_pack_left_tonzilotren_BY_332x284px.png') no-repeat center / contain;
   }
 
   .header-main-img-mobile {
@@ -1336,6 +1336,10 @@ h2 b {
 
   .block-4__container-content {
     max-width: 100%;
+  }
+
+  .block-4__container {
+    padding-bottom: 0;
   }
 
   .block-4__subcontainer {
