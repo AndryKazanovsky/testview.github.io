@@ -946,8 +946,9 @@ h5 b {
 }
 
 .panel b {
-  color: #a00067;
+  color: #E1B400;
   font-family: 'RR';
+  text-transform: uppercase;
 }
 
 .panel-after {
