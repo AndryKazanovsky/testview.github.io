@@ -598,6 +598,50 @@ h2 b {
   background: url('../images/Ellipse 6 (2).png') no-repeat center / contain;
 }
 
+
+
+
+
+
+.apt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.apt-container a {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  background: url("../images/icon_03_apteki_MD.jpg") no-repeat;
+  background-position: center !important;
+  background-size: 80% !important;
+    background-color: white !important;
+    box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+}
+
+.apt-container a:nth-child(2) {
+  background: url("../images/icon_06_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(3) {
+  background: url("../images/icon_01_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(4) {
+  background: url("../images/icon_07_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(5) {
+  background: url("../images/icon_02_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(6) {
+  background: url("../images/icon_05_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(7) {
+  background: url("../images/icon_04_apteki_MD.jpg") no-repeat center / contain;
+}
+
 /*.accordion {*/
 /*  display: none;*/
 /*}*/
