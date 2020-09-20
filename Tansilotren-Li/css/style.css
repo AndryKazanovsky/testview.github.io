@@ -2,28 +2,28 @@
 
 @font-face {
   font-family: 'HNB';
-  src: url('../fonts/HelveticaNeueCyr-Black.ttf');
+  src: url('../fonts/Roboto-Black.ttf');
   font-style: normal;
   /*font-weight: 400;*/
 }
 
 @font-face {
   font-family: 'HNL';
-  src: url('../fonts/HelveticaNeueCyr-Light.ttf');
+  src: url('../fonts/Roboto-Light.ttf');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'HNC';
-  src: url('../fonts/HelveticaNeueCyr-Medium.ttf');
+  src: url('../fonts/Roboto-Medium.ttf');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'HNT';
-  src: url('../fonts/HelveticaNeueCyr-Thin.ttf');
+  src: url('../fonts/Roboto-Thin.ttf');
   font-style: normal;
   font-weight: 400;
 }
@@ -787,10 +787,10 @@ h2 b {
 .block-5__plate:nth-child(5) .block-5__img {
   background: url('../images/div_02 (1).png') no-repeat center / contain !important;
 }
-.block-5__plate:nth-child(6) .block-5__img {
+.block-5__plate:nth-child(9) .block-5__img {
   background: url('../images/div_01 (1).png') no-repeat center / contain !important;
 }
-.block-5__plate:nth-child(9) .block-5__img {
+.block-5__plate:nth-child(11) .block-5__img {
   background: url('../images/div_02 (2).png') no-repeat center / contain !important;
 }
 
