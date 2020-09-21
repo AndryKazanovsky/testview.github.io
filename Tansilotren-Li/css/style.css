@@ -158,7 +158,7 @@ div {
   position: fixed;
   top: 80px;
   left: 20px;
-  width: 80px;
+  width: 70px;
   height: 60px;
   z-index: 15;
   background: url('../images/instruction.svg') no-repeat center / contain;
