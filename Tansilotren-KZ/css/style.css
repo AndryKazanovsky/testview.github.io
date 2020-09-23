@@ -1151,6 +1151,10 @@ h2 b {
     display: none;
   }
 
+  .block-4__container {
+    padding-bottom: 0;
+  }
+
   .instruction {
     height: 40px;
     width: 60px;
@@ -1330,7 +1334,7 @@ h2 b {
   }
 
   .block-interactive-inner {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
   }
 
   .header-title {
