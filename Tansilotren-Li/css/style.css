@@ -279,7 +279,7 @@ div {
 .header-main-product-img {
   width: 332px;
   height: 284px;
-  background: url('../images/pack_left_tonzilotren_tiny_400x400px 1.svg')
+  background: url('../images/top-pack.png')
     no-repeat center / contain;
 }
 
@@ -460,7 +460,7 @@ h2 b {
 .block-interactive-inner__img {
   width: 30%;
   height: 265px;
-  background: url('../images/pack_left_tonzilotren_tiny_400x400px 2.png')
+  background: url('../images/center-pack.png')
     no-repeat center / contain;
 }
 
@@ -1192,6 +1192,7 @@ h2 b {
 
   .header-block-2 {
     flex-wrap: wrap;
+    margin-bottom: 50px;
   }
   .block-2__plate {
     margin-bottom: 80px;
@@ -1276,7 +1277,7 @@ h2 b {
     display: block;
     width: 360px;
     height: 300px;
-    background: url('../images/pack_left_tonzilotren_tiny_400x400px 1 — copy.png') no-repeat center / contain;
+    background: url('../images/center-pack.png') no-repeat center / contain;
   }
 
   .header-main-img-mobile {
