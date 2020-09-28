@@ -297,7 +297,7 @@ div {
 
 .header-block-2 {
   display: flex;
-  margin: -60px 0 50px;
+  margin: -60px 0 150px;
   justify-content: center;
 }
 
@@ -1208,6 +1208,7 @@ h2 b {
   }
 
   .header-block-2 {
+    margin-bottom: 50px;
     flex-wrap: wrap;
   }
   .block-2__plate {
