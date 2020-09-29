@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Moldova/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tansilotren-Moldova/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10842">
-              <caret line="559" column="23" lean-forward="true" selection-start-line="559" selection-start-column="23" selection-end-line="559" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="483" column="24" lean-forward="true" selection-start-line="483" selection-start-column="24" selection-end-line="483" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -40,8 +41,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.logo-container</find>
-      <find>where-to-buy-mob</find>
       <find>cursor</find>
       <find>рекомендаци</find>
       <find>#block-1</find>
@@ -70,6 +69,8 @@
       <find>instruction</find>
       <find>block-2</find>
       <find>Atropinum sulfuricum</find>
+      <find>ბავშვებში ქრონიკული</find>
+      <find>განსაკუთრებით მაღალი</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="723" />
@@ -164,14 +165,16 @@
       <workItem from="1592220050418" duration="4968000" />
       <workItem from="1592923299000" duration="5362000" />
       <workItem from="1593094533950" duration="88000" />
+      <workItem from="1601387355293" duration="149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125256000" />
+    <option name="totallyTimeSpent" value="125405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="723" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="723" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.12549643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -244,8 +247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10842">
-          <caret line="559" column="23" lean-forward="true" selection-start-line="559" selection-start-column="23" selection-end-line="559" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="483" column="24" lean-forward="true" selection-start-line="483" selection-start-column="24" selection-end-line="483" selection-end-column="24" />
         </state>
       </provider>
     </entry>
