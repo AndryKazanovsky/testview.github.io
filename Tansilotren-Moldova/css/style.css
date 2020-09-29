@@ -842,7 +842,7 @@ h2 b {
 }
 
 .map-text {
-  margin: 70px 0;
+  /*margin: 70px 0;*/
   font-size: 14px;
   line-height: 18px;
   color: #828282;
