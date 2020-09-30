@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe36a395-07c8-424c-86e5-5092bf6f1457" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom1.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom1_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom1_ru.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom2.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom2_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom2_ru.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom3.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom3_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom3_ru.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom4.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom4_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom4_ru.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom5.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom6.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom6_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom6_ru.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom7.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symptom7_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/symptom7_ru.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tansilotren-Li/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Tansilotren-Li/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tansilotren-Li/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../influcid-Georgia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../influcid-Georgia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_ru.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -134,11 +117,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/symptom4_ru.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
               <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="134" column="29" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index_ru.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -163,6 +180,7 @@
       <find>header-custom__text</find>
       <find>h2</find>
       <find>.header-custom__text h2</find>
+      <find>краси</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,7 +191,6 @@
       <list>
         <option value="$PROJECT_DIR$/symptom5_ru.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index_ru.html" />
         <option value="$PROJECT_DIR$/symptom5.html" />
         <option value="$PROJECT_DIR$/symptom6.html" />
         <option value="$PROJECT_DIR$/symptom6_ru.html" />
@@ -188,6 +205,7 @@
         <option value="$PROJECT_DIR$/symptom3_ru.html" />
         <option value="$PROJECT_DIR$/symptom4.html" />
         <option value="$PROJECT_DIR$/symptom4_ru.html" />
+        <option value="$PROJECT_DIR$/index_ru.html" />
       </list>
     </option>
   </component>
@@ -264,12 +282,12 @@
       <workItem from="1587040637931" duration="1106000" />
       <workItem from="1600762492707" duration="42000" />
       <workItem from="1601384257268" duration="1801000" />
-      <workItem from="1601472912678" duration="836000" />
+      <workItem from="1601472912678" duration="1073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3785000" />
+    <option name="totallyTimeSpent" value="4022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="721" extended-state="0" />
@@ -298,21 +316,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index_ru.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="146" column="13" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/symptom5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -392,21 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="88" column="58" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="130" column="83" selection-start-line="130" selection-start-column="83" selection-end-line="130" selection-end-column="83" />
           <folding>
             <element signature="n#style#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -534,6 +522,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="134" column="29" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#map#0;n#body#0;n#html#0;n#!!top" expanded="true" />
