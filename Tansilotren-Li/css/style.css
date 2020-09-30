@@ -527,6 +527,35 @@ h2 b {
   display: none !important;
 }
 
+
+
+.apt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.apt-container a {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  background: url("../images/icon_01_apteki_LT.jpg") no-repeat;
+  background-position: center !important;
+  background-size: 80% !important;
+  background-color: white !important;
+  box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+}
+
+.apt-container a:nth-child(2) {
+  background: url("../images/icon_02_apteki_LT.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(3) {
+  background: url("../images/icon_03_apteki_LT.jpg") no-repeat center / contain;
+}
+
 .block-4-inner {
   width: 60vw;
   margin: auto;

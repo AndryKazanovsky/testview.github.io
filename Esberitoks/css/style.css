@@ -181,6 +181,7 @@ map h2 {
 .header-custom__text {
   display: flex;
   height: 100vh;
+  max-width: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -195,18 +196,19 @@ map h2 {
   padding: 0;
   color: #cd356b;
   font-size: 48px;
+  line-height: 55px;
 }
 .header-custom__text p {
   text-align: left;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 30px;
+  line-height: 33px;
   font-weight: 700;
   color: #1e8243;
   width: 80%;
   margin: 10px;
 }
 .header-custom__img {
-  height: 45vh;
+  height: 40vh;
   width: 40vw;
   background: url(../images/product.png) no-repeat 50% / contain;
 }
