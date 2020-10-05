@@ -781,6 +781,7 @@ button {
   .mob-img-cont {
     width: 336px;
     position: absolute;
+    right: 0;
     height: 450px;
     background: url('../images/1.png') no-repeat center / contain;
 }
@@ -974,19 +975,41 @@ button {
   }
 
 
-@media screen and (max-width: 450px) {
+/*@media screen and (max-width: 450px) {*/
 
 
 
-  #menuToggle {
-    position: relative;
-    top: 1px;
-    left: -5px;
+/*  #menuToggle {*/
+/*    position: relative;*/
+/*    top: 1px;*/
+/*    left: -5px;*/
 
-    z-index: 1;
+/*    z-index: 1;*/
 
-    -webkit-user-select: none;
-    user-select: none;
+/*    -webkit-user-select: none;*/
+/*    user-select: none;*/
+/*  }*/
+
+/*}*/
+
+
+  @media screen and (max-width: 414px) {
+    #menuToggle {
+      left: 40px;
+  }
+    .strange-lang {
+      left: 120px;
+      top: 12px;
+  }
   }
 
-}
+
+  @media screen and (max-width: 375px) {
+    #menuToggle {
+      left: 0px;
+    }
+    .strange-lang {
+      left: 80px;
+      top: 12px;
+    }
+  }
