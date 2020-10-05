@@ -53,27 +53,31 @@
       // }
       // })
 
-    console.log("1111");
 
     (function() {
-      const inpt = document.getElementsByClassName(".this-inpt");
-      const menu1 = document.getElementsByClassName(".menuLi1");
+      const inpt = document.querySelector(".this-inpt");
+      const menu1 = document.querySelector(".menuLi1");
       console.log(menu1);
-      const menu2 = document.getElementsByClassName(".menuLi2");
-      const menu3 = document.getElementsByClassName(".menuLi3");
+      const menu2 = document.querySelector(".menuLi2");
+      const menu3 = document.querySelector(".menuLi3");
 
       menu1.onclick = function() {
-        // inpt.click();
-        console.log("3333");
+        inpt.click();
       };
       menu2.onclick = function() {
-        // inpt.click();
-        console.log("3333");
+        inpt.click();
+      };
+      menu3.onclick = function() {
+        inpt.click();
       };
 
-      console.log("2222");
-
     })
+
+
+
+
+
+
 
 
 
