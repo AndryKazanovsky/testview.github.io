@@ -58,6 +58,7 @@
     (function() {
       const inpt = document.getElementsByClassName(".this-inpt");
       const menu1 = document.getElementsByClassName(".menuLi1");
+      console.log(menu1);
       const menu2 = document.getElementsByClassName(".menuLi2");
       const menu3 = document.getElementsByClassName(".menuLi3");
 
