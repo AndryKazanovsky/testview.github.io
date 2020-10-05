@@ -724,12 +724,16 @@ button {
     background: #D90913;
     padding: 20px;
     display: block;
+    overflow: hidden;
 }
 
   .logo-container {
     height: 35px;
 }
 
+  .mob-img-cont {
+  overflow: hidden;
+}
   .mobile-image {
     overflow: hidden;
     position: absolute;
