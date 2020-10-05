@@ -316,6 +316,10 @@ h1 {
   margin: 100px 20px 70px;
 }
 
+.nav-block_black2 {
+  z-index: 5;
+}
+
 .nav-block_black {
   opacity: 0;
   width: 185px;
