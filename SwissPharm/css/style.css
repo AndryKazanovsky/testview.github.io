@@ -62,7 +62,7 @@
 
 body {
   overflow-x: hidden;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
   margin: auto;
   /*max-width: 1920px;*/
   padding: 0;
@@ -321,6 +321,7 @@ h1 {
 
 .block-header {
   display: flex;
+  overflow: hidden;
 }
 
 .plate-container {
@@ -718,6 +719,10 @@ button {
 
 
 @media screen and (max-width: 1200px) {
+
+  .exta-text {
+    left: 20vw;
+}
 
   .header-mobile {
     height: 681px;
