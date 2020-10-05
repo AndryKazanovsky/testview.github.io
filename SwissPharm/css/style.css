@@ -271,6 +271,7 @@ div {
 
 .exta-text {
   position: relative;
+  max-width: 205px;
   top: 45px;
   left: 160px;
   color: white;
@@ -737,7 +738,10 @@ button {
 }
 
   .mob-img-cont {
-  overflow: hidden;
+    width: 336px;
+    position: absolute;
+    height: 450px;
+    background: url('../images/1.png') no-repeat center / contain;
 }
   .mobile-image {
     overflow: hidden;
