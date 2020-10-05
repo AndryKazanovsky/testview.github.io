@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172947e9-b275-4719-a4cf-7aeb255c4585" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../influcid-Georgia/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../influcid-Georgia/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="104">
-              <caret line="389" column="86" lean-forward="true" selection-start-line="389" selection-start-column="86" selection-end-line="389" selection-end-column="86" />
+              <caret line="389" column="86" selection-start-line="389" selection-start-column="86" selection-end-line="389" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -91,11 +91,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-76" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="723" />
+    <option name="width" value="1280" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,16 +159,16 @@
       <workItem from="1582030245626" duration="402000" />
       <workItem from="1599217422353" duration="5071000" />
       <workItem from="1601479219708" duration="185000" />
-      <workItem from="1601479507098" duration="212000" />
+      <workItem from="1601479507098" duration="213000" />
+      <workItem from="1601636443123" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23799000" />
+    <option name="totallyTimeSpent" value="23821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.112787925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -213,7 +212,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
-          <caret line="389" column="86" lean-forward="true" selection-start-line="389" selection-start-column="86" selection-end-line="389" selection-end-column="86" />
+          <caret line="389" column="86" selection-start-line="389" selection-start-column="86" selection-end-line="389" selection-end-column="86" />
         </state>
       </provider>
     </entry>
