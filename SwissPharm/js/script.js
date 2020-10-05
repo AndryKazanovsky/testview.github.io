@@ -53,6 +53,28 @@
       // }
       // })
 
+    console.log("1111");
+
+    (function() {
+      const inpt = document.getElementsByClassName(".this-inpt");
+      const menu1 = document.getElementsByClassName(".menuLi1");
+      const menu2 = document.getElementsByClassName(".menuLi2");
+      const menu3 = document.getElementsByClassName(".menuLi3");
+
+      menu1.onclick = function() {
+        // inpt.click();
+        console.log("3333");
+      };
+      menu2.onclick = function() {
+        // inpt.click();
+        console.log("3333");
+      };
+
+      console.log("2222");
+
+    })
+
+
 
     (function() {
 
