@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="463" column="14" selection-start-line="463" selection-start-column="14" selection-end-line="463" selection-end-column="14" />
+            <state relative-caret-position="284">
+              <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -63,7 +62,6 @@
       <find>.header-title_outer</find>
       <find>image</find>
       <find>header-title_subtext</find>
-      <find>.navigation-menu</find>
       <find>.content-container</find>
       <find>1200</find>
       <find>.navigation-top</find>
@@ -71,6 +69,7 @@
       <find>&lt;a name=&quot;block-2&quot;&gt;&lt;/a&gt;</find>
       <find>navigation-top</find>
       <find>button</find>
+      <find>.navigation-menu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,12 +176,12 @@
       <workItem from="1597311289566" duration="11770000" />
       <workItem from="1597478484194" duration="5126000" />
       <workItem from="1597612321094" duration="18655000" />
-      <workItem from="1601637423335" duration="22743000" />
+      <workItem from="1601637423335" duration="22835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241952000" />
+    <option name="totallyTimeSpent" value="242044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
@@ -286,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="463" column="14" selection-start-line="463" selection-start-column="14" selection-end-line="463" selection-end-column="14" />
+        <state relative-caret-position="284">
+          <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
         </state>
       </provider>
     </entry>
