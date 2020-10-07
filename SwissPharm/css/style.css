@@ -972,8 +972,14 @@ button {
 
 @media screen and (max-width: 768px) {
   #menuToggle {
-    left: 215px;
+    left: 400px;
   }
+  .strange-lang {
+    left: 480px;
+}
+  #menu {
+    padding-left: 100px;
+}
 
   #menu li::before {
   content: '' !important;
