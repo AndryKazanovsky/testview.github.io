@@ -766,6 +766,10 @@ button {
     left: 20vw;
 }
 
+  #menu li::before {
+    content: '' !important;
+  }
+
   .header-mobile {
     height: 681px;
     background: #D90913;
@@ -970,22 +974,42 @@ button {
   }
 }
 
+
+@media screen and (max-width: 1024px) {
+  #menuToggle {
+    left: 650px;
+  }
+  .strange-lang {
+    left: 730px;
+}
+  #menu {
+    padding-left: 200px;
+  }
+  .exta-text {
+    left: 40vw;
+}
+}
+
+
 @media screen and (max-width: 768px) {
   #menuToggle {
     left: 400px;
   }
+
   .strange-lang {
     left: 480px;
-}
+  }
+
   #menu {
     padding-left: 100px;
+  }
+
+  .exta-text {
+    left: 35vw;
+  }
+
+
 }
-
-  #menu li::before {
-  content: '' !important;
-}
-
-
 /*@media screen and (max-width: 450px) {*/
 
 
@@ -1015,6 +1039,9 @@ button {
       left: 120px;
       top: 12px;
   }
+    .exta-text {
+      left: 20vw;
+    }
   }
 
 
