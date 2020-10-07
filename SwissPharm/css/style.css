@@ -1008,6 +1008,9 @@ button {
     #menuToggle {
       left: 40px;
   }
+    #menu {
+      padding-left: 50px;
+    }
     .strange-lang {
       left: 120px;
       top: 12px;
