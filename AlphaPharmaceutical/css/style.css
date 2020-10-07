@@ -899,6 +899,9 @@ form button {
   .block-3-title {
     display: none;
   }
+  .plate p {
+    font-size: 14px;
+  }
 }
 
 
