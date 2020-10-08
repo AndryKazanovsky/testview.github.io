@@ -68,7 +68,7 @@ html {
 
 p {
   margin: 0;
-  color: #828282;
+  color: #4F4F4F;
 }
 
 .block {
@@ -94,9 +94,10 @@ div {
 
 
 .outer-navigation-container {
+  background: white;
   width: 100vw;
   z-index: 1005;
-  background: #030406;
+  /*background: #030406;*/
   position: fixed;
   display: flex;
   justify-content: flex-end;
@@ -129,7 +130,7 @@ div {
 
 
 .lang b {
-  color: #C90A4C;
+  color: #004494;
   text-decoration: underline;
 }
 .lang-dop {
@@ -141,20 +142,19 @@ div {
 .navigation-container {
   display: flex;
     align-items: center;
-    width: 100vw;
+    width: 1200px;
     justify-content: flex-end;
+  margin: auto;
     position: relative;
 }
 
 .logo-container {
-  background: url('../images/logo.svg') no-repeat center / contain;
-  width: 100px;
-  height: 20px;
+  background: url('../images/logo.png') no-repeat center / contain;
+  width: 125px;
+  height: 40px;
   display: block;
-  margin-right: 300px;
-  margin-left: 20px;
   position: absolute;
-    left: 0px;
+  left: 0;
 }
 
 .logo-container-ru {
@@ -166,7 +166,7 @@ div {
 }
 
 .where-to-buy {
-  background-color: #C90A4C;
+  background-color: #004494;
   color: white !important;
   font-size: 10px !important;
   line-height: 10px !important;
@@ -196,8 +196,8 @@ div {
 .navigation-menu a {
   margin-right: 20px;
   text-transform: uppercase;
-  color: #828282;
-  font-size: 13px;
+  color: #4F4F4F;
+  font-size: 16px;
   font-family: 'RR', sans-serif;
   line-height: 13px;
 }
@@ -215,26 +215,37 @@ div {
   align-items: center;
 }
 
-.instruction {
+
+.instr-outer {
   position: fixed;
-  top: 80px;
-  left: 20px;
+  width: 100%;
+  height: 100px;
+  z-index: 15;
+  padding-top: 25px;
+}
+
+.instr-inner {
+  width: 1200px;
+  margin: auto;
+}
+
+.instruction {
+  /*position: fixed;*/
+  /*top: 80px;*/
+  /*left: 20px;*/
+  display: block;
   width: 45px;
   height: 45px;
-  z-index: 15;
   background: url('../images/instruction.svg') no-repeat center / contain;
 }
 
-.instruction-en {
-  background: url('../images/instructionEN.svg') no-repeat center / contain; 
-}
+
 
 .instruction p {
   position: relative;
-  left: -5px;
+  left: -10px;
   top: 50px;
   font-size: 11px;
-  color: #828282;
   background-color: transparent;
 }
 
@@ -251,10 +262,9 @@ div {
 .header-custom {
   background: url('../images/bg.jpg') no-repeat center / cover;
   display: flex;
-  margin-top: 0px;
-  padding-bottom: 150px;
+  margin-top: 50px;
   overflow: hidden;
-  height: 100vh;
+  height: 480px;
   /*max-width: 1280px;*/
 }
 

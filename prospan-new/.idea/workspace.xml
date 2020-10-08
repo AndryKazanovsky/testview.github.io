@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SwissPharm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SwissPharm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphaPharmaceutical/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphaPharmaceutical/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Rectangle 2 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Rectangle 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/instruction.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/instruction.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_Prospan_BY 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="131" selection-start-line="131" selection-end-line="131" />
+            <state relative-caret-position="344">
+              <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -30,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="665" column="16" selection-start-line="665" selection-start-column="16" selection-end-line="665" selection-end-column="16" />
+            <state relative-caret-position="285">
+              <caret line="223" column="17" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -40,10 +46,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.disclamer-warning p</find>
-      <find>active</find>
-      <find>.where-to-buy-mob</find>
-      <find>menu</find>
       <find>human-2</find>
       <find>.block-1_container</find>
       <find>black-title</find>
@@ -69,6 +71,10 @@
       <find>.block-4_container</find>
       <find>.block-5_btn</find>
       <find>.block-5_btn-img</find>
+      <find>.lang b</find>
+      <find>instr</find>
+      <find>.navigation-container</find>
+      <find>.logo-container</find>
       <find>outer</find>
     </findStrings>
   </component>
@@ -85,8 +91,8 @@
         <option value="$PROJECT_DIR$/../index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index-ru.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -177,11 +183,12 @@
       <workItem from="1597478484194" duration="5126000" />
       <workItem from="1597612321094" duration="18655000" />
       <workItem from="1601986559875" duration="679000" />
+      <workItem from="1602076925371" duration="2557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219888000" />
+    <option name="totallyTimeSpent" value="222445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -277,15 +284,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="665" column="16" selection-start-line="665" selection-start-column="16" selection-end-line="665" selection-end-column="16" />
+        <state relative-caret-position="285">
+          <caret line="223" column="17" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="344">
+          <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
         </state>
       </provider>
     </entry>

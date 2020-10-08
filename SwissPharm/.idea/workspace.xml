@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="" />
+    <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AlphaPharmaceutical/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphaPharmaceutical/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prospan-new/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prospan-new/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prospan-new/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../prospan-new/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prospan-new/images/Rectangle 2 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prospan-new/images/Rectangle 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prospan-new/images/instruction.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../prospan-new/images/instruction.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prospan-new/images/logo_Prospan_BY 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prospan-new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../prospan-new/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="1043" column="5" selection-start-line="1043" selection-start-column="5" selection-end-line="1043" selection-end-column="5" />
+            <state relative-caret-position="365">
+              <caret line="990" column="17" selection-start-line="990" selection-start-column="17" selection-end-line="990" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -28,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
+            <state relative-caret-position="1300">
               <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
             </state>
           </provider>
@@ -37,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
+            <state relative-caret-position="1100">
               <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
@@ -67,7 +77,6 @@
       <find>.navigation-menu</find>
       <find>extra</find>
       <find>.line</find>
-      <find>1200</find>
       <find>.exta-text</find>
       <find>nav-block_white</find>
       <find>nav-block_black1</find>
@@ -77,6 +86,7 @@
       <find>.navigation-top</find>
       <find>nav-block_black nav-block_black1</find>
       <find>ul li::before</find>
+      <find>1200</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,14 +200,16 @@
       <workItem from="1597612321094" duration="18655000" />
       <workItem from="1601637423335" duration="30595000" />
       <workItem from="1602051988967" duration="936000" />
+      <workItem from="1602155105016" duration="688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250740000" />
+    <option name="totallyTimeSpent" value="251428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.12549643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -281,24 +293,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index-ru.html" />
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="365">
+          <caret line="990" column="17" selection-start-line="990" selection-start-column="17" selection-end-line="990" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
+        <state relative-caret-position="1300">
           <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="1043" column="5" selection-start-line="1043" selection-start-column="5" selection-end-line="1043" selection-end-column="5" />
+        <state relative-caret-position="1100">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>

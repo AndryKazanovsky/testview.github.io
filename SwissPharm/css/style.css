@@ -891,9 +891,13 @@ button {
 
   }
 
+  #menu {
+    width: 102vw;
+  }
+
   .strange-lang {
     position: relative;
-    left: 80px;
+    left: 75vw;
     top: 10px;
     font-family: "MB";
     color: #FFE600;
@@ -970,7 +974,7 @@ button {
 
 
   #menuToggle {
-    left: 325px;
+    left: 68vw;
   }
 }
 
@@ -984,6 +988,7 @@ button {
 }
   #menu {
     padding-left: 200px;
+    width: 110vw;
   }
   .exta-text {
     left: 40vw;
