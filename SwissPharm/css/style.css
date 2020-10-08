@@ -981,10 +981,10 @@ button {
 
 @media screen and (max-width: 1024px) {
   #menuToggle {
-    left: 650px;
+    left: 63vw;
   }
   .strange-lang {
-    left: 730px;
+    left: 71vw;
 }
   #menu {
     padding-left: 200px;
@@ -995,14 +995,23 @@ button {
 }
 }
 
+@media screen and (max-width: 900px) {
+  #menuToggle {
+    left: 60vw;
+  }
+  .strange-lang {
+    left: 68vw;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   #menuToggle {
-    left: 400px;
+    left: 50vw;
   }
 
   .strange-lang {
-    left: 480px;
+    left: 60vw;
   }
 
   #menu {
@@ -1014,6 +1023,46 @@ button {
   }
 
 
+}
+
+
+@media screen and (max-width: 690px) {
+  #menuToggle {
+    left: 45vw;
+  }
+
+  .strange-lang {
+    left: 56vw;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  #menuToggle {
+    left: 35vw;
+  }
+
+  .strange-lang {
+    left: 48vw;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  #menuToggle {
+    left: 30vw;
+  }
+
+  .strange-lang {
+    left: 43vw;
+  }
+}
+@media screen and (max-width: 490px) {
+  #menuToggle {
+    left: 22vw;
+  }
+
+  .strange-lang {
+    left: 38vw;
+  }
 }
 /*@media screen and (max-width: 450px) {*/
 
