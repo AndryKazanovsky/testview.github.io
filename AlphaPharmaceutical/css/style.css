@@ -873,7 +873,7 @@ form button {
 /*end burger menu*/
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1425px) {
   .header-title h1 {
     font-size: 31px;
   }
