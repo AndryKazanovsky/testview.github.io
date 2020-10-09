@@ -147,7 +147,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  – pasižymi priešuždegiminiu poveikiu esant lėtinei ligos eigai. Skatina tonzilių ertmių (lakūnų) valymąsi, pūlinių gijimą. ³</p>';
+          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  – pasižymi priešuždegiminiu poveikiu esant lėtinei ligos eigai. Skatina tonzilių ertmių (lakūnų) valymąsi, pūlinių gijimą.³</p>';
 
           counter2.classList.remove('hidden');
           counter1.classList.add('hidden');
@@ -168,7 +168,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  – pasižymi priešuždegiminiu poveikiu esant lėtinei ligos eigai. Skatina tonzilių ertmių (lakūnų) valymąsi, pūlinių gijimą. ³</p>';
+          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  – pasižymi priešuždegiminiu poveikiu esant lėtinei ligos eigai. Skatina tonzilių ertmių (lakūnų) valymąsi, pūlinių gijimą.³</p>';
 
           counter2.classList.remove('hidden');
           counter1.classList.add('hidden');
@@ -211,7 +211,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  palengvina nosiaryklės paburkimą ir uždegimą, pašalina deginimo pojūtį ir dirginimą. Padeda sumažinti tonzilių hipertrofiją ³</p>';
+          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  palengvina nosiaryklės paburkimą ir uždegimą, pašalina deginimo pojūtį ir dirginimą. Padeda sumažinti tonzilių hipertrofiją³</p>';
 
           counter3.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -232,7 +232,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  palengvina nosiaryklės paburkimą ir uždegimą, pašalina deginimo pojūtį ir dirginimą. Padeda sumažinti tonzilių hipertrofiją ³</p>';
+          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  palengvina nosiaryklės paburkimą ir uždegimą, pašalina deginimo pojūtį ir dirginimą. Padeda sumažinti tonzilių hipertrofiją³</p>';
 
           counter3.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -254,7 +254,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  – pasižymi priešuždegiminiu poveikiu esant lėtinei ligos eigai. Skatina tonzilių ertmių (lakūnų) valymąsi, pūlinių gijimą. ³</p>';
+          block4Cont.innerHTML = '<p><b>Hepar sulfuris</b>  – pasižymi priešuždegiminiu poveikiu esant lėtinei ligos eigai. Skatina tonzilių ertmių (lakūnų) valymąsi, pūlinių gijimą.³</p>';
 
           counter2.classList.remove('hidden');
           counter1.classList.add('hidden');
@@ -275,7 +275,7 @@
           block4Img.classList.remove('block-4__container-img1');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  – malšina limfmazgių patinimą ir uždegimą, gerina limfodrenažą, padeda išvalyti ertmes, mažina tonzilių hipertrofiją ³</p>';
+          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  – malšina limfmazgių patinimą ir uždegimą, gerina limfodrenažą, padeda išvalyti ertmes, mažina tonzilių hipertrofiją³</p>';
 
           counter4.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -296,7 +296,7 @@
           block4Img.classList.remove('block-4__container-img1');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  –  malšina limfmazgių patinimą ir uždegimą, gerina limfodrenažą, padeda išvalyti ertmes, mažina tonzilių hipertrofiją ³</p>';
+          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b>  –  malšina limfmazgių patinimą ir uždegimą, gerina limfodrenažą, padeda išvalyti ertmes, mažina tonzilių hipertrofiją³</p>';
 
           counter4.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -318,7 +318,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  palengvina nosiaryklės paburkimą ir uždegimą, pašalina deginimo pojūtį ir dirginimą. Padeda sumažinti tonzilių hipertrofiją ³</p>';
+          block4Cont.innerHTML = '<p><b>Kalium bichromicum</b>  –  palengvina nosiaryklės paburkimą ir uždegimą, pašalina deginimo pojūtį ir dirginimą. Padeda sumažinti tonzilių hipertrofiją³</p>';
 
           counter3.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -339,7 +339,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img1');
 
-          block4Cont.innerHTML = '<p><b>Silicea</b>  – padeda sustiprinti organizmo atsparumą ir pagerinti vietinį imunitetą. Pagreitina sveikimą, atstato tonziles ir apsaugo nuo pasikartojančių ligų ³</p>';
+          block4Cont.innerHTML = '<p><b>Silicea</b>  – padeda sustiprinti organizmo atsparumą ir pagerinti vietinį imunitetą. Pagreitina sveikimą, atstato tonziles ir apsaugo nuo pasikartojančių ligų³</p>';
 
           counter5.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -360,7 +360,7 @@
           block4Img.classList.remove('block-4__container-img4');
           block4Img.classList.remove('block-4__container-img1');
 
-          block4Cont.innerHTML = '<p><b>Silicea</b>  – padeda sustiprinti organizmo atsparumą ir pagerinti vietinį imunitetą. Pagreitina sveikimą, atstato tonziles ir apsaugo nuo pasikartojančių ligų ³</p>';
+          block4Cont.innerHTML = '<p><b>Silicea</b>  – padeda sustiprinti organizmo atsparumą ir pagerinti vietinį imunitetą. Pagreitina sveikimą, atstato tonziles ir apsaugo nuo pasikartojančių ligų³</p>';
 
           counter5.classList.remove('hidden');
           counter2.classList.add('hidden');
@@ -382,7 +382,7 @@
           block4Img.classList.remove('block-4__container-img1');
           block4Img.classList.remove('block-4__container-img5');
 
-          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b> – malšina limfmazgių patinimą ir uždegimą, gerina limfodrenažą, padeda išvalyti ertmes, mažina tonzilių hipertrofiją ³</p>';
+          block4Cont.innerHTML = '<p><b>Mercurius bijodatus</b> – malšina limfmazgių patinimą ir uždegimą, gerina limfodrenažą, padeda išvalyti ertmes, mažina tonzilių hipertrofiją³</p>';
 
           counter4.classList.remove('hidden');
           counter2.classList.add('hidden');

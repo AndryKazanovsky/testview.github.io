@@ -1,47 +1,21 @@
 /* fonts */
 
 @font-face {
-  font-family: 'MN';
-  src: url('../fonts/Montserrat-Medium.ttf');
+  font-family: 'DLeB';
+  src: url('../fonts/DaxlinePro-ExtraBold.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DR';
+  src: url('../fonts/DaxlinePro-Regular.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: '';
+  src: url('../fonts/');
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'MB';
-  src: url('../fonts/Montserrat-Bold.ttf');
-}
-
-@font-face {
-  font-family: 'MeB';
-  src: url('../fonts/Montserrat-ExtraBold.ttf');
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'RR';
-  src: url('../fonts/Roboto-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'RM';
-  src: url('../fonts/Roboto-Medium.ttf');
-}
-
-@font-face {
-  font-family: 'RL';
-  src: url('../fonts/Roboto-Light.ttf');
-}
-
-
-@font-face {
-  font-family: 'RB';
-  src: url('../fonts/Roboto-Bold.ttf');
-}
-
-@font-face {
-  font-family: 'RT';
-  src: url('../fonts/Roboto-Thin.ttf');
-}
 /* common */
 
 * {
@@ -176,9 +150,128 @@ div {
 }
 
 
-/*////////////////////////////////////////////////////gastritol-new*/
+.header-block_outer {
+  width: 100%;
+  background: url("../images/bg.jpg") no-repeat 70% 90% / auto;
+}
+
+.header-block_inner {
+  width: 1200px;
+  margin: auto;
+
+}
+
+.header-block_content h1 {
+  font-family: 'DLeB';
+  font-size: 72px;
+  line-height: 68px;
+  margin: 0;
+  text-align: left;
+  position: relative;
+  top: 110px;
+  left: 75px;
+  color: #004494;
+}
+
+.header-block_img {
+  position: relative;
+  top: 125px;
+  left: 75px;
+  width: 290px;
+  height: 400px;
+  background: url("../images/prospan_banka_bel 1.png") no-repeat center / contain;
+}
+
+.header-block_img-germ {
+  width: 100px;
+  height: 100px;
+  background: url("../images/germany.png") no-repeat center / contain;
+  position: relative;
+  top: 220px;
+  left: 257px;
+}
+
+h2 {
+  font-family: 'DR';
+  font-size: 42px;
+  line-height: 46px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #A5C400;
+}
+
+.block-1_inner {
+  width: 1200px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.block-1_outer {
+  width: 100%;
+}
+
+.block-1_text {
+  margin: auto;
+  width: 765px;
+}
+
+.block-1_inner p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #4F4F4F;
+}
+
+.block-1_inner p::before {
+  display: block;
+  content: '';
+  margin: 15px;
+  width: 30px;
+  height: 30px;
+  background: url("../images/logo_pluw 2.png") no-repeat center / contain;
+}
 
 
+.block-2_outer {
+  width: 100%;
+  height: 755px;
+  background: url("../images/fon_01 1.jpg") no-repeat center / auto;
+}
+
+.block-2_inner p {
+  text-align: center;
+}
+
+.block-2_inner {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  justify-content: flex-end;
+}
+
+.block-3_outer {
+  width: 100%;
+}
+.block-3_inner {
+  display: flex;
+  flex-direction: column;
+  width: 795px;
+  margin: auto;
+  background: url("../images/div_01.png") no-repeat center / auto;
+}
+
+.block-3_text {
+  display: flex;
+  height: 100px;
+  align-items: flex-end;
+}
+.block-3_text p {
+  width: 25%;
+  text-align: center;
+}
 /*//////////block-1*/
 
 
@@ -202,18 +295,6 @@ div {
   line-height: 13px;
 }
 
-.header-container {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  margin: auto;
-  margin-top: 50px;
-  /*align-items: center;*/
-}
-.header-main {
-  display: flex;
-  align-items: center;
-}
 
 
 .instr-outer {
@@ -221,7 +302,7 @@ div {
   width: 100%;
   height: 100px;
   z-index: 15;
-  padding-top: 25px;
+  padding-top: 50px;
 }
 
 .instr-inner {
@@ -258,63 +339,6 @@ div {
   align-items: center;
   margin-right: 10px;
 }
-
-.header-custom {
-  background: url('../images/bg.jpg') no-repeat center / cover;
-  display: flex;
-  margin-top: 50px;
-  overflow: hidden;
-  height: 480px;
-  /*max-width: 1280px;*/
-}
-
-.header-title {
-  margin-left: 7vw;
-  margin-top: 17vh;
-}
-
-.header-title b {
-  font-size: 56px;
-  color: #E1B400;
-  /*font-weight: 900;*/
-  font-family: 'MB';
-}
-
-.header-title p {
-  font-size: 46px;
-  line-height: 52px;
-  font-family: 'MeB';
-  color: white;
-  max-width: 360px;
-}
-
-.header-title_product {
-  width: 330px;
-  height: 150px;
-  margin-top: 15vh;
-  margin-left: 0px;
-
-  background: url("../images/product.png") no-repeat center/contain;
-}
-
-
-
-.header-title strong {
-  font-family: 'HNB';
-}
-
-
-
-.header-main-img {
-  width: 457px;
-  height: 391px;
-  background: url('../images/div_04.png') no-repeat center / contain;
-}
-
-.header-main-img-mobile {
-  display: none;
-}
-
 
 
 
@@ -448,11 +472,6 @@ div {
   margin: 40px 0;
   font-family: 'RT';
   font-weight: lighter;
-}
-
-
-.header-title-en b {
-  font-size: 40px;
 }
 
 
@@ -616,32 +635,13 @@ div {
     display: none;
   }
 
-  .header-custom {
-    display: none;
-  }
-
 
   .disclamer-tra__klein p {
     margin: 25px -305px;
   }
 
 
-  .header-custom {
-    background-color: #030406;
-    background: url(../images/fon_photo1.jpg) no-repeat center / cover;
-    height: 65vh;
-    padding-bottom: 0;
-  }
 
-
-  .header-title_product {
-    margin: auto;
-    margin-top: 20px;
-  }
-
-  .header-title {
-    display: none;
-  }
 
   #menuToggle {
     left: -5px;
@@ -683,12 +683,7 @@ div {
     font-size: 9px;
   }
 
-  .header-main-product-img {
-    display: none;
-  }
-  .header-main-img {
-    display: none;
-  }
+
   .logo-container {
     margin-right: 30px;
   }
@@ -708,22 +703,8 @@ div {
     background: url(../images/div_02.png) no-repeat center / contain !important;
   }
 
-  .header-main-center p:nth-child(1) {
-    margin-left: 4vw;
-  }
-  .header-main-center p:nth-child(2) {
-    margin-left: 4vw;
-  }
-  .header-main-center p:nth-child(3) {
-    margin-left: 4vw;
-  }
-  .header-main-center p:nth-child(4) {
-    margin-left: 4vw;
-  }
 
-  .header-block-2 {
-    flex-wrap: wrap;
-  }
+
   .plate {
     max-width: 100%;
     margin-bottom: 50px;
@@ -771,24 +752,7 @@ div {
 
 
 
-  .header-main-product-img-mobile {
-    margin-top: -70px;
-    display: block;
-    width: 360px;
-    height: 300px;
-    background: url('../images/pack_left_tonzilotren_tiny_400x400px 1 — copy.png') no-repeat center / contain;
-  }
 
-  .header-main-img-mobile {
-    display: block;
-    width: 360px;
-    height: 300px;
-    background: url('../images/div_04.png') no-repeat center / contain;
-  }
-
-  .header-main-center {
-    margin-top: 0;
-  }
 
   .block-interactive-inner {
     display: flex;
@@ -807,20 +771,6 @@ div {
   .block-interactive-inner {
     margin-bottom: 100px;
   }
-
-  .header-title {
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
-
-
-
-
-
-  .header-main {
-    flex-direction: column;
-  }
-
 
 
 

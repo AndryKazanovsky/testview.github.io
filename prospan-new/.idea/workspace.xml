@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AlphaPharmaceutical/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphaPharmaceutical/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SwissPharm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SwissPharm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Rectangle 2 (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Rectangle 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instruction.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/instruction.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo_Prospan_BY 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-ThinItalic.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+            <state relative-caret-position="320">
+              <caret line="122" column="32" lean-forward="true" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -36,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="223" column="17" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
+            <state relative-caret-position="413">
+              <caret line="268" column="24" selection-start-line="268" selection-start-column="24" selection-end-line="268" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -46,10 +60,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>human-2</find>
-      <find>.block-1_container</find>
-      <find>black-title</find>
-      <find>1024</find>
       <find>.block-3_container</find>
       <find>slider</find>
       <find>active-nav</find>
@@ -76,6 +86,10 @@
       <find>.navigation-container</find>
       <find>.logo-container</find>
       <find>outer</find>
+      <find>header</find>
+      <find>header-block_content</find>
+      <find>h1</find>
+      <find>.block-1_inner</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,8 +105,8 @@
         <option value="$PROJECT_DIR$/../index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index-ru.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -107,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,7 +138,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,14 +198,16 @@
       <workItem from="1597612321094" duration="18655000" />
       <workItem from="1601986559875" duration="679000" />
       <workItem from="1602076925371" duration="2557000" />
+      <workItem from="1602160323739" duration="8021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222445000" />
+    <option name="totallyTimeSpent" value="230466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.12549643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -284,15 +300,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="223" column="17" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
+        <state relative-caret-position="413">
+          <caret line="268" column="24" selection-start-line="268" selection-start-column="24" selection-end-line="268" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+        <state relative-caret-position="320">
+          <caret line="122" column="32" lean-forward="true" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
         </state>
       </provider>
     </entry>

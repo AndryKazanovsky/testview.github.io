@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="1063" column="12" selection-start-line="1063" selection-start-column="12" selection-end-line="1063" selection-end-column="12" />
+            <state relative-caret-position="175">
+              <caret line="981" column="34" selection-start-line="981" selection-start-column="30" selection-end-line="981" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -192,16 +190,15 @@
       <workItem from="1597612321094" duration="18655000" />
       <workItem from="1601637423335" duration="30595000" />
       <workItem from="1602051988967" duration="936000" />
-      <workItem from="1602155105016" duration="1778000" />
+      <workItem from="1602155105016" duration="1929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252518000" />
+    <option name="totallyTimeSpent" value="252669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.12549643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,8 +284,8 @@
     <entry file="file://$PROJECT_DIR$/index-ru.html" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="1063" column="12" selection-start-line="1063" selection-start-column="12" selection-end-line="1063" selection-end-column="12" />
+        <state relative-caret-position="175">
+          <caret line="981" column="34" selection-start-line="981" selection-start-column="30" selection-end-line="981" selection-end-column="34" />
         </state>
       </provider>
     </entry>
