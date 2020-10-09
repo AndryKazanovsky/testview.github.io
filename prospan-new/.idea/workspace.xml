@@ -2,27 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SwissPharm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SwissPharm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/.idea/AlphaPharm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-Roman.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-UltraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/HelveticaNeueCyr-UltraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/fonts/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/Ellipse 6 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/Ellipse 6 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/Ellipse 6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/Tonsilotren_LogoRGB_en.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/Vector 3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/Vector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/Vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/button_close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/button_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/button_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/center-pack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/dhu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/div_01 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/div_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/div_02 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/div_02 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/div_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/div_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_01 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_01_apteki_LT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_02_apteki_LT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_03 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_03_apteki_LT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_04 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_number_01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_number_02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_number_03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_number_04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_plus_01_160x187px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_plus_02_160x187px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_plus_03_160x187px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/icon_plus_04_160x187px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/ing2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/ing4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/ing5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/instruction.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/instructionUA.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/logoDHU 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/logo_AF 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/picture_01_Atropinum 1 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/picture_01_Atropinum 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/images/top-pack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/instruction.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tansilotren-Li/license.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
