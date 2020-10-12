@@ -166,6 +166,7 @@ div {
   font-size: 72px;
   line-height: 68px;
   margin: 0;
+  max-width: 600px;
   text-align: left;
   position: relative;
   top: 110px;
@@ -254,27 +255,175 @@ h2 {
 
 .block-3_outer {
   width: 100%;
+  margin-bottom: 90px;
 }
 .block-3_inner {
   display: flex;
   flex-direction: column;
   width: 795px;
   margin: auto;
-  background: url("../images/div_01.png") no-repeat center / auto;
+  background: url("../images/div_01.png") no-repeat 50% 20% / auto;
 }
 
 .block-3_text {
   display: flex;
-  height: 100px;
+  height: 170px;
   align-items: flex-end;
 }
 .block-3_text p {
   width: 25%;
   text-align: center;
+  font-size: 22px;
+  color: #004494;
 }
-/*//////////block-1*/
 
 
+.block-4_outer {
+  z-index: 20;
+  width: 100%;
+  padding: 90px 0 90px 0;
+  background: #F2F2F2;
+}
+
+.block-4_inner {
+  width: 1200px;
+  margin: auto;
+}
+.toggle-btn_container {
+  display: flex;
+  width: 400px;
+  margin: auto;
+  padding: 20px 0 100px 0;
+
+}
+
+.toggle-btn_container p {
+  font-size: 20px;
+  color: #828282;
+}
+
+.toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  background: white;
+  cursor: pointer;
+}
+
+.sirop-btn {
+  border-radius: 30px 0 0 30px;
+}
+
+.sirop-btn::before {
+  content: '';
+  display: block;
+  background: url("../images/Vector.svg") no-repeat center / contain;
+  width: 20px;
+  height: 35px;
+  margin-right: 35px;
+}
+
+.drops-btn {
+  border-radius: 0 30px 30px 0;
+}
+
+.drops-btn::after {
+  content: '';
+  display: block;
+  background: url("../images/Vector.svg") no-repeat center / contain;
+  width: 20px;
+  height: 35px;
+  margin-left: 35px;
+}
+
+
+
+
+.plate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 285px;
+  padding: 45px 10px;
+  /*height: 360px;*/
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.plate:nth-child(2) .plate-img {
+  background: url("../images/Vector (3).svg") no-repeat center / contain;
+}
+.plate:nth-child(3) .plate-img {
+  background: url("../images/Vector (4).svg") no-repeat center / contain;
+}
+
+.plate-img {
+  width: 120px;
+  height: 120px;
+  background: url("../images/Vector (2).svg") no-repeat center / contain;
+}
+
+.img-text {
+  font-size: 18px;
+  color: #4F4F4F;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0 50px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #004494;
+  margin: 5px 0 5px;
+  font-weight: lighter;
+}
+
+.plate-content p {
+  font-size: 20px;
+  color: #4F4F4F;
+  font-weight: lighter;
+}
+
+.plate-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.block-4_inner-text {
+  text-align: center;
+  font-size: 18px;
+  color: #4F4F4F;
+  font-weight: lighter;
+  margin-top: 100px;
+  line-height: 22px;
+}
+
+
+.active-btn {
+  background: #004494;
+}
+.active-btn p {
+  color: white;
+}
+.active-btn::before {
+  background: url("../images/Vector (2).svg") no-repeat center / contain;
+}
+.active-btn::after {
+  background: url("../images/Vector (2).svg") no-repeat center / contain;
+}
+
+.drops-text {
+  display: none;
+}
+
+.active-drops {
+  display: block;
+}
 
 .where-to-buy-mob {
   display: none;
@@ -302,7 +451,7 @@ h2 {
   width: 100%;
   height: 100px;
   z-index: 15;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .instr-inner {
