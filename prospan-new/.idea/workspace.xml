@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Alpikol-HR/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Alpikol-HR/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_klein 1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
@@ -23,8 +26,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="163" column="91" selection-start-line="163" selection-start-column="91" selection-end-line="163" selection-end-column="91" />
+            <state relative-caret-position="333">
+              <caret line="323" lean-forward="true" selection-start-line="323" selection-end-line="323" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="311" column="18" selection-start-line="311" selection-start-column="18" selection-end-line="311" selection-end-column="18" />
+            <state relative-caret-position="362">
+              <caret line="1037" column="3" selection-start-line="1037" selection-start-column="3" selection-end-line="1037" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -41,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="250">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -51,36 +62,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>block-4_plate</find>
-      <find>block-4_bottom-text</find>
-      <find>block-4_plate-horisontal</find>
-      <find>.disclamer-tra__klein</find>
-      <find>.dt1</find>
-      <find>human</find>
-      <find>кожн</find>
-      <find>.header-title_product</find>
-      <find>.block-4_container</find>
-      <find>.block-5_btn</find>
-      <find>.block-5_btn-img</find>
-      <find>.lang b</find>
-      <find>instr</find>
-      <find>.navigation-container</find>
-      <find>.logo-container</find>
-      <find>outer</find>
-      <find>header</find>
-      <find>header-block_content</find>
-      <find>h1</find>
-      <find>.block-1_inner</find>
-      <find>.block-3_text</find>
-      <find>plate-container</find>
       <find>.img-text</find>
       <find>instr-outer</find>
       <find>block-4_outer</find>
       <find>hide</find>
       <find>.hide</find>
       <find>fadeIn</find>
-      <find>.header-block_content h1</find>
       <find>curs</find>
+      <find>panel-img</find>
+      <find>.header-block_content h1</find>
+      <find>acc</find>
+      <find>accor</find>
+      <find>usless-head-accordeon</find>
+      <find>.drops-btn::after</find>
+      <find>logo-block</find>
+      <find>logo</find>
+      <find>logo1</find>
+      <find>active-nav</find>
+      <find>1200</find>
+      <find>disclamer-main_sub</find>
+      <find>menuToggle</find>
+      <find>input</find>
+      <find>menu li a</find>
+      <find>.block-1_text</find>
+      <find>.mobile-block1</find>
+      <find>header-block_img</find>
+      <find>1024</find>
+      <find>.block-4_outer</find>
+      <find>plate-container</find>
+      <find>accordi</find>
+      <find>usle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,6 +106,7 @@
         <option value="$PROJECT_DIR$/index-en.html" />
         <option value="$PROJECT_DIR$/../index.html" />
         <option value="$PROJECT_DIR$/index-ru.html" />
+        <option value="$PROJECT_DIR$/../Alpikol-HR/css/style.css" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
@@ -194,12 +206,12 @@
       <workItem from="1597612321094" duration="18655000" />
       <workItem from="1601986559875" duration="679000" />
       <workItem from="1602076925371" duration="2557000" />
-      <workItem from="1602160323739" duration="14445000" />
+      <workItem from="1602160323739" duration="28567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236890000" />
+    <option name="totallyTimeSpent" value="251012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -287,24 +299,39 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index-ru.html" />
+    <entry file="file://$PROJECT_DIR$/../Alpikol-HR/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="525" column="1" lean-forward="true" selection-start-line="471" selection-end-line="525" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        <state relative-caret-position="250">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="163" column="91" selection-start-line="163" selection-start-column="91" selection-end-line="163" selection-end-column="91" />
+        <state relative-caret-position="333">
+          <caret line="323" lean-forward="true" selection-start-line="323" selection-end-line="323" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="311" column="18" selection-start-line="311" selection-start-column="18" selection-end-line="311" selection-end-column="18" />
+        <state relative-caret-position="362">
+          <caret line="1037" column="3" selection-start-line="1037" selection-start-column="3" selection-end-line="1037" selection-end-column="3" />
         </state>
       </provider>
     </entry>

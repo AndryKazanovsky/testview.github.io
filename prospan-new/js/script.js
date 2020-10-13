@@ -2,6 +2,67 @@
   window.onload = function() {
 
 
+    var acc1 = document.getElementsByClassName("accordion1");
+    const uAcc = document.querySelector(".usless-head-accordeon1");
+    var i;
+
+
+
+    for (i = 0; i < acc1.length; i++) {
+      acc1[i].addEventListener("click", function() {
+        uAcc.classList.toggle("hidden");
+        this.classList.toggle("active-acc");
+        var panel = this.previousElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+
+
+    var acc2 = document.getElementsByClassName("accordion2");
+    const uAcc2 = document.querySelector(".usless-head-accordeon2");
+    var j;
+
+
+
+    for (j = 0; j < acc2.length; j++) {
+      acc2[j].addEventListener("click", function() {
+        uAcc2.classList.toggle("hidden");
+        this.classList.toggle("active-acc");
+        var panel = this.previousElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+
+    var acc3 = document.getElementsByClassName("accordion3");
+    const uAcc3 = document.querySelector(".usless-head-accordeon3");
+    var k;
+
+
+
+    for (k = 0; k < acc3.length; k++) {
+      acc3[k].addEventListener("click", function() {
+        uAcc3.classList.toggle("hidden");
+        this.classList.toggle("active-acc");
+        var panel = this.previousElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+
+
+
+
     (function() {
 
         const toggleBtns = document.querySelectorAll('.toggle-btn');
