@@ -2,6 +2,12 @@
   window.onload = function() {
 
 
+
+
+
+
+
+
     var acc1 = document.getElementsByClassName("accordion1");
     const uAcc = document.querySelector(".usless-head-accordeon1");
     var i;
@@ -101,8 +107,34 @@
       }
     });
 
-    
 
+
+
+    (function() {
+      const inpt = document.querySelector(".this-inpt");
+      const menu1 = document.querySelector(".menuLi1");
+      const menu2 = document.querySelector(".menuLi2");
+      const menu3 = document.querySelector(".menuLi3");
+      const menu4 = document.querySelector(".menuLi4");
+      const menu5 = document.querySelector(".menuLi5");
+
+      menu1.onclick = function() {
+        inpt.click();
+      };
+      menu2.onclick = function() {
+        inpt.click();
+      };
+      menu3.onclick = function() {
+        inpt.click();
+      };
+      menu4.onclick = function() {
+        inpt.click();
+      };
+      menu5.onclick = function() {
+        inpt.click();
+      };
+
+    })
 
 
       // (function() {
