@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="307" column="56" lean-forward="true" selection-start-line="307" selection-start-column="56" selection-end-line="307" selection-end-column="56" />
+            <state relative-caret-position="349">
+              <caret line="335" column="18" lean-forward="true" selection-start-line="335" selection-start-column="18" selection-end-line="335" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="347" column="17" selection-start-line="347" selection-start-column="17" selection-end-line="347" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="1090" column="25" selection-start-line="1090" selection-start-column="25" selection-end-line="1090" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -58,10 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>instr-outer</find>
-      <find>block-4_outer</find>
-      <find>hide</find>
-      <find>.hide</find>
       <find>fadeIn</find>
       <find>curs</find>
       <find>panel-img</find>
@@ -75,7 +71,6 @@
       <find>logo1</find>
       <find>active-nav</find>
       <find>1200</find>
-      <find>disclamer-main_sub</find>
       <find>menuToggle</find>
       <find>input</find>
       <find>menu li a</find>
@@ -88,6 +83,11 @@
       <find>usle</find>
       <find>.block-1_text</find>
       <find>block-1_inner</find>
+      <find>.block-1_inner p</find>
+      <find>ol</find>
+      <find>ol</find>
+      <find>disclamer-ma</find>
+      <find>disclamer-main_sub</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,12 +202,12 @@
       <workItem from="1597612321094" duration="18655000" />
       <workItem from="1601986559875" duration="679000" />
       <workItem from="1602076925371" duration="2557000" />
-      <workItem from="1602160323739" duration="29042000" />
+      <workItem from="1602160323739" duration="30442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251487000" />
+    <option name="totallyTimeSpent" value="252887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -311,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="307" column="56" lean-forward="true" selection-start-line="307" selection-start-column="56" selection-end-line="307" selection-end-column="56" />
+        <state relative-caret-position="349">
+          <caret line="335" column="18" lean-forward="true" selection-start-line="335" selection-start-column="18" selection-end-line="335" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -326,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="347" column="17" selection-start-line="347" selection-start-column="17" selection-end-line="347" selection-end-column="17" />
+        <state relative-caret-position="285">
+          <caret line="1090" column="25" selection-start-line="1090" selection-start-column="25" selection-end-line="1090" selection-end-column="25" />
         </state>
       </provider>
     </entry>

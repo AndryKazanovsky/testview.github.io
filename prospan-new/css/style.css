@@ -6,6 +6,11 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'DLR';
+  src: url('../fonts/DaxlinePro-Light.ttf');
+  font-style: normal;
+}
+@font-face {
   font-family: 'DR';
   src: url('../fonts/DaxlinePro-Regular.ttf');
   font-style: normal;
@@ -43,6 +48,7 @@ html {
 p {
   margin: 0;
   color: #4F4F4F;
+  font-family: sans-serif;
 }
 
 .block {
@@ -193,12 +199,13 @@ div {
 }
 
 h2 {
-  font-family: 'DR';
+  font-family: 'DLR';
   font-size: 42px;
   line-height: 46px;
   text-align: center;
   text-transform: capitalize;
   color: #A5C400;
+  font-weight: lighter;
 }
 
 .block-1_inner {
@@ -223,11 +230,12 @@ h2 {
 .block-1_inner p {
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align: left;
   font-family: sans-serif;
   font-size: 20px;
   line-height: 24px;
   color: #4F4F4F;
+  font-weight: lighter;
 }
 
 .block-1_inner p::before {
@@ -248,6 +256,7 @@ h2 {
 
 .block-2_inner p {
   text-align: center;
+  font-weight: lighter;
 }
 
 .block-2_inner {
@@ -279,6 +288,7 @@ h2 {
   text-align: center;
   font-size: 22px;
   color: #004494;
+  font-weight: lighter;
 }
 
 
@@ -369,6 +379,7 @@ ol {
   text-transform: uppercase;
   line-height: 20px;
   margin-top: 45px;
+  font-weight: lighter;
 }
 
 
@@ -530,7 +541,8 @@ h4 {
   content: "читать все ∨";
   /*color: ;*/
   font-size: 14px;
-  font-weight: 700;
+  font-family: sans-serif;
+  font-weight: lighter;
   float: right;
   margin-left: 5px
 }
@@ -551,7 +563,6 @@ h4 {
 
 .panel, .panel p {
   text-align: left;
-  color: #595959
 }
 
 .panel p {
@@ -587,6 +598,10 @@ button:focus {
 .block-5_container h4 {
   font-size: 32px;
   margin: 40px 0;
+}
+
+.block-5_container p {
+  font-weight: lighter;
 }
 
 
@@ -683,9 +698,15 @@ button:focus {
   margin-bottom: 50px;
 }
 
+ol {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.disclamer-main_title {
+  font-weight: bolder;
+}
 .disclamer-tra li {
   color: grey;
-  font-family: 'RR';
 }
 
 .disclamer-tra p {
@@ -693,7 +714,6 @@ button:focus {
   color: grey;
   font-size: 14px;
   text-align: left;
-  font-family: 'RR';
 }
 
 .disclamer-tra .logos-container {
@@ -730,6 +750,7 @@ button:focus {
   font-size: 14px !important;
   line-height: 18px;
   color: #828282;
+  font-weight: lighter;
 }
 .logo1-img {
   height: 100px;
@@ -747,6 +768,7 @@ button:focus {
   font-size: 14px !important;
   line-height: 18px;
   color: #828282;
+  font-weight: lighter;
 }
 .logo2-img {
   height: 100px;
@@ -1066,7 +1088,7 @@ button:focus {
     align-items: center;
     font-family: sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 22px;
     line-height: 22px;
     color: #004494 !important;
