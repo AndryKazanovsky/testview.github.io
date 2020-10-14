@@ -213,7 +213,11 @@ h2 {
 
 .block-1_text {
   margin: auto;
-  width: 765px;
+  width: 500px;
+}
+
+.block-1_inner h2 {
+  margin-top: 100px;
 }
 
 .block-1_inner p {
@@ -341,6 +345,7 @@ h2 {
 
 .disclamer-container {
   width: 100%;
+  padding: 50px 0;
 }
 
 .disclamer-main {
