@@ -1171,7 +1171,7 @@ ol {
   }
   .header-block_outer {
     height: 300px;
-    background: url(../images/bg-mob.jpg) no-repeat center / contain;
+    background: url(../images/bg-mob.jpg) no-repeat center / cover;
   }
   .instr-inner {
     width: 100%;
@@ -1261,7 +1261,7 @@ ol {
 
   .block-2_outer {
     height: 300px;
-    background: url("../images/fon_01mob.jpg") no-repeat center / contain;
+    background: url("../images/fon_01mob.jpg") no-repeat center / cover;
   }
 
   .toggle-btn_container {
