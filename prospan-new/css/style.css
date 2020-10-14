@@ -1006,6 +1006,14 @@ ol {
   display: none;
 }
 
+@media screen and (max-width: 1024px) {
+  .disclamer-main {
+    padding: 0 20px;
+  }
+  .instr-inner {
+    padding-left: 20px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .plate-container {
@@ -1438,6 +1446,12 @@ ol {
 }
 
 @media screen and (max-width: 450px) {
+  .instr-inner {
+    padding-left: 0px;
+  }
+  .block-1_inner h2 {
+    margin-top: 0;
+  }
 
 
 
