@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="1452" column="17" selection-start-line="1452" selection-start-column="17" selection-end-line="1452" selection-end-column="17" />
+            <state relative-caret-position="205">
+              <caret line="1036" column="13" selection-start-line="1036" selection-start-column="13" selection-end-line="1036" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -77,7 +77,6 @@
       <find>plate-container</find>
       <find>accordi</find>
       <find>usle</find>
-      <find>.block-1_text</find>
       <find>block-1_inner</find>
       <find>.block-1_inner p</find>
       <find>ol</find>
@@ -87,6 +86,7 @@
       <find>.mob-block-3_text p</find>
       <find>acc</find>
       <find>1024</find>
+      <find>.block-1_text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,12 +201,12 @@
       <workItem from="1597612321094" duration="18655000" />
       <workItem from="1601986559875" duration="679000" />
       <workItem from="1602076925371" duration="2557000" />
-      <workItem from="1602160323739" duration="31549000" />
+      <workItem from="1602160323739" duration="31627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253994000" />
+    <option name="totallyTimeSpent" value="254072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -325,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="1452" column="17" selection-start-line="1452" selection-start-column="17" selection-end-line="1452" selection-end-column="17" />
+        <state relative-caret-position="205">
+          <caret line="1036" column="13" selection-start-line="1036" selection-start-column="13" selection-end-line="1036" selection-end-column="13" />
         </state>
       </provider>
     </entry>
