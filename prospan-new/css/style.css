@@ -1437,6 +1437,9 @@ ol {
 }
 
 @media screen and (max-width: 768px) {
+  .header-block_outer {
+    background-position: top;
+  }
   #menuToggle {
     left: 215px;
   }
