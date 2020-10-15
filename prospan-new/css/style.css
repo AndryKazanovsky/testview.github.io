@@ -1456,12 +1456,19 @@ ol {
   .non-usual {
     margin-bottom: 110px;.block-2_inner p
   }
+  .mob-block-3_text {
+    padding-bottom: 100px;
+  }
 }
 
 @media screen and (max-width: 450px) {
+  .mob-header-block_img {
+    height: 300px;
+  }
   .instr-inner {
     padding-left: 0px;
   }
+
   .block-1_inner h2 {
     margin-top: 0;
   }
