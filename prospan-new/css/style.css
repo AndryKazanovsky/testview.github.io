@@ -1045,7 +1045,9 @@ ol {
     left: 70%;
     padding: 0;
   }
-
+  .disclamer-tra__inner {
+    padding: 0;
+  }
   .header-block_inner {
     width: 90%;
   }
@@ -1113,17 +1115,17 @@ ol {
     margin: 20px;
     width: 60px;
     height: 60px;
-    background: url("../images/bullet_01.png") no-repeat center / contain;
+    background: url("../images/bullet_01.svg") no-repeat center / contain;
   }
 
   .mob-block-3_text p:nth-child(2)::before {
-    background: url("../images/bullet_02.png") no-repeat center / contain;
+    background: url("../images/bullet_02.svg") no-repeat center / contain;
   }
   .mob-block-3_text p:nth-child(3)::before {
-    background: url("../images/bullet_03.png") no-repeat center / contain;
+    background: url("../images/bullet_03.svg") no-repeat center / contain;
   }
   .mob-block-3_text p:nth-child(4)::before {
-    background: url("../images/bullet_04.png") no-repeat center / contain;
+    background: url("../images/bullet_04.svg") no-repeat center / contain;
   }
   .drops-btn::after {
     margin-left: 15px;
