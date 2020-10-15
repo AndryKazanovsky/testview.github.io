@@ -1012,6 +1012,9 @@ ol {
 }
 
 @media screen and (max-width: 1024px) {
+  .plate-container {
+    justify-content: space-evenly;
+  }
   .disclamer-main {
     padding: 0 20px;
   }
