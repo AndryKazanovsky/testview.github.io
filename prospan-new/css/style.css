@@ -192,7 +192,7 @@ div {
 .header-block_img-germ {
   width: 100px;
   height: 100px;
-  background: url("../images/germany.png") no-repeat center / contain;
+  background: url("../images/germany.svg") no-repeat center / contain;
   position: relative;
   top: 220px;
   left: 257px;
@@ -242,8 +242,8 @@ h2 {
   display: block;
   content: '';
   margin: 15px;
-  width: 30px;
-  height: 30px;
+  width: 27px;
+  height: 27px;
   background: url("../images/logo_pluw 2.png") no-repeat center / contain;
 }
 
@@ -257,6 +257,7 @@ h2 {
 .block-2_inner p {
   text-align: center;
   font-weight: lighter;
+  font-size: 20px;
 }
 
 .block-2_inner {
@@ -275,7 +276,7 @@ h2 {
   flex-direction: column;
   width: 795px;
   margin: auto;
-  background: url("../images/div_01.png") no-repeat 50% 20% / auto;
+  background: url("../images/div_01.svg") no-repeat 50% 20% / auto;
 }
 
 .block-3_text {
@@ -426,7 +427,7 @@ h4 {
 }
 
 .plate-content p {
-  font-size: 20px;
+  font-size: 16px;
   color: #4F4F4F;
   font-weight: lighter;
 }
@@ -495,6 +496,9 @@ h4 {
 
 .usless-head-accordeon h4 {
   margin: 25px 0 !important;
+}
+.usless-head-accordeon p {
+  font-size: 18px;
 }
 
 .usless-head-accordeon_img {
@@ -566,7 +570,8 @@ h4 {
 }
 
 .panel p {
-  line-height: 30px
+  line-height: 30px;
+  font-size: 18px;
 }
 
 .panel p b {
@@ -1150,7 +1155,7 @@ ol {
   .mob-header-block_img-germ {
     width: 90px;
     height: 90px;
-    background: url("../images/germany.png") no-repeat center / contain;
+    background: url("../images/germany.svg") no-repeat center / contain;
     position: relative;
     top: 120px;
     left: 167px;
@@ -1444,7 +1449,7 @@ ol {
     left: 215px;
   }
   .non-usual {
-    margin-bottom: 110px;
+    margin-bottom: 110px;.block-2_inner p
   }
 }
 
