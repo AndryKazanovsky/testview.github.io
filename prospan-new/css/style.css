@@ -734,6 +734,27 @@ ol {
   font-family: 'RR';
 }
 
+
+.block-7__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  background: url("../images/map.jpg") no-repeat center / cover;
+}
+
+.where-to-buy__bottom {
+  background-color: #2894cf;
+  padding: 10px 20px;
+  font-size: 30px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: -1px 4px 5px 0px rgba(107, 107, 107,1);
+}
+
 .disclamer-tra__logo {
   height: 100px;
   width: 100px;
