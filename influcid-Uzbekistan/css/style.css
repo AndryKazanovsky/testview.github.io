@@ -112,6 +112,11 @@ sup {font-size:xx-small; vertical-align:super;}
   background-color: transparent;
 }
 
+.desctop-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .navigation {
   position: fixed;
   top: 0;
@@ -1404,7 +1409,7 @@ html {
     content: "";
     margin: auto;
 }
-.desctop-navigation a:last-child {
+.desctop-navigation .lang {
   border: 1px solid grey;
   padding: 10px;
   border-radius: 10px;
