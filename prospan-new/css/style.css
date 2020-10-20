@@ -572,6 +572,7 @@ h4 {
 .panel p {
   line-height: 30px;
   font-size: 18px;
+  text-indent: 20px;
 }
 
 .panel p b {
