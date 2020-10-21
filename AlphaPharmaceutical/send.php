@@ -19,10 +19,10 @@ Message: $message";
 $from = ('From:<'. $address .'> ');
 
 if (mail($address, $sub, $mes, $from)) {
-    header('Refresh: 5; URL=http://alpha-pharmaceutical.eu/');
-    echo 'ok';}
+    header('Refresh: 5; URL=https://alpha-pharmaceutical.eu/');
+    echo 'email sent';}
 else {
-    header('Refresh: 5; URL=http://alpha-pharmaceutical.eu/');
+    header('Refresh: 5; URL=https://alpha-pharmaceutical.eu/');
 }
 
 ?>
