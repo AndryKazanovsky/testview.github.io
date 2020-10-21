@@ -900,7 +900,8 @@ button {
     left: 75vw;
     top: 10px;
     font-family: "MB";
-    color: #FFE600;
+    /*color: #FFE600;*/
+    color: #D90913;
 }
 
   .form-top div {
