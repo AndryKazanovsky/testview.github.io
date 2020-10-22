@@ -8,10 +8,10 @@ $message = htmlspecialchars($_POST["message"]);
 
 /* Your address and subject line */
 $address = "info@swiss-pharmaceutical.ch";
-$sub = "message from SP";
+$sub = "swiss-pharmaceutical email";
 
 /* form format */
-$mes = "message from SP
+$mes = "swiss-pharmaceutical email
 Name: $name
 Lastname: $lastname
 MessangerContact: $messangerContact
