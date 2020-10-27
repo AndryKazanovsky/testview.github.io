@@ -352,6 +352,10 @@ div {
     contain;
 }
 
+.shitty-style {
+  text-indent: 10px;
+}
+
 .counter {
   position: absolute;
   display: flex;
