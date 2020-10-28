@@ -173,8 +173,8 @@ p {
     display: flex;
     flex-direction: row;
     margin-left: 5%;
-    margin-top: -150px;
-    width: 370px;
+    margin-top: -80px;
+    width: 280px;
     height: 315px;
     background: url(../images/products.png) no-repeat 50%/cover
 }
