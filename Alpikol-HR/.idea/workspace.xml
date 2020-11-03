@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99e7e133-9463-4f0a-9bb8-528b44dba09c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="1057" column="34" selection-start-line="1057" selection-start-column="34" selection-end-line="1057" selection-end-column="34" />
+            <state relative-caret-position="204">
+              <caret line="521" column="18" selection-start-line="521" selection-start-column="18" selection-end-line="521" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -46,6 +44,7 @@
       <find>.block-1__bg h1</find>
       <find>120vh</find>
       <find>.block-1__info .product-container</find>
+      <find>.block-1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,6 +99,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -128,12 +128,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604411743433</updated>
-      <workItem from="1604411746237" duration="2997000" />
+      <workItem from="1604411746237" duration="3246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2997000" />
+    <option name="totallyTimeSpent" value="3246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
@@ -171,8 +171,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="1057" column="34" selection-start-line="1057" selection-start-column="34" selection-end-line="1057" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="521" column="18" selection-start-line="521" selection-start-column="18" selection-end-line="521" selection-end-column="18" />
         </state>
       </provider>
     </entry>
