@@ -507,15 +507,15 @@ map .map-content .source-2 {
     display: block;
     color: #7C288A;
     font-family: "BnBold";
-    font-size: 52px;
-    max-width: 90%;
+    font-size: 43px;
+    max-width: 75%;
     margin: auto;
     text-align: left;
     line-height: 40px;
   }
   .h1-mob span {
     font-family: "BnR";
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .block-1 {
@@ -523,7 +523,7 @@ map .map-content .source-2 {
   }
 
   .h1-mob .span-stupid {
-    font-size: 42px;
+    font-size: 32px;
   }
 
 
@@ -950,7 +950,7 @@ map .map-content .source-2 {
   }
   .block-1__info .product-tagline p {
     font-size: 26px;
-    max-width: 90%;
+    max-width: 85%;
     margin: auto;
   }
   .block-2 {
@@ -1059,6 +1059,11 @@ map .map-content .source-2 {
   .navigation-top {
     display: none;
   }
+}
+@media screen and (max-width: 823px) {
+	.desctop-navigation {
+		display: none;
+	}
 }
 @media screen and (max-width: 415px) {
   h2 {
