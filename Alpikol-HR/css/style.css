@@ -187,11 +187,11 @@ p {
 
 .block-1__bg h1 {
   position: absolute;
-  top: 27%;
+  top: 20%;
   left: 10%;
   color: white;
   font-family: "BnBold";
-  font-size: 50px;
+  font-size: 60px;
   line-height: 50px;
   margin: 0;
   text-align: left;
@@ -203,6 +203,22 @@ p {
   color: white;
   margin: 0;
 }
+
+.block-1__bg h1 .b1-top {
+  font-family: "BnBook";
+  font-size: 30px;
+  color: white;
+  margin: 0 0 20px;
+}
+
+.block-1__bg h1 .b1-bottom {
+  font-family: "BnBold";
+  font-size: 40px;
+  color: white;
+  margin: 0;
+  text-align: left;
+}
+
 
 .block-1__info .product-tagline p {
   color: #7c288a;
@@ -517,6 +533,14 @@ map .map-content .source-2 {
     font-family: "BnR";
     font-size: 20px;
   }
+
+  .h1-mob .b1-top {
+  font-family: "BnBold";
+  font-size: 30px;
+  text-align: left;
+  color: #7C288A;
+  margin: 0 0 20px;
+}
 
   .block-1 {
     height: 1000px;
