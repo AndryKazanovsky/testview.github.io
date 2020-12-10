@@ -97,7 +97,7 @@ div {
 .outer-navigation-container {
   width: 100vw;
   z-index: 1005;
-  background: #030406;
+  background: transparent;
   position: fixed;
   display: flex;
   justify-content: flex-end;
@@ -109,6 +109,10 @@ div {
 }
 
 /*/////newpoint*/
+
+
+
+
 
 
 
@@ -166,7 +170,7 @@ div {
 
 
 .where-to-buy {
-  background-color: #C90A4C;
+  background-color: #BF1985;
   color: white !important;
   font-size: 10px !important;
   line-height: 10px !important;
@@ -176,17 +180,83 @@ div {
 }
 
 
-/*////////////////////////////////////////////////////gastritol-new*/
-
+h3 {
+  font-size: 34px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1F2426;
+}
 
 /*//////////block-1*/
 
 .block-1 {
+  height: 768px;
+  padding-top: 75px;
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #B1B1B1;
+}
 
+.block-1::after {
+  content: '';
+  display: block;
+  height: 140px;
+    width: 100%;
+  background: url('../images/line_bubbles.png') no-repeat bottom / contain;
 }
 
 .block-1_container {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
 
+}
+.block-1_center-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 425px;
+  margin-right: -125px;
+  z-index: 1;
+  margin-left: 5%;
+}
+.block-1_center-img {
+  width: 355px;
+  height: 555px; 
+  background: url('../images/photo_cover_02 1.png') no-repeat center / contain;
+}
+
+.block-1_center-image-right {
+  width: 584px;
+  height: 470px; 
+  background: url('../images/photo_cover_01.png') no-repeat center / contain;
+}
+.block-1_center-image-top {
+  width: 340px;
+  height: 225px;
+  background: url('../images/title.png') no-repeat center / contain;
+}
+.block-1_center-image-bottom {
+  width: 326px;
+  height: 213px; 
+  background: url('../images/photo_pack.png') no-repeat center / contain;
+}
+
+.block-1_center-container p {
+  color: #BF1985;
+  font-size: 20px;
+  padding-left: 60px;
+  line-height: 24px;
+  font-family: 'MN'
+}
+.block-1_center-container p::before {
+  position: relative;
+  left: -60px;
+  top: 30px;
+  content: '';
+  display: block;
+  width: 44px;
+  height: 32px;
+  background: url('../images/text_01.png') no-repeat center / contain;
 }
 
 
@@ -200,9 +270,49 @@ div {
 
 
 .block-2_container {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  /*justify-content: center;*/
+  max-width: 1200px;
+  margin: auto;
 }
 
+.block-2_plate-container {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.block-2_plate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 30%;
+  background: #F7F7F7;
+}
+
+.block-2_plate-img {
+  width: 105px;
+  height: 85px;
+  margin-bottom: 30px;
+  background: url('../images/Frame.png') no-repeat center / contain;
+}
+
+.block-2_plate:nth-child(2) .block-2_plate-img {
+  background: url('../images/Frame (1).png') no-repeat center / contain;
+}
+.block-2_plate:nth-child(3) .block-2_plate-img {
+  background: url('../images/Frame (2).png') no-repeat center / contain;
+}
+
+.block-2_plate p {
+  font-family: 'MN'
+  font-size: 20px;
+  line-height: 25px;
+  color: #1F2426;
+}
 
 
 
@@ -264,9 +374,9 @@ div {
 .navigation-menu a {
   margin-right: 20px;
   text-transform: uppercase;
-  color: #828282;
+  color: white;
   font-size: 13px;
-  font-family: 'RR', sans-serif;
+  font-family: 'RL', sans-serif;
   line-height: 13px;
 }
 
@@ -300,7 +410,7 @@ div {
   left: -5px;
   top: 50px;
   font-size: 11px;
-  color: #828282;
+  color: black;
   background-color: transparent;
 }
 
@@ -649,7 +759,7 @@ div {
 
   .where-to-buy-mob {
     display: block;
-    background-color: #C90A4C !important;
+    background: #BF1985 !important;
     color: white !important;
     font-size: 10px !important;
     line-height: 10px !important;
