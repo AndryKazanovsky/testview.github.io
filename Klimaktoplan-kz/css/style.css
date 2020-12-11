@@ -505,6 +505,8 @@ p {
   color: #fff;
   font-size: 40px;
   text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 .third-container__plate-container {
   position: relative;
@@ -796,6 +798,10 @@ p {
   display: flex;
   align-items: center;
   margin: 20px;
+  box-shadow: 0 1px 4px rgb(125 125 125);
+}
+.logo3 {
+  background-color: #f7eed1 !important;
 }
 .fifth-container .logo2 {
   background: url(../images/button_aptek02_KZ.jpg) no-repeat 50% / contain;

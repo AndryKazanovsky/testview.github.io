@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Vector (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Vector (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Vector.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Vector.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_children.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_grown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product-krapli 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="88f56e61-7263-46e9-8464-61b392284e19" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -26,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
@@ -43,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="654" column="14" lean-forward="true" selection-start-line="654" selection-start-column="14" selection-end-line="654" selection-end-column="14" />
+            <state relative-caret-position="367">
+              <caret line="661" column="18" lean-forward="true" selection-start-line="661" selection-start-column="18" selection-end-line="661" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -207,12 +197,12 @@
       <workItem from="1597478484194" duration="5126000" />
       <workItem from="1597612321094" duration="18655000" />
       <workItem from="1606482550600" duration="3245000" />
-      <workItem from="1607621368362" duration="12130000" />
+      <workItem from="1607621368362" duration="12623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234584000" />
+    <option name="totallyTimeSpent" value="235077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="721" extended-state="6" />
@@ -307,6 +297,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../gastritol-new/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="143" column="8" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="661" column="18" lean-forward="true" selection-start-line="661" selection-start-column="18" selection-end-line="661" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -319,20 +323,6 @@
             <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gastritol-new/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="143" column="8" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="654" column="14" lean-forward="true" selection-start-line="654" selection-start-column="14" selection-end-line="654" selection-end-column="14" />
         </state>
       </provider>
     </entry>
