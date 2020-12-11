@@ -24,9 +24,11 @@ var content = {
       }
     ]
 };
+
+var selector = 'body > header > div.main-img-container'; 
  
 function replacer(content) {
-    var utm = content; 
+    var utm = '/?utm_cover=man'; 
     if (utm in content) {
         for (i in content[utm]) {
           document.querySelector(content[utm][i]['selector']).innerHTML=content[utm][i]['content'];
