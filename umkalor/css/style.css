@@ -1,5 +1,15 @@
 /* fonts */
 
+
+
+
+@font-face {
+  font-family: 'MeL';
+  src: url('../fonts/Montserrat-ExtraLight.ttf');
+  font-style: normal;
+}
+
+
 @font-face {
   font-family: 'MN';
   src: url('../fonts/Montserrat-Medium.ttf');
@@ -69,7 +79,8 @@ html {
 
 p {
   margin: 0;
-  color: #828282;
+  color: #1F2426;
+  font-family: 'RR';
 }
 
 .block {
@@ -181,8 +192,8 @@ div {
 
 
 h3 {
-  font-size: 34px;
-  line-height: 38px;
+  font-size: 30px;
+  line-height: 35px;
   text-align: center;
   text-transform: uppercase;
   color: #1F2426;
@@ -246,7 +257,7 @@ h3 {
   font-size: 20px;
   padding-left: 60px;
   line-height: 24px;
-  font-family: 'MN'
+  font-family: 'MN';
 }
 .block-1_center-container p::before {
   position: relative;
@@ -256,7 +267,7 @@ h3 {
   display: block;
   width: 44px;
   height: 32px;
-  background: url('../images/text_01.png') no-repeat center / contain;
+  background: url('../images/text_01.svg') no-repeat center / contain;
 }
 
 
@@ -297,18 +308,18 @@ h3 {
   width: 105px;
   height: 85px;
   margin-bottom: 30px;
-  background: url('../images/Frame.png') no-repeat center / contain;
+  background: url('../images/Frame.svg') no-repeat center / contain;
 }
 
 .block-2_plate:nth-child(2) .block-2_plate-img {
-  background: url('../images/Frame (1).png') no-repeat center / contain;
+  background: url('../images/Frame2.svg') no-repeat center / contain;
 }
 .block-2_plate:nth-child(3) .block-2_plate-img {
-  background: url('../images/Frame (2).png') no-repeat center / contain;
+  background: url('../images/Frame3.svg') no-repeat center / contain;
 }
 
 .block-2_plate p {
-  font-family: 'MN'
+  font-family: 'MN';
   font-size: 20px;
   line-height: 25px;
   color: #1F2426;
@@ -319,43 +330,362 @@ h3 {
 /*//////////block-3*/
 
 .block-3 {
+  margin-top: 100px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 48.12%, #FFFFFF 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 59.17%), #CFCFCF;
+}
 
+.block-3::after {
+  content: '';
+  display: block;
+  height: 140px;
+  width: 100%;
+  background: url('../images/line_bubbles.png') no-repeat bottom / contain;
 }
 
 .block-3_container {
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+  max-width: 800px;
+  margin: auto;
+}
 
+.block-3_woman {
+  width: 100%;
+  height: 400px;
+  background: url('../images/div_02_content_photo.png') no-repeat center / contain;
+}
+
+.block-3_container h4 {
+  color: black;
+  font-size: 20px;
+  margin: 10px 0;
+  line-height: 24px;
+  font-family: 'MeL';
+  text-transform: uppercase;
+}
+.block-3_container h4 span {
+  color: #BF1985;
+}
+
+.block-3 p {
+  margin-bottom: 20px;
+}
+
+.block-3 p span {
+  color: #BF1985;
 }
 
 
+
+.block-3_container h4::before {
+  position: relative;
+  left: -60px;
+  top: 30px;
+  content: '';
+  display: block;
+  width: 44px;
+  height: 32px;
+  background: url(../images/text_01.svg) no-repeat center / contain;
+}
+
+.underline {
+  border: 1px solid #BF1985;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.upperline {
+  border: 1px solid #BF1985;
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
+
+.bullet-block_container {
+  max-width: 600px;
+  margin: auto;
+}
+.bullet-block_container p {
+  font-family: 'RL';
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 25px;
+}
+.bullet-block_container span {
+  text-transform: uppercase;
+}
+
+.bullet-block_container p::before {
+  position: relative;
+  left: -60px;
+  top: 40px;
+  content: '';
+  display: block;
+  width: 38px;
+  height: 38px;
+  background: url(../images/Union.svg) no-repeat center / contain;
+}
 
 /*//////////block-4*/
 
 
 .block-4 {
-
+  margin-top: 100px;
 }
 
 
 
 .block-4_container {
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+  max-width: 800px;
+  margin: auto;
+}
 
+
+.block-4_woman {
+  width: 100%;
+  height: 400px;
+  background: url('../images/div_01_content_photo.png') no-repeat center / contain;
+}
+
+.block-4_container h4 {
+  color: black;
+  font-size: 20px;
+  margin: 10px 0;
+  line-height: 24px;
+  font-family: 'MeL';
+  text-transform: uppercase;
+}
+.block-4_container h4 span {
+  color: #BF1985;
+}
+.block-4_text {
+  max-width: 50%;
+}
+
+.block-4 p {
+  margin-bottom: 20px;
+}
+
+.block-4 p span {
+  color: #BF1985;
 }
 
 
 
-/*//////block5*/
+.block-4_container h4::before {
+  position: relative;
+  left: -60px;
+  top: 30px;
+  content: '';
+  display: block;
+  width: 44px;
+  height: 32px;
+  background: url(../images/text_01.svg) no-repeat center / contain;
+}
+
+.btns-container {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  justify-content: center;
+}
+
+.btn-prep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #1F2426;
+  width: 25%;
+  cursor: pointer;
+}
+
+.btn-prep p {
+  font-family: 'RL';
+  color: #1F2426;
+}
+
+.btn-prep p::before {
+  position: relative;
+  left: -45px;
+  top: 30px;
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../images/Vector111.svg) no-repeat center / contain;
+}
+.btn-prep:nth-child(2) p::before {
+  background: url(../images/Vector222.svg) no-repeat center / contain;
+}
+.btn-prep:nth-child(3) p::before {
+  background: url(../images/Vector1.png) no-repeat center / contain;
+}
+
+.how-to-text {
+  text-align: center;
+  padding: 45px 0;
+  max-width: 500px;
+  margin: auto;
+}
+
+
+.dosage {
+  display: flex;
+  margin: auto;
+  max-width: 800px;
+  padding: 50px 0;
+}
+
+
+.dosage-inform {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+}
+
+.dosage-inform p {
+  font-family: 'RR';
+}
+
+.product-img {
+  height: 336px;
+  width: 45%;
+  margin-right: 30px;
+  background: url(../images/product-krapli1.png) no-repeat center / contain;
+}
+
+.dosage_container-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 30px;
+  background: url(../images/Vector11.svg) no-repeat center / contain;
+}
+.dosage_container:nth-child(2) .dosage_container-img {
+  background: url(../images/icon_children22.svg) no-repeat center / contain;
+}
+.dosage_container:nth-child(3) .dosage_container-img {
+  background: url(../images/icon_grown33.svg) no-repeat center / contain;
+}
+
+
+.dosage_container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.dosage_container span {
+
+}
+.dosage_container p {
+  font-family: 'RL';
+}
+
+
+  /*//////block5*/
 
 .block-5 {
-
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 48.12%, #FFFFFF 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 59.17%), #CFCFCF;
 }
 
 .block-5_container {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+}
 
+.block-5_woman {
+  width: 100%;
+  height: 400px;
+  background: url('../images/div_02_content_photo (1).png') no-repeat 80% / contain;
+  background-position: 10% 0;
+}
+
+.block-5_container h4 {
+  color: black;
+  font-size: 20px;
+  margin: 10px 0;
+  line-height: 24px;
+  font-family: 'MeL';
+  text-transform: uppercase;
+  padding-top: 45px;
+}
+.block-5_container h4 span {
+  color: #BF1985;
+}
+
+
+
+.block-5 p span {
+  color: #BF1985;
 }
 
 
 
 
+
+.block-5_container h4::before {
+  position: relative;
+  left: -60px;
+  top: 30px;
+  content: '';
+  display: block;
+  width: 44px;
+  height: 32px;
+  background: url(../images/text_01.svg) no-repeat center / contain;
+}
+
+
+.map-text_right {
+  max-width: 482px;
+  position: relative;
+  left: 50%;
+}
+
+.map-text_right h4::before {
+  position: relative;
+  left: -60px;
+  top: 30px;
+  content: '';
+  display: block;
+  width: 44px;
+  height: 32px;
+  background: url(../images/text_01.svg) no-repeat center / contain;
+}
+
+.map-text h4 {
+  color: black;
+  font-size: 20px;
+  margin: 10px 0;
+  line-height: 24px;
+  font-family: 'MeL';
+  text-transform: uppercase;
+}
+.map-text h4 span {
+  color: #BF1985;
+}
+
+.map-text p {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'RL';
+  color: #828282;
+  margin: auto;
+  max-width: 80%;
+  padding: 40px 0;
+}
+
+.map-text span {
+  font-family: 'RB';
+}
+
+.map-text {
+  max-width: 1200px;
+}
 
 
 
@@ -493,8 +823,8 @@ h3 {
 }
 .dt1 {
   max-width: 46%;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 10px;
+  line-height: 16px;
   font-family: 'RL';
 }
 
