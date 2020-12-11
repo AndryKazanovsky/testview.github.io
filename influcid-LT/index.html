@@ -15,6 +15,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+var content = {
+    man: [
+      {
+      selector: 'body > header > div.main-img-container',
+      content: '<img src="/upload/medialibrary/f47/influcid_main_02_first_desctop_AM.jpg">'
+      }
+    ]
+};
+ 
+function replacer(content) {
+    var utm = /utm_replace=([^&]*)/g.exec(document.URL); 
+    if (utm in content) {
+        for (i in content[utm]) {
+          document.querySelector(content[utm][i]['selector']).innerHTML=content[utm][i]['content'];
+        };
+    } else {
+        console.log("Каталог контента не имеет такой utm метки");
+    };
+};
+replacer(content);
+</script>
 </head>
 <body>
 	<header class="App-header">
