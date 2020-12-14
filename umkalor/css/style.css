@@ -288,6 +288,10 @@ h3 {
   background: url('../images/photo_cover_02 1.png') no-repeat center / contain;
 }
 
+.block-1_center-imgUA {
+  background: url('../images/man_354x555px.png') no-repeat center / contain;
+}
+
 .block-1_center-image-right {
   width: 584px;
   height: 470px; 
