@@ -37,20 +37,20 @@
         btnPrep1.classList.add('active-prep');
         btnPrep2.classList.remove('active-prep');
         btnPrep3.classList.remove('active-prep');
-        dosageContainerText1.innerHTML = "по 10 крапель 3 рази на добу";
-        dosageContainerText2.innerHTML = "по 20 крапель 3 рази на добу";
-        dosageContainerText3.innerHTML = "по 30 крапель 3 рази на добу";
-        howToText.innerHTML = "<span>КАПЛИ слід приймати </span> з невеликою кількістю рідини за 30 хвилин до їди вранці, вдень і ввечері.";
+        dosageContainerText1.innerHTML = "по 10 капель 3 раза в сутки";
+        dosageContainerText2.innerHTML = "по 20 капель 3 раза в сутки";
+        dosageContainerText3.innerHTML = "по 30 капель 3 раза в сутки";
+        howToText.innerHTML = "<span>КАПЛИ следует принимать</span> с небольшим количеством жидкости за 30 минут до еды утром, днем ​и вечером.";
     };
 
     btnPrep2.onclick = function() {
         btnPrep2.classList.add('active-prep');
         btnPrep1.classList.remove('active-prep');
         btnPrep3.classList.remove('active-prep');
-        dosageContainerText1.innerHTML = "по 2,5 мл сиропу 3 рази на добу";
-        dosageContainerText2.innerHTML = "по 5 мл сиропу 3 рази на добу";
-        dosageContainerText3.innerHTML = "по 7,5 мл сиропу 3 рази на добу";
-        howToText.innerHTML = "<span>Сироп</span> слід приймати всередину 3 рази на добу: вранці, в обід і ввечері.";
+        dosageContainerText1.innerHTML = "по 2,5 мл сиропа 3 раза в сутки";
+        dosageContainerText2.innerHTML = "по 5 мл сиропа 3 раза в сутки";
+        dosageContainerText3.innerHTML = "по 7,5 мл сиропа 3 раза в сутки";
+        howToText.innerHTML = "<span>Сироп</span> следует принимать внутрь 3 раза в сутки: утром, в обед и вечером.";
     };
 
     btnPrep3.onclick = function() {
@@ -58,9 +58,9 @@
         btnPrep2.classList.remove('active-prep');
         btnPrep1.classList.remove('active-prep');
         dosageContainerText1.innerHTML = "";
-        dosageContainerText2.innerHTML = "по 1 таблетці 2 рази на добу: вранці та ввечері";
-        dosageContainerText3.innerHTML = "таблетці 3 рази на добу";
-        howToText.innerHTML = "<span>Таблетки</span> слід приймати не розжовуючи, з невеликою кількістю рідини за 30 хвилин до їди.";
+        dosageContainerText2.innerHTML = "по 1 таблетке 2 раза в сутки: утром и вечером";
+        dosageContainerText3.innerHTML = "по 1 таблетке 3 раза в сутки";
+        howToText.innerHTML = "<span>Таблетки</span> следует принимать не разжевывая, с небольшим количеством жидкости за 30 минут до еды.";
     };
 
 

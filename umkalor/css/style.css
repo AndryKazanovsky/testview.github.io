@@ -95,6 +95,34 @@ p {
   color: black !important;
 }
 
+.active-prep {
+  border-bottom: 2px solid #BF1985 !important;
+}
+.active-prep p {
+  font-family: 'RR' !important;
+    color: #BF1985 !important;
+}
+
+.show1 {
+  transition: background-color 0.5s ease;
+  background-color: white;
+  box-shadow: 2px 6px 5px -2px rgba(173, 171, 173, 1);
+}
+
+.show1 #menuToggle span {
+  background: black;
+}
+
+.navigation-menu .active-nav {
+  color: #C90A4C !important;
+}
+
+.show1 a {
+  color: black !important;
+
+}
+
+
 div {
   display: block;
 }
@@ -142,7 +170,7 @@ div {
 
 
 .lang b {
-  color: #C90A4C;
+  color: #BF1985;
   text-decoration: underline;
 }
 .lang-dop {
@@ -166,7 +194,7 @@ div {
 }
 
 .logo-container {
-  background: url('../images/logo.png') no-repeat center / contain;
+  background: url('../images/logo.svg') no-repeat center / contain;
   width: 100px;
   height: 20px;
   display: block;
@@ -855,7 +883,7 @@ h3 {
 
 .disclamer-tra__klein {
 
-  background: url('../images/logo_klein 1.png') no-repeat bottom / contain;
+  background: url('../images/logo-clean 1.png') no-repeat bottom / contain;
   background-size: 60%;
 }
 
@@ -867,6 +895,10 @@ h3 {
 .disclamer-tra__inner {
   background-color: #f8f9fa;
   padding: 60px 0;
+}
+
+.klein-mob {
+  display: none;
 }
 
 .disclamer-warning {
@@ -1001,7 +1033,7 @@ h3 {
 
   border-radius: 10px;
 
-  background: #030406;
+  background: white;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -1126,7 +1158,7 @@ h3 {
 
   #menu li a {
     font-size: 20px;
-    color: white;
+    color: black;
     text-decoration: none;
   }
 
@@ -1136,7 +1168,7 @@ h3 {
   }
 
   #menu p {
-    color: white;
+    /*color: white;*/
   }
 
 
@@ -1161,10 +1193,143 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+  h3 {
+    padding: 0 10px;
+  }
   #menuToggle {
     left: 215px;
   }
+  .block-1 {
+    height: auto;
+  }
+  .block-1_container {
+    flex-direction: column-reverse;
+  }
 
+  .block-1_center-image-right {
+    width: 100%;
+    height: 280px;
+    margin-top: 40px;
+    margin-bottom: -100px;
+  }
+  .block-1_center-container {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 20px 10px;
+    align-items: center;
+  }
+  .block-1_center-container p {
+    padding: 60px 10px 0;
+  }
+  .block-1_center-container p::before {
+          left: 0px;
+    top: -10px;
+  }
+  .block-1_center-img {
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+  }
+  .block-1::after {
+    background-size: cover
+  }
+  .block-2_plate-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .block-2_plate {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .block-3_container {
+    flex-direction: column-reverse;
+    padding: 0 20px;
+  }
+  .block-3_container h4::before {
+    left: 0px;
+    top: -10px;
+  }
+  .bullet-block {
+    padding: 0 20px;
+  }
+  .block-4 {
+    margin-top: 0;
+  }
+  .block-4_container {
+    flex-direction: column;
+  }
+  .block-4_container h4::before {
+    left: 0px;
+    top: -10px;
+  }
+  .block-4_text {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .btn-prep p::before {
+        left: 8px;
+    top: -10px;
+  }
+  .dosage {
+    flex-direction: column;
+    padding: 0;
+  }
+  .product-img {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .btn-prep {
+        width: 28%;
+  }
+  .dosage-inform {
+    padding: 0 20px;
+  }
+  .dosage_container {
+    margin-bottom: 20px;
+  }
+  .block-5_container {
+    flex-direction: column-reverse;
+    padding: 0 20px;
+  }
+  .block-5_container h4::before {
+    left: 0px;
+    top: -10px;
+  }
+  .block-5_container h3 {
+    text-align: left;
+  }
+  .block-5_container .bullet-block {
+    padding: 0;
+  }
+  .block-5_container .bullet-block_container {
+    padding-left: 40px;
+  }
+  .block-5_container .bullet-block_container p::before {
+        left: -45px;
+    top: 27px;
+    width: 30px;
+    height: 30px;
+  }
+
+
+
+  .map-text_right {
+    left: 0;
+        width: 85%;
+    margin: auto;
+  }
+  .map-text_right h4::before {
+    left: 0px;
+    top: -10px;
+  }
+  .map-text {
+    margin-top: 80px;
+  }
+  .upperline {
+    top: -20px;
+  }
 }
 
 @media screen and (max-width: 450px) {
