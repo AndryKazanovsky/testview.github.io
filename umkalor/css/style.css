@@ -272,7 +272,7 @@ h3 {
 .block-1_center-image-top {
   width: 340px;
   height: 225px;
-  background: url('../images/title.png') no-repeat center / contain;
+  background: url('../images/title.svg') no-repeat center / contain;
 }
 .block-1_center-image-bottom {
   width: 326px;
@@ -713,6 +713,7 @@ h3 {
 
 .map-text {
   max-width: 1200px;
+  margin: auto;
 }
 
 
@@ -840,6 +841,13 @@ h3 {
   display: none;
 }
 
+
+.hide {
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+}
 
 
 .logo-block {

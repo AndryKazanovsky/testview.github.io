@@ -23,6 +23,8 @@
     const btnPrep2 = document.querySelector('.btn-prep-2');
     const btnPrep3 = document.querySelector('.btn-prep-3');
 
+    const dosageContainer1 = document.querySelector('.dosage_container1');
+
     const dosageContainerText1 = document.querySelector('.dosage_container-text1');
     const dosageContainerText2 = document.querySelector('.dosage_container-text2');
     const dosageContainerText3 = document.querySelector('.dosage_container-text3');
@@ -34,6 +36,7 @@
     // };
 
     btnPrep1.onclick = function() {
+        dosageContainer1.classList.remove('hide');
         btnPrep1.classList.add('active-prep');
         btnPrep2.classList.remove('active-prep');
         btnPrep3.classList.remove('active-prep');
@@ -44,6 +47,7 @@
     };
 
     btnPrep2.onclick = function() {
+        dosageContainer1.classList.remove('hide');
         btnPrep2.classList.add('active-prep');
         btnPrep1.classList.remove('active-prep');
         btnPrep3.classList.remove('active-prep');
@@ -54,6 +58,7 @@
     };
 
     btnPrep3.onclick = function() {
+        dosageContainer1.classList.add('hide');
         btnPrep3.classList.add('active-prep');
         btnPrep2.classList.remove('active-prep');
         btnPrep1.classList.remove('active-prep');
