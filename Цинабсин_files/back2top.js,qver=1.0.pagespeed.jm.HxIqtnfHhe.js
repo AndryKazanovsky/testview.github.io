@@ -1,0 +1,2 @@
+jQuery('#back2top').click(function(event){jQuery('html, body').animate({scrollTop:0},500);return false;});jQuery(window).scroll(function(event){if(jQuery('html').scrollTop()||jQuery('body').scrollTop())jQuery('#back2top').removeClass('d-none');else
+jQuery('#back2top').addClass('d-none');});
