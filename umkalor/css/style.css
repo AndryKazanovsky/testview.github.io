@@ -95,12 +95,36 @@ p {
   color: black !important;
 }
 
-.active-prep {
+.active-prep1 {
   border-bottom: 2px solid #BF1985 !important;
 }
-.active-prep p {
+.active-prep2 {
+  border-bottom: 2px solid #BF1985 !important;
+}
+.active-prep3 {
+  border-bottom: 2px solid #BF1985 !important;
+}
+.active-prep1 p {
   font-family: 'RR' !important;
     color: #BF1985 !important;
+}
+.active-prep2 p {
+  font-family: 'RR' !important;
+  color: #BF1985 !important;
+}
+.active-prep3 p {
+  font-family: 'RR' !important;
+  color: #BF1985 !important;
+}
+
+.active-prep1 p::before {
+  background: url(../images/button_01_color.svg) no-repeat center / contain !important;
+}
+.active-prep2 p::before {
+  background: url(../images/button_03_color.svg) no-repeat center / contain !important;
+}
+.active-prep3 p::before {
+  background: url(../images/button_02_color.svg) no-repeat center / contain !important;
 }
 
 .show1 {
@@ -545,13 +569,13 @@ h3 {
   display: block;
   width: 40px;
   height: 40px;
-  background: url(../images/Vector111.svg) no-repeat center / contain;
+  background: url(../images/button_01_grey.svg) no-repeat center / contain;
 }
 .btn-prep:nth-child(2) p::before {
   background: url(../images/Vector222.svg) no-repeat center / contain;
 }
 .btn-prep:nth-child(3) p::before {
-  background: url(../images/Vector1.png) no-repeat center / contain;
+  background: url(../images/button_02_grey.svg) no-repeat center / contain;
 }
 
 .how-to-text {
@@ -587,6 +611,16 @@ h3 {
   background: url(../images/product-krapli1.png) no-repeat center / contain;
 }
 
+.drops {
+  background: url(../images/product-krapli1.png) no-repeat center / contain;
+}
+.syrop {
+  background: url(../images/product-syrop.jpg) no-repeat center / contain;
+}
+.tab-img {
+  background: url(../images/photo_pack.png) no-repeat center / contain;
+}
+
 .dosage_container-img {
   width: 60px;
   height: 60px;
@@ -612,6 +646,10 @@ h3 {
 .dosage_container p {
   font-family: 'RL';
 }
+
+
+
+
 
 
   /*//////block5*/

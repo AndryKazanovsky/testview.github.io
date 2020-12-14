@@ -24,6 +24,7 @@
     const btnPrep3 = document.querySelector('.btn-prep-3');
 
     const dosageContainer1 = document.querySelector('.dosage_container1');
+    const productImg = document.querySelector('.product-img');
 
     const dosageContainerText1 = document.querySelector('.dosage_container-text1');
     const dosageContainerText2 = document.querySelector('.dosage_container-text2');
@@ -36,10 +37,13 @@
     // };
 
     btnPrep1.onclick = function() {
+        productImg.classList.add('drops');
+        productImg.classList.remove('syrop');
+        productImg.classList.remove('tab-img');
         dosageContainer1.classList.remove('hide');
-        btnPrep1.classList.add('active-prep');
-        btnPrep2.classList.remove('active-prep');
-        btnPrep3.classList.remove('active-prep');
+        btnPrep1.classList.add('active-prep1');
+        btnPrep2.classList.remove('active-prep2');
+        btnPrep3.classList.remove('active-prep3');
         dosageContainerText1.innerHTML = "по 10 крапель 3 рази на добу";
         dosageContainerText2.innerHTML = "по 20 крапель 3 рази на добу";
         dosageContainerText3.innerHTML = "по 30 крапель 3 рази на добу";
@@ -47,10 +51,13 @@
     };
 
     btnPrep2.onclick = function() {
+        productImg.classList.remove('drops');
+        productImg.classList.add('syrop');
+        productImg.classList.remove('tab-img');
         dosageContainer1.classList.remove('hide');
-        btnPrep2.classList.add('active-prep');
-        btnPrep1.classList.remove('active-prep');
-        btnPrep3.classList.remove('active-prep');
+        btnPrep2.classList.add('active-prep2');
+        btnPrep1.classList.remove('active-prep1');
+        btnPrep3.classList.remove('active-prep3');
         dosageContainerText1.innerHTML = "по 2,5 мл сиропу 3 рази на добу";
         dosageContainerText2.innerHTML = "по 5 мл сиропу 3 рази на добу";
         dosageContainerText3.innerHTML = "по 7,5 мл сиропу 3 рази на добу";
@@ -58,10 +65,13 @@
     };
 
     btnPrep3.onclick = function() {
+        productImg.classList.remove('drops');
+        productImg.classList.remove('syrop');
+        productImg.classList.add('tab-img');
         dosageContainer1.classList.add('hide');
-        btnPrep3.classList.add('active-prep');
-        btnPrep2.classList.remove('active-prep');
-        btnPrep1.classList.remove('active-prep');
+        btnPrep3.classList.add('active-prep3');
+        btnPrep2.classList.remove('active-prep2');
+        btnPrep1.classList.remove('active-prep1');
         dosageContainerText1.innerHTML = "";
         dosageContainerText2.innerHTML = "по 1 таблетці 2 рази на добу: вранці та ввечері";
         dosageContainerText3.innerHTML = "таблетці 3 рази на добу";

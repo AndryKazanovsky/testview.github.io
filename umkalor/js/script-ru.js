@@ -24,6 +24,7 @@
     const btnPrep3 = document.querySelector('.btn-prep-3');
 
     const dosageContainer1 = document.querySelector('.dosage_container1');
+      const productImg = document.querySelector('.product-img');
 
     const dosageContainerText1 = document.querySelector('.dosage_container-text1');
     const dosageContainerText2 = document.querySelector('.dosage_container-text2');
@@ -36,6 +37,9 @@
     // };
 
     btnPrep1.onclick = function() {
+        productImg.classList.add('drops');
+        productImg.classList.remove('syrop');
+        productImg.classList.remove('tab-img');
         dosageContainer1.classList.remove('hide');
         btnPrep1.classList.add('active-prep');
         btnPrep2.classList.remove('active-prep');
@@ -47,6 +51,9 @@
     };
 
     btnPrep2.onclick = function() {
+        productImg.classList.remove('drops');
+        productImg.classList.add('syrop');
+        productImg.classList.remove('tab-img');
         dosageContainer1.classList.remove('hide');
         btnPrep2.classList.add('active-prep');
         btnPrep1.classList.remove('active-prep');
@@ -58,6 +65,9 @@
     };
 
     btnPrep3.onclick = function() {
+        productImg.classList.remove('drops');
+        productImg.classList.remove('syrop');
+        productImg.classList.add('tab-img');
         dosageContainer1.classList.add('hide');
         btnPrep3.classList.add('active-prep');
         btnPrep2.classList.remove('active-prep');
