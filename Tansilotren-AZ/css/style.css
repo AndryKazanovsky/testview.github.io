@@ -169,8 +169,9 @@ div {
 
 .instruction p {
   position: relative;
-  left: 5px;
+  left: 0px;
   top: 75px;
+  text-align: center;
   font-size: 13px;
   color: #a00067;
   background-color: transparent;
