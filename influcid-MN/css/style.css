@@ -87,6 +87,29 @@ sup {font-size:xx-small; vertical-align:super;}
 /*  }*/
 /*}*/
 
+
+
+.main-img-container_utm {
+  background-image: url('../images/first img2.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  width: 100%; 
+  min-height: 90vh;
+}
+
+.main-img-container_utm-man {
+  background-image: url('../images/influcid_main_02_first_desctop_MD.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  width: 100%; 
+  min-height: 90vh;
+}
+
+
+
+
 .logo {
   color: #43781f;
     font-size: 30px;
@@ -227,12 +250,12 @@ sup {font-size:xx-small; vertical-align:super;}
   background: url("../images/first img.png") no-repeat center / cover;
 }
 
-.main-img-container-ru {
-  min-height: 90vh;
+/*.main-img-container-ru {*/
+  /*min-height: 90vh;*/
   /*margin-top: -12vh;*/
-  width: 100%;
-  background: url("../images/first img2.jpg") no-repeat center / cover;
-}
+  /*width: 100%;*/
+  /*background: url("../images/first img2.jpg") no-repeat center / cover;*/
+/*}*/
 
 .App-link {
   color: #2894cf;
@@ -1136,10 +1159,18 @@ html {
   .panel ul {
     font-size: 13px;
   }
-
+  
+  .main-img-container_utm {
+    min-height: 34vh;
+    margin-top: 2vh;
+  }
+  .main-img-container_utm-man {
+    min-height: 34vh;
+    margin-top: 2vh;
+  }
   .main-img-container {
-    min-height: 50vh;
-    margin-top: 5vh;
+    min-height: 10vh;
+    margin-top: 2vh;
   }
   .instruction {
     height: 40px;
