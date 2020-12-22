@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="350" column="6" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
+            <state relative-caret-position="154">
+              <caret line="556" column="85" selection-start-line="556" selection-start-column="85" selection-end-line="556" selection-end-column="85" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#amp-mega-menu#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#amp-mega-menu#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -252,12 +252,12 @@
       <updated>1608211370718</updated>
       <workItem from="1608211372044" duration="372000" />
       <workItem from="1608217282242" duration="1437000" />
-      <workItem from="1608533341512" duration="27476000" />
+      <workItem from="1608533341512" duration="27591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29285000" />
+    <option name="totallyTimeSpent" value="29400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
@@ -295,8 +295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="350" column="6" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
+        <state relative-caret-position="154">
+          <caret line="556" column="85" selection-start-line="556" selection-start-column="85" selection-end-line="556" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#amp-mega-menu#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#amp-mega-menu#0;n#body#0;n#html#0;n#!!top" expanded="true" />
