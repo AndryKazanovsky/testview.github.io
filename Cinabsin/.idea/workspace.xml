@@ -18,9 +18,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="452" column="83" selection-start-line="452" selection-start-column="83" selection-end-line="452" selection-end-column="83" />
+            <state relative-caret-position="384">
+              <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
               <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#amp-sidebar#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#section#0;n#amp-accordion#0;n#amp-sidebar#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#nav#0;n#amp-mega-menu#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#amp-mega-menu#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#1;n#nav#0;n#amp-mega-menu#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -173,6 +177,8 @@
       <find>disclamer</find>
       <find>block-3</find>
       <find>discla</find>
+      <find>.mobile-menu</find>
+      <find>header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -252,12 +258,12 @@
       <updated>1608211370718</updated>
       <workItem from="1608211372044" duration="372000" />
       <workItem from="1608217282242" duration="1437000" />
-      <workItem from="1608533341512" duration="28949000" />
+      <workItem from="1608533341512" duration="32217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30758000" />
+    <option name="totallyTimeSpent" value="34026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
@@ -295,9 +301,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="452" column="83" selection-start-line="452" selection-start-column="83" selection-end-line="452" selection-end-column="83" />
+        <state relative-caret-position="384">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
           <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#amp-sidebar#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#section#0;n#amp-accordion#0;n#amp-sidebar#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#nav#0;n#amp-mega-menu#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#amp-mega-menu#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#1;n#nav#0;n#amp-mega-menu#0;n#body#0;n#html#0;n#!!top" expanded="true" />

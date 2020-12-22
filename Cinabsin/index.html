@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <title>Cinabsin</title>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
     <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
     <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
     <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
@@ -13,6 +15,7 @@
   <script custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js" async></script>
   <link rel="canonical" href="https://preview.amp.dev/ru/documentation/components/amp-mega-menu.example.2.html">
   <meta name="viewport" content="width=device-width">
+
     <style amp-boilerplate>
         .disclamer {
             font-size: 60px; color: rgb(108,117,125); text-align: center; font-family: sans-serif; font-weight: lighter;
@@ -41,6 +44,18 @@
         }
         .text-el {
             max-width: 22%;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            position: fixed;
+            z-index: 2;
+            background: white;
+            width: 100vw;
+            margin-top: -10px;
+            height: 40px;
         }
         .paz-mob {
             width: 30%;
@@ -94,6 +109,12 @@
         .comp-4-p {
             position: relative; top: -70px; left: 70px; font-family: sans-serif;
         }
+        .mobile-menu {
+            display: none;
+            background-color: white;
+            width: 100vw;
+            z-index: 2;
+        }
 
         @media screen and (max-width: 768px)
     {.media {
@@ -108,6 +129,11 @@
         .disclamer {
             font-size: 20px;
         }
+            .mobile-menu {
+                height: 40px;
+                display: block;
+                padding-top: 10px;
+            }
         .main-text {
             padding-left: 10px;
             font-size: 21px;
@@ -207,6 +233,70 @@
     html {scroll-behavior: smooth;} a{ margin-right: 10px; text-decoration: none;color:black; } body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
 <body>
+
+
+<!--mobile-menu-->
+
+<div class="mobile-menu">
+    <div class="header">
+
+        <span href="#block-0" style="cursor: pointer; font-family: sans-serif; font-weight: bold;">ЦИННАБСИН</span>
+        <button on="tap:sidebar.toggle" class="headerMenu" style="width: 20px; height: 20px;margin-right: 10px; border: none; background-image: url('./images/1.svg')">
+
+        </button>
+
+
+    </div>
+
+
+    <amp-sidebar id="sidebar"   side="right" style="height: 100px; width: 100vw; font-family: sans-serif; padding: 40px;">
+            <section>
+                <ul style="list-style: none;padding: 0;">
+                    <li>
+                        <a  href="#block-1" role="button">Состав</a>
+                    </li>
+                    <li>
+                        <a  href="#block-2" role="button">Действие</a>
+                    </li>
+                    <li>
+                        <a  href="#block-3" role="button">Как принимать</a>
+                    </li>
+                    <li>
+                        <a  href="#block-4" role="button">Где купить</a>
+                    </li>
+                </ul>
+            </section>
+    </amp-sidebar>
+
+    <div class="renderBody"></div>
+
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="optimizeSpeed">
+        <defs>
+            <symbol id="icon-h-menu" viewBox="0 0 24 24">
+                <path d="M0 3.456h24.048v1.848h-24.048v-1.848z"></path>
+                <path d="M0 10.956h24.048v1.848h-24.048v-1.848z"></path>
+                <path d="M0 18.648h24.048v1.848h-24.048v-1.848z"></path>
+            </symbol>
+
+            <symbol id="icon-search" viewBox="0 0 20 20">
+                <path d="M18.7,19.225l-3.594-4.39a8.29,8.29,0,1,0-.778.628l3.6,4.4a.5.5,0,0,0,.774-.633ZM2.188,8.667A7.333,7.333,0,1,1,9.521,16,7.342,7.342,0,0,1,2.188,8.667Z" />
+            </symbol>
+
+        </defs>
+    </svg>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 <amp-mega-menu class="amp-desc" style="" height="40" layout="fixed-height">
     <a name="block-0"></a>
     <nav style="box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);width: 100%; padding: 10px; position: fixed;display: flex; width: 100%; justify-content: space-between; align-items: center;">
@@ -512,10 +602,10 @@
 <p style="max-width: 1200px; margin: auto; font-size: 25px; text-align: center; font-family: sans-serif;">Где купить</p>
 <div style="width: 100vw; margin: 50px 0;">
     <div class="media-column" style="display: flex; justify-content: space-evenly; max-width: 1200px; margin: auto; align-items: center">
-        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;"><p>аптека 1</p></div>
-        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;"><p>аптека 2</p></div>
-        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;"><p>аптека 3</p></div>
-        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;"><p>аптека 4</p></div>
+        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;background-image: url('./images/logo-social.png'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;background-image: url('./images/logo-social.png'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;background-image: url('./images/logo-social.png'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;background-image: url('./images/logo-social.png'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
     </div>
 </div>
 <div class="disc-mob-back" style=" padding: 50px 10px;background-color: #f8f9fa;">
