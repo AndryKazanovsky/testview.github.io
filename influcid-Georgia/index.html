@@ -15,6 +15,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="js/script.js"></script>
+  <script>
+    var content = {
+      man: [
+        {
+          selector: 'body > header > div.main-img-container',
+          content: '<div class="main-img-container_utm-man" ></div>'
+        }
+      ]
+    };
+
+    var selector = 'body > header > div.main-img-container';
+    function replacer(content) {
+      var utm = /utm_replace=([^&]*)/g.exec(document.URL)[1];
+      if (utm in content) {
+        console.log(utm);
+        for (i in content[utm]) {
+          document.querySelector(content[utm][i]['selector']).innerHTML=content[utm][i]['content'];
+        };
+      } else {
+        console.log('Каталог контента не имеет такой utm метки');
+      };
+    };
+    replacer(content);
+  </script>
 </head>
 <body>
   <!-- <div class="alert-license">
@@ -59,7 +83,9 @@
 
           </div>
         </div>
-        <div class="main-img-container main-img-container-ru"></div>
+        <div class="main-img-container main-img-container-ru">
+          <div class="main-img-container_utm" ></div>
+        </div>
         <a name="block-1"></a>
         <p>
           <b>გრიპი და გაციება?</b> არჩევანი თქვენზეა. <b>ინფლუციდი</b>

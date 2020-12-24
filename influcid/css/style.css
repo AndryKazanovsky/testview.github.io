@@ -85,6 +85,25 @@ sup {
 
 
 
+.main-img-container_utm {
+  background-image: url('../images/woman_img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 90vh;
+}
+
+.main-img-container_utm-man {
+  background-image: url('../images/man_img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 90vh;
+}
+
+
 .fixed-link {
   position: fixed;
   background: #2894cf;
@@ -1141,6 +1160,15 @@ html {
 
   .panel ul {
     font-size: 13px;
+  }
+
+  .main-img-container_utm {
+    min-height: 34vh;
+    margin-top: 2vh;
+  }
+  .main-img-container_utm-man {
+    min-height: 34vh;
+    margin-top: 2vh;
   }
 
   .main-img-container {

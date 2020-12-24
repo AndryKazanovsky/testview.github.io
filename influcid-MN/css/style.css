@@ -90,7 +90,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 
 .main-img-container_utm {
-  background-image: url('../images/first img2.jpg'); 
+  background-image: url('../images/woman_img.jpg');
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: center; 
@@ -99,7 +99,7 @@ sup {font-size:xx-small; vertical-align:super;}
 }
 
 .main-img-container_utm-man {
-  background-image: url('../images/influcid_main_02_first_desctop_MD.jpg'); 
+  background-image: url('../images/man_img.jpg');
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: center; 
