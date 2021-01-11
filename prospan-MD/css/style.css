@@ -706,7 +706,7 @@ button:focus {
 
 .instruction p {
   position: relative;
-  left: -10px;
+  left: -8px;
   top: 50px;
   font-size: 11px;
   background-color: transparent;
@@ -847,7 +847,7 @@ ol {
 
 .logo-block {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   max-width: 1024px;
   margin: auto;
   justify-content: space-between;
@@ -1362,7 +1362,7 @@ ol {
 
 
   .logo-block {
-    flex-direction: column;
+    flex-direction: row;
   }
   .dt1 {
     max-width: 95vw;
