@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html ⚡>
+<head>
+  <meta charset="utf-8">
+  <title>Cinnabsin</title>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+  <script custom-element="amp-mega-menu" src="https://cdn.ampproject.org/v0/amp-mega-menu-0.1.js" async></script>
+  <script custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js" async></script>
+  <script custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js" async></script>
+  <link rel="canonical" href="https://preview.amp.dev/ru/documentation/components/amp-mega-menu.example.2.html">
+  <meta name="viewport" content="width=device-width">
+
+    <style amp-boilerplate>
+        .disclamer {
+            font-size: 60px; color: rgb(108,117,125); text-align: center; font-family: sans-serif; font-weight: lighter;
+            margin: 0;
+        }
+        .pill{
+            width: 33px;
+            height: 33px;
+            margin-right: 5px;
+            background: url("./images/tabl.jpg") no-repeat center / contain;
+        }
+        .main-text {
+            position: relative; top: -60px; left: 120px; font-size: 32px; font-family: sans-serif; font-weight: 500;
+        }
+        .pack {
+            position: relative; z-index: 1; height: 350px; width: 270px; background-image: url('./images/cynabisin.png'); background-position: center;background-size: cover; background-repeat: no-repeat;
+        }
+        .shma {
+            top: 120px;left: 170px; position: absolute; height: 220px; width: 380px; background-image: url('./images/monster-1.png'); background-position: center;background-size: contain; background-repeat: no-repeat;
+        }
+        .header-container {
+            display: flex; height: 550px; background-image: url('./images/bg2.jpg'); background-position: top;background-size: cover; background-repeat: no-repeat;
+        }
+        .main-text_ul {
+            position: absolute; top: 180px; left: 550px; width: 400px; font-family: sans-serif;font-size: 16px;
+        }
+        .text-el {
+            max-width: 22%;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            position: fixed;
+            z-index: 2;
+            background: white;
+            width: 100vw;
+            margin-top: -10px;
+            height: 40px;
+        }
+        .paz-mob {
+            width: 30%;
+        }
+        .paz-text {
+            width: 60%;
+        }
+        .how-width {
+            width: 25%;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+        }
+        .amp-desc {
+            display: flex;
+        }
+        .disc-width {
+            width: 20%;
+        }
+        .disc-width-center {
+            width: 40%;
+        }
+        .disc-mob-back {
+            width: 98%;
+        }
+        .comp-4-mob {
+            width: 100vw;height: 300px; margin: 100px 0; background-color: rgb(235, 235, 235);
+        }
+        .comp-1 {
+            position: relative;left: 90px; top: 130px;z-index: 1;border: 2px solid rgb(139, 139, 139); border-radius: 50%; height: 185px; width: 185px; background-image: url('./images/gidrastis.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;
+        }
+        .comp-2 {
+            position: relative;left: 30px;top: 30px;border: 2px solid rgb(139, 139, 139);border-radius: 50%;height: 185px; width: 185px; background-image: url('./images/cinnabaris.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;
+        }
+        .comp-3 {
+            position: relative; top: -40px; z-index: 1; height: 350px; width: 270px; background-image: url('./images/cynabisin.png'); background-position: center;background-size: cover; background-repeat: no-repeat;
+        }
+        .comp-4 {
+            position: relative;right: 30px;top: 30px;border: 2px solid rgb(139, 139, 139);border-radius: 50%;height: 185px; width: 185px; background-image: url('./images/echinacea.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;
+        }
+        .comp-5 {
+            position: relative;right: 90px; top: 130px;border: 2px solid rgb(139, 139, 139);border-radius: 50%;height: 185px; width: 185px; background-image: url('./images/calium.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;
+        }
+        .comp-1-p {
+            position: relative; top: -70px; left: 25px; font-family: sans-serif;
+        }
+        .comp-2-p {
+            position: relative; top: -70px; left: 25px; font-family: sans-serif;
+        }
+        .comp-3-p {
+            position: relative; top: -70px; left: 25px; font-family: sans-serif;
+        }
+        .comp-4-p {
+            position: relative; top: -70px; left: 70px; font-family: sans-serif;
+        }
+        .mobile-menu {
+            display: none;
+            background-color: white;
+            width: 100vw;
+            z-index: 2;
+        }
+        .menu-li {
+            margin-bottom: 15px;
+        }
+        .res-top {
+            width: 100vw; margin: 40px 0 200px;
+        }
+
+        @media screen and (max-width: 1024px)
+    {.media {
+        flex-direction: column-reverse;
+        }
+        .media-column {
+            flex-direction: column;
+        }
+        .media-wrap {
+            flex-wrap: wrap;
+        }
+        .res-top {
+        	width: 78vw;
+            padding: 0 40px;
+             margin: 40px 0 100px;
+        }
+        .disclamer {
+            font-size: 20px; font-weight: bolder;
+            padding-bottom: 40px;
+        }
+            .mobile-menu {
+                height: 40px;
+                display: block;
+                padding-top: 10px;
+            }
+        .main-text {
+            padding-left: 40px;
+            font-size: 21px;
+            position: initial;
+        }
+        .pack {
+            height: 290px;
+            width: 170px;
+            margin-left: 40px;
+            background-size: contain;
+        }
+        .shma {
+            top: 221px;
+            left: 81px;
+            position: absolute;
+            height: 120px;
+            width: 280px;
+        }
+        .header-container {
+            padding-bottom: 200px;
+        }
+        .main-text_ul {
+            top: 430px;
+            left: 0;
+            max-width: 250px;
+        }
+        .plate-el {
+            margin: 40px 10px;
+        }
+        .mob-column {
+            flex-direction: column;
+        }
+            .text-el {
+                max-width: 90%;
+                padding: 0 40px;
+            }
+            .paz-mob {
+                width: 73%;
+                padding: 0 40px;
+            }
+            .paz-text {
+                width: 73%;
+                padding: 40px;
+
+            }
+            .media-width {
+                width: 100%;
+                padding: 10px;
+            }
+            .how-width {
+                width: 90%;
+                border: none;
+            }
+            .amp-desc {
+                display: none;
+            }
+            .comp-4-mob {
+                width: 100vw;height: 900px; margin: 100px 0; background-color: rgb(235, 235, 235);
+            }
+            .comp-column {
+                flex-wrap: wrap;
+                position: relative;
+            }
+            .disc-width {
+                width: 90%;
+            }
+            .disc-width-center {
+                width: 90%;
+            }
+            .disc-mob-back {
+                width: 78%;
+                padding: 0 40px;
+            }
+            .comp-1 {
+                position: initial;margin: 20px;margin-top: 80px;left: 90px; top: 130px;z-index: 1;border: 2px solid rgb(139, 139, 139); border-radius: 50%; height: 135px; width: 135px; background-image: url('./images/gidrastis.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;
+            }
+            .comp-2 {
+                position: initial;margin: 20px;margin-top: 80px;left: 30px;top: 30px;border: 2px solid rgb(139, 139, 139);border-radius: 50%;height: 135px; width: 135px; background-image: url('./images/cinnabaris.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;
+            }
+            .comp-3 {
+                position: absolute;
+                top: 500px;
+                z-index: 1;
+                height: 350px;
+                width: 270px;
+            }
+            .comp-4 {
+                position: initial;margin: 20px;margin-top: 80px;right: 30px;top: 30px;border: 2px solid rgb(139, 139, 139);border-radius: 50%;height: 135px; width: 135px; background-image: url('./images/echinacea.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;
+            }
+            .comp-5 {
+                position: initial;margin: 20px;margin-top: 80px;right: 90px; top: 130px;border: 2px solid rgb(139, 139, 139);border-radius: 50%;height: 135px; width: 135px; background-image: url('./images/calium.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;
+            }
+            .comp-4-p {
+                 top:-95px; left: 25px;
+            }
+    }
+
+    html {scroll-behavior: smooth;} a{ margin-right: 10px; text-decoration: none;color:black; } body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+<body>
+
+
+<!--mobile-menu-->
+
+<div class="mobile-menu">
+    <div class="header">
+
+        <span href="#block-0" style="cursor: pointer; font-family: sans-serif; font-weight: bold; padding-left: 35px;">ЦИННАБСИН</span>
+        <button on="tap:sidebar.toggle" class="headerMenu" style="width: 20px; height: 20px;margin-right: 40px; border: none; background-image: url('./images/1.svg')">
+
+        </button>
+
+
+    </div>
+
+
+    <amp-sidebar id="sidebar"   side="right" style="height: 170px; width: 100vw; font-family: sans-serif; padding: 40px;">
+            <section>
+                <ul style="list-style: none;padding: 0;">
+                    <li class="menu-li">
+                        <a  href="#block-1" role="button">Состав</a>
+                    </li>
+                    <li class="menu-li">
+                        <a  href="#block-2" role="button">Действие</a>
+                    </li>
+                    <li class="menu-li">
+                        <a  href="#block-3" role="button">Как принимать</a>
+                    </li>
+                    <li class="menu-li">
+                        <a  href="#block-4" role="button">Где купить</a>
+                    </li>
+                    <li class="menu-li">
+                        <a  href="./index-en.html" role="button">en</a>
+                    </li>
+                </ul>
+            </section>
+    </amp-sidebar>
+
+    <div class="renderBody"></div>
+
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="optimizeSpeed">
+        <defs>
+            <symbol id="icon-h-menu" viewBox="0 0 24 24">
+                <path d="M0 3.456h24.048v1.848h-24.048v-1.848z"></path>
+                <path d="M0 10.956h24.048v1.848h-24.048v-1.848z"></path>
+                <path d="M0 18.648h24.048v1.848h-24.048v-1.848z"></path>
+            </symbol>
+
+            <symbol id="icon-search" viewBox="0 0 20 20">
+                <path d="M18.7,19.225l-3.594-4.39a8.29,8.29,0,1,0-.778.628l3.6,4.4a.5.5,0,0,0,.774-.633ZM2.188,8.667A7.333,7.333,0,1,1,9.521,16,7.342,7.342,0,0,1,2.188,8.667Z" />
+            </symbol>
+
+        </defs>
+    </svg>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<amp-mega-menu class="amp-desc" style="" height="40" layout="fixed-height">
+    <a name="block-0"></a>
+    <nav style="box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);width: 100%; padding: 10px; position: fixed;display: flex; width: 100%; justify-content: space-between; align-items: center;">
+        <ul>
+            <li>        <a href="#block-0" style="cursor: pointer; font-family: sans-serif; font-weight: bold;">ЦИННАБСИН</a>
+            </li>
+        </ul>
+        <ul style="cursor: pointer; font-family: sans-serif; color: rgba(0,0,0,.5);">
+            <li>
+                <a  href="#block-1" role="button">Состав</a>
+            </li>
+            <li>
+                <a  href="#block-2" role="button">Действие</a>
+            </li>
+            <li>
+                <a  href="#block-3" role="button">Как принимать</a>
+            </li>
+            <li>
+                <a  href="#block-4" role="button">Где купить</a>
+            </li>
+            <li style="    margin-right: 30px;border: 1px solid rgb(108, 117, 125); border-radius: 5px;padding: 5px;">
+                <a href="index-en.html" style="margin-right: 0;" role="button">en</a>
+            </li>
+        </ul>
+    </nav>
+</amp-mega-menu>
+<div class="header-container" style="">
+    <div style="position: relative; display: flex; max-width: 1200px; margin: auto;" class="media">
+        <div class="pack" style="">
+            <a target="_blank" href="http://cinnabsin.com.ua/wp-content/uploads/2019/03/info.pdf" style="text-decoration: none; color: black; position: absolute; top: 100%; left: 30%; padding: 10px 30px; background-color: #f5e41e; border-radius: 12px; font-family: sans-serif;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)" >Инструкция</a>
+
+        </div>
+        <div class="shma" style=""></div>
+        <h1 class="main-text" style="" >НАСМОРК? ГАЙМОРИТ?<br>ЦИННАБСИН ОСВОБОДИТ!</h1>
+        <ul class="main-text_ul" style="">
+            <li style="margin-bottom: 20px;">Устраняет заложенность носа и головную боль при насморке и гайморите</li>
+            <li style="margin-bottom: 20px;">Нормализует естественное очищение слизистой носа и околоносовых пазух</li>
+            <li style="margin-bottom: 20px;">Ускоряет выздоровление и препятствует повторным заболеваниям </li>
+        </ul>
+    </div>
+</div>
+<div class="res-top" style="">
+    <div style="position: relative; display: flex; justify-content: space-evenly; max-width: 1200px; margin: auto;" class="media-wrap">
+        <div class="plate-el" style="height: 114px; width: 114px; background-image: url('./images/de.png'); background-position: center;background-size: cover; background-repeat: no-repeat;">
+            <p style="position:relative;top: 120px; font-size: 16px;text-align: center; font-family: sans-serif;">Сделано<br>в Германии</p>
+        </div>
+        <div class="plate-el" style=" height: 114px; width: 114px; background-image: url('./images/60.png'); background-position: center;background-size: cover; background-repeat: no-repeat;">
+            <p style="position:relative;top: 120px; font-size: 16px;text-align: center; font-family: sans-serif;">60 лет доверия</p>
+        </div>
+        <div class="plate-el" style=" height: 114px; width: 114px; background-image: url('./images/ns.png'); background-position: center;background-size: cover; background-repeat: no-repeat;">
+            <p style="position:relative;top: 120px; font-size: 16px;text-align: center; font-family: sans-serif;">Натуральный состав</p>
+        </div>
+        <a class="plate-el" target="_blank" href='https://pubmed.ncbi.nlm.nih.gov/17180695/' style=" height: 114px; width: 114px; background-image: url('./images/us.png'); background-position: center;background-size: cover; background-repeat: no-repeat; color: black; text-decoration: none;">
+            <p style="position:relative;top: 120px; font-size: 16px;text-align: center; font-family: sans-serif;">Доказанная эффективность</p>
+        </a>
+    </div>
+
+</div>
+<div style="position: absolute;height: 100vh;margin-top: -10vh;" >
+    <a name="block-1"></a>
+</div>
+    <p style="max-width: 1200px; margin: auto; font-size: 25px; text-align: center; font-family: sans-serif; padding: 0 40px;"><span style="font-weight: bold;">Циннабсин</span> - натуральный
+        комплексный препарат, гармонично сочетает в себе
+        4 фармакологических активных природных компонента</p>
+
+
+
+
+<div class="comp-4-mob" style="">
+    <div class="comp-column" style="display: flex; justify-content: center; max-width: 1200px; margin: auto;">
+        <div class="comp-1" style=""><p class="comp-1-p" style=""><strong>Гидрастис</strong><br>(Hydrastis)</p></div>
+        <div class="comp-2" style=""><p class="comp-2-p" style=""><strong>Циннабарис</strong><br>(Cinnabaris)</p></div>
+        <div class="comp-3" style=""></div>
+        <div class="comp-4" style=""><p class="comp-3-p" style=""><strong>Эхинацея</strong><br>(Echinacea)</p></div>
+        <div class="comp-5" style=""><p class="comp-4-p" style=""><strong>Калиум бихромикум</strong><br>(Kalium bichromicum)</p></div>
+    </div>
+</div>
+
+
+
+
+
+<div style="position: absolute;height: 100vh;margin-top: -10vh;" >
+    <a name="block-2"></a>
+</div>
+<p style="max-width: 1200px; margin: auto; font-size: 25px; text-align: center; font-family: sans-serif; padding: 0 40px;"><span style="font-weight: bold;">Циннабсин</span> - действует на основные
+    звенья  развития насморка и гайморита</p>
+<div style="width: 100vw; margin-top: 50px;">
+    <div class="mob-column" style="display: flex; justify-content: space-around; max-width: 1200px; margin: auto;">
+        <div class="text-el" style="border-right: 1px solid #ebebeb;  padding-right: 20px;">
+            <p style="color: #e98300; font-family: sans-serif; font-weight: bolder;">Противоотечное действие <sup>3</sup></p>
+            <p style="line-height: 25px; font-family: sans-serif;">Бережно восстанавливает носовое дыхание уменьшая отек
+                слизистой оболочки полости носа и околоносовых пазух</p>
+        </div>
+        <div class="text-el" style="border-right: 1px solid #ebebeb;  padding-right: 20px;">
+            <p style="color: #e98300; font-family: sans-serif; font-weight: bolder;">Секретолитическое и секретомоторное действие <sup>3</sup></p>
+            <p style="line-height: 25px; font-family: sans-serif;">Разжижает густой носовой секрет и облегчает его выведение</p>
+        </div>
+        <div class="text-el" style="border-right: 1px solid #ebebeb;  padding-right: 20px;">
+            <p style="color: #e98300; font-family: sans-serif; font-weight: bolder;">Нормализует работу мерцательного эпителия <sup>3</sup></p>
+            <p style="line-height: 25px; font-family: sans-serif;">Восстанавливает естественный механизм очищения слизистой
+                носа и околоносовых пазух</p>
+        </div>
+        <div class="text-el" style="  padding-right: 20px;">
+            <p style="color: #e98300; font-family: sans-serif; font-weight: bolder;">Иммуномодулирующее действие <sup>3</sup></p>
+            <p style="line-height: 25px; font-family: sans-serif;">Повышает собственные защитные силы организма, что ускоряет
+                выздоровление и препятствует
+                переходу острого процесса в хронический</p>
+        </div>
+
+    </div>
+</div>
+
+<div style="width: 100vw; margin: 50px 0;">
+    <div class="media-column" style="display: flex; justify-content: space-between; max-width: 1200px; margin: auto;">
+        <div class="paz-mob" style="height: 350px;  background-image: url('./images/pazuhi.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+        <div class="paz-text" style="">
+            <strong style="color: #e98300; font-family: sans-serif; font-weight: bolder;">Принцип действия Циннабисина</strong>
+            <p style="font-family: sans-serif;">Главная особенность препарата Циннабсин — многопрофильность действия. И это выгодно отличает его от сосудосуживающих капель, которые только восстанавливают носовое дыхание, вызывая при этом сухость слизистой носа, поскольку они снижают её кровоснабжение, нарушают работу мукоцилиарного транспорта — естественного механизма очищения слизистой пазух и носа. Циннабсин восстанавливает носовое дыхание, снимая отёк слизистой носа и околоносовых пазух (за счёт противовоспалительного и противоотёчного действий), разжижает густую слизь, облегчает её отхождение, нормализуя естественный механизм очищения слизистой носа и околоносовых пазух.<sup>2</sup> </p>
+
+
+            <amp-accordion class="accordion" animate>
+
+                <section>
+                    <div style="width: 150px;padding: 10px 30px;background-color: #e98300;color:white;border-radius: 12px;font-family: sans-serif;box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);outline: none;" class="menu">Узнать больше</div>
+                    <div>
+                        <p style="font-family: sans-serif;">
+                            Ещё одним важным достоинством препарата Циннабсин является его способность повышать собственные защитные силы организма, что ускоряет выздоровление и препятствует повторному заболеванию.С препаратом Циннабсин носы и носики свободны!
+                        </p>
+                        <strong  style="color: #e98300; font-family: sans-serif; font-weight: bolder;">
+                            Насморк, гайморит? Циннабсин! Дышите носом свободно!
+                        </strong>
+                    </div>
+
+                </section>
+
+
+            </amp-accordion>
+
+
+        </div>
+    </div>
+</div>
+<div style="position: absolute;height: 100vh;margin-top: -10vh;" >
+    <a name="block-3"></a>
+</div>
+<p style="max-width: 1200px; margin: auto; font-size: 25px; text-align: center; font-family: sans-serif;padding: 0 40px;">Как принимать <span style="font-weight: bold;">Циннабсин</span></p>
+<div style="width: 100vw; margin: 50px 0;">
+    <p  style="max-width: 1200px; margin: auto; margin-bottom: 30px; text-align: center; font-family: sans-serif;padding: 0 40px;">Таблетки принимать за 30 минут до еды или через 30 минут после еды, медленно рассасывая в полости рта. </p>
+    <div style="display: flex; justify-content: space-between; max-width: 1200px; margin: auto; padding: 0 20px;">
+        <div class="media-column" style="width: 100%;display: flex; justify-content: space-between">
+            <div class="how-width" style="display: flex; flex-direction: column; align-items: center; padding: 20px; border-radius: 5px;">
+                <div style="width:114px;height: 114px;margin-bottom: 20px;background-image: url('./images/26.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+                <strong style="color: #e98300;margin-bottom: 20px; font-family: sans-serif; font-weight: bolder;">Детям от 3 до 6 лет</strong>
+                <p style="font-family: sans-serif;text-align: center;height: 115px;">
+                    при острых состояниях – следует принимать по   1 таблетке каждые 2 часа (не более 6 раз в день) до наступления улучшения.  При дальнейшем лечении по 1/2 таблетки 3 раза в день до полного выздоровления. 
+                </p>
+                <amp-accordion class="accordion" animate>
+
+                    <section>
+                        <div style="margin: auto; width: 150px;padding: 10px 30px;background-color: #e98300;color:white;border-radius: 12px;font-family: sans-serif;box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);outline: none; text-align: center" class="menu">Детальнее</div>
+                        <div>
+                            <div style="display: flex; justify-content: center;margin: 20px 0;">
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                            </div>
+                            <div style="display: flex; justify-content: center;margin: 20px 0;">
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                            </div>
+                            <p style="font-family: sans-serif;text-align: center; font-weight: bolder;">
+                                При хроническом течении заболевания
+                            </p>
+                            <p style="font-family: sans-serif;text-align: center;">
+                                детям от 3 до 6 лет следует принимать по 1/2 таблетки 3 раза в день. Курс лечения для предотвращения рецидивов при хроническом   течении заболеваний рекомендуется до 2 месяцев.
+                            </p>
+                            <div style="display: flex; justify-content: center;margin: 20px 0;">
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                            </div>
+                        </div>
+                    </section>
+                </amp-accordion>
+            </div>
+            <div  class="how-width" style="display: flex; flex-direction: column; align-items: center; padding: 20px; border-radius: 5px;">
+                <div style="width:114px;height: 114px;margin-bottom: 20px;background-image: url('./images/611.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+                <strong style="color: #e98300;margin-bottom: 20px; font-family: sans-serif; font-weight: bolder;">Детям с 6 до 12 лет</strong>
+                <p style="font-family: sans-serif;text-align: center;height: 115px;">
+                    При острых состояниях – следует принимать по 1 таблетке каждый час (не более 7-8 р в день) до наступления улучшения. При дальнейшем лечении по 1 таблетке 2 раза в день до полного выздоровления. 
+                </p>
+                <amp-accordion class="accordion" animate>
+
+                    <section>
+                        <div style="margin: auto; width: 150px;padding: 10px 30px;background-color: #e98300;color:white;border-radius: 12px;font-family: sans-serif;box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);outline: none; text-align: center" class="menu">Детальнее</div>
+                        <div>
+                            <div style="display: flex; justify-content: center;margin: 20px 0;">
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                            </div>
+                            <div style="display: flex; justify-content: center;margin: 20px 0;">
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                            </div>
+                            <div style="display: flex; justify-content: center;margin: 20px 0;">
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                            </div>
+                            <p style="font-family: sans-serif;text-align: center; font-weight: bolder;">
+                                При хроническом течении заболевания: 
+                            </p>
+                            <p style="font-family: sans-serif;text-align: center;">
+                                по 1 таблетке 2 раза в день. Курс лечения для предотвращения рецидивов при хроническом   течении заболеваний рекомендуется до 2 месяцев. 
+                            </p>
+                            <div style="display: flex; justify-content: center;margin: 20px 0;">
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                            </div>
+                        </div>
+                    </section>
+                </amp-accordion>
+            </div>
+            <div class="how-width" style="display: flex; flex-direction: column; align-items: center; padding: 20px; border-radius: 5px;">
+                <div style="width:114px;height: 114px;margin-bottom: 20px;background-image: url('./images/12.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+                <strong style="color: #e98300;margin-bottom: 20px; font-family: sans-serif; font-weight: bolder;">Взрослым и детям с 12 лет</strong>
+                <p style="font-family: sans-serif;text-align: center;height: 115px;">
+                    При острых состояниях – принимать при остром заболевании по 1 таблетке каждый час (не более 12 раз в день) до наступления улучшения, далее по 1-2 таблетки 3 раза в день до полного выздоровления. 
+                </p>
+                <amp-accordion class="accordion" animate>
+
+                    <section>
+                        <div style="margin: auto; width: 150px;padding: 10px 30px;background-color: #e98300;color:white;border-radius: 12px;font-family: sans-serif;box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);outline: none; text-align: center" class="menu">Детальнее</div>
+                        <div>
+                            <div style="display: flex; justify-content: center;margin: 20px 0;">
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                            </div>
+                            <div style="display: flex; justify-content: center;margin: 20px 0;">
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                            </div>
+                            <p style="font-family: sans-serif;text-align: center; font-weight: bolder;">
+                                При хроническом течении заболевания: 
+                            </p>
+                            <p style="font-family: sans-serif;text-align: center;">
+                                старше 12 лет и взрослым принимать по 1 таблетке 3 раза в день до улучшения состояния. Курс лечения для предотвращения рецидивов при хроническом   течении заболеваний рекомендуется до 2 месяцев. 
+                            </p>
+                            <div style="display: flex; justify-content: center;margin: 20px 0;">
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                                <div class="pill"></div>
+                            </div>
+                        </div>
+                    </section>
+                </amp-accordion>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="position: absolute;height: 100vh;margin-top: -10vh;" >
+    <a name="block-4"></a>
+</div>
+<p style="max-width: 1200px; margin: auto; font-size: 25px; text-align: center; font-family: sans-serif;">Где купить</p>
+<div style="width: 100vw; margin: 50px 0;">
+    <div class="media-column" style="display: flex; justify-content: space-evenly; max-width: 1200px; margin: auto; align-items: center">
+        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;background-image: url('./images/logo-social.png'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;background-image: url('./images/logo-social.png'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;background-image: url('./images/logo-social.png'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+        <div style="width: 200px; height: 100px;border-radius: 10px;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);margin-bottom: 20px;background-image: url('./images/logo-social.png'); background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+    </div>
+</div>
+<div class="disc-mob-back" style="background-color: #f8f9fa;">
+    <div style="display: flex; flex-direction: column;  max-width: 1200px; margin: auto; color: rgb(108,117,125);font-family: sans-serif;">
+        <p style="text-align: center; font-size: 28px;">ЦИННАБСИН</p>
+        <p style="text-align: center; font-size: 28px;">
+        </p>
+        <p>1. Инструкция для медицинского использования к препарату Циннабсин
+        </p>
+        <p>2. Thinesse-Mallwitz, M., Maydannik, V., Keller, T., Klement, P. A Homeopathic Combination Preparation in the Treatment of Feverish Upper Respiratory Tract Infections: An International Randomized Controlled Trial
+        </p>
+        <p>Бесшапочный С.Б. Журнал «Ринология», 2006 г. №2 стр. 24-29.
+        </p>
+    </div>
+    <div class="media-column" style="display: flex;justify-content: space-evenly; color: rgb(108,117,125); padding: 50px 0; align-items: center; font-family: sans-serif;">
+        <div class="disc-width" style="display: flex; align-items: center;">
+            <div style="width: 55px;height: 55px;background-image: url('./images/logo.jpg');margin-right: 25px; background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+            <div style="line-height: 22px;">
+                <p style="margin: 0;">Изготовитель</p>
+                <p style="margin: 0;">DHU (Германия)</p>
+            </div>
+        </div>
+        <div class="disc-width-center" style="">
+            <p>Реклама лекарственного препарата. Перед применением ознакомьтесь с инструкцией по применению
+                и проконсультируйтесь с врачом. Хранить в недоступном для детей месте. Циннабсин
+                №UA/6790/01/01 от 09.08.2017
+            </p>
+            <p>
+                Поставщик «Альпен Фарма АГ» (Швейцария). Производитель - DHU (Германия)
+                www.dhu.de Эксклюзивный дистрибьютор - Фармацевтическая компания ЧАО «Натурфарм», г. Киев,
+                Пуща-Водица, ул. Лесная, 30а, тел.: +38 (044) 303 91 10 www.naturpharma.ua
+            </p>
+        </div>
+        <div class="disc-width" style="display: flex; justify-content: flex-end; align-items: center;">
+            <div style="line-height: 22px;">
+                <p style="margin: 0;">Поставщик</p>
+                <p style="margin: 0;">Альпен Фарма АГ<br>(Швейцария)</p>
+            </div>
+            <div style="width: 65px;height: 55px;background-image: url('./images/logo-af.png');margin-left: 25px; background-position: center;background-size: cover; background-repeat: no-repeat;"></div>
+        </div>
+    </div>
+    <p class="disclamer" style="">ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ К ПРИМЕНЕНИЮ, НЕОБХОДИМО ОЗНАКОМИТЬСЯ С ИНСТРУКЦИЕЙ ПО ПРИМЕНЕНИЮ ИЛИ ПРОКОНСУЛЬТИРОВАТЬСЯ С ВРАЧОМ (СПЕЦИАЛИСТОМ). </p>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
