@@ -130,13 +130,7 @@ body {
   background: url("../images/icon_04_apteki_LT.jpg") no-repeat center / contain;
 }
 .apt-container a:nth-child(5) {
-  background: url("../images/icon_02_apteki_MD.jpg") no-repeat center / contain;
-}
-.apt-container a:nth-child(6) {
-  background: url("../images/icon_05_apteki_MD.jpg") no-repeat center / contain;
-}
-.apt-container a:nth-child(7) {
-  background: url("../images/icon_04_apteki_MD.jpg") no-repeat center / contain;
+  background: url("../images/100 metu_logo.jpg") no-repeat center / contain;
 }
 
 sup {font-size:xx-small; vertical-align:super;}
