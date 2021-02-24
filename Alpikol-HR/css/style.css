@@ -185,6 +185,104 @@ p {
 }
 
 
+/*<!-- //////license start -->*/
+
+.alert-license {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.75 );
+  color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.alert-license p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.alert-license a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+
+.alert-license b {
+  text-decoration: underline;
+}
+
+.alert-license .license-off {
+  background-color: white;
+  padding: 10px 5px;
+  border-radius: 20px;
+  margin: 0 100px;
+}
+
+.alert-license button p {
+  color: #43781F;
+}
+
+.license {
+  text-align: left;
+  /*margin: auto;*/
+  color:rgb(51, 51, 51);
+  position: absolute;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+
+.license div {
+  width: 70%;
+  margin: auto;
+}
+
+.license strong {
+  font-size: 22px;
+  line-height: 24px;
+  margin: 20px 0 !important;
+  display: block;
+}
+
+.license p {
+  font-size: 14px;
+  margin: 0;
+
+}
+
+.license-off p {
+  text-decoration: underline;
+  padding: 0 15px;
+}
+
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+  .alert-license a {
+    font-size: 9px;
+  }
+  .alert-license .license-off {
+    margin: 5px;
+    padding: 5px;
+  }
+  .alert-license .license-off p {
+    font-size: 9px;
+  }
+  .license div {
+    width: 100%;
+  }
+}
+
+/*<!-- //////license fin -->*/
+
+
+
 .block-1__bg h1 {
   position: absolute;
   top: 20%;
