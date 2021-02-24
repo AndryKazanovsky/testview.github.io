@@ -17,6 +17,12 @@
       });
     }
 
+    const alertLicense = document.querySelector('.alert-license');
+    const licenseOff = document.querySelector('.license-off');
+      licenseOff.onclick = function() {
+          alertLicense.classList.add('hide');
+      };
+
     // buttons
 
     const btn1 = document.querySelector('.keybtn1');
