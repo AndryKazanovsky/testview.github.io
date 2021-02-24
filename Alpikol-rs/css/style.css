@@ -254,8 +254,9 @@ p {
 }
 
 .license-off p {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   padding: 0 15px;
+  cursor: pointer;
 }
 
 
