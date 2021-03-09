@@ -7,6 +7,13 @@
 }
 
 @font-face {
+  font-family: 'MR';
+  src: url('../fonts/Montserrat-Regular.ttf');
+  font-style: normal;
+}
+
+
+@font-face {
   font-family: 'MeL';
   src: url('../fonts/Montserrat-ExtraLight.ttf');
   font-style: normal;
@@ -75,7 +82,12 @@ html {
 
 p {
   margin: 0;
+  font-family: 'MR'
   /*color: #828282;*/
+}
+
+h1 {
+  margin-bottom: 40px;
 }
 
 .block {
@@ -279,7 +291,7 @@ div {
   text-transform: uppercase;
   color: black;
   font-size: 12px;
-  font-family: 'MeL', sans-serif;
+  font-family: 'MR', sans-serif;
   line-height: 14px;
 }
 
@@ -1043,6 +1055,7 @@ h4 {
 .big-plate_text p {
   font-family: 'MeL'
   font-size: 16px;
+  line-height: 26px;
   margin-bottom: 30px;
 }
 .big-plate_text b {
