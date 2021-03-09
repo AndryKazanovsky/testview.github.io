@@ -1068,9 +1068,12 @@ h4 {
   padding: 80px 0
   font-size: 16px;
   font-family: 'MeL';
-  border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 80px 0;
+}
+
+.big-plate:first-child {
+  border-top: 1px solid black;
 }
 
 .big-plate h4 {
@@ -1252,6 +1255,13 @@ h4 {
   margin: 140px auto;
   font-family: 'MeL';
   font-size: 20px;
+}
+
+.block-4 ul {
+  margin-bottom: 100px;
+  margin-left: 50px;
+  font-family: 'MeL';
+
 }
 
 .block-4 b {
