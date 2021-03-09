@@ -1382,6 +1382,10 @@ button {
   .plate_styling-empty {
     display: none;
   }
+  h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
 
   .big-plate {
     flex-direction: column-reverse;
