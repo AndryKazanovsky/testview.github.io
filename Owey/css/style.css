@@ -1397,6 +1397,22 @@ button {
 
 
 @media screen and (max-width: 1024px) {
+  .slider__control_right {
+    right: 0;
+    top: 380px;
+  }
+  .slider__control_left {
+    top: 380px;
+    left: 75%;
+  }
+
+  .slider__item h2 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 100px;
+    margin-left: 20px;
+    margin-top: 0;
+  }
   .plate_styling-empty {
     display: none;
   }
@@ -1493,18 +1509,23 @@ button {
 
   .slider-img-1 {
     background-size: 400% !important;
+    background-position: center; 
   }
   .slider-img-2 {
     background-size: 400% !important;
+    background-position: 80%;
   }
   .slider-img-3 {
     background-size: 400% !important;
+    background-position: 90%;
   }
   .slider-img-4 {
     background-size: 400% !important;
+    background-position: 80%;
   }
   .slider-img-5 {
     background-size: 400% !important;
+    background-position: 80%;
   }
   .slider-img-6 {
     background-size: 400% !important;
