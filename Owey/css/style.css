@@ -1441,6 +1441,7 @@ button {
 
   .block-3-small .block-3_plate {
     background-size: cover;
+    height: 190px;
     width: 48%;
   }
 
