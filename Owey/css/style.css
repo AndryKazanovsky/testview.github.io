@@ -932,7 +932,7 @@ h4 {
   justify-content: center;
   width: 305px;
   height: 390px;
-  margin: 30px auto;
+  margin: 50px auto;
   background: url('../images/Rectangle 95.jpg') no-repeat center/contain;
 }
 
@@ -1178,7 +1178,8 @@ h4 {
 
 .block-3_plates-container {
   display: flex;
-  justify-content: space-around;
+      justify-content: space-between;
+    padding: 0 15px;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -1338,11 +1339,14 @@ button {
   margin-bottom: 10px;
 }
 .content-container input {
+  border: 1px solid black;
   width: 100%;
   padding: 10px;
 }
 
 .content-container textarea {
+  border: 1px solid black;
+
   padding: 10px;
   height: 200px;
 }
@@ -1424,6 +1428,16 @@ button {
   .slider__control_left {
     top: 380px;
     left: 75%;
+  }
+  .plates-container_styling {
+    margin: 40px 0;
+  }
+  .block-4 {
+    margin: 40px 0;
+  }
+
+  .block-3-small .block-3_plate {
+    width: 48%;
   }
 
   .slider__item h2 {
