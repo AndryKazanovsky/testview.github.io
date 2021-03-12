@@ -650,6 +650,7 @@ h4 {
   /*position: absolute;*/
   /*top: 50px;*/
   /*left: 150px;*/
+  font-weight: lighter;
   padding-top: 50px;
   margin-left: 100px;
   text-align: left;
@@ -1202,6 +1203,7 @@ h4 {
 
 .block-3_plate p {
   z-index: 2;
+  font-family: 'MeL';
 }
 
 .block-3_plate {
@@ -1254,7 +1256,7 @@ h4 {
 
 .block-4 {
   max-width: 1000px;
-  margin: 140px auto;
+  margin: 60px auto;
   font-family: 'MeL';
   font-size: 20px;
 }
