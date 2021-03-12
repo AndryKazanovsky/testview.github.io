@@ -258,11 +258,11 @@ div {
 }
 
 .where-to-buy {
-  font-size: 14px !important;
+  font-size: 10px !important;
   line-height: 10px !important;
   font-family: 'MB' !important;
   font-weight: bold !important;
-  padding: 10px 30px;
+  padding: 10px 10px;
   border: 1px solid black;
 }
 
@@ -276,9 +276,9 @@ div {
 
 
 
-.where-to-buy-mob {
+/*.where-to-buy-mob {
   display: none;
-}
+}*/
 
 .lang {
   /*border: 1px solid #636363;*/
@@ -594,7 +594,8 @@ h4 {
  /*}*/
 
 .stiker {
-  display: flex;
+  /*display: flex;*/
+  display: none;
   align-items: center;
   padding: 0 10px;
   position: fixed;
@@ -1481,7 +1482,7 @@ button {
     background-size: cover;
   }
   .navigation-container {
-    background: transparent;
+    background: #ffffff9c;
     min-width: 100vw;
   }
   .navigation-menu {
@@ -1661,7 +1662,7 @@ button {
     padding: 10px 20px;
     border-radius: 10px;
     position: absolute;
-    left: 50vw;
+    left: 40vw;
   }
 
 
