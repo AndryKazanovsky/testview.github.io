@@ -828,6 +828,17 @@ h4 {
 .static-main-img_hcolor {
   background: url('../images/Rectangle 31 (11).jpg')no-repeat center/contain;
 }
+.static-main-img_main {
+  background: url('../images/slider_photo_01.jpg')no-repeat center/contain;
+}
+
+.static-main-img_main h2 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 100px;
+    margin-left: 20px;
+    margin-top: 0;
+  }
 
 
 
@@ -1420,6 +1431,10 @@ button {
     margin: 20px 0;
   }
 
+  .static-main-img_main {
+    display: none;
+  }
+
 
 
 
@@ -1443,6 +1458,10 @@ button {
     background-size: cover;
     height: 190px;
     width: 48%;
+  }
+
+  .static-main-img_main {
+    display: block;
   }
 
   .slider__item h2 {
@@ -1594,7 +1613,7 @@ button {
 
 
   .slider {
-    display: block;
+    display: none;
     background-color: #030406;
     /*background: url(../images/fon_photo1.jpg) no-repeat center / cover;*/
     height: 400px;
