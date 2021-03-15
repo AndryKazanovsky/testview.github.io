@@ -1431,9 +1431,9 @@ button {
     margin: 20px 0;
   }
 
-  .static-main-img_main {
+/*  .static-main-img_main {
     display: none;
-  }
+  }*/
 
 
 
@@ -1461,15 +1461,17 @@ button {
   }
 
   .static-main-img_main {
-    display: block;
+    display: none;
   }
 
   .slider__item h2 {
+  background-color: #ffffff9c;
+    height: 100%;
     font-size: 32px;
     line-height: 40px;
-    padding-top: 100px;
-    margin-left: 20px;
-    margin-top: 0;
+    padding: 100px 20px;
+    /*margin-left: 20px;*/
+    margin: 0;
   }
   .plate_styling-empty {
     display: none;
@@ -1613,7 +1615,7 @@ button {
 
 
   .slider {
-    display: none;
+    /*display: none;*/
     background-color: #030406;
     /*background: url(../images/fon_photo1.jpg) no-repeat center / cover;*/
     height: 400px;
