@@ -594,8 +594,8 @@ h4 {
  /*}*/
 
 .stiker {
-  /*display: flex;*/
-  display: none;
+  display: flex;
+  /*display: block;*/
   align-items: center;
   padding: 0 10px;
   position: fixed;
@@ -1439,6 +1439,9 @@ button {
 
 
 @media screen and (max-width: 1024px) {
+  .stiker {
+    display: none;
+  }
   .slider__control_right {
     right: 0;
     top: 380px;
