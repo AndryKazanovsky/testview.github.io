@@ -99,7 +99,7 @@ p {
   padding-right: 20px;
   text-transform: uppercase;
   text-decoration: none;
-  background: url(../images/klimactoplan_logo4.png) no-repeat 50% / contain;
+  background: url(../images/logo_Klimaktoplan_LT.svg) no-repeat 50% / contain;
 }
 .navigation-logo .logo-kz {
   background: url(../images/logo_Klimaktoplan_KZ.svg) no-repeat 50% / contain;
@@ -1008,7 +1008,7 @@ p {
     margin: 50px 0;
     height: 40vh;
     width: 100vw;
-    background: url(../images/div_01-2.png) no-repeat center / contain;
+    background: url(../images/gray_circle_title_LT.svg) no-repeat center / contain;
   }
   .mobile__new-woman {
     display: flex;
@@ -1372,7 +1372,7 @@ p {
 .header-container__label {
     margin: 5vh 0 5vh;
     height: 50vh;
-    background: url("../images/div_01-2.png") no-repeat center / contain;
+    background: url("../images/gray_circle_title_LT.svg") no-repeat center / contain;
 }
 
 .header-container__label-kz {
