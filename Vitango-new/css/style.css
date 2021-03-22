@@ -1615,6 +1615,7 @@ color: #009055;
     margin-bottom: 225px;
   }
   .container3_list {
+    padding-left: 50px;
     display: flex;
     justify-content: space-between;
   }
@@ -1669,7 +1670,7 @@ color: #282725;
     justify-content: center;
   }
   .inner-container5 {
-    max-width: 800px;
+    width: 800px;
   }
   .container5-plates {
     display: flex;
