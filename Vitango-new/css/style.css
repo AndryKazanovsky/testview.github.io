@@ -1898,6 +1898,9 @@ color: #282725;
     line-height: 30px;
     padding-top: 0;
   }
+  .container5-plate {
+    max-width: 160px;
+  }
   .header-block {
     flex-wrap: wrap-reverse;
   }
