@@ -1503,7 +1503,7 @@ button {
   }
   .container1::before {
     position: absolute;
-    left: 28px;
+    left: 36px;
     top: 40px;
     display: block;
     content: '';
@@ -1859,7 +1859,7 @@ color: #282725;
   width: 100%;
   height: 100%;
   background-color: #F5841F;
-  padding: 20px;
+  padding: 10px;
   position: absolute;
   opacity: 0;
   transition: 0.5s;
@@ -1874,7 +1874,7 @@ color: #282725;
   display: block;
   color: white;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 20px;
   /*font-family: 'RT';*/
 }
 
