@@ -1693,16 +1693,16 @@ color: #282725;
     margin-bottom: 15px;
     width: 128px;
     height: 128px;
-    background: url(../images/icon.png) no-repeat center/contain;
+    background: url(../images/icon.svg) no-repeat center/contain;
   }
   .container5-plate:nth-child(2) .container5-plate_img {
-    background: url(../images/icon1.png) no-repeat center/contain;
+    background: url(../images/icon2.svg) no-repeat center/contain;
   }
   .container5-plate:nth-child(3) .container5-plate_img {
-    background: url(../images/icon2.png) no-repeat center/contain;
+    background: url(../images/icon3.svg) no-repeat center/contain;
   }
   .container5-plate:nth-child(4) .container5-plate_img {
-    background: url(../images/icon3.png) no-repeat center/contain;
+    background: url(../images/icon4.svg) no-repeat center/contain;
   }
   .container5 .usual-text {
     max-width: 600px;
@@ -1901,6 +1901,10 @@ color: #282725;
   .container5-plate {
     max-width: 160px;
   }
+  .container5-plates {
+    justify-content: space-around !important;
+
+  }
   .header-block {
     flex-wrap: wrap-reverse;
   }
@@ -1910,7 +1914,7 @@ color: #282725;
   .container1 {
     margin-top: 0;
     padding: 0;
-    height: 800px;
+    height: 750px;
 
   }
   .inner-container1 {
