@@ -1483,6 +1483,7 @@ button {
     text-transform: uppercase;
     color: #282725;
     max-width: 480px;
+    font-weight: lighter;
   }
   .header-block_img {
     width: 400px;
