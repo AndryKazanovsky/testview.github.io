@@ -1824,7 +1824,7 @@ color: #282725;
   }
   .vft {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
   .vita-footer_text {
     font-family: "Helvetica";
