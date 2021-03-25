@@ -231,7 +231,8 @@ div {
 .navigation-container {
   display: flex;
     align-items: center;
-    min-width: 100vw;
+    width: 100vw;
+    max-width: 1400px;
     justify-content: flex-end;
     position: relative;
     background-color: white;
@@ -2185,7 +2186,7 @@ h2::before {
   }
   .navigation-container {
     background: #ffffff9c;
-    min-width: 100vw;
+    min-width: 1400px;
   }
   .navigation-menu {
     display: none;
