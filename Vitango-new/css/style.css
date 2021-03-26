@@ -1492,6 +1492,9 @@ button {
     margin-top: 30px;
     background: url(../images/photo_pack_Vitango.png) no-repeat center/contain;
   }
+   .container1-ru::before {
+    background: url(../images/div_02_label-ru.svg) no-repeat center/contain !important;
+   }
   .container1 {
     position: relative;
     width: 100%;
@@ -1549,6 +1552,10 @@ line-height: 26px;
     height: 510px;
     padding: 120px 10%;
     margin-bottom: 80px;
+  }
+  .container2-ru::before {
+    background: url(../images/div_01_label-ru.svg) no-repeat center/contain !important;
+
   }
   .container2::before {
     position: absolute;
@@ -1651,6 +1658,10 @@ color: #282725;
     padding: 120px 10%;
     margin-bottom: 80px;
   }
+  .container4-ru::before {
+    background: url(../images/div_01_label2-ru.svg) no-repeat center/contain !important;
+
+  }
   .container4::before {
     position: absolute;
     top: -75px;
@@ -1716,6 +1727,10 @@ color: #282725;
     height: 510px;
     padding: 120px 10%;
     margin-bottom: 80px;
+  }
+  .container6-ru::before {
+    background: url(../images/div_01_label3-ru.svg) no-repeat center/contain !important;
+
   }
   .container6::before {
     position: absolute;
