@@ -433,19 +433,20 @@ html {
 }
 .doses ul li p {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 32px;
   color: #00b0f0;
 }
 .doses ul li p span {
   font-weight: lighter;
-  font-size: 22px;
-  color: #000;
+  font-size: 18px;
+  line-height: 22px;
+  color: #8b8b8b;
 }
 .doses ul li div {
-  height: 260px;
-  width: 150px;
+  height: 215px;
+  width: 120px;
   background-size: contain;
   background-repeat: no-repeat;
 }
