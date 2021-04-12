@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a690305-e484-459e-964f-478688c39dd8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6a690305-e484-459e-964f-478688c39dd8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -164,7 +162,7 @@
         <state relative-caret-position="513">
           <caret line="748" column="19" selection-start-line="748" selection-start-column="19" selection-end-line="748" selection-end-column="19" />
           <folding>
-            <marker date="1617710211074" expanded="true" signature="0:151" ph="..." />
+            <marker date="1617712910550" expanded="true" signature="0:151" ph="..." />
           </folding>
         </state>
       </provider>

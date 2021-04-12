@@ -6,9 +6,120 @@
 }
 .logo {
     width: 200px;
-    height: 70px;
-        background: url("../images/logo_AFB.svg") no-repeat center / contain;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    align-items: center;
+    /*height: 70px;*/
+        /*background: url("../images/logo_AFB.svg") no-repeat center / contain;*/
 
+}
+
+
+.open-block {
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: center;
+}
+
+.open-block-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.accordion {
+  border: none;
+  text-align: left;
+  /*border-radius: 30px;*/
+  color: #00b0f0;
+  cursor: pointer;
+  padding: 15px;
+  background-color: white;
+  /*padding: 16px;*/
+  /*width: 65%;*/
+  /*border: none;*/
+  /*text-align: left;*/
+  outline: none;
+  font-size: 20px;
+  transition: 0.5s;
+  border-bottom: 1px solid #00b0f0;
+
+}
+
+.active-acc,
+.accordion:hover {
+  /*background-color: #8b8b8b;*/
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #00b0f0;
+  font-size: 18px;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active-acc:after {
+  content: '\2212';
+}
+
+.panel {
+  /*max-width: 80%;*/
+  margin: auto;
+  margin-top: 10px;
+  /*background-color: #f2f2f3;*/
+  border-radius: 10px;
+  color: #8b8b8b;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  font-family: 'Open Sans Light', sans-serif;
+}
+
+.panel__checklist p::before {
+  content: '✓';
+  margin-right: 10px;
+}
+
+.panel ul {
+  text-align: left;
+  font-size: 20px;
+}
+
+.panel__accent-text {
+  color: green;
+  font-weight: bold;
+  font-size: 27px !important;
+}
+
+.panel p {
+  text-align: left;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.panel__sub p {
+  font-size: 15px;
+}
+
+.panel b {
+  color: #2a874c;
+}
+
+
+.panel-after {
+  font-size: 15px;
+}
+
+
+
+
+.logo strong {
+  text-transform: lowercase !important;
+  color: red;
 }
 
 .new-part {
@@ -122,10 +233,10 @@ html {
 }
 .navigation-logo {
   position: fixed;
-  height: 10%;
+  height: 7%;
   width: 100%;
   top: 0;
-  padding: 4%;
+  /*padding: 4%;*/
   background-color: #fff;
   display: flex;
   flex-direction: row;
@@ -195,7 +306,7 @@ html {
   border-radius: 5px;
 }
 .header-container {
-  margin-top: 100px;
+  margin-top: 45px;
   min-height: 600px;
   width: 100%;
   background-position-x: 50%;
