@@ -123,7 +123,22 @@
 }
 .block-after_inner {
   display: flex;
+  max-width: 80%;
     flex-direction: column;
+}
+
+.block-after_logo {
+  width: 100px;
+  height: 100px;
+  background: url("../images/logo_AF 1.png") no-repeat center / contain;
+}
+.block-after_logo-container p {
+  font-size: 10px;
+}
+.block-after_logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -849,6 +864,12 @@ body {
   }
 }
 @media screen and (max-width: 1024px) {
+  .block-after {
+    flex-direction: column;
+  }
+  .open-block {
+    padding: 20px;
+  }
   .main-text {
     width: 170px;
     height: 100px;
