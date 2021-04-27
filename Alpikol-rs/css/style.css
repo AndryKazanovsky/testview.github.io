@@ -701,6 +701,48 @@ map .map-content .source-2 {
   width: 30%;
   background: url(../images/source7.jpg) no-repeat 50% / contain;
 }
+.source-8 {
+  display: block;
+  height: 10vh;
+  width: 30%;
+  background: url("https://primax.rs/wp-content/uploads/2020/12/logo.png") no-repeat 50% / contain;
+}
+.source-9 {
+  display: block;
+  height: 10vh;
+  width: 30%;
+  background: url(../images/source6.jpg) no-repeat 50% / contain;
+}
+.source-10 {
+  display: block;
+  height: 10vh;
+  width: 30%;
+  background: url('https://drmax.rs/wp-content/themes/drmax-rs/public/images/logo.png') no-repeat 50% / contain;
+}
+.source-11 {
+  display: block;
+  height: 10vh;
+  width: 30%;
+  background: url("http://www.apotekasvetisava.rs/wp-content/themes/chubesshop/assets/img/logo-mint.png") no-repeat 50% / contain;
+}
+.source-12 {
+  display: block;
+  height: 10vh;
+  width: 30%;
+  background: url("https://jugofarm.com/wp-content/uploads/2017/04/logo-sajt.png") no-repeat 50% / contain;
+}
+.source-13 {
+  display: block;
+  height: 10vh;
+  width: 30%;
+  background: url("https://melisa.rs/wp-content/uploads/2021/03/cropped-Melisa-apotekarska-ustanova-1-170x77.png") no-repeat 50% / contain;
+}
+.source-14 {
+  display: block;
+  height: 10vh;
+  width: 30%;
+  background: url("https://www.oazazdravlja.rs/files/images/oaza_zdravlja/logo/logo1.png") no-repeat 50% / contain;
+}
 
 .where-to-buy__desktop {
   display: none;
