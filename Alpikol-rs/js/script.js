@@ -55,7 +55,7 @@
       block4Img.classList.remove('block-4__container-img1');
 
       block4Cont.innerHTML =
-        '<h4>Ekstrakt korena južnoafričke muškatle​<br><p>( Pelargonium sidoides )</p></h4>\n' +
+        '<h4>Ekstrakt korena južnoafričke muškatle​<br><p>(Pelargonium sidoides)</p></h4>\n' +
         '<p>\n' +
         'Južnoafrička muškatla ili afrički geranijum  doprinosi jačanju imunog sistema u borbi protiv virusa i pomaže izbacivanju sekreta iz disajnih puteva.<sup>5,6</sup>​' +
         '</p>'
