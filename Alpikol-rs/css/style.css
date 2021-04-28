@@ -509,6 +509,9 @@ p {
   border-radius: 20px 0 0 20px;
   background: url(../images/product-bottle.png) no-repeat 50% / contain;
 }
+.block-5__container-content {
+  padding: 0 20px;
+}
 .block-5__container-content h4 {
   font-size: 28px;
   color: #7c288a;
@@ -535,6 +538,7 @@ p {
   font-size: 24px;
   text-align: center;
   color: #595959;
+  padding: 0 20px; 
   font-family: HelveticaNeue-Light;
 }
 map {
@@ -542,6 +546,7 @@ map {
 }
 map h3 {
   margin-top: 50px;
+  padding: 0 20px;
   font-family: HelveticaNeue;
 }
 map .map-content {
