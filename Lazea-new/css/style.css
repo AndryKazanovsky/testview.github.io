@@ -917,6 +917,9 @@ div {
   .container-4_img::before {
     left: 0;
   }
+  .container-3 h2 {
+  	margin-bottom: 65px;
+  }
   .container-8::before {
     top: -60px;
   }
@@ -975,6 +978,7 @@ div {
     display: none;
   }
 .container-7_images {
+	padding: 0 20px;
   flex-wrap: wrap;
   align-items: center;
 }
