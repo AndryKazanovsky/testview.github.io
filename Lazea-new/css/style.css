@@ -920,6 +920,16 @@ div {
   .container-3 h2 {
   	margin-bottom: 65px;
   }
+  .container-5 {
+  	flex-direction: column;
+  }
+  .container-5_left {
+  	width: 100%;
+  }
+  .container-5_right {
+  	width: 100%;
+  	margin-top: 40px;
+  }
   .container-8::before {
     top: -60px;
   }
