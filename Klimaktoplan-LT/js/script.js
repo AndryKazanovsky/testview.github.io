@@ -1,6 +1,12 @@
 (function() {
   window.onload = function() {
 
+    const alertLicense = document.querySelector('.alert-license');
+    const licenseOff = document.querySelector('.license-off');
+      licenseOff.onclick = function() {
+          alertLicense.classList.add('hide');
+      };
+
     const carouselImg = document.querySelector(".fourth-container__carousel");
     const chosenIngredient = document.querySelector(".chosen-ingredient");
     const chosenIngredientContent = document.querySelector(".chosen-ingredient-content");
