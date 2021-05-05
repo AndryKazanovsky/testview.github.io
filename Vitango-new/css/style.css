@@ -1917,9 +1917,25 @@ color: #282725;
   .container5-plate {
     max-width: 160px;
   }
+  #menuToggle {
+    position: absolute !important;
+    left: 23% !important;
+    top: 20px !important;
+  }
   .container5-plates {
     justify-content: space-around !important;
 
+  }
+  .container2-mob_img-ru {
+    background: url(../images/div_01_label-ru.svg) no-repeat center/contain !important;
+  }
+  .container4-mob_img-ru {
+    background: url(../images/div_01_label2-ru.svg) no-repeat center/contain !important;
+
+  }
+  .container-mob_img-ru {
+    background: url(../images/div_01_label3-ru.svg) no-repeat center/contain !important;
+    
   }
   .header-block {
     flex-wrap: wrap-reverse;
