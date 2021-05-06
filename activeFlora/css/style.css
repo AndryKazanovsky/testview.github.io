@@ -910,8 +910,14 @@ body {
   .block-after {
     flex-direction: column;
   }
+  p {
+    font-family: "RM";
+  }
   .open-block {
     padding: 20px;
+  }
+  .doses ul li div {
+    margin-bottom: 30px;
   }
   .main-text {
     width: 170px;
