@@ -529,10 +529,10 @@ p {
 }
 .block-5__container-content .subcontent .subcontent-img {
   width: 100px;
-  background: url(../images/double-spoon.png) no-repeat 50% / contain;
+  background: url(../images/single-spoon.png) no-repeat 50% / contain;
 }
 .block-5__container-content .container-content:nth-child(3) .subcontent-img {
-  background: url(../images/single-spoon.png) no-repeat 50% / contain;
+  background: url(../images/double-spoon.png) no-repeat 50% / contain;
 }
 .block-5__bottom-content {
   font-size: 24px;

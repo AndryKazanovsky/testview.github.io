@@ -41,7 +41,7 @@
       block4Img.classList.remove('block-4__container-img2');
 
       block4Cont.innerHTML =
-        '<h4>Ekstrakt ploda crne zove​<br><p>(Sambucus nigra)</p></h4>\n' +
+        '<h4>Ekstrakt ploda crne zove​<br><p><i>(Sambucus nigra)</i></p></h4>\n' +
         '<p>Zahvaljujući jakom antioksidativnom delovanju crna zova doprinosi jačanju imunog sistema.<sup>1,2,3,4</sup></p>' +
         '<p>Izvor je brojnih mikronutrijenata i biološki aktivnih materija dragocenih u očuvanju zdravlja.<sup>1</sup></p>' + 
         '<p>Ekstrakt je standardizovan na 10% polifenola.</p>';
@@ -55,7 +55,7 @@
       block4Img.classList.remove('block-4__container-img1');
 
       block4Cont.innerHTML =
-        '<h4>Ekstrakt korena južnoafričke muškatle​<br><p>(Pelargonium sidoides)</p></h4>\n' +
+        '<h4>Ekstrakt korena južnoafričke muškatle​<br><p><i>(Pelargonium sidoides)</i></p></h4>\n' +
         '<p>\n' +
         'Južnoafrička muškatla ili afrički geranijum  doprinosi jačanju imunog sistema u borbi protiv virusa i pomaže izbacivanju sekreta iz disajnih puteva.<sup>5,6</sup>​' +
         '</p>'
@@ -71,13 +71,13 @@
       block4Cont.innerHTML =
         '<h4>Yestimun<sup>®</sup> beta glukan​</h4>\n' +
         '<p>' +
-        'Prirodni ekstrakt kvasca Saccharomyces cerevisiae, standardizovan na minimalno 85% 1.3/1.6 D-beta glukana.​' +
+        'Prirodni ekstrakt kvasca <i>Saccharomyces cerevisiae</i>, standardizovan na minimalno 85% 1.3/1.6 D-beta glukana.​' +
         '</p>' +
         '<p>' +
         'Aktivira i jača imuni sistem.<sup>7</sup> ' +
         '</p>' +
         '<p>' +
-        'Smanjuje broj epizoda bolesti u tokom jeseni i zime<sup>8</sup> ' +
+        'Smanjuje broj epizoda bolesti tokom jeseni i zime.<sup>8</sup> ' +
         '</p>' +
         '<p>' +
         'Blagotvorno deluje na celokupno zdravlje.<sup>9</sup> ' +
