@@ -1,3 +1,43 @@
+@font-face {
+  font-family: 'RB';
+  src: url('../fonts/Roboto-Black.ttf');
+  font-style: normal;
+  /*font-weight: 400;*/
+}
+
+@font-face {
+  font-family: 'RL';
+  src: url('../fonts/Roboto-Light.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'RM';
+  src: url('../fonts/Roboto-Medium.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'RT';
+  src: url('../fonts/Roboto-Thin.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'RT';
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'RM';
+}
+h4 {
+  font-family: 'RM';
+}
+
 .main-text {
     height: 150px;
     margin: 45px 0;
@@ -164,7 +204,7 @@
     top: 160px;
     width: 30vw;
     height: 30vw;
-    background: url("../images/after.svg") no-repeat center / contain;
+    background: url("") no-repeat center / contain;
 }
 
 .new-part h3 {
@@ -213,7 +253,7 @@
     font-size: 25px;
     line-height: 28px;
     margin: 20px 0;
-  text-transform: lowercase;
+  text-transform: initial;
 }
 * {
   box-sizing: border-box;
@@ -306,6 +346,7 @@ html {
 .navigation-logo div a {
   font-size: 20px;
   color: #00b0f0;
+  font-family: 'RM';
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -406,12 +447,14 @@ html {
   margin-top: 0;
     margin-bottom: 30px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
 }
 .symptoms-container ul li {
-  max-width: 150px;
+  width: 30%;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -437,13 +480,13 @@ html {
 .symptoms-container ul li:nth-child(3) div {
   background-image: url(../images/ico2.png);
 }
-.symptoms-container ul:nth-child(3) li:first-child div {
+.symptoms-container ul li:nth-child(4) div {
   background-image: url(../images/Artboard3.png);
 }
-.symptoms-container ul:nth-child(3) li:nth-child(2) div {
+.symptoms-container ul li:nth-child(5) div {
   background-image: url(../images/Artboard2.png);
 }
-.symptoms-container ul:nth-child(3) li:nth-child(3) div {
+.symptoms-container ul li:nth-child(6) div {
   background-image: url(../images/Artboard1.png);
 }
 .application h3 small {
@@ -875,6 +918,9 @@ body {
     height: 100px;
     margin: 25px 0;
   }
+  .symptoms-container ul {
+    flex-wrap: wrap;
+  }
   .new-part_container {
     flex-direction: column;
   }
@@ -1032,11 +1078,13 @@ body {
     font-size: 25px;
   }
   .symptoms-container ul li {
-    width: 75px;
+    width: 40%;
   }
   .symptoms-container ul li div {
-    height: 92px;
+    height: 110px;
     width: 100%;
+    background-position: center;
+    margin-bottom: 20px;
   }
   .symptoms-container ul li p {
     font-size: 12px;
