@@ -183,7 +183,9 @@ p {
   height: 315px;
   background: url(../images/products.png) no-repeat 50% / cover;
 }
-
+.hide {
+  display: none;
+}
 
 /*<!-- //////license start -->*/
 

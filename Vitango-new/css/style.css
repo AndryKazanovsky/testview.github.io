@@ -1954,6 +1954,7 @@ color: #282725;
   }
   .inner-container1_plates {
     flex-direction: column;
+    align-items: center;
   }
   .inner-container1_plate {
     width: 90%;
