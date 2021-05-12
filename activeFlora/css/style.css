@@ -66,7 +66,7 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .accordion {
@@ -163,7 +163,7 @@ h4 {
 }
 .block-after_inner {
   display: flex;
-  max-width: 80%;
+  max-width: 75%;
     flex-direction: column;
 }
 
@@ -173,7 +173,7 @@ h4 {
   background: url("../images/logo_AF 1.png") no-repeat center / contain;
 }
 .block-after_logo-container p {
-  font-size: 10px;
+  font-size: 1em;
 }
 .block-after_logo-container {
   display: flex;
@@ -621,7 +621,7 @@ html {
     line-height: 28px;
 }
 .doses ul li p span {
-  font-weight: lighter;
+  /*font-weight: lighter;*/
   font-size: 22px;
     line-height: 28px;
   color: #8b8b8b;
