@@ -1232,6 +1232,9 @@ ol {
 
 
 @media screen and (max-width: 1024px) {
+  .block-5_plate:nth-child(2) {
+  border-top: none;
+}
   .yellow-corner_bottom-2 {
     width: 100%;
   }
