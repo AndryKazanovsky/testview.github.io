@@ -829,7 +829,7 @@ button:focus {
   width: 900px;
   margin: auto;
 margin-bottom: 50px;
-  
+
 }
 .map-container p {
 font-family: 'RR';
@@ -1531,7 +1531,8 @@ ol {
     width: 90%;
   }
   .disclamer-tra__inner {
-    width: 90%;
+    width: 100%;
+    padding: 20px;
     margin: auto;
   }
 
