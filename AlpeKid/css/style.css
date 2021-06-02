@@ -377,6 +377,10 @@ line-height: 24px;
 color: #00A79D;
 }
 
+.yellow-corner_bottom-2 {
+  width: 90%;
+}
+
 .block-5_plate p {
   font-size: 18px;
   line-height: 28px;
@@ -1226,6 +1230,9 @@ ol {
 
 
 @media screen and (max-width: 1024px) {
+  .yellow-corner_bottom-2 {
+    width: 100%;
+  }
   .header-mob {
     display: block;
   }
