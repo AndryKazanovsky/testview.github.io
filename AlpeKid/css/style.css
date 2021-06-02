@@ -313,8 +313,10 @@ h2 strong {
 }
 
 .block-h2 {
-  justify-content: center;
+  /*justify-content: center;*/
+  max-width: 900px;
     display: flex;
+    margin: auto;
 }
 
 .block-4 {
