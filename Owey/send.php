@@ -4,6 +4,7 @@
 $name = htmlspecialchars($_POST["name"]);
 $lastname = htmlspecialchars($_POST["lastname"]);
 $messangerContact = htmlspecialchars($_POST["messanger-contact"]);
+$phone = htmlspecialchars($_POST["phone"]);
 $message = htmlspecialchars($_POST["message"]);
 
 /* Your address and subject line */
@@ -15,6 +16,7 @@ $mes = "oway email
 Name: $name
 Lastname: $lastname
 MessangerContact: $messangerContact
+Phone: $phone
 Message: $message";
 
 /* send message use mail()  */
