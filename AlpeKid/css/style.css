@@ -102,9 +102,15 @@ div {
 .header-main {
   padding-top: 50px;
   margin: auto;
-  width: 1024px;
+  width: 1150px;
   height: 100%;
   display: flex;
+}
+
+.block-6_ttt {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .header-text {
@@ -139,7 +145,7 @@ div {
 .header-dragon_dragon {
   width: 410px;
   height: 320px;
-  margin-right: 22px;
+  /*margin-right: 22px;*/
   background: url('../images/picture_dragon.svg') no-repeat center/contain;
 }
 .header-dragon p {
@@ -854,7 +860,7 @@ button:focus {
 }
 
 .instr-inner {
-  width: 1200px;
+  width: 1300px;
   margin: auto;
 }
 
