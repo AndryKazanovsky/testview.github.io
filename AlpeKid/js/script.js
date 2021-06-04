@@ -1,7 +1,6 @@
 (function() {
   window.onload = function() {
 
-    (function() {
       const inpt = document.querySelector(".this-inpt");
       const menu1 = document.querySelector(".menuLi1");
       const menu2 = document.querySelector(".menuLi2");
@@ -10,7 +9,6 @@
       const menu5 = document.querySelector(".menuLi5");
 
       menu1.onclick = function() {
-        console.log('click!');
         inpt.click();
       };
       menu2.onclick = function() {
@@ -26,25 +24,24 @@
         inpt.click();
       };
 
-    });
 
 
 
 
 
-    (function() {
+    // (function() {
 
-      const navmenu = document.querySelectorAll('.navmenu');
+    //   const navmenu = document.querySelectorAll('.navmenu');
 
-      for (var i = 0; i < navmenu.length; i++) {
-        navmenu[i].addEventListener("click", function(){
-          for (var k = 0; k < navmenu.length; k++) {
-            navmenu[k].classList.remove('active-nav');
-          }
-          this.classList.add('active-nav');
-        })
-      }
-    });
+    //   for (var i = 0; i < navmenu.length; i++) {
+    //     navmenu[i].addEventListener("click", function(){
+    //       for (var k = 0; k < navmenu.length; k++) {
+    //         navmenu[k].classList.remove('active-nav');
+    //       }
+    //       this.classList.add('active-nav');
+    //     })
+    //   }
+    // });
 
 
 
