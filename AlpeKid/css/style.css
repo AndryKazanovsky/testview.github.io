@@ -26,6 +26,11 @@
   src: url('../fonts/Roboto-Thin.ttf');
   font-style: normal;
 }
+@font-face {
+  font-family: 'RR';
+  src: url('../fonts/Roboto-Regular.ttf');
+  font-style: normal;
+}
 
 
 /* common */
@@ -1047,7 +1052,7 @@ ol {
   text-align: right;
   margin: 25px -255px;
   width: 250px;
-  font-family: 'RL';
+  font-family: 'RR';
   font-size: 14px;
 }
 .disclamer-tra__alpen p b {
