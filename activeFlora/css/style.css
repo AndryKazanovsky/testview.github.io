@@ -424,6 +424,7 @@ html {
   color: #fff;
   animation-duration: 2s;
   animation-name: a;
+  padding-right: 20px;
 }
 .header-container .text-block p:before {
   content: '✓';
