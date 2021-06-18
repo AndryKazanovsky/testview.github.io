@@ -655,6 +655,10 @@ textarea {
   background: url('../images/Rectangle 149.jpg') no-repeat center/contain;
 }
 
+.people_block-1:nth-child(2) .people_plate_img {
+  background: url('../images/Rectangle 147.jpg') no-repeat center/contain;
+}
+
 
 .people_block-1-dates {
   padding: 120px 0;
@@ -663,7 +667,7 @@ textarea {
 }
 
 .people_block-1-time {
-  max-width: 70%;
+  max-width: 60%;
   color: #333333;
   font-size: 18px;
 line-height: 26px;
@@ -689,7 +693,7 @@ font-family: 'MM';
 
 .extra {
   position: absolute !important;
-  left: 28%;
+  left: 35%;
   margin-top: -65px;
 }
 .people_block-1-dates {
