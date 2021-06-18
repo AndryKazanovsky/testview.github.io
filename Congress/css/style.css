@@ -790,6 +790,19 @@ line-height: 25px;
 
 
 
+.facebook-a {
+  width: 28px;
+  height: 28px;
+  background: url('../images/f-blue.svg') no-repeat center/contain;
+}
+.youtube-a {
+  width: 28px;
+  height: 28px;
+  background: url('../images/y-red.svg') no-repeat center/contain;
+}
+
+
+
 .extra-plate-photo {
   margin-top: 60px;
   margin-bottom: 60px;
