@@ -95,7 +95,7 @@ h1 {
 }
 
 .global-limit {
-  max-width: 1200px;
+  max-width: 1920px;
   margin: auto;
 }
 
@@ -232,7 +232,7 @@ div {
 .navigation-container {
   display: flex;
     align-items: center;
-    min-width: 1200px;
+    min-width: 100vw;
     justify-content: flex-end;
     position: relative;
     background-color: white;
@@ -555,6 +555,7 @@ textarea {
 
 .container-3 h2 {
   color: white;
+  margin-top: 0;
     font-family: 'MB';
     font-size: 38px;
     line-height: 46px;
@@ -563,6 +564,7 @@ textarea {
 
 .container-3_plate {
   position: relative;
+      margin-left: 30px;
 }
 
 .container-3_plates {
@@ -1568,13 +1570,13 @@ color: #000000;
 }
 
 .slider__control_left {
-  top: 450px;
+  top: 530px;
     left: 28%;
 }
 
 .slider__control_right {
-  right: 730px;
-  top: 450px;
+  right: 840px;
+  top: 530px;
 
 }
 
@@ -1611,17 +1613,17 @@ color: #000000;
 
 .slider-img-1 {
   width: 100%;
-  height: 500px;
+  height: 600px;
   background: url("../images/MicrosoftTeams-image (4).png")no-repeat center/contain;
 }
 .slider-img-2 {
   width: 100%;
-  height: 500px;
+  height: 600px;
   background: url("../images/MicrosoftTeams-image (5).png")no-repeat center/contain;
 }
 .slider-img-3 {
   width: 100%;
-  height: 500px;
+  height: 600px;
   background: url("../images/MicrosoftTeams-image (6).png")no-repeat center/contain;
 }
 .slider-img-4 {
