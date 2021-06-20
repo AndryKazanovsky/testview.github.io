@@ -16,12 +16,7 @@
       });
     }
 
-
-
-
     ////////////slider
-
-
 
     // 'use strict';
     var multiItemSlider = (function () {
@@ -43,11 +38,9 @@
             _config = {
               isCycling: false, // автоматическая смена слайдов
               direction: 'right', // направление смены слайдов
-              interval: 5000, // интервал между автоматической сменой слайдов
+              interval: 50000, // интервал между автоматической сменой слайдов
               pause: true // устанавливать ли паузу при поднесении курсора к слайдеру
             };
-
-
 
         for (var key in config) {
           if (key in _config) {
@@ -55,7 +48,6 @@
           }
         }
 
-        // наполнение массива _items
         _sliderItems.forEach(function (item, index) {
           _items.push({ item: item, position: index, transform: 0 });
         });
@@ -176,58 +168,6 @@
     var slider = multiItemSlider('.slider', {
           isCycling: true
         });
-
-
-
-
-
     ///////////end slider
-
-
-    
-
-
-
-      // (function() {
-      //
-      //     const navmenu = document.querySelectorAll('.navlang');
-      //
-      //     for (var i = 0; i < navmenu.length; i++) {
-      //         navmenu[i].addEventListener("click", function(){
-      //             for (var k = 0; k < navmenu.length; k++) {
-      //                 navmenu[k].classList.remove('active-lang');
-      //             }
-      //             this.classList.add('active-lang');
-      //         })
-      //     }
-      // })();
-
-      // (function(){
-
-      //   const menuLi = document.querySelectorAll('.menuLi');
-      //   const menu = document.querySelector('#menu');
-
-      //   for (var i = 0; i < menuLi.length; i++) {
-      //   menuLi[i].addEventListener("click", function(){
-      //       menu.classList.add('active-li');
-      //       // this.classList.add('active-li');
-      //   })
-      // }
-      // })
-
-
-    (function() {
-
-      const navmenu = document.querySelectorAll('.navmenu');
-
-      for (var i = 0; i < navmenu.length; i++) {
-        navmenu[i].addEventListener("click", function(){
-          for (var k = 0; k < navmenu.length; k++) {
-            navmenu[k].classList.remove('active-nav');
-          }
-          this.classList.add('active-nav');
-        })
-      }
-    })();
     };
 })();
