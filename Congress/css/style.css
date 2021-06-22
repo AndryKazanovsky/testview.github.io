@@ -1073,17 +1073,19 @@ color: #333333;
   font-family: 'MB';
 }
 
-/*.accordion-container::before {
+
+.popup-btn_blue::before {
   content: '';
   position: absolute;
   left: -30px;
   display: block;
   background-color: #2F80ED;
-  height: 100%;
-  margin-top: 25px;
-  margin-bottom: 60px;
+  height: 55%;
+  /*margin-top: 25px;*/
+  /*margin-bottom: 60px;*/
   width: 2px;
-}*/
+}
+
 
 .accordion-right {
   left: 65% !important;
