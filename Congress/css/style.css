@@ -813,6 +813,7 @@ font-family: 'MM';
     margin: auto;
 }
 
+
 .extra-partners h2 {
   color: #2F80ED;
     font-family: 'MB';
@@ -821,7 +822,7 @@ font-family: 'MM';
     text-transform: uppercase;
     max-width: 990px;
     margin: auto;
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
 }
 
 .extra-text {
@@ -868,6 +869,7 @@ line-height: 25px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .extra-plate {
@@ -905,7 +907,7 @@ line-height: 25px;
 
 
 .extra-plate-photo {
-  margin-top: 60px;
+  /*margin-top: 20px;*/
   margin-bottom: 60px;
   width: 450px;
   height: 275px;
@@ -973,8 +975,19 @@ font-family: 'MM';
 
 }
 
+.photo-inner::before {
+  content: '';
+    position: absolute;
+    left: 150px;
+    display: block;
+    background-color: #2F80ED;
+    height: 4%;
+    width: 2px;
+}
+
 .extra-partners_photo {
   background: white;
+  padding: 45px 0 120px;
 }
 
 
@@ -989,6 +1002,7 @@ font-family: 'MM';
     margin: auto;
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
 
 }
 
