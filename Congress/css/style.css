@@ -608,20 +608,33 @@ textarea {
   background: url('../images/Rectangle 90-2.jpg') no-repeat center/contain;
 }
 
-.partners-plate_blue-text {
-  background: #2F80ED;
-    mix-blend-mode: multiply;
-    color: white;
-    font-family: 'MM';
+.partners-plate_blue-text_outer {
+    top: 70%;
+    position: relative;
     height: 76px;
-    font-size: 22px;
+    font-family: 'MM';
+    color: white;
+  font-size: 22px;
     line-height: 26px;
     align-items: center;
     display: flex;
-    /*justify-content: center;*/
     padding-left: 20px;
-    position: relative;
-    top: 70%;
+
+}
+
+.partners-plate_blue-text_outer p {
+  z-index: 1;
+}
+
+.partners-plate_blue-text {
+  background: #2F80ED;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    mix-blend-mode: multiply;
+    
+    /*justify-content: center;*/
 }
 
 .partners-container-links {
