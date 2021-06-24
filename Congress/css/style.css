@@ -1143,6 +1143,11 @@ color: #333333;
   /*margin-bottom: 60px;*/
   width: 2px;
 }
+..popup-btn_blue {
+  font-size: 18px;
+line-height: 26px;
+}
+
 
 
 .accordion-right {
@@ -1233,18 +1238,18 @@ color: #333333;
   font-size: 27px !important;
 }*/
 
-/*.panel p {
+.panel p {
   text-align: left;
   font-size: 18px;
-    line-height: 26px;
+line-height: 26px;
   margin-bottom: 30px;
   font-family: 'MR';
-  color: #333333;
+  color: black;
 }
 
 .panel__sub p {
   font-size: 15px;
-}*/
+}
 
 /*.panel b {
   color: #a00067;
@@ -1265,7 +1270,7 @@ color: #333333;
   content: '';
   position: absolute;
   left: 175px;
-    top: 7px;
+    top: 24px;
   display: block;
   background: url('../images/Vector 3.svg') no-repeat center/contain;
   height: 14px;
