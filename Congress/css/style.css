@@ -840,15 +840,16 @@ line-height: 25px;
     max-width: 990px;
     margin-top: 150px;
     margin-bottom: 60px;
+    position: relative;
 }
 
 .extra-text::before {
   content: '';
     position: absolute;
-    left: 150px;
+    left: -15px;
     display: block;
     background-color: #2F80ED;
-    height: 5%;
+    height: 30px;
     width: 2px;
 }
 
