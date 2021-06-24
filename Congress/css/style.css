@@ -1199,6 +1199,13 @@ line-height: 26px;
   transform: rotate(270deg) !important;
 }
 
+.more-2 {
+  margin-top: 40px;
+    color: #2A6BC4;
+    position: relative;
+  margin-bottom: 60px;
+}
+
 
 
 .active-nav {
