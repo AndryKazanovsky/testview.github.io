@@ -1709,6 +1709,15 @@ h3 b {
   max-width: 100%;
 }
 
+.slider-pag {
+  position: absolute;
+  top: 740px;
+  left: 26%;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2F80ED;
+}
+
 .slider__item p {
   font-size: 18px;
 line-height: 22px;
@@ -1757,14 +1766,16 @@ color: #000000;
 
 .slider__control_left {
   top: 750px;
-    left: 28%;
+    left: 27vw;
 }
 
 .slider__control_right {
-  right: 60%;
+  right: 59vw;
   top: 750px;
 
 }
+
+
 
 .slider__control::before {
   content: '';
@@ -1949,6 +1960,7 @@ color: #000000;
   line-height: 250px;
   font-size: 100px;
   text-align: left;
+  position: relative;
 }
 
 

@@ -156,7 +156,7 @@
             clearInterval(_interval);
           },
           cycle: function () { // метод cycle
-            _config.isCycling = true;
+            _config.isCycling = false;
             clearInterval(_interval);
             _cycle();
           }
@@ -166,7 +166,7 @@
     }());
 
     var slider = multiItemSlider('.slider', {
-          isCycling: true
+          isCycling: false
         });
     ///////////end slider
     };
