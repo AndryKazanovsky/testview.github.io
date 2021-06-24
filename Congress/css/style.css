@@ -993,16 +993,17 @@ font-family: 'MM';
       max-width: 990px;
     margin: auto;
     display: flex;
+    position: relative;
 
 }
 
 .photo-inner::before {
   content: '';
     position: absolute;
-    left: 150px;
+    left: -15px;
     display: block;
     background-color: #2F80ED;
-    height: 4%;
+    height: 30px;
     width: 2px;
 }
 
