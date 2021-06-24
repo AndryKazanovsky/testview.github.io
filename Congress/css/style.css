@@ -2546,12 +2546,12 @@ button {
 .accordion-container h2::after {
   content: '';
     position: absolute;
-    left: 175px;
-    top: 24px;
+    left: 460px;
+    top: 7px;
     display: block;
-    background: url(../images/Vector 3.svg) no-repeat center/contain;
-    height: 14px;
-    width: 8px;
+    background: url('../images/Vector 3.svg') no-repeat center/contain;
+    height: 30px;
+    width: 30px;
 }
 
 
