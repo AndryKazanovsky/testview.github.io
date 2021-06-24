@@ -2541,6 +2541,7 @@ button {
     max-width: 990px;
     margin: auto;
     margin-bottom: 60px;
+    position: relative;
 }
 
 .accordion-container h2::after {
@@ -2556,6 +2557,9 @@ button {
 
 
 @media screen and (max-width: 1024px) {
+  .accordion-container h2::after {
+    display: none;
+  }
   .photo-inner {
     padding: 20px;
   }
