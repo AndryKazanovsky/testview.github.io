@@ -896,6 +896,7 @@ line-height: 25px;
 .facebook-a {
   width: 28px;
   height: 28px;
+  margin-right: 8px !important;
   background: url('../images/f-blue.svg') no-repeat center/contain;
 }
 .youtube-a {
@@ -1143,7 +1144,7 @@ color: #333333;
   /*margin-bottom: 60px;*/
   width: 2px;
 }
-..popup-btn_blue {
+.popup-btn_blue {
   font-size: 18px;
 line-height: 26px;
 }
@@ -2519,6 +2520,17 @@ button {
     max-width: 990px;
     margin: auto;
     margin-bottom: 60px;
+}
+
+.accordion-container h2::after {
+  content: '';
+    position: absolute;
+    left: 175px;
+    top: 24px;
+    display: block;
+    background: url(../images/Vector 3.svg) no-repeat center/contain;
+    height: 14px;
+    width: 8px;
 }
 
 
