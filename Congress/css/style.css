@@ -767,13 +767,18 @@ color: #000000;
 font-family: 'MM';
 }
 
+
+.people_block-1-date p {
+  position: relative;
+}
+
 .people_block-1-date p::before {
   content: '';
     position: absolute;
-    left: 150px;
+    left: -15px;
     display: block;
     background-color: #2F80ED;
-    height: 7%;
+    height: 50px;
     width: 2px;
 }
 
