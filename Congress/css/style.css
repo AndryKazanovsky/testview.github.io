@@ -2648,6 +2648,13 @@ button {
     font-size: 22px;
 
   }
+  .extra-partners h2 {
+    padding-left: 0;
+  }
+
+  .extra-text {
+    margin-left: 20px;
+  }
 
   .contacts-left {
     width: 100%;
@@ -2673,10 +2680,30 @@ button {
   }
   .rules h2 {
     max-width: 100%;
+    padding-left: 0;
   }
   .extra {
     left: 15%;
     margin-top: -120px;
+  }
+  .photo {
+    margin-bottom: 0;
+  }
+  .extra-partners_photo {
+    padding-top: 10px;
+  }
+  .more-photo {
+    margin-bottom: 10px;
+  }
+  .extra-plate-photo {
+    margin-bottom: 0;
+  }
+  .extra-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .accordion-container {
+    padding-right: 20px;
   }
   .people_block-1-time b {
     margin-top: 100px;
@@ -2684,6 +2711,8 @@ button {
   }
   .people_block-1-time {
     margin-top: 60px;
+        max-width: 100%;
+        padding-left: 10px;
   }
   .extra-partners-inner {
     padding: 20px;
@@ -2734,7 +2763,19 @@ button {
   }
   .container-3_plates {
     flex-direction: column;
-    padding-left: 60px; 
+    padding-left: 20px; 
+  }
+  .people-inner h2 {
+    padding-left: 0;
+
+  }
+
+  .people_block-1-date {
+    padding-left: 20px;
+  }
+
+  .mob-container_inner-slider h2 {
+    padding-left: 0;
   }
   .container-3_plate {
     margin-bottom: 40px;
