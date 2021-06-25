@@ -1694,7 +1694,10 @@ h3 b {
 }
 
 .slider {
-  margin: 100px 0 120px;
+  max-width: 990px;
+  margin: auto; 
+  margin-top: 100px;
+  margin-bottom: 120px;
   position: relative;
   overflow: hidden;
 }
@@ -1766,12 +1769,12 @@ color: #000000;
 
 .slider__control_left {
   top: 750px;
-    left: 27vw;
+    left: 180px;
 }
 
 .slider__control_right {
-  right: 59vw;
-  top: 750px;
+      right: 645px;
+    top: 750px;
 
 }
 
