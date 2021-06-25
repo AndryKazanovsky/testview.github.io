@@ -2644,6 +2644,12 @@ button {
 
 
 @media screen and (max-width: 1024px) {
+  .contacts-left {
+    width: 100%;
+  }
+  .contacts-right {
+    width: 100%;
+  }
   .mob-container-slider {
     display: flex;
     flex-direction: column;
@@ -2668,6 +2674,9 @@ button {
     margin-top: 100px;
     display: block;
   }
+  .people_block-1-time {
+    margin-top: 60px;
+  }
   .extra-partners-inner {
     padding: 20px;
   }
@@ -2691,6 +2700,7 @@ button {
   }
   .container-1_plate {
     margin-bottom: 40px;
+    width: 40%;
   }
   .container-1_plate p {
     width: 40%;
