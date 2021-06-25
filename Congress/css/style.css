@@ -2644,6 +2644,11 @@ button {
 
 
 @media screen and (max-width: 1024px) {
+  .container-2 a {
+    font-size: 22px;
+
+  }
+
   .contacts-left {
     width: 100%;
   }
@@ -2655,7 +2660,10 @@ button {
     flex-direction: column;
   }
   .accordion-container a::after {
-    display: none;
+        height: 23px;
+    width: 23px;
+    left: 265px;
+    top: 10px;
   }
   .photo-inner {
     padding: 20px;
