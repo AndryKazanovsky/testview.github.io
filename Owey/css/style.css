@@ -728,6 +728,11 @@ h4 {
   background: url("../images/Rectangle 31 (3).jpg")no-repeat center/contain;
 }
 
+.slider-img-0 {
+  width: 100%;
+  height: 400px;
+  background: url("../images/main_slide_00_sun.jpg")no-repeat center/cover;
+}
 .slider-img-1 {
   width: 100%;
   height: 400px;
@@ -798,7 +803,7 @@ h4 {
 .static-main-img {
   width: 100%;
   height: 440px;
-  background: url('../images/Rectangle 31 (4).jpg')no-repeat center/contain; 
+  background: url('../images/inside_slider_08_accessories.jpg')no-repeat center/contain; 
 }
 .static-main-img_manifest {
   background: url('../images/Rectangle 31 (5).jpg')no-repeat center/contain; 
@@ -1113,27 +1118,30 @@ h4 {
 }
 
 .big-plate_care:nth-child(1) .big-plate_img {
-  background: url('../images/Rectangle 92 (1).jpg') no-repeat center/contain; 
+  background: url('../images/Care_OW_00.png') no-repeat center/contain; 
 }
 .big-plate_care:nth-child(2) .big-plate_img {
-  background: url('../images/Rectangle 93 (1).jpg') no-repeat center/contain; 
+  background: url('../images/Rectangle 92 (1).jpg') no-repeat center/contain; 
 }
 .big-plate_care:nth-child(3) .big-plate_img {
-  background: url('../images/Rectangle 94 (1).jpg') no-repeat center/contain; 
+  background: url('../images/Rectangle 93 (1).jpg') no-repeat center/contain; 
 }
 .big-plate_care:nth-child(4) .big-plate_img {
-  background: url('../images/Rectangle 95 (4).jpg') no-repeat center/contain; 
+  background: url('../images/Rectangle 94 (1).jpg') no-repeat center/contain; 
 }
 .big-plate_care:nth-child(5) .big-plate_img {
-  background: url('../images/Rectangle 96 (3).jpg') no-repeat center/contain; 
+  background: url('../images/Rectangle 95 (4).jpg') no-repeat center/contain; 
 }
 .big-plate_care:nth-child(6) .big-plate_img {
-  background: url('../images/Rectangle 97 (3).jpg') no-repeat center/contain; 
+  background: url('../images/Rectangle 96 (3).jpg') no-repeat center/contain; 
 }
 .big-plate_care:nth-child(7) .big-plate_img {
-  background: url('../images/Rectangle 98 (3).jpg') no-repeat center/contain; 
+  background: url('../images/Rectangle 97 (3).jpg') no-repeat center/contain; 
 }
 .big-plate_care:nth-child(8) .big-plate_img {
+  background: url('../images/Rectangle 98 (3).jpg') no-repeat center/contain; 
+}
+.big-plate_care:nth-child(9) .big-plate_img {
   background: url('../images/Rectangle 99 (3).jpg') no-repeat center/contain; 
 }
 
@@ -1289,7 +1297,7 @@ h4 {
   width: 800px;
   height: 450px;
   margin: 140px auto;
-  background: url("../images/OWl.jpg")no-repeat center/contain;
+  /*background: url("../images/OWl.jpg")no-repeat center/contain;*/
 }
 
 
