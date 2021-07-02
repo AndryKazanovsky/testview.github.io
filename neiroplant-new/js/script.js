@@ -26,6 +26,19 @@
 
 
 
+      var controller = new ScrollMagic.Controller();
+
+
+
+    var scene = new ScrollMagic.Scene({
+      triggerElement: '.container-3_inner',
+    }).setClassToggle('.outer-navigation-container', 'show1').addTo(controller);
+    var scene2 = new ScrollMagic.Scene({
+      triggerElement: '.container-3_inner',
+    }).setClassToggle('.logo-container', 'show2').addTo(controller);
+
+
+
 
 
 

@@ -218,7 +218,55 @@ font-family: 'MR';
   font-size: 18px;
   line-height: 26px;
   font-family: 'MR';
+  color: #4F4F4F;
 }
+
+
+
+.vita-footer {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+  }
+  .vita-footer_inner {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .vft {
+    display: flex;
+    justify-content: space-between;
+  }
+  .vita-footer_text {
+    font-family: "Helvetica";
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #828282;
+    max-width: 800px;
+  }
+
+  .vita-footer .logo1 {
+      width: 160px;
+      height: 60px;
+      background: url(../images/logo_01_schwabe.svg) no-repeat center/contain;
+  }
+  .vita-footer .logo2 {
+    width: 160px;
+      height: 60px;
+      background: url(../images/Vector123.svg) no-repeat center/contain;
+  }
+  .vita-disclamer {
+    font-family: "RT";
+    font-size: 130px;
+    line-height: 130px;
+    text-align: center;
+    color: #828282;
+    margin: 40px 0;
+  }
+
+
 
 .container-2_plate:nth-child(2) {
   border-bottom: 3px solid #FF6700;
@@ -669,8 +717,8 @@ background-position: top;
 }
 
 h2 {
-  margin-top: 120px;
-  margin-bottom: 60px; 
+  /*margin-top: 120px;*/
+  /*margin-bottom: 60px; */
   text-align: left;
   font-size: 36px;
 line-height: 42px;
@@ -724,6 +772,16 @@ h2 strong {
 
 .block-2_image-2 {
   background: url('../images/picture_02.png') no-repeat center/contain;
+
+}
+
+.show1 {
+  background: white !important;
+  transition: 0.5s;
+}
+.show2 {
+  background: url(../images/Vector2.svg) no-repeat center / contain !important;
+  /*transition: 0.5s;*/
 
 }
 
@@ -1196,7 +1254,7 @@ margin-bottom: 50px;
 
 }
 .map-container p {
-font-family: 'RR';
+font-family: 'MR';
 }
 
 .where-to-buy-mob {
@@ -1502,7 +1560,7 @@ ol {
   margin-bottom: 5px;
   position: relative;
 
-  background: #00A79D;
+  background: #01076D;
   border-radius: 3px;
 
   z-index: 1;
@@ -1605,10 +1663,147 @@ ol {
 .mobile-block1 {
   display: none;
 }
-
+.mob-section {
+  display: none;
+}
 
 
 @media screen and (max-width: 1024px) {
+  .vft {
+  flex-direction: column;
+  align-items: center;
+}
+.vita-footer_text {
+  max-width: 100%;
+}
+.vita-footer_inner {
+  max-width: 100%;
+  padding: 0 10px;
+}
+.vita-disclamer {
+  font-size: 40px;
+   line-height: 50px;
+}
+
+  .mob-section {
+    display: block;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+  }
+  .mob-main-text {
+    font-size: 40px;
+    line-height: 54px;
+    font-family: 'MB';
+    padding-top: 30px;
+  }
+  .mob-main-text sup {
+    font-size: 25px;
+    font-family: 'MR';
+  }
+  .mob-text {
+    font-size: 38px;
+    line-height: 42px;
+    font-family: 'MM';
+    padding-top: 20px;
+  }
+  .container-1 {
+    height: 500px;
+    background: url(../images/fon_color_frame011.svg)no-repeat top/contain; 
+    padding: 0;
+  }
+  .container-2_inner-2 .container-2_plate {
+    padding-bottom: 0;
+  }
+  .container-1_product p {
+    font-size: 20px;
+    line-height: 24px;
+    color: #01076D;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .container-4_inner {
+    width: 100%;
+    height: 880px;
+    background: url(../images/div01_photo_quote1.png)no-repeat center/contain; 
+  }
+  .container-4_inner-2 {
+    background: url(../images/div01_photo_quote2.png)no-repeat center/contain; 
+  }
+  .container-4_inner-3 {
+    background: url(../images/div_01_photo_quote3.png)no-repeat center/contain; 
+  }
+  .container-1_product {
+    left: 0;
+    top: 350px;
+    height: 200px;
+    width: 100%;
+    background-size: contain;
+  }
+  .container-6_inner {
+    width: 100%;
+  }
+  .container-2_plates {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .container-2_plate {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+  }
+  .container-2 {
+    padding-top: 100px;
+  }
+  .accordion {
+    font-size: 15px;
+  }
+  .accordion::after {
+    width: 20px;
+    height: 20px;
+  }
+  .container-5_plates {
+    flex-direction: column;
+    /*padding: 0 20px;*/
+  }
+  .container-2_inner-2 p {
+    padding: 0 20px;
+
+  }
+  .container-3_inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .container-5_inner {
+    width: 100%;
+  }
+  .container-5_plate {
+    width: 100%;
+    background: url(../images/Group32.svg)no-repeat center/contain; 
+  }
+  .container-5_plate:nth-child(2) {
+    background: url(../images/Group33.svg)no-repeat center/contain; 
+  }
+  .container-5_plate:nth-child(3) {
+    background: url(../images/Group34.svg)no-repeat center/contain; 
+    
+  }
+  .container-5_plate:nth-child(4) {
+    background: url(../images/Group35.svg)no-repeat center/contain; 
+    
+  }
+  .container-5_plate-2 {
+    background: white !important;
+  }
+  .container-2_inner {
+    width: 100%;
+  }
   .block-5_plate:nth-child(2) {
   border-top: none;
 }
@@ -1873,8 +2068,8 @@ ol {
     width: 100%;
   }
   h2 {
-    font-size: 38px;
-    line-height: 46px;
+    font-size: 32px;
+    line-height: 38px;
   }
 
   .header-block_content h1 {
@@ -1966,7 +2161,7 @@ ol {
 
   .where-to-buy-mob {
     display: block;
-    background-color: #00A79D !important;
+    background-color: #01076D !important;
     color: white !important;
     font-size: 10px !important;
     line-height: 10px !important;
@@ -1974,8 +2169,11 @@ ol {
     padding: 10px 20px;
     border-radius: 10px;
     position: absolute;
+    text-transform: uppercase;
     left: 50vw;
   }
+
+
 
   .instruction {
     height: 40px;
@@ -1992,6 +2190,13 @@ ol {
 
   .logo-container {
     margin-right: 30px;
+    left: 20px;
+    background: url(../images/Vector2.svg) no-repeat center / contain !important;
+
+  }
+
+  .outer-navigation-container {
+    background: white; 
   }
 
 
