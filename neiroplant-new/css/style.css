@@ -102,7 +102,7 @@ div {
     left: 525px;
   width: 400px;
   height: 250px;
-  background: url(../images/pack.png);
+  background: url(../images/pack.png)no-repeat;
 }
 .container-1_product p {
   font-size: 20px;
