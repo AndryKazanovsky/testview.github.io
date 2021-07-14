@@ -2651,6 +2651,13 @@ button {
     font-size: 22px;
 
   }
+
+  #menuToggle {
+    left: -20px;
+  }
+  #menu {
+    right: -80px;
+  }
   .extra-partners h2 {
     padding-left: 0;
   }
@@ -3232,14 +3239,17 @@ button {
   /*  border-radius: 10px;*/
   /*  margin-left: 10px;*/
   /*}*/
-  #menuToggle {
+  /*#menuToggle {
     left: 325px;
-  }
+  }*/
 }
 
 @media screen and (max-width: 768px) {
   #menuToggle {
-    left: 215px;
+    left: -20px;
+  }
+  #menu {
+    right: -80px;
   }
   .non-usual {
     margin-bottom: 110px;
@@ -3247,6 +3257,11 @@ button {
 }
 
 @media screen and (max-width: 450px) {
+
+  #menu {
+    right: -40px;
+
+  }
 
 
 
