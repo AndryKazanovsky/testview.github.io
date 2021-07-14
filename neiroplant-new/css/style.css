@@ -392,6 +392,10 @@ font-family: 'MR';
   /*box-shadow: -1px 4px 5px 0px rgba(224, 224, 224, 1);*/
 }
 
+.panel strong{
+  font-family: "MB";
+}
+
 .accordion-container {
   /*max-width: 60vw;*/
   margin: auto;
