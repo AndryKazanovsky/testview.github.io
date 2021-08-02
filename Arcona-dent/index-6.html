@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="utf-8"/>
+    <a class="logo"></a>
+    <meta name="description" content="arcona-dent"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="shortcut icon" href="./images/" type="image/png"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/script-page2.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+</head>
+<body>
+
+<div class="global-limit">
+
+<!--    start navigation-->
+<a name='top'></a>
+    <div class="outer-navigation-container">
+        <div class="navigation-container">
+            <a class="logo-container" href="./index.html"></a>
+            <!-- <a class="where-to-buy-mob" href="#sticker">СТАТИ ПАРТНЕРОМ</a> -->
+            <a class="phone-menu-mob" href="tel:+380050-341-4148">(+380)050-341-4148</a>
+
+            <div class="navigation-menu">
+                <!-- butons -->
+                <div class="sub-menu">
+                    <p>Продукцiя</p>
+                    <div class="sub-menu_img"></div>
+                </div>
+                    <a class="phone-menu" href="tel:+380050-341-4148">(+380)050-341-4148</a>
+            </div>
+
+            <!--        mobile menu-->
+
+                <!-- butons -->
+
+            <!--        end menu-->
+
+        </div>
+    </div>
+
+
+
+<!--    end navigation-->
+
+
+
+<div class="sub-menu_open">
+    <div class="container_inner">
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">КОМПОЗИТ-ВОЛОКНО</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">NEXT</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">FLOW-COLOR</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">ETCHMASTER</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">PAROSIN</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">BOSTON</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">BOSTON</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">MASTERBOND</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">Flow-Art</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">FISSURE SEALANT</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">BOSTON GLAZE</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">COLORANT</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">Silgips</p>
+        </a>
+        <a class="production_plate">
+            <div class="production_plate-img"></div>
+            <p class="title">Muson</p>
+        </a>
+        <!-- <div class="production_plate">
+        </div>
+        <div class="production_plate">
+        </div> -->
+    </div>
+</div>
+
+<div class="static-main-img"></div>
+
+<div class="popup-open">
+    <div class="popup-body">
+
+    <div class="content-container" >
+        <form action="./send.php" method="POST">
+            <div class="form-top">
+                <div class="inp">
+                    <p>Ім'я</p>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div class="inp">
+                    <p>Прізвище</p>
+                    <input id="lastname" name="lastname" type="text" required>
+                </div>
+                <div class="inp">
+                    <p>E-mail</p>
+                    <input id="messanger-contact" name="messanger-contact" type="email" required>
+                </div>
+                <div class="inp">
+                    <p>Телефон</p>
+                    <input id="phone" name="phone" type="number" required>
+                </div>
+                <div class="form-text">
+                    <p>Текст повідомлення</p>
+                    <textarea id="message" name="message"rows="5" cols="40"></textarea>
+                </div>
+
+            </div>
+           <div class="button-container">
+                <p class="close-popup">Закрити</p>
+
+               <button>Відправити</button>
+           </div>
+        </form>
+    </div>
+    </div>
+</div>
+
+<div class="product-body">
+    <div class="product-body_inner">
+        <div class="product-body_left">
+            <div class="product-body_left-wrapper">
+                <div class="product-body_img"></div>
+                <div class="product-body_left-btn">
+                    <p>Замовити персональну презентацію</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-body_right">
+            <p class="product-body_right-top-text">Пломбувальні матеріали</p>
+            <h3>BOSTON</h3>
+            <p>Надміцний композитний матеріал світлового твердіння</p>
+            <div class="product-body_right-btn">
+                <p>Де придбати</p>
+            </div>
+            <div class="product-body_left-btn product-body_left-btn-mob">
+                <p>Замовити персональну презентацію</p>
+            </div>
+            <p>
+                BOSTON це мікрогібридний композит з підвищеною механічною міцністю, який дає лікарю винятковий комфорт при виконанні тимчасових і постійних протетичних робіт.
+            </p>
+            <p>
+                Спеціально опрацьований склад композиту гарантує виготовлення в кабінеті винятково витривалих коронок і мостів.
+            </p>
+            <p>
+                Старанно підібраний склад неорганічних наповнювачів запевнює ідеально гладкі поверхні після полімеризації. Матеріал може застосовуватись як повноцінний самостійний продукт або в поєднанні з стоматологічними волокнами, зокрема з КОМПОЗИТ-ВОЛОКНОМ. Додаткове покриття з BOSTON GLAZE надасть роботам досконалий косметичний ефект.
+            </p>
+            <p>
+                BOSTON призначений для виконання всіх видів пломбувань і реконструкцій передніх і бічних зубів, тимчасових і постійних, як каріозного, так і некаріозного походження.
+            </p>
+            <h4>ДОСТУПНІ КОЛЬОРИ:</h4>
+            <p>A1, A2, A3, A3,5, OA2, OA3, B1, B2, C2, D2, D3, T</p>
+
+            <div class="product-img-mob"></div>
+
+            <h4>ПОКАЗАННЯ ДО ЗАСТОСУВАННЯ</h4>
+            <div class="product-list">
+                <p>пломбування каріозних порожнин І, ІІ, ІІІ, ІV, V класу по Блеку;                </p>
+                <p>виконання постійних протетичних робіт на основі поліамідних  і  поліетиленових волокон: коронки,  ендокоронки, мости, для виконання робіт типу inlay/onlay;                </p>
+                <p>тимчасові протетичні конструкції: коронки, мости ;</p>
+                <p>шинування рухомих зубів, постійні – зовнішній або внутрішній шар;</p>
+                <p>шинування рухомих зубів, тимчасові – зовнішній шар;</p>
+                <p>для відновлення композитних та акрилових конструкцій.</p>
+            </div>
+            <!-- <p class="product-less">
+                Зменшує витрати композиту! Скорочує і спрощує час маніпуляції! Доступний у блістерах 0,07г  або 0,2 г в упаковці 40 шт. і 200 шт.
+            </p> -->
+            <h4>
+                МАТЕРІАЛИ:
+            </h4>
+            <a class="product-pdf">UA_Boston_Інструкція.pdf</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="prod-list">
+    <div class="prod-list_inner">
+        <div class="prod-as">
+            <p>асортимент  продукції</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!--////////// slider-->
+
+<div class="slider slider-main">
+    <div class="slider__wrapper">
+        <div class="slider__item slider__item-prod">
+                
+            <div class="container_inner container_inner1">
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img1"></div>
+                    <p class="title">КОМПОЗИТ-ВОЛОКНО</p>
+                    <p>Стоматологічна система композит-волокно-композит</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img2"></div>
+                    <p class="title">NEXT</p>
+                    <p>Композитний стоматологічний матеріал світлового затвердіння</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img3"></div>
+                    <p class="title">FLOW-COLOR</p>
+                    <p>Кольоровий наногібридний композит типу FLOW</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img4"></div>
+                    <p class="title">ETCHMASTER</p>
+                    <p>Стоматологічний травильний гель</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+            </div>
+
+        </div>
+        <div class="slider__item slider__item-prod">
+                
+            <div class="container_inner container_inner2">
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img5"></div>
+                    <p class="title">PAROSIN</p>
+                    <p>Набір для промивання ясенних кишень</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img6"></div>
+                    <p class="title">BOSTON</p>
+                    <p>Надміцний композитний матеріал світлового твердіння</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img7"></div>
+                    <p class="title">BOSTON</p>
+                    <p>Надміцний композитний мікрогібридний матеріал світлового твердіння у блістерній упаковці</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img8"></div>
+                    <p class="title">MASTERBOND</p>
+                    <p>Стоматологічна адгезивна система</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+            </div>
+
+        </div>
+        <div class="slider__item slider__item-prod">
+            <div class="container_inner container_inner3">
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img9"></div>
+                    <p class="title">Flow-Art</p>
+                    <p>Універсальний текучий композит світлового затвердіння</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img10"></div>
+                    <p class="title">FISSURE SEALANT</p>
+                    <p>Прозорий наногібридний композит для герметизації борозд</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img11"></div>
+                    <p class="title">BOSTON GLAZE</p>
+                    <p>Універсальний матеріал світлового затвердівання на базі органічних смол</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img12"></div>
+                    <p class="title">COLORANT</p>
+                    <p>Композит типу flow</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+            </div>
+        </div>
+        <div class="slider__item slider__item-prod">
+            <div class="container_inner container_inner4">
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img13"></div>
+                    <p class="title">Silgips</p>
+                    <p>Стоматологічний силікон для виготовлення моделей зубних рядів</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img14"></div>
+                    <p class="title">Muson</p>
+                    <p>Шипучі водорозчинні таблетки</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <div class="production_plate production_plate-empty">
+                </div>
+                <div class="production_plate production_plate-empty">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="slider__control slider__control_left" href="#" role="button"></a>
+    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+</div>
+
+<!--//////////slider-->
+
+
+
+<!--////////// slider-mob-->
+
+<!-- <div class="slider slider-mob">
+    <div class="slider__wrapper">
+        <div class="slider__item slider__item-prod">
+                
+            <div class="container_inner container_inner1">
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img1"></div>
+                    <p class="title">КОМПОЗИТ-ВОЛОКНО</p>
+                    <p>Стоматологічна система композит-волокно-композит</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img2"></div>
+                    <p class="title">NEXT</p>
+                    <p>Композитний стоматологічний матеріал світлового затвердіння</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img3"></div>
+                    <p class="title">FLOW-COLOR</p>
+                    <p>Кольоровий наногібридний композит типу FLOW</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img4"></div>
+                    <p class="title">ETCHMASTER</p>
+                    <p>Стоматологічний травильний гель</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+            </div>
+
+        </div>
+        <div class="slider__item slider__item-prod">
+                
+            <div class="container_inner container_inner2">
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img5"></div>
+                    <p class="title">PAROSIN</p>
+                    <p>Набір для промивання ясенних кишень</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img6"></div>
+                    <p class="title">BOSTON</p>
+                    <p>Надміцний композитний матеріал світлового твердіння</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img7"></div>
+                    <p class="title">BOSTON</p>
+                    <p>Надміцний композитний мікрогібридний матеріал світлового твердіння у блістерній упаковці</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img8"></div>
+                    <p class="title">MASTERBOND</p>
+                    <p>Стоматологічна адгезивна система</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+            </div>
+
+        </div>
+        <div class="slider__item slider__item-prod">
+            <div class="container_inner container_inner3">
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img9"></div>
+                    <p class="title">Flow-Art</p>
+                    <p>Універсальний текучий композит світлового затвердіння</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img10"></div>
+                    <p class="title">FISSURE SEALANT</p>
+                    <p>Прозорий наногібридний композит для герметизації борозд</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img11"></div>
+                    <p class="title">BOSTON GLAZE</p>
+                    <p>Універсальний матеріал світлового затвердівання на базі органічних смол</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img12"></div>
+                    <p class="title">COLORANT</p>
+                    <p>Композит типу flow</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+            </div>
+        </div>
+        <div class="slider__item slider__item-prod">
+            <div class="container_inner container_inner4">
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img13"></div>
+                    <p class="title">Silgips</p>
+                    <p>Стоматологічний силікон для виготовлення моделей зубних рядів</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <a class="production_plate">
+                    <div class="production_plate-img production_plate-img14"></div>
+                    <p class="title">Muson</p>
+                    <p>Шипучі водорозчинні таблетки</p>
+                    <p class="link-more">Читати більше</p>
+                </a>
+                <div class="production_plate production_plate-empty">
+                </div>
+                <div class="production_plate production_plate-empty">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="slider__control slider__control_left" href="#" role="button"></a>
+    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+</div> -->
+
+<!--//////////slider-mob-->
+
+    
+
+
+    <div class="container-2">
+        <div class="container_inner">
+            <div class="arcona-block">
+                <div class="arcona-img"></div>
+                <p>НАША ЛОГіСТИКА</p>
+            </div>
+            <div class="container-2_plates">
+                <div class="container-2_plate">
+                    <p class="title">Київ</p>
+                    <p>Регіональний представник у Центральному регіоні.<br>
+                        тел.: (+380)50 394 06 83<br>
+                        mail: xxxxxxxx@gmail.com</p>
+                </div>
+                <div class="container-2_plate">
+                    <p class="title">Львів</p>
+                    <p>Регіональний представник у Західному регіоні.<br>
+                        тел.: (+380)99 280 18 61<br> 
+                        mail: xxxxxxxx@gmail.com</p>
+                </div>
+                <div class="container-2_plate">
+                    <p class="title">Харків</p>
+                    <p>Регіональний представник у Північно-східному регіоні.<br>
+                        тел.: (+380)66 727 29 54<br>
+                        mail: xxxxxxxx@gmail.com</p>
+                </div>
+                <div class="container-2_plate">
+                    <p class="title">Одеса</p>
+                    <p>Регіональний представник у Південному регіоні<br> 
+                        тел.: (+380)00 000 00 00<br> 
+                        mail: xxxxxxxx@gmail.com</p>
+                </div>
+                <div class="container-2_plate">
+                    <p class="title">Дніпро</p>
+                    <p>Регіональний представник у Південно-східному регіоні<br>
+                        тел.: (+380)00 000 00 00<br> 
+                        mail: xxxxxxxx@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <div class="block-6">
+        <!-- <div class="puppet">
+            <a name="sticker"></a>
+        </div> -->
+        <div class="arcona-block">
+            <div class="arcona-img"></div>
+            <p>зворотній зв’язок</p>
+        </div>
+         <div class="content-container" >
+             <form action="./send.php" method="POST">
+                 <div class="form-top">
+                     <div class="inp">
+                         <p>Ім'я</p>
+                         <input id="name" name="name" type="text" required>
+                     </div>
+                     <div class="inp">
+                         <p>Прізвище</p>
+                         <input id="lastname" name="lastname" type="text" required>
+                     </div>
+                     <div class="inp">
+                         <p>E-mail</p>
+                         <input id="messanger-contact" name="messanger-contact" type="email" required>
+                     </div>
+                     <div class="inp">
+                         <p>Телефон</p>
+                         <input id="phone" name="phone" type="number" required>
+                     </div>
+                     <div class="form-text">
+                         <p>Текст повідомлення</p>
+                         <textarea id="message" name="message"rows="5" cols="40"></textarea>
+                     </div>
+
+                 </div>
+                <div class="button-container">
+                    <button>Відправити</button>
+                </div>
+             </form>
+         </div>
+    </div>
+</div>
+<div class="footer-container">
+    <div class="footer">
+        <div class="footer-logo_container">
+            <div class="footer-logo"></div>
+            <p>Лабораторія Стоматологічної Фармакології
+                Насутув 99C, 21-025 Нємце, Польща
+            </p>
+            <p class="footer-year">© 2021. All rights reserved</p>
+        </div>
+        <div class='footer-block-2'>
+            <p>Ексклюзивний дистриб’ютор:<br>Альпен Фарма АГ Берн,<br> Швейцарія</p>
+        </div>
+        <div class='footer-block-3'>
+            <p>
+                Уповноважений представник в Україні:<br>ПрАТ «НАТУРФАРМ» 04075 Україна, Київ,<br> Пуща-Водиця, вул. Лiсна 30-А, Тел. (044) 401-81-03
+            </p>
+        </div>
+    </div>
+    <div class='footer-blockmob'>
+        <div class="blockmob-img blockmob-img1"></div>
+            <p>Ексклюзивний дистриб’ютор:Альпен Фарма АГ Берн, Швейцарія</p>
+        </div>
+        <div class='footer-blockmob'>
+            <div class="blockmob-img blockmob-img2"></div>
+            <p>Уповноважений представник в Україні:
+                ПрАТ «НАТУРФАРМ» 04075 Україна, Київ, Пуща-Водиця, вул. Лiсна 30-А, Тел. (044) 401-81-03</p>
+        </div>
+        <p class="footer-year-mob">© 2021. All rights reserved</p>
+</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
