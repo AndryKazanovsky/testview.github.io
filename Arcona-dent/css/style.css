@@ -242,6 +242,7 @@ div {
   top: 1120px;
 }
 
+
 .close-popup {
   width: 200px;
   margin-right: 40px;
@@ -429,6 +430,7 @@ h4 {
 
 .product-body_inner {
   max-width: 996px;
+  min-height: 992px;
   margin: auto;
   display: flex;
   justify-content: space-between;
