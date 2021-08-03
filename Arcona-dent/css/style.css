@@ -2424,6 +2424,48 @@ button {
     height: 360px;
     background: url(../images/product2.jpg)no-repeat center/contain;
   }
+  .product-img-mob1 {
+    background: url(../images/product1.jpg)no-repeat center/contain;
+  }
+  .product-img-mob2 {
+    background: url(../images/product2.jpg)no-repeat center/contain;
+  }
+  .product-img-mob3 {
+    background: url(../images/product3.jpg)no-repeat center/contain;
+  }
+  .product-img-mob4 {
+    background: url(../images/product4.jpg)no-repeat center/contain;
+  }
+  .product-img-mob5 {
+    background: url(../images/product5.jpg)no-repeat center/contain;
+  }
+  .product-img-mob6 {
+    background: url(../images/product6.jpg)no-repeat center/contain;
+  }
+  .product-img-mob7 {
+    background: url(../images/product7.jpg)no-repeat center/contain;
+  }
+  .product-img-mob8 {
+    background: url(../images/product8.jpg)no-repeat center/contain;
+  }
+  .product-img-mob9 {
+    background: url(../images/product9.jpg)no-repeat center/contain;
+  }
+  .product-img-mob10 {
+    background: url(../images/product10.jpg)no-repeat center/contain;
+  }
+  .product-img-mob11 {
+    background: url(../images/product11.jpg)no-repeat center/contain;
+  }
+  .product-img-mob12 {
+    background: url(../images/product12.jpg)no-repeat center/contain;
+  }
+  .product-img-mob13 {
+    background: url(../images/product13.jpg)no-repeat center/contain;
+  }
+  .product-img-mob14 {
+    background: url(../images/product14.jpg)no-repeat center/contain;
+  }
 
   .product-body_left-btn-mob {
     display: block;
@@ -2691,29 +2733,35 @@ button {
     display: none;
   }
 
-  /* .slider-img-1 {
-    background-size: 400% !important;
-    background-position: center; 
+  .slider-img-0 {
+    height: 300px;
+    background: url(../images/photo_01_slider.jpg)no-repeat center/contain !important;
+  }
+  .slider-img-1 {
+    height: 300px;
+
+    background: url(../images/photo_02_slider.jpg)no-repeat center/contain !important;
   }
   .slider-img-2 {
-    background-size: 400% !important;
-    background-position: 80%;
+    height: 300px;
+
+    background: url(../images/photo_03_slider.jpg)no-repeat center/contain !important;
   }
   .slider-img-3 {
-    background-size: 400% !important;
-    background-position: 90%;
+    height: 300px;
+
+    background: url(../images/photo_04_slider.jpg)no-repeat center/contain !important;
   }
   .slider-img-4 {
-    background-size: 400% !important;
-    background-position: 80%;
+    height: 300px;
+
+    background: url(../images/photo_05_slider.jpg)no-repeat center/contain !important;
   }
   .slider-img-5 {
-    background-size: 400% !important;
-    background-position: 80%;
+    height: 300px;
+
+    background: url(../images/photo_06_slider.jpg)no-repeat center/contain !important;
   }
-  .slider-img-6 {
-    background-size: 400% !important;
-  } */
 
 
 
@@ -2742,7 +2790,7 @@ button {
     /*display: none;*/
     /* background-color: #030406; */
     /*background: url(../images/fon_photo1.jpg) no-repeat center / cover;*/
-    height: 440px;
+    height: 300px;
     padding-top: 0;
     margin-top: 80px;
   }
