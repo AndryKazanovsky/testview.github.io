@@ -24,22 +24,22 @@
       container1.classList.toggle('sub-fadeBtn-mob')
     });
 
-    var controller = new ScrollMagic.Controller();
+    // var controller = new ScrollMagic.Controller();
 
-    var scene1 = new ScrollMagic.Scene({
-      triggerElement: '.product-body_right-btn',
-    }).setClassToggle('.product-body_left-wrapper', 'stiky').addTo(controller);
-    var scene1end = new ScrollMagic.Scene({
-      triggerElement: '.product-less',
-    }).setClassToggle('.product-body_left-wrapper', 'unstiky').addTo(controller);
+    // var scene1 = new ScrollMagic.Scene({
+    //   triggerElement: '.product-body_right-btn',
+    // }).setClassToggle('.product-body_left-wrapper', 'stiky').addTo(controller);
+    // var scene1end = new ScrollMagic.Scene({
+    //   triggerElement: '.product-less',
+    // }).setClassToggle('.product-body_left-wrapper', 'unstiky').addTo(controller);
 
-    const popupBtn = document.querySelector('.product-body_left-btn').addEventListener('click', function() {
-      const popupOpen = document.querySelector('.popup-open');
-      const popupClose = document.querySelector('.close-popup').addEventListener('click', function() {
-        popupOpen.classList.remove('sub-fadeIn');
-      });
-      popupOpen.classList.toggle('sub-fadeIn');
-    });
+    // const popupBtn = document.querySelector('.product-body_left-btn').addEventListener('click', function() {
+    //   const popupOpen = document.querySelector('.popup-open');
+    //   const popupClose = document.querySelector('.close-popup').addEventListener('click', function() {
+    //     popupOpen.classList.remove('sub-fadeIn');
+    //   });
+    //   popupOpen.classList.toggle('sub-fadeIn');
+    // });
 
 
 
