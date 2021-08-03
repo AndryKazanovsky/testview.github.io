@@ -2047,13 +2047,13 @@ button {
   margin-bottom: 10px;
 }
 .content-container input {
-  border: 1px solid black;
+  border: 1px solid #AFAFAF;
   width: 100%;
   padding: 10px;
 }
 
 .content-container textarea {
-  border: 1px solid black;
+  border: 1px solid #AFAFAF;
 
   padding: 10px;
   height: 200px;
