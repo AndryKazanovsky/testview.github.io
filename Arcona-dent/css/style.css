@@ -714,6 +714,7 @@ h4 {
 
 .container-production .container_inner {
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .container-2_plate .title {
@@ -2542,7 +2543,7 @@ button {
     display: none;
   }
   .production_plate {
-    width: 90%;
+    width: 236px;
   }
   .production_plate:nth-child(15) {
     display: none;
