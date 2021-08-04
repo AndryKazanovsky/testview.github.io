@@ -494,6 +494,10 @@ h4 {
   background-color: #AFAFAF !important;
 }
 
+.sub-fadeBtn .sub-menu_img {
+  background: url(../images/cross.svg) no-repeat center/contain;
+}
+
 .sub-menu_open .production_plate {
   height: 100px;
   width: 130px;
@@ -516,17 +520,21 @@ h4 {
   transition: opacity 0.5s;
   position: absolute;
   width: 100vw;
-  height: 440px;
-  background: white;
+  height: 100vh;
+  background: #0C499A;
   z-index: 2;
   display: none;
   padding-top: 55px;
   /* opacity: 0; */
 }
 
+.sub-menu_open .production_plate p {
+  color: white;
+}
+
 .sub-menu_open .container_inner {
   padding-bottom: 50px;
-  background-color: white;
+  background-color: #0C499A;
 }
 
 .sub-menu {
@@ -2621,7 +2629,7 @@ button {
   .sub-menu_open .container_inner {
     flex-direction: row;
     padding-right: 20px;
-    background-color: white;
+    /* background-color: white; */
   }
   .container-2_text-inner-mob {
     display: flex !important;

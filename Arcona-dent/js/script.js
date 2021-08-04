@@ -24,6 +24,16 @@
       container1.classList.toggle('sub-fadeBtn-mob')
     });
 
+    const test = document.querySelector('.sub-menu').addEventListener('click', function() {
+      const x = document.querySelector('.sub-menu p')
+      if (x.innerHTML === "Продукцiя") {
+        x.innerHTML = "Згорнути";
+     } else {
+        x.innerHTML = "Продукцiя";
+     }
+    });
+      
+
 
     
     
