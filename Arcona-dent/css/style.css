@@ -2646,9 +2646,12 @@ button {
   }
   .product-body_right-btn {
     width: 100%;
-    font-size: 14px;
+    /* font-size: 12px !important; */
     line-height: 14px;
     margin-bottom: 20px;
+  }
+  .product-body_right-btn p {
+    font-size: 12px !important;
   }
   .product-body_right p {
     font-size: 14px;
