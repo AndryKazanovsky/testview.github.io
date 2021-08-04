@@ -2821,32 +2821,32 @@ button {
 
   .slider-img-0 {
     height: 300px;
-    background: url(../images/Slider_Composit_phone.png)no-repeat center/contain !important;
+    background: url(../images/Slider_Composit_phone.png)no-repeat center/cover !important;
   }
   .slider-img-1 {
     height: 300px;
 
-    background: url(../images/Slider_Next_phone.png)no-repeat center/contain !important;
+    background: url(../images/Slider_Next_phone.png)no-repeat center/cover !important;
   }
   .slider-img-2 {
     height: 300px;
 
-    background: url(../images/Slider_FlowColor_phone.png)no-repeat center/contain !important;
+    background: url(../images/Slider_FlowColor_phone.png)no-repeat center/cover !important;
   }
   .slider-img-3 {
     height: 300px;
 
-    background: url(../images/Slider_Etchmaster_phone.png)no-repeat center/contain !important;
+    background: url(../images/Slider_Etchmaster_phone.png)no-repeat center/cover !important;
   }
   .slider-img-4 {
     height: 300px;
 
-    background: url(../images/Slider_Parosin_phone.png)no-repeat center/contain !important;
+    background: url(../images/Slider_Parosin_phone.png)no-repeat center/cover !important;
   }
   .slider-img-5 {
     height: 300px;
 
-    background: url(../images/Slider_Boston_phone.png)no-repeat center/contain !important;
+    background: url(../images/Slider_Boston_phone.png)no-repeat center/cover !important;
   }
   
 
