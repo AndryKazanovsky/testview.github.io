@@ -2231,6 +2231,18 @@ button {
 
 @media screen and (max-width: 1024px) {
 
+  .container-production .container_inner {
+    margin-left: -20px;
+  }
+
+  .production_plate {
+    height: 410px;
+  }
+
+  .production_plate-img {
+    height: 240px;
+  }
+
   .container-2_plates {
     width: 100%;
   }
@@ -2568,6 +2580,10 @@ button {
   .product-body_left-btn-mob {
     display: block;
     margin-bottom: 20px;
+  }
+
+  .product-body_left-btn-mob p {
+    font-size: 12px !important;
   }
 
   .production_plate {
