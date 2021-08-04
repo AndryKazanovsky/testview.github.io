@@ -117,28 +117,33 @@
 
 <div class="static-main-img static-main-img1"></div>
 
-<div class="popup-open">
+<div class="popup-open ">
+    <p class="close-popup"></p>
+    
+
     <div class="popup-body">
 
     <div class="content-container" >
         <form action="./send2.php" method="POST">
             <div class="form-top">
                 <div class="inp">
-                    <p>Прізвище</p>
+                    <p>Місто</p>
                     <input id="lastname" name="lastname" type="text" required>
-                </div>
-                <div class="inp">
-                    <p>E-mail</p>
-                    <input id="messanger-contact" name="messanger-contact" type="email" required>
                 </div>
                 <div class="inp">
                     <p>Телефон</p>
                     <input id="phone" name="phone" type="number" required>
                 </div>
+                <div class="inp">
+                    <p>E-mail</p>
+                    <input id="messanger-contact" name="messanger-contact" type="email" required>
+                </div>
+            </div>
+            <div class="popup-check">
+                <input class="popup-check_inp" type="checkbox">
+                <p>Даю згоду на обробку моїх персональних даних.</p>
             </div>
            <div class="button-container">
-                <p class="close-popup">Закрити</p>
-
                <button>Відправити</button>
            </div>
         </form>
@@ -162,9 +167,9 @@
             <div class="product-body_right-btn">
                 <p>Де придбати</p>
             </div>
-            <div class="product-body_left-btn product-body_left-btn-mob">
+            <a href="#form" class="product-body_left-btn product-body_left-btn-mob">
                 <p>Замовити персональну презентацію</p>
-            </div>
+            </a>
             <p>КОМПОЗИТ-ВОЛОКНО – стоматологічний медичний виріб, призначений для застосування у всіх композитних реконструкціях, де необхідне використання основи із стоматологічного волокна.</p>
 
             <p>КОМПОЗИТ-ВОЛОКНО є готовим для застосування продуктом, не вимагає жодних підготовчих маніпуляцій перед використанням.</p>
@@ -494,9 +499,11 @@
 
 
     <div class="block-6">
+        <a name="form"></a>
         <!-- <div class="puppet">
             <a name="sticker"></a>
         </div> -->
+        
         <div class="arcona-block">
             <div class="arcona-img"></div>
             <p>зворотній зв’язок</p>

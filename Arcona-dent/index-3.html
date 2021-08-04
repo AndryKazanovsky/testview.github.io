@@ -117,37 +117,33 @@
 
 <div class="static-main-img static-main-img3"></div>
 
-<div class="popup-open">
+<div class="popup-open ">
+    <p class="close-popup"></p>
+    
+
     <div class="popup-body">
 
     <div class="content-container" >
-        <form action="./send.php" method="POST">
+        <form action="./send2.php" method="POST">
             <div class="form-top">
                 <div class="inp">
-                    <p>Ім'я</p>
-                    <input id="name" name="name" type="text" required>
-                </div>
-                <div class="inp">
-                    <p>Прізвище</p>
+                    <p>Місто</p>
                     <input id="lastname" name="lastname" type="text" required>
-                </div>
-                <div class="inp">
-                    <p>E-mail</p>
-                    <input id="messanger-contact" name="messanger-contact" type="email" required>
                 </div>
                 <div class="inp">
                     <p>Телефон</p>
                     <input id="phone" name="phone" type="number" required>
                 </div>
-                <div class="form-text">
-                    <p>Текст повідомлення</p>
-                    <textarea id="message" name="message"rows="5" cols="40"></textarea>
+                <div class="inp">
+                    <p>E-mail</p>
+                    <input id="messanger-contact" name="messanger-contact" type="email" required>
                 </div>
-
+            </div>
+            <div class="popup-check">
+                <input class="popup-check_inp" type="checkbox">
+                <p>Даю згоду на обробку моїх персональних даних.</p>
             </div>
            <div class="button-container">
-                <p class="close-popup">Закрити</p>
-
                <button>Відправити</button>
            </div>
         </form>
@@ -172,9 +168,9 @@
             <div class="product-body_right-btn">
                 <p>Де придбати</p>
             </div>
-            <div class="product-body_left-btn product-body_left-btn-mob">
+            <a href="#form" class="product-body_left-btn product-body_left-btn-mob">
                 <p>Замовити персональну презентацію</p>
-            </div>
+            </a>
             <p>
                 Сучасний композит світлового затвердівання з надзвичайною колористикою – 9 кольорів на вибір!
 FLOW-COLOR повстав з думкою про наймолодших пацієнтів, наприклад, для герметизації борозд молочних і постійних зубів.
@@ -508,6 +504,7 @@ FLOW-COLOR повстав з думкою про наймолодших паці
 
 
     <div class="block-6">
+        <a name="form"></a>
         <!-- <div class="puppet">
             <a name="sticker"></a>
         </div> -->
