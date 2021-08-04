@@ -2334,22 +2334,22 @@ button {
 }
 
 .static-main-img1 {
-  background: url(../images/photo_01_slider.jpg)no-repeat center/contain !important;
+  background: url(../images/Slider_Composit_phone.png)no-repeat center/contain !important;
 }
 .static-main-img2 {
-  background: url(../images/photo_02_slider.jpg)no-repeat center/contain !important;
+  background: url(../images/Slider_Next_phone.png)no-repeat center/contain !important;
 }
 .static-main-img3 {
-  background: url(../images/photo_03_slider.jpg)no-repeat center/contain !important;
+  background: url(../images/Slider_FlowColor_phone.png)no-repeat center/contain !important;
 }
 .static-main-img4 {
-  background: url(../images/photo_04_slider.jpg)no-repeat center/contain !important;
+  background: url(../images/Slider_Etchmaster_phone.png)no-repeat center/contain !important;
 }
 .static-main-img5 {
-  background: url(../images/photo_05_slider.jpg)no-repeat center/contain !important;
+  background: url(../images/Slider_Parosin_phone.png)no-repeat center/contain !important;
 }
 .static-main-img6 {
-  background: url(../images/photo_06_slider.jpg)no-repeat center/contain !important;
+  background: url(../images/Slider_Boston_phone.png)no-repeat center/contain !important;
 }
 .static-main-img7 {
   background: url(../images/BostonBlister_phone.png)no-repeat center/contain !important;
@@ -2606,7 +2606,7 @@ button {
     padding-top: 0;
   }
   .static-main-img {
-    background: url(../images/product2.jpg)no-repeat center/contain;
+    background: url(../images/Slider_Composit_phone.png)no-repeat center/contain;
     background-size: contain !important;
     height: 320px;
     /* margin-top: 80px; */
