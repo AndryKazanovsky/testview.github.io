@@ -2643,9 +2643,9 @@ button {
   .phone-menu-mob {
     display: block;
     font-size: 15px;
-    position: relative;
-    top: 13px;
-    left: -20px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
   }
   .logo-container {
     top: 13px;
