@@ -2221,6 +2221,10 @@ button {
 
 @media screen and (max-width: 1024px) {
 
+  .slider-main {
+    height: 320px !important;
+  }
+
   .slider-main .slider__control_left {
     top: 150px !important;
     left: 5% !important;
@@ -2811,33 +2815,34 @@ button {
 
   .slider-img-0 {
     height: 300px;
-    background: url(../images/photo_01_slider.jpg)no-repeat center/contain !important;
+    background: url(../images/Slider_Composit_phone.png)no-repeat center/contain !important;
   }
   .slider-img-1 {
     height: 300px;
 
-    background: url(../images/photo_02_slider.jpg)no-repeat center/contain !important;
+    background: url(../images/Slider_Next_phone.png)no-repeat center/contain !important;
   }
   .slider-img-2 {
     height: 300px;
 
-    background: url(../images/photo_03_slider.jpg)no-repeat center/contain !important;
+    background: url(../images/Slider_FlowColor_phone.png)no-repeat center/contain !important;
   }
   .slider-img-3 {
     height: 300px;
 
-    background: url(../images/photo_04_slider.jpg)no-repeat center/contain !important;
+    background: url(../images/Slider_Etchmaster_phone.png)no-repeat center/contain !important;
   }
   .slider-img-4 {
     height: 300px;
 
-    background: url(../images/photo_05_slider.jpg)no-repeat center/contain !important;
+    background: url(../images/Slider_Parosin_phone.png)no-repeat center/contain !important;
   }
   .slider-img-5 {
     height: 300px;
 
-    background: url(../images/photo_06_slider.jpg)no-repeat center/contain !important;
+    background: url(../images/Slider_Boston_phone.png)no-repeat center/contain !important;
   }
+  
 
 
 
