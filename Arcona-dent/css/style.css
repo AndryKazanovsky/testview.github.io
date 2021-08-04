@@ -437,6 +437,8 @@ h4 {
 }
 
 .product-body_right-btn {
+  display: flex;
+  justify-content: center;
   font-size: 16px;
   line-height: 16px;
   color: white;
@@ -872,7 +874,7 @@ h4 {
 .puppet {
 	position: absolute;
 	height: 100vh;
-	margin-top: -20vh;
+	margin-top: -10vh;
 	/*width: 100vw*/
 }
 
