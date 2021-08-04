@@ -2227,6 +2227,10 @@ button {
 
 @media screen and (max-width: 1024px) {
 
+  .logo-container {
+    margin-left: 20px;
+  }
+
   .slider-main {
     height: 320px !important;
   }
