@@ -2225,11 +2225,17 @@ button {
     display: none;
   }
 
-
+  .container-2_plates .container-2_plate:nth-child(5){
+    border-bottom: 1px solid #AFAFAF;
+  }
   
   
 
 @media screen and (max-width: 1024px) {
+
+  .container-2_plates .container-2_plate:nth-child(1){
+    margin-top: 30px;
+  }
 
   .container-production .container_inner {
     margin-left: -20px;
