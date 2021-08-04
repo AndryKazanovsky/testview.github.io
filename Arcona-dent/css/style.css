@@ -2215,9 +2215,31 @@ button {
     display: none;
   }
 
+
+  
   
 
 @media screen and (max-width: 1024px) {
+
+  .slider-main .slider__control_left {
+    top: 150px !important;
+    left: 5% !important;
+  }
+  .slider-main .slider__control_right {
+    top: 150px !important;
+    right: 5% !important;
+  }
+
+  .slider-main .slider__control {
+    width: 35px !important;
+    height: 100px !important;
+    /* background-color: rgba(0, 0, 0, .1); */
+    border-radius: 10px;
+  }
+
+  .container-1 {
+    margin-top: 80px;
+  }
 
   
 
@@ -2646,7 +2668,7 @@ button {
     display: none;
   }
   .production_plate {
-    width: 236px;
+    width: 90%;
   }
   .production_plate:nth-child(15) {
     display: none;
@@ -2844,7 +2866,7 @@ button {
     /*display: none;*/
     /* background-color: #030406; */
     /*background: url(../images/fon_photo1.jpg) no-repeat center / cover;*/
-    height: 300px;
+    height: 400px;
     padding-top: 0;
     margin-top: 80px;
   }
