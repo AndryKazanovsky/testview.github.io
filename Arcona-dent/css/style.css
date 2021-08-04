@@ -429,6 +429,7 @@ h4 {
   line-height: 26px;
   color: #0C499A;
   font-family: 'MB';
+  margin-top: 60px;
 }
 
 .product-body_right p {
@@ -2233,6 +2234,8 @@ button {
   
 
 @media screen and (max-width: 1024px) {
+
+  
 
   .production_plate-submenu {
     display: block !important;
