@@ -765,7 +765,7 @@ h4 {
   padding-left: 0 !important;
 }
 .container-2_plate {
-  width: 260px;
+  width: 280px;
   font-family: 'MR';
   padding: 20px 0;
   border-top: 1px solid #AFAFAF;
@@ -2230,6 +2230,10 @@ button {
   
 
 @media screen and (max-width: 1024px) {
+
+  .container-2_plates {
+    width: 100%;
+  }
 
   .logo-container {
     margin-left: 20px;
