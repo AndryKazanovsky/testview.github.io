@@ -2235,6 +2235,8 @@ button {
 
 @media screen and (max-width: 1024px) {
 
+
+
   
 
   .production_plate-submenu {
@@ -2254,6 +2256,8 @@ button {
   .sub-menu_open .production_plate-img {
     height: 55px;
     margin-bottom: 10px;
+    background-size: contain !important;
+
   }
 
   .container-2_plates .container-2_plate:nth-child(1){
