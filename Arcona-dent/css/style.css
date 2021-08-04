@@ -708,12 +708,16 @@ h4 {
 .production_plate:nth-child(16)  {
   box-shadow: none;
 }
+.production_plate .title {
+  font-family: "MM" !important;
+
+}
 .production_plate p {
   padding-left: 15px;
   padding-right: 15px;
   /* font-size: 15px; */
   line-height: 20px;
-  font-family: "MM";
+  font-family: "RR";
 }
 .link-more::after {
   content: '';
