@@ -2471,7 +2471,7 @@ button {
 
   .sub-menu_open {
     padding-top: 15px;
-    margin-top: -40px;
+    /* margin-top: -40px; */
   }
   .button-container {
     margin-bottom: 0;
