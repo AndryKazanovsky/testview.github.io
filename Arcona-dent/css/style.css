@@ -2235,6 +2235,10 @@ button {
 
 @media screen and (max-width: 1024px) {
 
+  .slider-prod {
+    height: 450px !important;
+  }
+
 
 
   
