@@ -2234,6 +2234,10 @@ button {
 
 @media screen and (max-width: 1024px) {
 
+  .production_plate-submenu {
+    display: block !important;
+  }
+
   .sub-menu_open .production_plate {
     height: 20px;
     width: 130px;
@@ -2606,6 +2610,7 @@ button {
 
   .product-body_left-btn-mob p {
     font-size: 12px !important;
+    text-align: center;
   }
 
   .production_plate {
