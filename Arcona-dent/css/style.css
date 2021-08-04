@@ -503,6 +503,7 @@ h4 {
 .sub-menu_open .production_plate {
   height: 100px;
   width: 130px;
+  margin-top: 25px;
 }
 
 .sub-menu_open .production_plate-img {
@@ -518,6 +519,8 @@ h4 {
   flex-wrap: wrap;
 }
 
+
+
 .sub-menu_open {
   transition: opacity 0.5s;
   position: absolute;
@@ -526,7 +529,7 @@ h4 {
   background: #0C499A;
   z-index: 2;
   display: none;
-  padding-top: 55px;
+  padding-top: 85px;
   /* opacity: 0; */
 }
 
@@ -535,7 +538,7 @@ h4 {
 }
 
 .sub-menu_open .container_inner {
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   background-color: #0C499A;
 }
 
