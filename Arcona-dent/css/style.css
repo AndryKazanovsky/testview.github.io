@@ -143,46 +143,46 @@ div {
 }
 
 .product-body_img1 {
-  background: url(../images/product1.jpg)no-repeat center/contain !important;
+  background: url(../images/Composit_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img2 {
-  background: url(../images/product2.jpg)no-repeat center/contain !important;
+  background: url(../images/Next_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img3 {
-  background: url(../images/product3.jpg)no-repeat center/contain !important;
+  background: url(../images/FlowColort_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img4 {
-  background: url(../images/product4.jpg)no-repeat center/contain !important;
+  background: url(../images/Etchmaster_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img5 {
-  background: url(../images/product5.jpg)no-repeat center/contain !important;
+  background: url(../images/Parosin_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img6 {
-  background: url(../images/product6.jpg)no-repeat center/contain !important;
+  background: url(../images/Boston_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img7 {
-  background: url(../images/product7.jpg)no-repeat center/contain !important;
+  background: url(../images/BostonBlistry_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img8 {
-  background: url(../images/product8.jpg)no-repeat center/contain !important;
+  background: url(../images/Masterbond_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img9 {
-  background: url(../images/product9.jpg)no-repeat center/contain !important;
+  background: url(../images/FlowArt_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img10 {
-  background: url(../images/product10.jpg)no-repeat center/contain !important;
+  background: url(../images/FissureSealant_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img11 {
-  background: url(../images/product11.jpg)no-repeat center/contain !important;
+  background: url(../images/BostonGlaze_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img12 {
-  background: url(../images/product12.jpg)no-repeat center/contain !important;
+  background: url(../images/Colorant_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img13 {
-  background: url(../images/product13.jpg)no-repeat center/contain !important;
+  background: url(../images/Silgips_cards_big.png)no-repeat center/contain !important;
 }
 .product-body_img14 {
-  background: url(../images/product14.jpg)no-repeat center/contain !important;
+  background: url(../images/Muson_cards_big.png)no-repeat center/contain !important;
 }
 
 .static-main-img1 {
@@ -2294,46 +2294,46 @@ button {
 }
 
 .static-main-img1 {
-  background: url(../images/product1.jpg)no-repeat center/contain !important;
+  background: url(../images/photo_01_slider.jpg)no-repeat center/contain !important;
 }
 .static-main-img2 {
-  background: url(../images/product2.jpg)no-repeat center/contain !important;
+  background: url(../images/photo_02_slider.jpg)no-repeat center/contain !important;
 }
 .static-main-img3 {
-  background: url(../images/product3.jpg)no-repeat center/contain !important;
+  background: url(../images/photo_03_slider.jpg)no-repeat center/contain !important;
 }
 .static-main-img4 {
-  background: url(../images/product4.jpg)no-repeat center/contain !important;
+  background: url(../images/photo_04_slider.jpg)no-repeat center/contain !important;
 }
 .static-main-img5 {
-  background: url(../images/product5.jpg)no-repeat center/contain !important;
+  background: url(../images/photo_05_slider.jpg)no-repeat center/contain !important;
 }
 .static-main-img6 {
-  background: url(../images/product6.jpg)no-repeat center/contain !important;
+  background: url(../images/photo_06_slider.jpg)no-repeat center/contain !important;
 }
 .static-main-img7 {
-  background: url(../images/product7.jpg)no-repeat center/contain !important;
+  background: url(../images/BostonBlister_phone.png)no-repeat center/contain !important;
 }
 .static-main-img8 {
-  background: url(../images/product8.jpg)no-repeat center/contain !important;
+  background: url(../images/Masterbond_phone.png)no-repeat center/contain !important;
 }
 .static-main-img9 {
-  background: url(../images/product9.jpg)no-repeat center/contain !important;
+  background: url(../images/FlowArt_phone.png)no-repeat center/contain !important;
 }
 .static-main-img10 {
-  background: url(../images/product10.jpg)no-repeat center/contain !important;
+  background: url(../images/FissureSealant_phone.png)no-repeat center/contain !important;
 }
 .static-main-img11 {
-  background: url(../images/product11.jpg)no-repeat center/contain !important;
+  background: url(../images/BostonGlaze_phone.png)no-repeat center/contain !important;
 }
 .static-main-img12 {
-  background: url(../images/product12.jpg)no-repeat center/contain !important;
+  background: url(../images/Colorant_phone.png)no-repeat center/contain !important;
 }
 .static-main-img13 {
-  background: url(../images/product13.jpg)no-repeat center/contain !important;
+  background: url(../images/Silgips_phone.png)no-repeat center/contain !important;
 }
 .static-main-img14 {
-  background: url(../images/product14.jpg)no-repeat center/contain !important;
+  background: url(../images/Muson_phone.png)no-repeat center/contain !important;
 }
 
 
@@ -2565,7 +2565,7 @@ button {
     background: url(../images/product2.jpg)no-repeat center/contain;
     background-size: contain !important;
     height: 320px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     margin-bottom: 30px;
   }
   h3 {
