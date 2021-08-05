@@ -1799,7 +1799,7 @@ h3 {
   max-width: 570px;
 }
 .big-plate_text p {
-  font-family: 'MeL'
+  font-family: 'MeL';
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 30px;
@@ -1811,7 +1811,7 @@ h3 {
 .big-plate {
   display: flex;
   justify-content: space-between;
-  padding: 80px 0
+  padding: 80px 0;
   font-size: 16px;
   font-family: 'MeL';
   border-bottom: 1px solid black;
@@ -2254,6 +2254,9 @@ button {
   
 
 @media screen and (max-width: 1000px) {
+  .slider-prod {
+    height: 600px !important;
+  }
   .container-2_plates .container-2_plate:nth-child(2) {
     margin-top: 30px;
   }
@@ -2270,17 +2273,6 @@ button {
   .slider-prod {
     display: none;
   } */
-
-  .slider-prod {
-    height: 450px !important;
-  }
-
-  .slider-prod .slider__control_right {
-    top: 435px;
-  }
-  .slider-prod .slider__control_left {
-    top: 435px;
-  }
 
 
 
@@ -2626,6 +2618,7 @@ button {
 
   .production_plate {
     margin-bottom: 55px;
+    margin-left: 15%;
   }
   .product-body_left {
     display: none;
@@ -2754,10 +2747,10 @@ button {
   }
   .slider__control_right {
     right: 30%;
-    top: 420px;
+    top: 580px;
   }
   .slider__control_left {
-    top: 420px;
+    top: 580px;
     left: 30%;
   }
   .plates-container_styling {
@@ -2936,14 +2929,7 @@ button {
 
 
 
-  .slider {
-    /*display: none;*/
-    /* background-color: #030406; */
-    /*background: url(../images/fon_photo1.jpg) no-repeat center / cover;*/
-    height: 500px;
-    padding-top: 0;
-    margin-top: 80px;
-  }
+  
 
 
   .map-text {
@@ -3226,6 +3212,36 @@ button {
 
 
 @media screen and (max-width: 760px) {
+  .production_plate {
+    margin-bottom: 55px;
+    margin-left: 0;
+  }
+  .slider__control_right {
+    right: 30%;
+    top: 420px;
+  }
+  .slider__control_left {
+    top: 420px;
+    left: 30%;
+  }
+  .slider-prod {
+    height: 450px !important;
+  }
+
+  .slider-prod .slider__control_right {
+    top: 435px;
+  }
+  .slider-prod .slider__control_left {
+    top: 435px;
+  }
+  .slider {
+    /*display: none;*/
+    /* background-color: #030406; */
+    /*background: url(../images/fon_photo1.jpg) no-repeat center / cover;*/
+    height: 500px;
+    padding-top: 0;
+    margin-top: 80px;
+  }
   .slider-main .slider__control_left {
     top: 150px !important;
     left: 5% !important;
