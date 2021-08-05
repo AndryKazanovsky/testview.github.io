@@ -2231,6 +2231,7 @@ button {
     border-bottom: 1px solid #AFAFAF;
   }
 
+
   /* .slider-mob {
     display: none;
   }
@@ -2238,6 +2239,8 @@ button {
   .slider-prod {
     display: block;
   } */
+
+  
 
 @media screen and (max-width: 1320px) {
   .static-main-img {
@@ -3221,6 +3224,16 @@ button {
 
 
 @media screen and (max-width: 760px) {
+  .slider-prod .production_plate {
+    margin-left: 0 !important;
+  }
+  /* .slider-mob {
+    display: block;
+  }
+
+  .slider-prod {
+    display: none;
+  } */
   .production_plate {
     margin-bottom: 55px;
     margin-left: 0;
