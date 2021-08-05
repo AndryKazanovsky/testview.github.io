@@ -2238,10 +2238,79 @@ button {
   .slider-prod {
     display: block;
   } */
-  
+
+@media screen and (max-width: 1320px) {
+  .static-main-img {
+    height: 380px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .static-main-img {
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .product-img-mob {
+    height: 360px !important;
+  }
+  .static-main-img {
+    background: url(../images/Slider_Composit_phone.png)no-repeat center/contain;
+    background-size: contain !important;
+    height: 320px !important;
+    /* margin-top: 80px; */
+    margin-bottom: 30px;
+  }
+  .static-main-img1 {
+    background: url(../images/Slider_Composit_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img2 {
+    background: url(../images/Slider_Next_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img3 {
+    background: url(../images/Slider_FlowColor_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img4 {
+    background: url(../images/Slider_Etchmaster_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img5 {
+    background: url(../images/Slider_Parosin_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img6 {
+    background: url(../images/Slider_Boston_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img7 {
+    background: url(../images/BostonBlister_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img8 {
+    background: url(../images/Masterbond_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img9 {
+    background: url(../images/FlowArt_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img10 {
+    background: url(../images/FissureSealant_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img11 {
+    background: url(../images/BostonGlaze_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img12 {
+    background: url(../images/Colorant_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img13 {
+    background: url(../images/Silgips_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img14 {
+    background: url(../images/Muson_phone.png)no-repeat center/contain !important;
+  }
+}
   
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
+
+  .static-main-img {
+    height: 260px;
+  }
   
 
   /* .slider-mob {
@@ -2388,48 +2457,7 @@ button {
   background: url(../images/Muson_cards_big.png)no-repeat center/contain !important;
 }
 
-.static-main-img1 {
-  background: url(../images/Slider_Composit_phone.png)no-repeat center/contain !important;
-}
-.static-main-img2 {
-  background: url(../images/Slider_Next_phone.png)no-repeat center/contain !important;
-}
-.static-main-img3 {
-  background: url(../images/Slider_FlowColor_phone.png)no-repeat center/contain !important;
-}
-.static-main-img4 {
-  background: url(../images/Slider_Etchmaster_phone.png)no-repeat center/contain !important;
-}
-.static-main-img5 {
-  background: url(../images/Slider_Parosin_phone.png)no-repeat center/contain !important;
-}
-.static-main-img6 {
-  background: url(../images/Slider_Boston_phone.png)no-repeat center/contain !important;
-}
-.static-main-img7 {
-  background: url(../images/BostonBlister_phone.png)no-repeat center/contain !important;
-}
-.static-main-img8 {
-  background: url(../images/Masterbond_phone.png)no-repeat center/contain !important;
-}
-.static-main-img9 {
-  background: url(../images/FlowArt_phone.png)no-repeat center/contain !important;
-}
-.static-main-img10 {
-  background: url(../images/FissureSealant_phone.png)no-repeat center/contain !important;
-}
-.static-main-img11 {
-  background: url(../images/BostonGlaze_phone.png)no-repeat center/contain !important;
-}
-.static-main-img12 {
-  background: url(../images/Colorant_phone.png)no-repeat center/contain !important;
-}
-.static-main-img13 {
-  background: url(../images/Silgips_phone.png)no-repeat center/contain !important;
-}
-.static-main-img14 {
-  background: url(../images/Muson_phone.png)no-repeat center/contain !important;
-}
+
 
 
 
@@ -2592,7 +2620,7 @@ button {
     margin-bottom: 60px;
     display: block;
     width: 100vw;
-    height: 360px;
+    height: 550px;
     background: url(../images/Next_cards_big.png)no-repeat center/contain;
   }
   .product-img-mob1 {
@@ -2661,13 +2689,7 @@ button {
   .product-body {
     padding-top: 0;
   }
-  .static-main-img {
-    background: url(../images/Slider_Composit_phone.png)no-repeat center/contain;
-    background-size: contain !important;
-    height: 320px;
-    /* margin-top: 80px; */
-    margin-bottom: 30px;
-  }
+  
   h3 {
     margin-top: 20px;
     margin-bottom: 20px;
