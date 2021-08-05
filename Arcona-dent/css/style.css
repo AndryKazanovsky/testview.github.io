@@ -2622,7 +2622,7 @@ button {
 
   .production_plate {
     margin-bottom: 55px;
-    margin-left: 15%;
+    /* margin-left: 15%; */
   }
   .product-body_left {
     display: none;
