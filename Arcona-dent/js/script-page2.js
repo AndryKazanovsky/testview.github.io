@@ -52,6 +52,16 @@
       // popupOpenMob.classList.toggle('sub-fadeIn');
     });
 
+    const popupBtnMob = document.querySelector('.product-body_left-btn-mob').addEventListener('click', function() {
+      // const popupOpenMob =  document.querySelector('.product-body_left-btn-mob');
+      const popupOpen = document.querySelector('.popup-open');
+      const popupClose = document.querySelector('.close-popup').addEventListener('click', function() {
+        popupOpen.classList.remove('sub-fadeIn');
+      });
+      popupOpen.classList.toggle('sub-fadeIn');
+      // popupOpenMob.classList.toggle('sub-fadeIn');
+    });
+
 
 
 

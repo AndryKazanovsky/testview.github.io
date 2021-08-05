@@ -2230,13 +2230,37 @@ button {
   .container-2_plates .container-2_plate:nth-child(5){
     border-bottom: 1px solid #AFAFAF;
   }
+
+  /* .slider-mob {
+    display: none;
+  }
+
+  .slider-prod {
+    display: block;
+  } */
   
   
 
 @media screen and (max-width: 1024px) {
+  
+
+  /* .slider-mob {
+    display: block;
+  }
+
+  .slider-prod {
+    display: none;
+  } */
 
   .slider-prod {
     height: 450px !important;
+  }
+
+  .slider-prod .slider__control_right {
+    top: 435px;
+  }
+  .slider-prod .slider__control_left {
+    top: 435px;
   }
 
 
