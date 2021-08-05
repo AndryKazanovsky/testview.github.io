@@ -276,7 +276,7 @@ div {
   margin: auto;
   background: white;
   padding: 30px;
-  margin-top: 12%;
+  margin-top: 5%;
 }
 
 .popup-open {
@@ -2254,6 +2254,10 @@ button {
   
 
 @media screen and (max-width: 1000px) {
+  .popup-body {
+
+    margin-top: 12%;
+  }
   .slider-prod {
     height: 600px !important;
   }
