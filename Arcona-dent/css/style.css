@@ -509,7 +509,7 @@ h4 {
 }
 
 .sub-menu_open .production_plate-img {
-  height: 100px;
+  height: 100px !important;
 }
 
 .sub-menu_open .title {
@@ -2283,8 +2283,8 @@ button {
   }
 
   .sub-menu_open .production_plate {
-    height: 20px;
-    width: 130px;
+    height: 20px !important;
+    width: 130px !important;
     margin-top: 25px;
   }
 
@@ -2293,7 +2293,7 @@ button {
   }
   
   .sub-menu_open .production_plate-img {
-    height: 55px;
+    height: 55px !important;
     margin-bottom: 10px;
     background-size: contain !important;
 
@@ -2699,7 +2699,7 @@ button {
     top: 13px;
   }
   .sub-menu_open .production_plate {
-    width: 30%;
+    width: 30% !important;
   }
   .sub-menu_open .title {
     font-size: 10px;
