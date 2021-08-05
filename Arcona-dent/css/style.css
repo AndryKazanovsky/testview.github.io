@@ -2250,63 +2250,13 @@ button {
   }
 }
 
-@media screen and (max-width: 760px) {
-  .product-img-mob {
-    height: 360px !important;
-  }
-  .static-main-img {
-    background: url(../images/Slider_Composit_phone.png)no-repeat center/contain;
-    background-size: contain !important;
-    height: 320px !important;
-    /* margin-top: 80px; */
-    margin-bottom: 30px;
-  }
-  .static-main-img1 {
-    background: url(../images/Slider_Composit_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img2 {
-    background: url(../images/Slider_Next_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img3 {
-    background: url(../images/Slider_FlowColor_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img4 {
-    background: url(../images/Slider_Etchmaster_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img5 {
-    background: url(../images/Slider_Parosin_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img6 {
-    background: url(../images/Slider_Boston_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img7 {
-    background: url(../images/BostonBlister_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img8 {
-    background: url(../images/Masterbond_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img9 {
-    background: url(../images/FlowArt_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img10 {
-    background: url(../images/FissureSealant_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img11 {
-    background: url(../images/BostonGlaze_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img12 {
-    background: url(../images/Colorant_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img13 {
-    background: url(../images/Silgips_phone.png)no-repeat center/contain !important;
-  }
-  .static-main-img14 {
-    background: url(../images/Muson_phone.png)no-repeat center/contain !important;
-  }
-}
+
   
 
 @media screen and (max-width: 1000px) {
+  .container-2_plates .container-2_plate:nth-child(2) {
+    margin-top: 30px;
+  }
 
   .static-main-img {
     height: 260px;
@@ -2366,31 +2316,29 @@ button {
   }
 
   .production_plate {
-    height: 410px;
+    height: 550px;
   }
 
   .production_plate-img {
-    height: 240px;
+    height: 390px;
   }
 
   .container-2_plates {
-    width: 100%;
+    width: 83%;
   }
 
   .logo-container {
     margin-left: 20px;
   }
 
-  .slider-main {
-    height: 320px !important;
-  }
+  
 
   .slider-main .slider__control_left {
-    top: 150px !important;
+    top: 250px !important;
     left: 5% !important;
   }
   .slider-main .slider__control_right {
-    top: 150px !important;
+    top: 250px !important;
     right: 5% !important;
   }
 
@@ -2793,7 +2741,7 @@ button {
     display: none;
   }
   .production_plate {
-    width: 90%;
+    width: 67%;
   }
   .production_plate:nth-child(15) {
     display: none;
@@ -2935,31 +2883,31 @@ button {
   }
 
   .slider-img-0 {
-    height: 300px;
+    height: 500px;
     background: url(../images/Slider_Composit_phone.png)no-repeat center/cover !important;
   }
   .slider-img-1 {
-    height: 300px;
+    height: 500px;
 
     background: url(../images/Slider_Next_phone.png)no-repeat center/cover !important;
   }
   .slider-img-2 {
-    height: 300px;
+    height: 500px;
 
     background: url(../images/Slider_FlowColor_phone.png)no-repeat center/cover !important;
   }
   .slider-img-3 {
-    height: 300px;
+    height: 500px;
 
     background: url(../images/Slider_Etchmaster_phone.png)no-repeat center/cover !important;
   }
   .slider-img-4 {
-    height: 300px;
+    height: 500px;
 
     background: url(../images/Slider_Parosin_phone.png)no-repeat center/cover !important;
   }
   .slider-img-5 {
-    height: 300px;
+    height: 500px;
 
     background: url(../images/Slider_Boston_phone.png)no-repeat center/cover !important;
   }
@@ -2992,7 +2940,7 @@ button {
     /*display: none;*/
     /* background-color: #030406; */
     /*background: url(../images/fon_photo1.jpg) no-repeat center / cover;*/
-    height: 400px;
+    height: 500px;
     padding-top: 0;
     margin-top: 80px;
   }
@@ -3272,5 +3220,106 @@ button {
 
   .disclamer-tra__alpen {
     margin-left: 155px;
+  }
+}
+
+
+
+@media screen and (max-width: 760px) {
+  .slider-main .slider__control_left {
+    top: 150px !important;
+    left: 5% !important;
+  }
+  .slider-main .slider__control_right {
+    top: 150px !important;
+    right: 5% !important;
+  }
+  .production_plate-img {
+    height: 240px !important;
+  }
+  .production_plate {
+    height: 410px !important;
+  }
+  .production_plate {
+    width: 90% !important;
+  }
+  .slider-img-0 {
+    height: 300px !important;
+  }
+  .slider-img-1 {
+    height: 300px !important;
+  }
+  .slider-img-2 {
+    height: 300px !important;
+  }
+  .slider-img-3 {
+    height: 300px !important;
+  }
+  .slider-img-4 {
+    height: 300px !important;
+  }
+  .slider-img-5 {
+    height: 300px !important;
+  }
+  .slider-main {
+    height: 320px !important;
+  }
+  .container-2_plates .container-2_plate:nth-child(2) {
+    margin-top: 0px !important;
+  }
+  .container-2_plates {
+    width: 100% !important;
+  }
+  .product-img-mob {
+    height: 360px !important;
+  }
+  .static-main-img {
+    background: url(../images/Slider_Composit_phone.png)no-repeat center/contain;
+    background-size: contain !important;
+    height: 320px !important;
+    /* margin-top: 80px; */
+    margin-bottom: 30px;
+  }
+  .static-main-img1 {
+    background: url(../images/Slider_Composit_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img2 {
+    background: url(../images/Slider_Next_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img3 {
+    background: url(../images/Slider_FlowColor_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img4 {
+    background: url(../images/Slider_Etchmaster_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img5 {
+    background: url(../images/Slider_Parosin_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img6 {
+    background: url(../images/Slider_Boston_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img7 {
+    background: url(../images/BostonBlister_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img8 {
+    background: url(../images/Masterbond_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img9 {
+    background: url(../images/FlowArt_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img10 {
+    background: url(../images/FissureSealant_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img11 {
+    background: url(../images/BostonGlaze_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img12 {
+    background: url(../images/Colorant_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img13 {
+    background: url(../images/Silgips_phone.png)no-repeat center/contain !important;
+  }
+  .static-main-img14 {
+    background: url(../images/Muson_phone.png)no-repeat center/contain !important;
   }
 }
