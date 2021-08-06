@@ -222,12 +222,16 @@
     var slider = multiItemSlider('.slider', {
           isCycling: true
         });
+        
 
 
 
 
 
     ///////////end slider
+    
+
+
 
 
     
