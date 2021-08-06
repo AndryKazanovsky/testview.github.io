@@ -354,7 +354,15 @@ div {
   width: 90%;
 }
 
-
+.production_plate-img2 {
+  background: url(../images/Next_cards_big.png)no-repeat center/cover !important;
+}
+.production_plate-img3 {
+  background: url(../images/FlowColort_cards_big.png)no-repeat center/cover !important;
+}
+.production_plate-img4 {
+  background: url(../images/Etchmaster_cards_big.png)no-repeat center/cover !important;
+}
 .production_plate-img5 {
   background: url(../images/Parosin_cards_big.png)no-repeat center/cover !important;
 }
@@ -2286,17 +2294,19 @@ button {
   }
 
 
-  /* .slider-mob {
+  .slider-mob {
     display: none;
   }
 
   .slider-prod {
     display: block;
-  } */
+  }
 
   .footer-year-mob {
     display: none;
   }
+
+  
 
   
 
@@ -2334,13 +2344,13 @@ button {
   }
   
 
-  /* .slider-mob {
+  .slider-mob {
     display: block;
   }
 
   .slider-prod {
     display: none;
-  } */
+  }
 
 
 
@@ -2602,6 +2612,15 @@ button {
   } */
   .slider-mob {
     display: block;
+    height: 600px;
+    margin-top: 120px;
+    position: relative;
+    overflow: hidden;
+  }
+  .slider-mob .container_inner {
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: center;
   }
   .slider__control {
     width: 15px;
@@ -3285,6 +3304,9 @@ button {
 
 
 @media screen and (max-width: 760px) {
+  .slider-mob {
+    height: 470px;
+  }
   .slider-prod .production_plate {
     margin-left: 0 !important;
   }
@@ -3301,10 +3323,10 @@ button {
   }
   .slider__control_right {
     right: 30%;
-    top: 420px;
+    top: 450px;
   }
   .slider__control_left {
-    top: 420px;
+    top: 450px;
     left: 30%;
   }
   .slider-prod {
@@ -3317,6 +3339,9 @@ button {
   .slider-prod .slider__control_left {
     top: 435px;
   }
+
+
+  
   .slider {
     /*display: none;*/
     /* background-color: #030406; */
@@ -3337,7 +3362,7 @@ button {
     height: 240px !important;
   }
   .production_plate {
-    height: 410px !important;
+    height: 428px !important;
   }
   .production_plate {
     width: 90% !important;

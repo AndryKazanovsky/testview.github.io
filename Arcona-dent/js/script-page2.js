@@ -223,6 +223,10 @@
           isCycling: true
         });
         
+    var slider2 = multiItemSlider('.slider-mob', {
+      isCycling: true
+    });
+        
 
 
 
