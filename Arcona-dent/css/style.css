@@ -2279,9 +2279,7 @@ button {
     display: block;
   }
 
-  .footer-year-mob {
-    display: none;
-  }
+  
 
   .container-2_plates .container-2_plate:nth-child(5){
     border-bottom: 1px solid #AFAFAF;
@@ -2295,6 +2293,10 @@ button {
   .slider-prod {
     display: block;
   } */
+
+  .footer-year-mob {
+    display: none;
+  }
 
   
 
@@ -2313,6 +2315,9 @@ button {
   
 
 @media screen and (max-width: 1000px) {
+  .footer-year-mob {
+    display: block;
+  }
   .popup-body {
 
     margin-top: 12%;
