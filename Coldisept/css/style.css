@@ -114,6 +114,10 @@ div {
 
 /* coldisept */
 
+p {
+  color: #282725;
+}
+
 .container-2_mob {
   width: 100vw;
   height: 270px;
@@ -429,7 +433,7 @@ div {
 .container-5_text-block p {
   font-size: 22px;
   line-height: 26px;
-  font-family: "AB";
+  font-family: "AR";
   margin-bottom: 60px;
 }
 .container-5_text-block p b {
@@ -470,10 +474,15 @@ div {
   width: 45%;
   font-size: 16px;
   line-height: 20px;
-  font-family: "AB";
   text-transform: uppercase;
   margin-bottom: 30px;
   padding-left: 30px;
+}
+
+.container-5_plate p {
+  font-family: "AB";
+  color: #4F4F4F;
+
 }
 
 .container-5_plate:nth-child(3) {
@@ -540,6 +549,10 @@ div {
   text-transform: uppercase;
   color: white;
   max-width: 49%;
+}
+
+.container-4_inner p {
+  color: white;
 }
 
 .container-4_left2 {
