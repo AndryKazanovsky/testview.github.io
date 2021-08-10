@@ -224,7 +224,7 @@ p {
 
 
 .c-compare {
-  --h: 9;
+  --h: 13;
   --m: 1rem 0;
   --w: 16;
   --thumb-bgc: red;
@@ -270,11 +270,13 @@ p {
   width: var(--thumb-w);
 }
 .c-compare__range::-webkit-slider-thumb {
-  background-color: var(--thumb-bgc);
+  /* background-color: var(--thumb-bgc); */
   cursor: ew-resize;
-  height: 100%;  
-  width: var(--thumb-w);
+  height: 100%; 
+  width: 50px;
+  background: url(../images/arrow.png)no-repeat center/contain;
 }
+
 .c-compare__range:focus::-webkit-slider-thumb {
   background-color: var(--thumb-bgc-focus);
   box-shadow: 0 0 0 3px var(--thumb-bgc);
@@ -2065,6 +2067,7 @@ ol {
   }
   .container-3_left-block {
     width: 100%;
+    margin-top: 150px;
   }
   .container-4_inner {
     padding: 60px 40px;
