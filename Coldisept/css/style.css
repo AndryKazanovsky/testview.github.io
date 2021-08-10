@@ -2042,7 +2042,28 @@ ol {
   margin-bottom: 60px;
 }
 
+
+
 @media screen and (max-width: 1024px) {
+  .container-5_inner {
+    overflow: hidden;
+  }
+  .vita-disclamer {
+    font-size: 100px;
+  }
+  .container-6_inner {
+    width: 100%;
+  }
+  .container_inner {
+    width: 90%;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 760px) {
   .container-1_mob {
     display: block;
   }
