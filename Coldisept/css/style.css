@@ -114,6 +114,45 @@ div {
 
 /* coldisept */
 
+.container-1_mob p {
+  color: #E0E0E0;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 42px;
+  padding-left: 20px;
+  font-family: "ASB";
+}
+
+.container-1_mob-top {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.container-1_mob {
+  padding-top: 100px;
+  background-color: #282725;
+}
+
+.mob-logo {
+  width: 50%;
+  height: 100px;
+  background: url(../images/logo.svg)no-repeat center/contain;
+  margin-left: 20px;
+
+}
+
+.mob-silver {
+  width: 50%;
+  height: 100px;
+  background: url(../images/photo_nanosilver.svg)no-repeat center/contain;
+}
+
+.mob-head {
+  width: 100%;
+  height: 250px;
+  background: url(../images/main-mob.svg)no-repeat center/contain;
+}
+
 .container-1_left-img {
   position: absolute;
   top: 60px;
@@ -1850,7 +1889,7 @@ ol {
   margin-bottom: 5px;
   position: relative;
 
-  background: #01076D;
+  background: #E0E0E0;
   border-radius: 3px;
 
   z-index: 1;
@@ -1876,7 +1915,7 @@ ol {
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-4px, -1px);
-  background: #004494;
+  background: #E0E0E0;
 }
 
 /*
@@ -1909,7 +1948,7 @@ ol {
 
   border-radius: 10px;
 
-  background: white;
+  background: #282725;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -1962,6 +2001,98 @@ ol {
 }
 
 @media screen and (max-width: 1024px) {
+  .container-1 {
+    display: none;
+  }
+  /* .outer-navigation-container {
+    background-color: #282725;
+  } */
+  .container-2_plate {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container-2_plates {
+    flex-direction: column;
+  }
+  .container-3_right-block {
+    width: 100%;
+  }
+  .container-3_main {
+    flex-direction: column-reverse;
+  }
+  .container-3_left-block {
+    width: 100%;
+  }
+  .container-4_inner {
+    padding: 60px 40px;
+    font-size: 52px;
+    line-height: 64px;
+    max-width: 80%;
+    text-align: center;
+  }
+  .container-4_left {
+    height: 360px;
+  }
+  .container-4_left {
+    background: url(../images/photo.jpg)no-repeat center/cover;
+  }
+  .container-4_left2 {
+    background: url(../images/photo2-mob.jpg)no-repeat center/cover;
+  }
+  .container-4_left3 {
+    background: url(../images/photo3-mob.jpg)no-repeat center/cover;
+  }
+  .container-4 {
+    flex-direction: column;
+  }
+  .container-4_right {
+    width: 100%;
+  }
+  .container-4_left {
+    width: 100%;
+  }
+  .container-5_text-block {
+    max-width: 90%;
+  }
+  .container-5_plate {
+    width: 90%;
+  }
+  .container-5_img-block {
+    display: none;
+  }
+  .container-5_plate p {
+    margin-bottom: 15px;
+  }
+  .container-5_plates {
+    flex-direction: column;
+  }
+  .container-5_inner {
+    padding-left: 20px;
+  }
+  .container-5_btns {
+    flex-direction: column;
+  }
+  .container-5_btns a {
+    margin-bottom: 20px;
+  }
+  .container-6_img {
+    width: 100%;
+  }
+  .container-6_plate {
+    width: 100%;
+  }
+  .container-6_inner {
+    width: 90%;
+  }
+  .container-6_top {
+    flex-direction: column;
+  }
+  .container-6_plates {
+    flex-direction: column;
+  }
+  .container_inner {
+    width: 90%;
+  }
   .logo-container {
     left: 20px;
   }
@@ -2397,16 +2528,17 @@ ol {
 
   .where-to-buy-mob {
     display: block;
-    background-color: #01076D !important;
-    color: white !important;
-    font-size: 10px !important;
-    line-height: 10px !important;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 10px;
+    background-color: transparent;
+    color: #E0E0E0 !important;
+    font-size: 16px !important;
+    line-height: 16px !important;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: "AB";
+    border: 1px solid #E0E0E0;
     position: absolute;
     text-transform: uppercase;
-    left: 50vw;
+    left: 5vw;
   }
 
 
@@ -2431,9 +2563,7 @@ ol {
 
   }
 
-  .outer-navigation-container {
-    background: white; 
-  }
+  
 
 
 
@@ -2464,7 +2594,7 @@ ol {
 
   #menu li a {
     font-size: 20px;
-    color: #4F4F4F;
+    color: #E0E0E0;
     text-decoration: none;
   }
 
