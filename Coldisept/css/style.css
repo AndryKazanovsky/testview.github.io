@@ -377,6 +377,11 @@ div {
   border: 1px solid #B90F82;
 }
 
+
+.container-3_left-block sup {
+  font-size: 10px;
+}
+
 .container-5_text-block h2 {
   color: #B90F82;
 }
@@ -607,7 +612,7 @@ h2 span {
 
 
 .container-3_left-block {
-  width: 35%;
+  width: 39%;
 }
 /* .container-3_left-block {
   width: 65%;
