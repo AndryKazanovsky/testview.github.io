@@ -187,10 +187,13 @@ p {
   left: 60px;
   max-width: 250px;
   font-size: 38px;
-  line-height: 42px;
+  line-height: 44px;
   color: #E0E0E0;
   text-transform: uppercase;
-  font-family: "AEB";
+  font-family: "AB";
+}
+.container-1_left p sup {
+  font-size: 25px;
 }
 
 .container-1 {
