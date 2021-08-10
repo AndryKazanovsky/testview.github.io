@@ -201,6 +201,7 @@ div {
 
 .container-3_main {
   display: flex;
+  justify-content: space-between;
 }
 
 /* comparator */
