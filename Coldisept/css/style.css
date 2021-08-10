@@ -338,10 +338,12 @@ p {
   width: 45%;
   padding: 30px 0;
   border-bottom: 1px solid #E0E0E0;
-  color: #E0E0E0;
   font-size: 22px;
   line-height: 30px;
   font-family: "AR";
+}
+.container-6_plate p {
+  color: #E0E0E0;
 }
 .container-6 {
   background-color: #282725;
