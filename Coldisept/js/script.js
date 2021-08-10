@@ -31,10 +31,10 @@
 
 
     var scene = new ScrollMagic.Scene({
-      triggerElement: '.container-3_inner',
+      triggerElement: '.container-3',
     }).setClassToggle('.outer-navigation-container', 'show1').addTo(controller);
     var scene2 = new ScrollMagic.Scene({
-      triggerElement: '.container-3_inner',
+      triggerElement: '.container-3',
     }).setClassToggle('.logo-container', 'show2').addTo(controller);
 
 

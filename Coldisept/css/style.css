@@ -114,6 +114,44 @@ div {
 
 /* coldisept */
 
+.container-1_left-img {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 239px;
+  height: 120px;
+  background: url(../images/logo.svg)no-repeat center/contain;
+}
+
+.container-1_left p {
+  position: absolute;
+  top: 250px;
+  left: 60px;
+  max-width: 250px;
+  font-size: 38px;
+  line-height: 42px;
+  color: #E0E0E0;
+  text-transform: uppercase;
+  font-family: "AEB";
+}
+
+.container-1 {
+  /* height: 520px; */
+  width: 100vw;
+  display: flex;
+}
+.container-1_left {
+  position: relative;
+  width: 25%;
+  background-color: #282725;
+}
+
+.container-1_right {
+  width: 75%;
+  height: 520px;
+  background: url(../images/main-bg.jpg)no-repeat 0/cover;
+}
+
 .container-3_right-block {
   width: 590px;
 }
@@ -1385,7 +1423,7 @@ color: #00A79D;
 .navigation-container {
   display: flex;
     align-items: center;
-    width: 1024px;
+    width: 95%;
     justify-content: flex-end;
   margin: auto;
     position: relative;
