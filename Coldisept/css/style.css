@@ -1402,7 +1402,7 @@ color: #00A79D;
 .puppet {
 	position: absolute;
 	height: 100vh;
-	margin-top: -7vh;
+	margin-top: 100px;
 	/*width: 100vw*/
 }
 
