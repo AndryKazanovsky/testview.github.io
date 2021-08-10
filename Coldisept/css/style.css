@@ -114,6 +114,17 @@ div {
 
 /* coldisept */
 
+.container-2_mob {
+  width: 100vw;
+  height: 270px;
+  background: url(../images/pack-mob.png)no-repeat center/contain;
+  margin-bottom: 60px;
+}
+
+.containr-2_mob {
+  display: none;
+}
+
 .container-1_mob {
   display: none;
 }
@@ -2013,6 +2024,9 @@ ol {
 
 @media screen and (max-width: 1024px) {
   .container-1_mob {
+    display: block;
+  }
+  .container-2_mob {
     display: block;
   }
   .container-1 {
