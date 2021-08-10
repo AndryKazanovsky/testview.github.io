@@ -114,6 +114,10 @@ div {
 
 /* coldisept */
 
+.container-1_mob {
+  display: none;
+}
+
 .container-1_mob p {
   color: #E0E0E0;
   text-transform: uppercase;
@@ -2001,6 +2005,9 @@ ol {
 }
 
 @media screen and (max-width: 1024px) {
+  .container-1_mob {
+    display: block;
+  }
   .container-1 {
     display: none;
   }
