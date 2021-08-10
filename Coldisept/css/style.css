@@ -695,7 +695,7 @@ h2 span {
     max-width: 800px;
   }
 
-  .vita-footer .logo1 {
+  /* .vita-footer .logo1 {
       width: 160px;
       height: 60px;
       background: url(../images/logo_01_schwabe.svg) no-repeat center/contain;
@@ -704,7 +704,7 @@ h2 span {
     width: 160px;
       height: 60px;
       background: url(../images/Vector123.svg) no-repeat center/contain;
-  }
+  } */
   .vita-disclamer {
     font-family: "RT";
     font-size: 130px;

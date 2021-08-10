@@ -6,7 +6,6 @@
       const menu2 = document.querySelector(".menuLi2");
       const menu3 = document.querySelector(".menuLi3");
       const menu4 = document.querySelector(".menuLi4");
-      const menu5 = document.querySelector(".menuLi5");
 
       menu1.onclick = function() {
         inpt.click();
@@ -20,9 +19,7 @@
       menu4.onclick = function() {
         inpt.click();
       };
-      menu5.onclick = function() {
-        inpt.click();
-      };
+
 
 
 
