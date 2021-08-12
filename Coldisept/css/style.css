@@ -2077,6 +2077,9 @@ ol {
   .container-6_inner {
     padding: 0 20px;
   }
+  .container-3_main {
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (max-width: 760px) {
