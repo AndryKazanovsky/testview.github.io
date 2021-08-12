@@ -2090,6 +2090,9 @@ ol {
   .container-5_img-block {
     left: 5%;
   }
+  .container-3_left-block {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 760px) {
