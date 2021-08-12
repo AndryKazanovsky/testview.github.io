@@ -243,8 +243,8 @@ p {
   --h: 13;
   --m: 1rem 0;
   --w: 16;
-  --thumb-bgc: red;
-  --thumb-bgc-focus: red;
+  /* --thumb-bgc: red; */
+  /* --thumb-bgc-focus: red; */
   --thumb-w: 2px;
 
   margin: var(--m);
@@ -271,6 +271,7 @@ p {
 .c-compare__range {
   background-color: transparent;
   box-sizing: border-box;
+  border: none;
   font-family: inherit;
   height: 100%;
   margin: 0;
