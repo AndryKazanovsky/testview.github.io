@@ -2045,6 +2045,9 @@ ol {
 
 
 @media screen and (max-width: 1024px) {
+  .container-5_img-block {
+    left: 5%;
+  }
   .container-1_left p {
     font-size: 26px;
     line-height: 30px;
@@ -2079,6 +2082,9 @@ ol {
   }
   .container-3_main {
     flex-direction: column-reverse;
+  }
+  .container-5_img-block {
+    left: 5%;
   }
 }
 
