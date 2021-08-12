@@ -2093,6 +2093,12 @@ ol {
   .container-3_left-block {
     width: 90%;
   }
+  .container-1_left-img {
+    left: 30px;
+  }
+  .container-1_left p {
+    left: 30px;
+  }
 }
 
 @media screen and (max-width: 760px) {
