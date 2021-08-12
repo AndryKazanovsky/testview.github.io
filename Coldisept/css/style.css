@@ -2090,6 +2090,9 @@ ol {
   .container-5_img-block {
     left: 5%;
   }
+}
+
+@media screen and (max-width: 760px) {
   .mob-container-5_img-block {
     display: block;
     width: 100%;
@@ -2103,9 +2106,6 @@ ol {
   .mob-container-5_img-block-orange {
     background: url(../images/pack-with-back3.png)no-repeat 10%/cover !important;
   }
-}
-
-@media screen and (max-width: 760px) {
   
   .container-1_mob {
     display: block;
