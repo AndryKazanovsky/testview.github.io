@@ -2066,14 +2066,21 @@ ol {
 
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .container-1_left p {
     font-size: 22px;
     line-height: 28px;
   }
+  .container-5_text-block {
+    padding-left: 20px;
+  }
+  .container-6_inner {
+    padding: 0 20px;
+  }
 }
 
 @media screen and (max-width: 760px) {
+  
   .container-1_mob {
     display: block;
   }
