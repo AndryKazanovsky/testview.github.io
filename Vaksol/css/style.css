@@ -1627,7 +1627,7 @@ h2 b {
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
 
   .fixed-link {
     font-size: 10px;
@@ -1770,7 +1770,7 @@ h2 b {
   }
 
   .questions {
-    padding: 60px 0;
+    padding: 60px 20px;
   }
   .logo-block {
     flex-direction: column;
@@ -1874,8 +1874,8 @@ h2 b {
   }
 
   .disclamer-warning p {
-    font-size: 42px;
-    line-height: 70px;
+    font-size: 90px;
+    line-height: 100px;
   }
 
   .block-5__img {
@@ -2062,6 +2062,10 @@ h2 b {
   }
   .non-usual {
     margin-bottom: 110px;
+  }
+  .disclamer-warning p {
+    font-size: 42px;
+    line-height: 70px;
   }
 }
 
