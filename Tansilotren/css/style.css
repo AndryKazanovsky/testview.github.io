@@ -1142,7 +1142,7 @@ h2 b {
 
 /*end burger menu*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .navigation-menu {
     display: none;
   }

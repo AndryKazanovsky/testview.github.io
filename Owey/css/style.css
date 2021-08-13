@@ -1445,8 +1445,10 @@ button {
 
 
 
-
 @media screen and (max-width: 1024px) {
+  .slider__item h2 {
+    max-width: 100%
+  }
   .stiker {
     display: none;
   }
