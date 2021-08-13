@@ -2134,6 +2134,9 @@ ol {
   .container-3_right-block {
     width: 100%;
   }
+  .container-1_left p sup {
+    font-size: 14px;
+  }
   .container-3_main {
     flex-direction: column-reverse;
   }

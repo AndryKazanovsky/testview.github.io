@@ -1621,6 +1621,12 @@ h2 b {
 
 /*end burger menu*/
 
+@media screen and (max-width: 900px) {
+	#menuToggle {
+	left: 0;		
+	}
+}
+
 @media screen and (max-width: 1024px) {
 
   .fixed-link {
@@ -1783,7 +1789,7 @@ h2 b {
     padding: 10px 20px;
     border-radius: 10px;
     position: absolute;
-    left: 50vw;
+    left: 80vw;
   }
 
   .instruction {
@@ -2046,13 +2052,13 @@ h2 b {
   /*  margin-left: 10px;*/
   /*}*/
   #menuToggle {
-    left: 325px;
+    left: -10px;
   }
 }
 
 @media screen and (max-width: 768px) {
   #menuToggle {
-    left: 215px;
+    left: -10px;
   }
   .non-usual {
     margin-bottom: 110px;
@@ -2060,6 +2066,10 @@ h2 b {
 }
 
 @media screen and (max-width: 450px) {
+
+	.where-to-buy-mob {
+	    left: 50vw;
+	}
 
 
 
