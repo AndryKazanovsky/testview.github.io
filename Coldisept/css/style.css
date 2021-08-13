@@ -1161,15 +1161,7 @@ background-position: top;
 
 }
 
-.show1 {
-  background: white !important;
-  transition: 0.5s;
-}
-.show2 {
-  background: url(../images/Vector2.svg) no-repeat center / contain !important;
-  /*transition: 0.5s;*/
 
-}
 
 .block-5_outer {
   max-width: 900px;
@@ -1527,7 +1519,8 @@ color: #00A79D;
 }
 
 .logo-container {
-  background: url('../images/Frame.svg') no-repeat center / contain;
+  display: none !important;
+  background: url('../images/logo.svg') no-repeat center / contain;
   width: 125px;
   height: 40px;
   display: block;
@@ -2727,7 +2720,7 @@ ol {
   .logo-container {
     margin-right: 30px;
     left: 20px;
-    background: url(../images/Vector2.svg) no-repeat center / contain !important;
+    background: url(../images/logo.svg) no-repeat center / contain !important;
 
   }
 
@@ -2883,4 +2876,15 @@ ol {
   .disclamer-tra__alpen {
     margin-left: 155px;
   }
+}
+
+
+.show1 {
+  background: white !important;
+  transition: 0.5s;
+}
+.show2 {
+  display: block !important;
+  background: url(../images/logo.svg) no-repeat center / contain !important;
+  /*transition: 0.5s;*/
 }
