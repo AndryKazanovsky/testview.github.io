@@ -2062,6 +2062,9 @@ ol {
 
 
 @media screen and (max-width: 1024px) {
+  .container-5_inner {
+    width: 90%;
+  }
   .container-1_left-img {
     width: 140px;
   }
@@ -2080,6 +2083,7 @@ ol {
   }
   .container-6_inner {
     width: 100%;
+    padding: 0 40px;
   }
   .container_inner {
     width: 90%;
@@ -2089,16 +2093,25 @@ ol {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+  .container-3_right-block {
+    width: 100%;
+  }
+  .vita-footer_text {
+    padding: 0 20px;
+  }
+  .vita-disclamer {
+    font-size: 80px;
+  }
   .container-1_left p {
     font-size: 22px;
     line-height: 28px;
   }
   .container-5_text-block {
-    padding-left: 20px;
+    /* padding-left: 40px; */
   }
   .container-6_inner {
-    padding: 0 20px;
+    padding: 0 40px;
   }
   .container-3_main {
     flex-direction: column-reverse;
@@ -2117,6 +2130,20 @@ ol {
   }
 }
 
+@media screen and (max-width: 900px) {
+  .container-3_right-block {
+    width: 100%;
+  }
+  .container-3_main {
+    flex-direction: column-reverse;
+  }
+  .container-3_left-block {
+    margin-top: 60px;
+  }
+  .container-3_left-block {
+    width: 90%;
+  }
+}
 @media screen and (max-width: 760px) {
   .mob-container-5_img-block {
     display: block;
@@ -2159,7 +2186,7 @@ ol {
   }
   .container-3_left-block {
     width: 100%;
-    margin-top: 150px;
+    margin-top: 60px;
   }
   .container-4_inner {
     padding: 60px 40px;
