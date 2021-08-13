@@ -1444,8 +1444,8 @@ button {
   }*/
 
 
-
 @media screen and (max-width: 1024px) {
+
   .slider__item h2 {
     max-width: 100%
   }
@@ -1676,7 +1676,7 @@ button {
   }
 
   #menuToggle {
-    left: -5px;
+    left: -10px;
   }
 
 
@@ -1700,7 +1700,7 @@ button {
     padding: 10px 20px;
     border-radius: 2px;
     position: absolute;
-    left: 40vw;
+    left: 75vw;
   }
 
 
@@ -1869,9 +1869,7 @@ button {
   /*  border-radius: 10px;*/
   /*  margin-left: 10px;*/
   /*}*/
-  #menuToggle {
-    left: 325px;
-  }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -1881,10 +1879,18 @@ button {
   .non-usual {
     margin-bottom: 110px;
   }
+  #menuToggle {
+    left: -20%;
+  }
 }
 
 @media screen and (max-width: 450px) {
-
+  .where-to-buy-mob {
+    left: 40vw;
+  }
+#menuToggle {
+    left: 325px;
+  }
 
 
   .test-img-mobile {
