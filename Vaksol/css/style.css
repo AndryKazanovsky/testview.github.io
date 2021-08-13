@@ -1629,6 +1629,7 @@ h2 b {
 
 @media screen and (max-width: 900px) {
 
+
   .fixed-link {
     font-size: 10px;
     width: 250px;
@@ -1713,14 +1714,14 @@ h2 b {
   }
   .reasons-back-2 {
     top: 165px;
-    left: 195px;
+    left: 80%;
   }
   .reasons-back-3 {
     top: 165px;
   }
   .reasons-back-4 {
     top: 165px;
-    left: 195px;
+    left: 80%;
   }
 
   .care {
@@ -2070,6 +2071,17 @@ h2 b {
 }
 
 @media screen and (max-width: 450px) {
+  .reasons-back-2 {
+    top: 165px;
+    left: 195px;
+  }
+  .reasons-back-3 {
+    top: 165px;
+  }
+  .reasons-back-4 {
+    top: 165px;
+    left: 195px;
+  }
 
 	.where-to-buy-mob {
 	    left: 50vw;
