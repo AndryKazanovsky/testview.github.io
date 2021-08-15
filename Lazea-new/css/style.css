@@ -1323,9 +1323,15 @@ div {
   /*  border-radius: 10px;*/
   /*  margin-left: 10px;*/
   /*}*/
-  #menuToggle {
+/*  #menuToggle {
     left: 325px;
-  }
+  }*/
+}
+
+@media screen and (max-width: 850px) {
+/*  #menuToggle {
+    left: 215px;
+  }*/
 }
 
 @media screen and (max-width: 768px) {

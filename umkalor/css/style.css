@@ -1127,6 +1127,10 @@ h3 {
 
 
 @media screen and (max-width: 1024px) {
+	#menu {
+		    right: -78px;
+	}
+
   .navigation-menu {
     display: none;
   }
@@ -1213,8 +1217,8 @@ h3 {
   }
 
   .disclamer-warning p {
-    font-size: 42px;
-    line-height: 70px;
+    font-size: 75px;
+    line-height: 100px;
   }
 
   #menu p {
@@ -1237,18 +1241,56 @@ h3 {
   /*  border-radius: 10px;*/
   /*  margin-left: 10px;*/
   /*}*/
-  #menuToggle {
-    left: 325px;
-  }
+  
 }
 
+@media screen and (max-width: 850px) {
+	.block-4_container {
+		max-width: 90%;
+	}
+	.block-2_plate-container {
+		width: 80%
+	}
+	.block-3_container {
+	    max-width: 77%;
+	}
+	.block-1_container {
+		max-width: 715px;
+	}
+	.map-text_right {
+		left: 20%;
+	}
+	.block-5_container {
+    flex-direction: column-reverse;
+    padding: 0 20px;
+  }
+  .block-5_container h4::before {
+    left: 0px;
+    top: -10px;
+  }
+  .block-5_container h3 {
+    text-align: left;
+  }
+  .block-5_container .bullet-block {
+    padding: 0;
+  }
+  .block-5_container .bullet-block_container {
+    padding-left: 40px;
+  }
+  .block-5_container .bullet-block_container p::before {
+        left: -45px;
+    top: 27px;
+    width: 30px;
+    height: 30px;
+  }
+}
 @media screen and (max-width: 768px) {
   h3 {
     padding: 0 10px;
   }
-  #menuToggle {
+/*  #menuToggle {
     left: 215px;
-  }
+  }*/
   .block-1 {
     height: auto;
   }
@@ -1383,6 +1425,16 @@ h3 {
 }
 
 @media screen and (max-width: 450px) {
+	#menu {
+		    right: -40px;
+	}
+	#menuToggle {
+    left: 325px;
+  }
+	.disclamer-warning p {
+    font-size: 42px;
+    line-height: 70px;
+  }
 
   #menuToggle {
     position: relative;
