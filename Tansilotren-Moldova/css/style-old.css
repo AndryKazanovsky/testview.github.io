@@ -2,31 +2,33 @@
 
 @font-face {
   font-family: 'HNB';
-  src: url('../fonts/HelveticaNeueCyr-Black.ttf');
+  src: url('../fonts/Roboto-Black.ttf');
   font-style: normal;
   /*font-weight: 400;*/
 }
 
 @font-face {
   font-family: 'HNL';
-  src: url('../fonts/HelveticaNeueCyr-Light.ttf');
+  src: url('../fonts/Roboto-Light.ttf');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'HNC';
-  src: url('../fonts/HelveticaNeueCyr-Medium.ttf');
+  src: url('../fonts/Roboto-Medium.ttf');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'HNT';
-  src: url('../fonts/HelveticaNeueCyr-Thin.ttf');
+  src: url('../fonts/Roboto-Thin.ttf');
   font-style: normal;
   font-weight: 400;
 }
+
+
 
 
 
@@ -102,7 +104,7 @@ div {
 }
 
 .logo-container {
-  background: url('../images/Vector.svg') no-repeat center / contain;
+  background: url('../images/Tonsilotren_LogoRGB_en.svg') no-repeat center / contain;
   width: 140px;
   height: 20px;
   display: block;
@@ -159,7 +161,7 @@ div {
   top: 80px;
   left: 20px;
   width: 80px;
-  height: 80px;
+  height: 60px;
   z-index: 15;
   background: url('../images/instruction.svg') no-repeat center / contain;
 }
@@ -170,10 +172,10 @@ div {
 
 .instruction p {
   position: relative;
-  left: -4px;
+  left: 6px;
   top: 75px;
   font-size: 13px;
-  color: black;
+  color: #a00067;
   background-color: transparent;
 }
 
@@ -241,11 +243,6 @@ div {
   align-items: center;
 }
 
-.test-test {
-  position: relative;
-  top: 200px
-}
-
 .header-custom {
   background: url('../images/bg.jpg') no-repeat center / cover;
   display: flex;
@@ -279,7 +276,7 @@ div {
 .header-main-product-img {
   width: 332px;
   height: 284px;
-  background: url('../images/pack_left_tonzilotren_tiny_400x400px 1.svg')
+  background: url('../images/thumbnail (2).png')
     no-repeat center / contain;
 }
 
@@ -287,6 +284,12 @@ div {
   width: 457px;
   height: 391px;
   background: url('../images/div_04.png') no-repeat center / contain;
+}
+
+
+.test-test {
+  position: relative;
+  top: 200px
 }
 
 .header-main-img-mobile {
@@ -350,11 +353,6 @@ div {
 .block-2__plate:nth-child(4) {
   background: url('../images/icon_plus_04_160x187px.png') no-repeat center /
     contain;
-}
-
-.shitty-style {
-  margin-top: 30px;
-  /*text-indent: 10px;*/
 }
 
 .counter {
@@ -600,6 +598,50 @@ h2 b {
   background: url('../images/Ellipse 6 (2).png') no-repeat center / contain;
 }
 
+
+
+
+
+
+.apt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.apt-container a {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  background: url("../images/icon_03_apteki_MD.jpg") no-repeat;
+  background-position: center !important;
+  background-size: 80% !important;
+    background-color: white !important;
+    box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+}
+
+.apt-container a:nth-child(2) {
+  background: url("../images/icon_06_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(3) {
+  background: url("../images/icon_01_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(4) {
+  background: url("../images/icon_07_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(5) {
+  background: url("../images/icon_02_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(6) {
+  background: url("../images/icon_05_apteki_MD.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(7) {
+  background: url("../images/icon_04_apteki_MD.jpg") no-repeat center / contain;
+}
+
 /*.accordion {*/
 /*  display: none;*/
 /*}*/
@@ -786,10 +828,6 @@ h2 b {
   top: -45px;
 }
 
-.strange-p {
-  margin-top: 30px !important;
-}
-
 .block-5__plate:nth-child(4) .block-5__img {
   background: url('../images/div_01.png') no-repeat center / contain !important;
 }
@@ -804,7 +842,7 @@ h2 b {
 }
 
 .map-text {
-  margin: 70px 0;
+  /*margin: 70px 0;*/
   font-size: 14px;
   line-height: 18px;
   color: #828282;
@@ -894,11 +932,11 @@ h2 b {
 
 .disclamer-warning p {
   font-size: 76px;
-  line-height: 70px;
+  line-height: 90px;
   text-align: center;
   color: #8b8b8b;
   margin: 40px 0;
-  font-family: 'HNT';
+  font-family: 'HT';
   font-weight: lighter;
 }
 
@@ -1142,17 +1180,7 @@ h2 b {
 
 /*end burger menu*/
 
-@media screen and (max-width: 900px) {
-  .logo-container {
-    position: relative;
-    right: 35vw;
-  }
-  .header-main-center p {
-    width: 30%;
-  }
-  .header-main {
-    position: relative;
-  }
+@media screen and (max-width: 1024px) {
   .navigation-menu {
     display: none;
   }
@@ -1239,8 +1267,8 @@ h2 b {
   }
 
   .disclamer-warning p {
-    font-size: 70px;
-    line-height: 100px;
+    font-size: 35px;
+    /*line-height: 70px;*/
   }
 
   .block-5__img {
@@ -1291,9 +1319,7 @@ h2 b {
   }
 
   .header-main-product-img-mobile {
-    /*margin-top: -70px;*/
-    left: 50%;
-    position: absolute;
+    margin-top: -70px;
     display: block;
     width: 360px;
     height: 300px;
@@ -1301,8 +1327,6 @@ h2 b {
   }
 
   .header-main-img-mobile {
-    position: absolute;
-    left: 10%;
     display: block;
     width: 360px;
     height: 300px;
@@ -1310,8 +1334,7 @@ h2 b {
   }
 
   .header-main-center {
-    margin-top: 320px;
-    display: flex;
+    margin-top: 0;
   }
 
   .block-interactive-inner {
@@ -1408,7 +1431,6 @@ h2 b {
   }
   .mob3 .test-img-mobile {
     background: url('../images/div_02 (1).png') no-repeat center / contain !important;
-    margin-top: 80px;
   }
   .mob4 .test-img-mobile {
     background: url('../images/div_01 (1).png') no-repeat center / contain !important;
@@ -1423,52 +1445,20 @@ h2 b {
   /*  margin-left: 10px;*/
   /*}*/
   #menuToggle {
-    left: 36vw;
+    left: 325px;
   }
 }
 
 @media screen and (max-width: 768px) {
-/*  #menuToggle {
+  #menuToggle {
     left: 215px;
-  }*/
+  }
   .non-usual {
     margin-bottom: 110px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .logo-container {
-    position: initial;
-  }
-  .disclamer-warning p {
-    font-size: 35px;
-    line-height: 50px;
-  }
-  .header-main-center p {
-    width: 90%;
-  }
-  .header-main-center {
-    margin-top: 0px;
-    display: block;
-  }
-  .header-main-product-img-mobile {
-    position: inherit;
-    left: auto;
-    margin-top: -70px;
-    display: block;
-    width: 360px;
-    height: 300px;
-    background: url('../images/pack_left_tonzilotren_tiny_400x400px 1 — copy.png') no-repeat center / contain;
-  }
-
-  .header-main-img-mobile {
-    position: inherit;
-    left: auto;
-    display: block;
-    width: 360px;
-    height: 300px;
-    background: url('../images/div_04.png') no-repeat center / contain;
-  }
 
   .where-to-buy-mob {
     display: block;

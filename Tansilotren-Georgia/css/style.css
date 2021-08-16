@@ -127,11 +127,6 @@ div {
   display: none;
 }
 
-.test-test {
-  position: relative;
-  top: 200px
-}
-
 .lang {
   border: 1px solid #636363;
   padding: 5px;
@@ -164,32 +159,23 @@ div {
   top: 80px;
   left: 20px;
   width: 80px;
-  height: 60px;
+  height: 80px;
   z-index: 15;
   background: url('../images/instruction.svg') no-repeat center / contain;
 }
 
 .instruction-en {
-  width: 80px;
-  height: 80px;
   background: url('../images/instructionEN.svg') no-repeat center / contain; 
 }
 
 .instruction p {
   position: relative;
-  left: 6px;
+  left: -4px;
   top: 75px;
   font-size: 13px;
-  color: #a00067;
+  color: black;
   background-color: transparent;
 }
-
-
-
-
-
-
-
 
 .header-main-center {
   margin-top: 0;
@@ -255,6 +241,11 @@ div {
   align-items: center;
 }
 
+.test-test {
+  position: relative;
+  top: 200px
+}
+
 .header-custom {
   background: url('../images/bg.jpg') no-repeat center / cover;
   display: flex;
@@ -288,7 +279,7 @@ div {
 .header-main-product-img {
   width: 332px;
   height: 284px;
-  background: url('../images/top_pack_left_tonzilotren_GE_332x284px.png')
+  background: url('../images/pack_left_tonzilotren_tiny_400x400px 1.svg')
     no-repeat center / contain;
 }
 
@@ -359,6 +350,11 @@ div {
 .block-2__plate:nth-child(4) {
   background: url('../images/icon_plus_04_160x187px.png') no-repeat center /
     contain;
+}
+
+.shitty-style {
+  margin-top: 30px;
+  /*text-indent: 10px;*/
 }
 
 .counter {
@@ -469,7 +465,7 @@ h2 b {
 .block-interactive-inner__img {
   width: 30%;
   height: 265px;
-  background: url('../images/center_pack_left_tonzilotren_GE_265x284px.png')
+  background: url('../images/pack_left_tonzilotren_tiny_400x400px 2.png')
     no-repeat center / contain;
 }
 
@@ -788,6 +784,10 @@ h2 b {
   width: 150px;
   position: relative;
   top: -45px;
+}
+
+.strange-p {
+  margin-top: 30px !important;
 }
 
 .block-5__plate:nth-child(4) .block-5__img {
@@ -1142,7 +1142,17 @@ h2 b {
 
 /*end burger menu*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
+  .logo-container {
+    position: relative;
+    right: 35vw;
+  }
+  .header-main-center p {
+    width: 30%;
+  }
+  .header-main {
+    position: relative;
+  }
   .navigation-menu {
     display: none;
   }
@@ -1154,8 +1164,8 @@ h2 b {
     left: 5px;
   }
   .instruction p {
-    left: 10px;
-    top: 45px;
+    left: -10px;
+    top: 35px;
     font-size: 9px;
   }
 
@@ -1229,8 +1239,8 @@ h2 b {
   }
 
   .disclamer-warning p {
-    font-size: 35px;
-    /*line-height: 70px;*/
+    font-size: 70px;
+    line-height: 100px;
   }
 
   .block-5__img {
@@ -1281,7 +1291,9 @@ h2 b {
   }
 
   .header-main-product-img-mobile {
-    margin-top: -70px;
+    /*margin-top: -70px;*/
+    left: 50%;
+    position: absolute;
     display: block;
     width: 360px;
     height: 300px;
@@ -1289,6 +1301,8 @@ h2 b {
   }
 
   .header-main-img-mobile {
+    position: absolute;
+    left: 10%;
     display: block;
     width: 360px;
     height: 300px;
@@ -1296,7 +1310,8 @@ h2 b {
   }
 
   .header-main-center {
-    margin-top: 0;
+    margin-top: 320px;
+    display: flex;
   }
 
   .block-interactive-inner {
@@ -1393,6 +1408,7 @@ h2 b {
   }
   .mob3 .test-img-mobile {
     background: url('../images/div_02 (1).png') no-repeat center / contain !important;
+    margin-top: 80px;
   }
   .mob4 .test-img-mobile {
     background: url('../images/div_01 (1).png') no-repeat center / contain !important;
@@ -1407,20 +1423,52 @@ h2 b {
   /*  margin-left: 10px;*/
   /*}*/
   #menuToggle {
-    left: 325px;
+    left: 36vw;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #menuToggle {
+/*  #menuToggle {
     left: 215px;
-  }
+  }*/
   .non-usual {
     margin-bottom: 110px;
   }
 }
 
 @media screen and (max-width: 450px) {
+  .logo-container {
+    position: initial;
+  }
+  .disclamer-warning p {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .header-main-center p {
+    width: 90%;
+  }
+  .header-main-center {
+    margin-top: 0px;
+    display: block;
+  }
+  .header-main-product-img-mobile {
+    position: inherit;
+    left: auto;
+    margin-top: -70px;
+    display: block;
+    width: 360px;
+    height: 300px;
+    background: url('../images/pack_left_tonzilotren_tiny_400x400px 1 — copy.png') no-repeat center / contain;
+  }
+
+  .header-main-img-mobile {
+    position: inherit;
+    left: auto;
+    display: block;
+    width: 360px;
+    height: 300px;
+    background: url('../images/div_04.png') no-repeat center / contain;
+  }
 
   .where-to-buy-mob {
     display: block;
@@ -1444,7 +1492,7 @@ h2 b {
   #menuToggle {
     position: relative;
     top: 3px;
-    left: 50px;
+    left: 12px;
 
     z-index: 1;
 

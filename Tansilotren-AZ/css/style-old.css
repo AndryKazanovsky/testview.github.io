@@ -4,7 +4,6 @@
   font-family: 'HNB';
   src: url('../fonts/HelveticaNeueCyr-Black.ttf');
   font-style: normal;
-  /*font-weight: 400;*/
 }
 
 @font-face {
@@ -159,7 +158,7 @@ div {
   top: 80px;
   left: 20px;
   width: 80px;
-  height: 80px;
+  height: 60px;
   z-index: 15;
   background: url('../images/instruction.svg') no-repeat center / contain;
 }
@@ -170,20 +169,21 @@ div {
 
 .instruction p {
   position: relative;
-  left: -4px;
+  left: 0px;
   top: 75px;
+  text-align: center;
   font-size: 13px;
-  color: black;
+  color: #a00067;
   background-color: transparent;
 }
 
 .header-main-center {
   margin-top: 0;
-  font-family: 'HNL', sans-serif;
+  /*font-family: 'HNL', sans-serif;*/
 }
 
 .header-block-2 {
-  font-family: 'HNL', sans-serif;
+  /*font-family: 'HNL', sans-serif;*/
   line-height: 18px;
 }
 
@@ -234,16 +234,17 @@ div {
   background: url('../images/icon_number_04.svg') no-repeat center / contain;
 }
 
+
+.test-test {
+  position: relative;
+  top: 200px
+}
+
 .navigation-menu {
   max-width: 1600px;
   height: 50px;
   display: flex;
   align-items: center;
-}
-
-.test-test {
-  position: relative;
-  top: 200px
 }
 
 .header-custom {
@@ -263,17 +264,17 @@ div {
   font-size: 68px;
   color: #a00067;
   /*font-weight: 900;*/
-  font-family: 'HNB';
+  /*font-family: 'HNB';*/
 }
 
 .header-title p {
   text-transform: uppercase;
   font-size: 25px;
-  font-family: 'HNL';
+  /*font-family: 'HNL';*/
 }
 
 .header-title strong {
-  font-family: 'HNB';
+  /*font-family: 'HNB';*/
 }
 
 .header-main-product-img {
@@ -352,11 +353,6 @@ div {
     contain;
 }
 
-.shitty-style {
-  margin-top: 30px;
-  /*text-indent: 10px;*/
-}
-
 .counter {
   position: absolute;
   display: flex;
@@ -403,7 +399,7 @@ h1 {
   font-size: 25px;
   line-height: 30px;
   text-transform: uppercase;
-  font-family: 'HNB';
+  /*font-family: 'HNB';*/
 }
 
 h2 {
@@ -413,11 +409,11 @@ h2 {
   line-height: 30px;
   text-transform: uppercase;
   margin-bottom: 100px;
-  font-family: 'HNB', sans-serif;
+  /*font-family: 'HNB', sans-serif;*/
 }
 h2 b {
   color: #636363;
-  font-family: 'HNT', sans-serif;
+  /*font-family: 'HNT', sans-serif;*/
 }
 
 .block-interactive-inner {
@@ -431,6 +427,16 @@ h2 b {
   align-items: center;
 }
 
+.block-7__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  background: url("../images/map.jpg") no-repeat center / cover;
+}
+
 
 
 .block-4__buttons {
@@ -439,7 +445,7 @@ h2 b {
   justify-content: center;
   width: 25%;
   border-right: 1px solid #d0d0d0;
-  font-family: 'HNB';
+  /*font-family: 'HNB';*/
   cursor: pointer;
 }
 
@@ -450,7 +456,7 @@ h2 b {
   line-height: 16px;
   display: flex;
   align-items: center;
-  font-family: 'HNC';
+  /*font-family: 'HNC';*/
 }
 
 .block-4__buttons div::before {
@@ -487,13 +493,13 @@ h2 b {
 }
 
 .block-4__container-content p {
-  font-family: 'HNL';
+  /*font-family: 'HNL';*/
   /*color: #a1a1a1;*/
 }
 
 .block-4__container-content b {
   color: #a00067;
-  font-family: 'HNC';
+  /*font-family: 'HNC';*/
 }
 
 .block-4__container-img {
@@ -546,7 +552,7 @@ h2 b {
 
 .block-3 h1 {
     margin-top: 50px;
-    font-family: 'HNB';
+    /*font-family: 'HNB';*/
 }
 
 .block-3_inner {
@@ -577,8 +583,9 @@ h2 b {
 .plate p {
   margin: 25px 0;
   text-align: center;
-  font-family: 'HNL';
+  /*font-family: 'HNL';*/
   line-height: 20px;
+  min-height: 100px;
 }
 
 .plate b {
@@ -669,7 +676,7 @@ h2 b {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  font-family: 'HNC', sans-serif;
+  /*font-family: 'HNC', sans-serif;*/
 }
 
 .panel__checklist p::before {
@@ -693,7 +700,7 @@ h2 b {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 30px;
-  font-family: 'HNL';
+  /*font-family: 'HNL';*/
 }
 
 .panel__sub p {
@@ -702,7 +709,7 @@ h2 b {
 
 .panel b {
   color: #a00067;
-  font-family: 'HNC';
+  /*font-family: 'HNC';*/
 }
 
 .panel-after {
@@ -755,11 +762,11 @@ h2 b {
   line-height: 29px;
   text-transform: uppercase;
   margin: 0;
-  font-family: 'HNT';
+  /*font-family: 'HNT';*/
 }
 
 .block-5__text h4 b {
-  font-family: 'HNB';
+  /*font-family: 'HNB';*/
 }
 
 .block-5__un_plate {
@@ -772,22 +779,18 @@ h2 b {
   margin: 40px 0;
   margin-bottom: 0;
   color: #636363;
-  font-family: 'HNL';
+  /*font-family: 'HNL';*/
 }
 
 .block-5__text p b {
   color: #a00067;
-  font-family: 'HNC';
+  /*font-family: 'HNC';*/
 }
 
 .block-5__popup {
   width: 150px;
   position: relative;
   top: -45px;
-}
-
-.strange-p {
-  margin-top: 30px !important;
 }
 
 .block-5__plate:nth-child(4) .block-5__img {
@@ -808,7 +811,7 @@ h2 b {
   font-size: 14px;
   line-height: 18px;
   color: #828282;
-  font-family: 'HNL';
+  /*font-family: 'HNL';*/
 }
 
 .map-text ol {
@@ -820,7 +823,7 @@ h2 b {
   /*background: url('../images/bg.png');*/
   padding: 20px 0;
   width: 80vw;
-  font-family: 'HNC';
+  /*font-family: 'HNC';*/
 }
 
 .disclamer-tra ol {
@@ -829,14 +832,14 @@ h2 b {
 
 .disclamer-tra li {
   color: grey;
-  font-family: 'HNC';
+  /*font-family: 'HNC';*/
 }
 
 .disclamer-tra p {
   margin-bottom: 0;
   color: grey;
   text-align: center;
-  font-family: 'HNT';
+  /*font-family: 'HNT';*/
 }
 
 .disclamer-tra .logos-container {
@@ -849,7 +852,7 @@ h2 b {
 }
 
 .logos-container p b {
-  font-family: 'HNB';
+  /*font-family: 'HNB';*/
 }
 
 .disclamer-tra__logo {
@@ -898,10 +901,44 @@ h2 b {
   text-align: center;
   color: #8b8b8b;
   margin: 40px 0;
-  font-family: 'HNT';
+  /*font-family: 'HNT';*/
   font-weight: lighter;
 }
 
+
+
+.apt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.apt-container a {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  background: url("../images/aptekonline_kanon.jpg") no-repeat;
+  background-position: center !important;
+  background-size: 80% !important;
+    background-color: white !important;
+    box-shadow: -1px 4px 5px 0px rgba(224,224,224,1);
+}
+
+.apt-container a:nth-child(2) {
+  background: url("../images/zeferan.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(3) {
+  background: url("../images/aptekstore.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(4) {
+  background: url("../images/ozonaptek.jpg") no-repeat center / contain;
+}
+.apt-container a:nth-child(5) {
+  background: url("../images/melhem.jpg") no-repeat center / contain;
+}
 /*popup/////////*/
 
 
@@ -971,7 +1008,7 @@ h2 b {
   line-height: 20px;
   text-align: left !important;
   color: #454a54;
-  font-family: 'HNC', sans-serif;
+  /*font-family: 'HNC', sans-serif;*/
   margin-top: 30px;
   margin-bottom: 45px;
   }
@@ -1142,30 +1179,24 @@ h2 b {
 
 /*end burger menu*/
 
-@media screen and (max-width: 900px) {
-  .logo-container {
-    position: relative;
-    right: 35vw;
-  }
-  .header-main-center p {
-    width: 30%;
-  }
-  .header-main {
-    position: relative;
-  }
+@media screen and (max-width: 1024px) {
   .navigation-menu {
     display: none;
   }
 
+  .header-title b {
+    font-size: 50px;
+  }
+
   .instruction {
-    height: 60px;
+    height: 40px;
     width: 60px;
     top: 60px;
     left: 5px;
   }
   .instruction p {
-    left: -10px;
-    top: 35px;
+    left: 15px;
+    top: 45px;
     font-size: 9px;
   }
 
@@ -1239,8 +1270,8 @@ h2 b {
   }
 
   .disclamer-warning p {
-    font-size: 70px;
-    line-height: 100px;
+    font-size: 35px;
+    /*line-height: 70px;*/
   }
 
   .block-5__img {
@@ -1291,9 +1322,7 @@ h2 b {
   }
 
   .header-main-product-img-mobile {
-    /*margin-top: -70px;*/
-    left: 50%;
-    position: absolute;
+    margin-top: -70px;
     display: block;
     width: 360px;
     height: 300px;
@@ -1301,8 +1330,6 @@ h2 b {
   }
 
   .header-main-img-mobile {
-    position: absolute;
-    left: 10%;
     display: block;
     width: 360px;
     height: 300px;
@@ -1310,8 +1337,7 @@ h2 b {
   }
 
   .header-main-center {
-    margin-top: 320px;
-    display: flex;
+    margin-top: 0;
   }
 
   .block-interactive-inner {
@@ -1408,7 +1434,6 @@ h2 b {
   }
   .mob3 .test-img-mobile {
     background: url('../images/div_02 (1).png') no-repeat center / contain !important;
-    margin-top: 80px;
   }
   .mob4 .test-img-mobile {
     background: url('../images/div_01 (1).png') no-repeat center / contain !important;
@@ -1423,52 +1448,20 @@ h2 b {
   /*  margin-left: 10px;*/
   /*}*/
   #menuToggle {
-    left: 36vw;
+    left: 325px;
   }
 }
 
 @media screen and (max-width: 768px) {
-/*  #menuToggle {
+  #menuToggle {
     left: 215px;
-  }*/
+  }
   .non-usual {
     margin-bottom: 110px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .logo-container {
-    position: initial;
-  }
-  .disclamer-warning p {
-    font-size: 35px;
-    line-height: 50px;
-  }
-  .header-main-center p {
-    width: 90%;
-  }
-  .header-main-center {
-    margin-top: 0px;
-    display: block;
-  }
-  .header-main-product-img-mobile {
-    position: inherit;
-    left: auto;
-    margin-top: -70px;
-    display: block;
-    width: 360px;
-    height: 300px;
-    background: url('../images/pack_left_tonzilotren_tiny_400x400px 1 — copy.png') no-repeat center / contain;
-  }
-
-  .header-main-img-mobile {
-    position: inherit;
-    left: auto;
-    display: block;
-    width: 360px;
-    height: 300px;
-    background: url('../images/div_04.png') no-repeat center / contain;
-  }
 
   .where-to-buy-mob {
     display: block;
