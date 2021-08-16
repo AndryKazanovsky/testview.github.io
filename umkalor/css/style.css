@@ -1183,7 +1183,7 @@ h3 {
     padding: 10px 20px;
     border-radius: 10px;
     position: absolute;
-    left: 50vw;
+    left: 80vw;
   }
 
   .instruction {
@@ -1425,6 +1425,9 @@ h3 {
 }
 
 @media screen and (max-width: 450px) {
+	.where-to-buy-mob {
+    left: 50vw;
+  }
 	#menu {
 		    right: -40px;
 	}
