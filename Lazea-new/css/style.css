@@ -998,8 +998,20 @@ div {
     background: url(../images/div_photo.jpg) no-repeat center/contain;
   }
 
-
 @media screen and (max-width: 1024px) {
+  #menu {
+    right: -60px;
+  }
+  .vita-disclamer {
+    font-size: 100px;
+  }
+  .container-1_mob-img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
   .container-10 {
     margin: 50px 0;
   }
@@ -1070,7 +1082,7 @@ div {
   .container-3_img {
     width: 100%;
     background-position: center;
-    background-size: 200%;
+    background-size: 100%;
   }
 .container-2_images {
   padding: 0px;
@@ -1111,8 +1123,8 @@ div {
   padding: 0 10px;
 }
 .vita-disclamer {
-  font-size: 40px;
-   line-height: 50px;
+  font-size: 70px;
+   line-height: 90px;
 }
 
     .instruction {
@@ -1174,7 +1186,7 @@ div {
     /*padding: 10px 20px;*/
     /*border-radius: 2px;*/
     position: absolute;
-    left: 55vw;
+    left: 80vw;
   }
 
 
@@ -1335,15 +1347,33 @@ div {
 }
 
 @media screen and (max-width: 768px) {
-  #menuToggle {
+/*  #menuToggle {
     left: 215px;
-  }
+  }*/
   .non-usual {
     margin-bottom: 110px;
   }
 }
 
 @media screen and (max-width: 450px) {
+  #menu {
+        right: -40px;
+  }
+  .vita-disclamer {
+  font-size: 40px;
+   line-height: 50px;
+}
+  .where-to-buy-mob {
+    left: 55vw;
+  }
+  .container-1_mob-img {
+        height: 250px;
+  }
+  .container-3_img {
+    width: 100%;
+    background-position: center;
+    background-size: 200%;
+  }
 
 
   #menuToggle {
