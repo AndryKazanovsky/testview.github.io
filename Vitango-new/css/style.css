@@ -1909,6 +1909,30 @@ color: #282725;
 
 
 @media screen and (max-width: 1024px) {
+  .vita-footer_text {
+    padding: 0 40px;
+
+  }
+  .container8-plates {
+    padding: 0 40px;
+  }
+  .container7 .usual-text {
+    padding: 0 40px;
+
+  }
+  .container5 .usual-text {
+    padding: 0 40px;
+  }
+
+  h4 {
+    padding-left: 40px;
+  }
+  .inner-container3 .usual-text {
+        padding: 0 40px;
+  }
+  #menu {
+    right: -130px;
+  }
   h1 {
     font-size: 30px;
     line-height: 30px;
@@ -1919,7 +1943,7 @@ color: #282725;
   }
   #menuToggle {
     position: absolute !important;
-    left: 87vw !important;
+    left: 93vw !important;
     top: 20px !important;
   }
   .container5-plates {
@@ -1939,6 +1963,7 @@ color: #282725;
   }
   .header-block {
     flex-wrap: wrap-reverse;
+    justify-content: center;
   }
   .header-block_img {
       height: 200px;
@@ -2052,15 +2077,15 @@ color: #282725;
   padding: 0 10px;
 }
 .vita-disclamer {
-  font-size: 40px;
-   line-height: 50px;
+  font-size: 80px;
+   line-height: 90px;
 }
 
 .container9 {
   padding: 0 10px;
 }
 .container10-inner {
-  padding: 0 10px;
+  padding: 0 40px;
 
 }
 
@@ -2076,7 +2101,7 @@ color: #282725;
 .container2-mob_main-img {
   width: 100%;
   height: 310px;
-      background: url(../images/mob1.jpg) no-repeat center/contain;
+      background: url(../images/ppp.jpg) no-repeat center/contain;
       margin-bottom: 50px;
 }
 h2 {
@@ -2114,7 +2139,7 @@ h2::before {
 .container4-mob_main-img {
   width: 100%;
   height: 310px;
-      background: url(../images/mob2.jpg) no-repeat center/contain;
+      background: url(../images/sss.jpg) no-repeat center/contain;
       margin-bottom: 50px;
 }
 .container6-mob_img {
@@ -2124,8 +2149,8 @@ h2::before {
 }
 .container6-mob_main-img {
   width: 100%;
-  height: 510px;
-      background: url(../images/mob3.jpg) no-repeat center/contain;
+  height: 310px;
+      background: url(../images/photo.jpg) no-repeat center/contain;
       margin-bottom: 50px;
 }
 .container3 {
@@ -2404,7 +2429,7 @@ h2::before {
     /*padding: 10px 20px;*/
     /*border-radius: 2px;*/
     position: absolute;
-    left: 55vw;
+    left: 80vw;
   }
 
 
@@ -2572,6 +2597,16 @@ h2::before {
   }
 }
 
+
+@media screen and (max-width: 900px) {
+  .inner-container1 p {
+    padding-left: 40px;
+  }
+  #menu {
+    right: -80px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #menuToggle {
     left: 215px;
@@ -2582,6 +2617,40 @@ h2::before {
 }
 
 @media screen and (max-width: 450px) {
+  .container6-mob_main-img {
+  width: 100%;
+  height: 510px;
+      background: url(../images/mob3.jpg) no-repeat center/contain;
+      margin-bottom: 50px;
+}
+  .container4-mob_main-img {
+  width: 100%;
+  height: 310px;
+      background: url(../images/mob2.jpg) no-repeat center/contain;
+      margin-bottom: 50px;
+}
+  .container2-mob_main-img {
+  width: 100%;
+  height: 310px;
+      background: url(../images/mob1.jpg) no-repeat center/contain;
+      margin-bottom: 50px;
+}
+  .vita-disclamer {
+  font-size: 40px;
+   line-height: 50px;
+}
+  .where-to-buy-mob {
+    left: 55vw;
+  }
+  #menu {
+    right: -40px;
+  }
+
+  #menuToggle {
+    position: absolute !important;
+    left: 87vw !important;
+    top: 20px !important;
+  }
 
 
 
