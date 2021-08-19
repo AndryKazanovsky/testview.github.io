@@ -1861,6 +1861,10 @@ button {
     margin-bottom: 0 !important;
   }
 
+  #menu {
+    right: -80px;
+  }
+
 
 
   /*#menu li:last-child a {*/
@@ -1870,6 +1874,12 @@ button {
   /*  margin-left: 10px;*/
   /*}*/
   
+}
+
+@media screen and (max-width: 900px) {
+    #menu {
+    right: -80px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1885,6 +1895,9 @@ button {
 }
 
 @media screen and (max-width: 450px) {
+  #menu {
+    right: -40px;
+  }
   .where-to-buy-mob {
     left: 40vw;
   }
