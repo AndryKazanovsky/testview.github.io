@@ -159,7 +159,7 @@ div {
   top: 80px;
   left: 20px;
   width: 80px;
-  height: 80px;
+  height: 60px;
   z-index: 15;
   background: url('../images/instruction.svg') no-repeat center / contain;
 }
@@ -170,10 +170,11 @@ div {
 
 .instruction p {
   position: relative;
-  left: -4px;
+  left: 0px;
   top: 75px;
+  text-align: center;
   font-size: 13px;
-  color: black;
+  color: #a00067;
   background-color: transparent;
 }
 
@@ -1158,14 +1159,14 @@ h2 b {
   }
 
   .instruction {
-    height: 60px;
+    height: 40px;
     width: 60px;
     top: 60px;
     left: 5px;
   }
   .instruction p {
-    left: -10px;
-    top: 35px;
+    left: 0px;
+    top: 45px;
     font-size: 9px;
   }
 
@@ -1492,7 +1493,7 @@ h2 b {
   #menuToggle {
     position: relative;
     top: 3px;
-    left: 12px;
+    left: 60px;
 
     z-index: 1;
 

@@ -159,7 +159,7 @@ div {
   top: 80px;
   left: 20px;
   width: 80px;
-  height: 80px;
+  height: 60px;
   z-index: 15;
   background: url('../images/instruction.svg') no-repeat center / contain;
 }
@@ -170,10 +170,11 @@ div {
 
 .instruction p {
   position: relative;
-  left: -4px;
+  left: 0px;
   top: 75px;
+  text-align: center;
   font-size: 13px;
-  color: black;
+  color: #a00067;
   background-color: transparent;
 }
 
@@ -279,7 +280,7 @@ div {
 .header-main-product-img {
   width: 332px;
   height: 284px;
-  background: url('../images/pack_left_tonzilotren_tiny_400x400px 1.svg')
+  background: url('../images/top-pack.png')
     no-repeat center / contain;
 }
 
@@ -465,7 +466,7 @@ h2 b {
 .block-interactive-inner__img {
   width: 30%;
   height: 265px;
-  background: url('../images/pack_left_tonzilotren_tiny_400x400px 2.png')
+  background: url('../images/top-pack.png')
     no-repeat center / contain;
 }
 
@@ -1158,14 +1159,14 @@ h2 b {
   }
 
   .instruction {
-    height: 60px;
+    height: 40px;
     width: 60px;
     top: 60px;
     left: 5px;
   }
   .instruction p {
-    left: -10px;
-    top: 35px;
+    left: 0px;
+    top: 45px;
     font-size: 9px;
   }
 
@@ -1239,7 +1240,7 @@ h2 b {
   }
 
   .disclamer-warning p {
-    font-size: 70px;
+    font-size: 63px;
     line-height: 100px;
   }
 
@@ -1297,7 +1298,7 @@ h2 b {
     display: block;
     width: 360px;
     height: 300px;
-    background: url('../images/pack_left_tonzilotren_tiny_400x400px 1 — copy.png') no-repeat center / contain;
+    background: url('../images/center-pack.png') no-repeat center / contain;
   }
 
   .header-main-img-mobile {
@@ -1441,7 +1442,7 @@ h2 b {
     position: initial;
   }
   .disclamer-warning p {
-    font-size: 35px;
+    font-size: 29px;
     line-height: 50px;
   }
   .header-main-center p {
@@ -1458,7 +1459,7 @@ h2 b {
     display: block;
     width: 360px;
     height: 300px;
-    background: url('../images/pack_left_tonzilotren_tiny_400x400px 1 — copy.png') no-repeat center / contain;
+    background: url('../images/center-pack.png') no-repeat center / contain;
   }
 
   .header-main-img-mobile {
@@ -1477,7 +1478,7 @@ h2 b {
     font-size: 10px !important;
     line-height: 10px !important;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px 5px;
     border-radius: 10px;
   }
 
