@@ -227,7 +227,12 @@ p {
 .container-1_right {
   width: 75%;
   height: 520px;
-  background: url(../images/main-bg.jpg)no-repeat 0/cover;
+  background: url(../images/main-bg.png)no-repeat 0/cover;
+}
+
+.container-1_right-ru {
+  background: url(../images/main-bg-ru.png)no-repeat 0/cover;
+
 }
 
 .container-3_right-block {
