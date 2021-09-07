@@ -194,6 +194,10 @@ p {
   background: url(../images/logo.svg)no-repeat center/contain;
 }
 
+.container-1_left-img-en {
+  background: url(../images/logo-en.svg)no-repeat center/contain;
+}
+
 .container-1_left p {
   position: absolute;
   top: 250px;
@@ -480,6 +484,15 @@ p {
     width: 100%;
   height: 550px;
   background: url(../images/pack-with-back.png)no-repeat 20%/contain;
+}
+.container-5_img-block-ru {
+  background: url(../images/pack-with-back-ru.png)no-repeat 20%/contain;
+} 
+.container-5_blue .container-5_img-block-ru {
+  background: url(../images/pack-with-back2-ru.png)no-repeat 20%/contain;
+}
+.container-5_orange .container-5_img-block-ru {
+  background: url(../images/pack-with-back3-ru.png)no-repeat 20%/contain;
 }
 .container-5_blue .container-5_img-block {
   background: url(../images/pack-with-back2.png)no-repeat 20%/contain;
@@ -2888,6 +2901,6 @@ ol {
 }
 .show2 {
   display: block !important;
-  background: url(../images/logo.svg) no-repeat center / contain !important;
+  background: url(../images/logo-en.svg) no-repeat center / contain !important;
   /*transition: 0.5s;*/
 }
