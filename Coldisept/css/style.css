@@ -138,6 +138,10 @@ p {
   margin-bottom: 60px;
 }
 
+.container-2_mob-ru {
+  background: url(../images/pack-mob-ru.png)no-repeat center/contain;
+}
+
 .container-2_mob {
   display: none;
 }
