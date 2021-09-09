@@ -138,10 +138,6 @@ p {
   margin-bottom: 60px;
 }
 
-.container-2_mob-ru {
-  background: url(../images/pack-mob-ru.png)no-repeat center/contain;
-}
-
 .container-2_mob {
   display: none;
 }
@@ -198,8 +194,8 @@ p {
   background: url(../images/logo.svg)no-repeat center/contain;
 }
 
-.container-1_left-img-ru {
-  background: url(../images/logo2.svg)no-repeat center/contain;
+.container-1_left-img-en {
+  background: url(../images/logo-en.svg)no-repeat center/contain;
 }
 
 .container-1_left p {
@@ -232,11 +228,6 @@ p {
   width: 75%;
   height: 520px;
   background: url(../images/main-bg.png)no-repeat 0/cover;
-}
-
-.container-1_right-ru {
-  background: url(../images/main-bg-ru.png)no-repeat 0/cover;
-
 }
 
 .container-3_right-block {
@@ -2910,6 +2901,6 @@ ol {
 }
 .show2 {
   display: block !important;
-  background: url(../images/logo.svg) no-repeat center / contain !important;
+  background: url(../images/logo-en.svg) no-repeat center / contain !important;
   /*transition: 0.5s;*/
 }
