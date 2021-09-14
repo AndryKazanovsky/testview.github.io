@@ -495,13 +495,13 @@ p {
   background: url(../images/pack-with-back.png)no-repeat 20%/contain;
 }
 .container-5_img-block-ru {
-  background: url(../images/pack-with-back-ru.png)no-repeat 20%/contain;
+  background: url(../images/pack-with-back-ru.png)no-repeat 20%/contain !important;
 } 
 .container-5_blue .container-5_img-block-ru {
-  background: url(../images/pack-with-back2-ru.png)no-repeat 20%/contain;
+  background: url(../images/pack-with-back2-ru.png)no-repeat 20%/contain !important;
 }
 .container-5_orange .container-5_img-block-ru {
-  background: url(../images/pack-with-back3-ru.png)no-repeat 20%/contain;
+  background: url(../images/pack-with-back3-ru.png)no-repeat 20%/contain !important;
 }
 .container-5_blue .container-5_img-block {
   background: url(../images/pack-with-back2.png)no-repeat 20%/contain;
