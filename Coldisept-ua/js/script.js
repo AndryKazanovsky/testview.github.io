@@ -39,21 +39,6 @@
 
 
 
-    // (function() {
-
-    //   const navmenu = document.querySelectorAll('.navmenu');
-
-    //   for (var i = 0; i < navmenu.length; i++) {
-    //     navmenu[i].addEventListener("click", function(){
-    //       for (var k = 0; k < navmenu.length; k++) {
-    //         navmenu[k].classList.remove('active-nav');
-    //       }
-    //       this.classList.add('active-nav');
-    //     })
-    //   }
-    // });
-
-
 
      var acc = document.getElementsByClassName("accordion");
     var i;
@@ -70,4 +55,28 @@
       });
     };
 
+
+    function popupOpen(){
+          function c(){e.classList.add("visible")
+      }
+      function n(){
+          e.classList.remove("visible")
+      }
+      function o(){
+          n(),setTimeout(function()
+          {alert("DONE")},200)
+      }
+      var e=document.querySelector(".popup"),
+      t=document.querySelectorAll("[data-action]");
+      t.forEach(function(e){
+          switch(e.dataset.action)
+          {case"open":e.onclick=c;break;case"close":e.onclick=n;
+          break;
+      }})}
+
+
+      popupOpen()
+    
+
 }})();
+

@@ -111,8 +111,46 @@ div {
 
 
 
+/* /////////////// */
+  .apt { width: 200px;height: 100px; }
+  .apt-1{ background: url(../images/icon_asna_400x200px.jpg)no-repeat center/contain;}
+  .main{width:100vw;height:100vh;display:flex;justify-content:center;align-items:center}
+  .btn{width:200px;height:40px;border: none;user-select:none;color:#000;font-size:16px;font-family:Open Sans Bold,sans-serif;cursor:pointer}
+  .btn:hover{filter:brightness(95%)}
+  .btn_default{background-color:#fff;color:#8a92a4}
+  .btn_danger{background-color:#ff3725;border-color:#ff3725;border-bottom-color:#d23123;color:#fff}
+  .icon{display:inline-block}
+  .icon_close{background:url(../images/icon-popup-close.svg) no-repeat 50%;background-size:contain;width:25px;height:25px}
+  .popup{visibility:hidden;z-index: 1; position:fixed;left:0;top:0;display:flex;justify-content:center;align-items:center;width:100vw;height:100vh}
+  .popup.visible{visibility:visible}
+  .popup.visible .popup__overlay{animation:a .3s linear forwards}
+  .popup.visible .popup__content{animation:c .6s cubic-bezier(.165,.84,.44,1) forwards}
+  .popup.visible .icon-warning-border{stroke-dasharray:200;stroke-dashoffset:200;animation:b 1.6s linear .3s forwards}
+  .popup.visible .icon-warning-symbol{animation:a .3s ease-in .8s both}
+  .popup__overlay{opacity:0;height:100%;width:100%;position:absolute;left:0;top:0;background-color:rgba(0,0,0,.75)}
+  .popup__content{position:relative;height:375px;background-color:#fff;border-radius:5px;padding:40px 20px;transform:scaleY(.01) scaleX(0)}
+  .popup__body,.popup__content{display:flex;align-items:center}
+  .popup__message{max-width:420px;font-size:26px;text-align:center;color:#454a54;font-family:Open Sans Light,sans-serif;margin-top:30px;margin-bottom:45px}
+  .popup__close-btn{width:25px;height:25px;border:none;position:absolute;top:20px;left:20px;padding:0;cursor:pointer;background-color:transparent}
+  .popup__actions{display:flex;justify-content:center}
+  .popup__actions .btn{margin:0 10px}@keyframes a{0%{opacity:0}to{opacity:1}}@keyframes b{to{stroke-dashoffset:0}}@keyframes c{0%{transform:scaleY(.005) scaleX(0)}50%{transform:scaleY(.005) scaleX(1)}to{transform:scaleY(1) scaleX(1)}}
+
+
+/* ////////////////// */
+
+
+
 
 /* coldisept */
+
+
+.popup-container {
+  display: none;
+  position: absolute;
+  background-color: rgba(107, 107, 107,0.5);
+  margin: auto;
+  overflow: hidden;
+}
 
 .container-5 {
   position: relative;
