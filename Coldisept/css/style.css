@@ -2206,6 +2206,10 @@ ol {
   }
 }
 @media screen and (max-width: 760px) {
+  .popup__body, .popup__content {
+    flex-wrap: wrap;
+    /* margin: 0 20px; */
+  }
   .mob-container-5_img-block {
     display: block;
     width: 100%;

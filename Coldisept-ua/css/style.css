@@ -766,17 +766,17 @@ h2 span {
     color: #828282;
     max-width: 800px;
   }
-
-  /* .vita-footer .logo1 {
+/* 
+  .vita-footer .logo1 {
       width: 160px;
       height: 60px;
       background: url(../images/logo_01_schwabe.svg) no-repeat center/contain;
-  }
+  } */
   .vita-footer .logo2 {
     width: 160px;
       height: 60px;
-      background: url(../images/Vector123.svg) no-repeat center/contain;
-  } */
+      background: url(../images/logo2.png) no-repeat center/contain;
+  }
   .vita-disclamer {
     font-family: "RT";
     font-size: 130px;
@@ -1863,6 +1863,8 @@ ol {
   line-height: 18px;
   color: #828282;
   font-weight: lighter;
+  margin-top: 140px;
+  margin-left: 25px;
 }
 .logo2-img {
   height: 100px;
@@ -2711,10 +2713,16 @@ ol {
   }
   .logo2 p {
     font-size: 12px !important;
+    margin-top: 69px;
   }
   .disclamer-main_sub {
     font-size: 12px !important;
     line-height: 16px !important;
+  }
+
+  .popup__body, .popup__content {
+    flex-wrap: wrap;
+    /* margin: 0 20px; */
   }
 
 
