@@ -2290,9 +2290,9 @@ ol {
   .container-5_plates {
     flex-direction: column;
   }
-  .container-5_inner {
+/*  .container-5_inner {
     padding-left: 20px;
-  }
+  }*/
   .container-5_btns {
     flex-direction: column;
   }
