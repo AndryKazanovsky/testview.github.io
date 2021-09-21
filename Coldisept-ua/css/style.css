@@ -1756,6 +1756,11 @@ font-size: 14px;
 }
 
 
+.full-load {
+  margin-top: -50px;
+}
+
+
 
 
 
@@ -2195,6 +2200,12 @@ ol {
   }
 }
 @media screen and (max-width: 760px) {
+  .container-5_plate:nth-child(1) {
+  margin-bottom: 0;
+}
+.container-5_plate:nth-child(2) {
+  margin-bottom: 0;
+}
   .mob-container-5_img-block {
     display: block;
     width: 100%;
@@ -2946,5 +2957,10 @@ ol {
 .show2 {
   display: block !important;
   background: url(../images/logo.svg) no-repeat center / contain !important;
+  /*transition: 0.5s;*/
+}
+.show3 {
+  display: block !important;
+  background: url(../images/logo2.svg) no-repeat center / contain !important;
   /*transition: 0.5s;*/
 }
